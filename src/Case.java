@@ -1,9 +1,11 @@
 public class Case {
 
+    // ENUMERATION DES DIFFERENTES NATURES DE TERRAIN
     enum NatureTerrain {
         EAU, FORET, ROCHE, TERRAIN_LIBRE, HABITAT;
     }
 
+    // ATTRIBUTS DES CASES
     private int ligne;
     private int colonne;
     private NatureTerrain nature;
@@ -12,6 +14,10 @@ public class Case {
         this.ligne = ligne;
         this.colonne = colonne;
         this.nature = nature;
+    }
+
+    // DEFAULT CONSTRUCTOR
+    public Case() {
     }
 
     public int getLigne() {
