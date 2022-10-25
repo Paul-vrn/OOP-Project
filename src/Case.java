@@ -1,7 +1,7 @@
 public class Case {
 
     // ENUMERATION DES DIFFERENTES NATURES DE TERRAIN
-    enum NatureTerrain {
+    public enum NatureTerrain {
         EAU, FORET, ROCHE, TERRAIN_LIBRE, HABITAT;
     }
 

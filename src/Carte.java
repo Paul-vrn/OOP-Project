@@ -3,7 +3,7 @@ import java.io.FileNotFoundException;
 import java.util.Scanner;
 import java.util.ArrayList;
 
-public class Carte extends Case {
+public class Carte {
     private int tailleCases;
     private int nbLignes;
     private int nbColonnes;
@@ -17,7 +17,7 @@ public class Carte extends Case {
         for (int i = 0; i < this.nbLignes; i++) {
             this.cases.add(new ArrayList<Case>());
             for (int j = 0; j < this.nbColonnes; j++) {
-                this.cases.get(i).add(new Case(i, j, NatureTerrain.EAU));
+                this.cases.get(i).add(new Case(i, j, Case.NatureTerrain.EAU));
             }
         }
     }
@@ -76,6 +76,7 @@ public class Carte extends Case {
 
             this.cases = new ArrayList<ArrayList<Case>>();
 
+            // boucle pour ignorer certaines lignes
             String line = scanner.nextLine();
             while (!line.equals("# l0")) {
                 line = scanner.nextLine();
@@ -86,27 +87,34 @@ public class Carte extends Case {
                 for (int j = 0; j < this.nbColonnes; j++) {
                     switch (line.charAt(0)) {
                         case 'E':
-                            this.cases.get(i).add(new Case(i, j, NatureTerrain.EAU));
+                            this.cases.get(i).add(new Case(i, j, Case.NatureTerrain.EAU));
                             break;
                         case 'F':
-                            this.cases.get(i).add(new Case(i, j, NatureTerrain.FORET));
+                            this.cases.get(i).add(new Case(i, j, Case.NatureTerrain.FORET));
                             break;
                         case 'R':
-                            this.cases.get(i).add(new Case(i, j, NatureTerrain.ROCHE));
+                            this.cases.get(i).add(new Case(i, j, Case.NatureTerrain.ROCHE));
                             break;
                         case 'T':
-                            this.cases.get(i).add(new Case(i, j, NatureTerrain.TERRAIN_LIBRE));
+                            this.cases.get(i).add(new Case(i, j, Case.NatureTerrain.TERRAIN_LIBRE));
                             break;
                         case 'H':
-                            this.cases.get(i).add(new Case(i, j, NatureTerrain.HABITAT));
+                            this.cases.get(i).add(new Case(i, j, Case.NatureTerrain.HABITAT));
                             break;
                         default:
                             break;
                     }
+                    // passe à la prochaine ligne à chaque lecture de case
                     line = scanner.nextLine();
                 }
+                // saute une ligne pour passer celle commençant par #
                 line = scanner.nextLine();
             }
+            // scanner.close();
+
+            // TODO
+            // ajouter le code pour lire les pompiers et les incendies quand les
+            // classes auront été faites
 
         } catch (FileNotFoundException e) {
             System.out.println("File not found");
