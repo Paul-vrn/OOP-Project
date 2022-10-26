@@ -1,3 +1,5 @@
+package main;
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
@@ -7,17 +9,17 @@ public class Carte {
     private int tailleCases;
     private int nbLignes;
     private int nbColonnes;
+    // TODO : finalement on utilise pas d'ArrayList (conseil du prof)
     private ArrayList<ArrayList<Case>> cases;
-
     public Carte(int tailleCases, int nblignes, int nbColonnes) {
         this.tailleCases = tailleCases;
         this.nbLignes = nblignes;
         this.nbColonnes = nbColonnes;
-        this.cases = new ArrayList<ArrayList<Case>>();
+        this.cases = new ArrayList<>();
         for (int i = 0; i < this.nbLignes; i++) {
-            this.cases.add(new ArrayList<Case>());
+            this.cases.add(new ArrayList<>());
             for (int j = 0; j < this.nbColonnes; j++) {
-                this.cases.get(i).add(new Case(i, j, Case.NatureTerrain.EAU));
+                this.cases.get(i).add(new Case(i, j, NatureTerrain.EAU));
             }
         }
     }
@@ -83,26 +85,16 @@ public class Carte {
             }
             line = scanner.nextLine();
             for (int i = 0; i < this.nbLignes; i++) {
-                this.cases.add(new ArrayList<Case>());
+                this.cases.add(new ArrayList<>());
                 for (int j = 0; j < this.nbColonnes; j++) {
                     switch (line.charAt(0)) {
-                        case 'E':
-                            this.cases.get(i).add(new Case(i, j, Case.NatureTerrain.EAU));
-                            break;
-                        case 'F':
-                            this.cases.get(i).add(new Case(i, j, Case.NatureTerrain.FORET));
-                            break;
-                        case 'R':
-                            this.cases.get(i).add(new Case(i, j, Case.NatureTerrain.ROCHE));
-                            break;
-                        case 'T':
-                            this.cases.get(i).add(new Case(i, j, Case.NatureTerrain.TERRAIN_LIBRE));
-                            break;
-                        case 'H':
-                            this.cases.get(i).add(new Case(i, j, Case.NatureTerrain.HABITAT));
-                            break;
-                        default:
-                            break;
+                        case 'E' -> this.cases.get(i).add(new Case(i, j, NatureTerrain.EAU));
+                        case 'F' -> this.cases.get(i).add(new Case(i, j, NatureTerrain.FORET));
+                        case 'R' -> this.cases.get(i).add(new Case(i, j, NatureTerrain.ROCHE));
+                        case 'T' -> this.cases.get(i).add(new Case(i, j, NatureTerrain.TERRAIN_LIBRE));
+                        case 'H' -> this.cases.get(i).add(new Case(i, j, NatureTerrain.HABITAT));
+                        default -> {
+                        }
                     }
                     // passe à la prochaine ligne à chaque lecture de case
                     line = scanner.nextLine();

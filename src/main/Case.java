@@ -1,9 +1,6 @@
-public class Case {
+package main;
 
-    // ENUMERATION DES DIFFERENTES NATURES DE TERRAIN
-    public enum NatureTerrain {
-        EAU, FORET, ROCHE, TERRAIN_LIBRE, HABITAT;
-    }
+public class Case {
 
     // ATTRIBUTS DES CASES
     private int ligne;
@@ -33,10 +30,10 @@ public class Case {
     }
 
     public String toString() {
-        return "Case (" + this.ligne + ", " + this.colonne + ") : " + this.nature;
+        return "main.Case (" + this.ligne + ", " + this.colonne + ") : " + this.nature;
     }
 
     public void print() {
-        System.out.println(this.toString());
+        System.out.println(this);
     }
 }

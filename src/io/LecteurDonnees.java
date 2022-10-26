@@ -1,11 +1,8 @@
 package io;
 
-
 import java.io.*;
 import java.util.*;
 import java.util.zip.DataFormatException;
-
-
 
 /**
  * Lecteur de cartes au format spectifié dans le sujet.
@@ -67,7 +64,7 @@ public class LecteurDonnees {
 
     /**
      * Lit et affiche les donnees de la carte.
-     * @throws ExceptionFormatDonnees
+     * @throws DataFormatException
      */
     private void lireCarte() throws DataFormatException {
         ignorerCommentaires();
@@ -99,8 +96,8 @@ public class LecteurDonnees {
      */
     private void lireCase(int lig, int col) throws DataFormatException {
         ignorerCommentaires();
-        System.out.print("Case (" + lig + "," + col + "): ");
-        String chaineNature = new String();
+        System.out.print("main.Case (" + lig + "," + col + "): ");
+        String chaineNature;
         //		NatureTerrain nature;
 
         try {
@@ -143,11 +140,11 @@ public class LecteurDonnees {
 
     /**
      * Lit et affiche les donnees du i-eme incendie.
-     * @param i
+     * @param i numéro du robot
      */
     private void lireIncendie(int i) throws DataFormatException {
         ignorerCommentaires();
-        System.out.print("Incendie " + i + ": ");
+        System.out.print("main.Incendie " + i + ": ");
 
         try {
             int lig = scanner.nextInt();
@@ -190,7 +187,7 @@ public class LecteurDonnees {
 
     /**
      * Lit et affiche les donnees du i-eme robot.
-     * @param i
+     * @param i numéro du robot
      */
     private void lireRobot(int i) throws DataFormatException {
         ignorerCommentaires();
@@ -238,7 +235,7 @@ public class LecteurDonnees {
 
     /**
      * Verifie qu'il n'y a plus rien a lire sur cette ligne (int ou float).
-     * @throws ExceptionFormatDonnees
+     * @throws DataFormatException
      */
     private void verifieLigneTerminee() throws DataFormatException {
         if (scanner.findInLine("(\\d+)") != null) {
