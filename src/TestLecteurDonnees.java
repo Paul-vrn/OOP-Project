@@ -1,6 +1,3 @@
-
-import io.LecteurDonnees;
-
 import java.io.FileNotFoundException;
 import java.util.zip.DataFormatException;
 
@@ -22,4 +19,3 @@ public class TestLecteurDonnees {
     }
 
 }
-

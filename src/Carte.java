@@ -1,6 +1,7 @@
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.util.Scanner;
+
+// import java.io.File;
+// import java.io.FileNotFoundException;
+// import java.util.Scanner;
 import java.util.ArrayList;
 
 public class Carte {
@@ -9,7 +10,7 @@ public class Carte {
     private int nbColonnes;
     private ArrayList<ArrayList<Case>> cases;
 
-    public Carte(int tailleCases, int nblignes, int nbColonnes) {
+    public Carte(int nblignes, int nbColonnes, int tailleCases) {
         this.tailleCases = tailleCases;
         this.nbLignes = nblignes;
         this.nbColonnes = nbColonnes;
@@ -17,9 +18,13 @@ public class Carte {
         for (int i = 0; i < this.nbLignes; i++) {
             this.cases.add(new ArrayList<Case>());
             for (int j = 0; j < this.nbColonnes; j++) {
-                this.cases.get(i).add(new Case(i, j, Case.NatureTerrain.EAU));
+                this.cases.get(i).add(new Case(i, j, Case.NatureTerrain.TERRAIN_LIBRE));
             }
         }
+    }
+
+    public void setNature(int ligne, int colonne, Case.NatureTerrain nature) {
+        this.cases.get(ligne).get(colonne).setNature(nature);
     }
 
     public int getTailleCases() {
@@ -62,63 +67,61 @@ public class Carte {
         }
     }
 
-    public Carte(String filename) {
+    // public Carte(String filename) {
 
-        try (Scanner scanner = new Scanner(new File("../cartes/" + filename))) {
+    // try (Scanner scanner = new Scanner(new File("../cartes/" + filename))) {
 
-            // tant que la ligne courante du fichier ne commmence pas par un int on next
-            while (!scanner.hasNextInt()) {
-                scanner.nextLine();
-            }
-            this.nbLignes = scanner.nextInt();
-            this.nbColonnes = scanner.nextInt();
-            this.tailleCases = scanner.nextInt();
+    // // tant que la ligne courante du fichier ne commmence pas par un int on next
+    // while (!scanner.hasNextInt()) {
+    // scanner.nextLine();
+    // }
+    // this.nbLignes = scanner.nextInt();
+    // this.nbColonnes = scanner.nextInt();
+    // this.tailleCases = scanner.nextInt();
 
-            this.cases = new ArrayList<ArrayList<Case>>();
+    // this.cases = new ArrayList<ArrayList<Case>>();
 
-            // boucle pour ignorer certaines lignes
-            String line = scanner.nextLine();
-            while (!line.equals("# l0")) {
-                line = scanner.nextLine();
-            }
-            line = scanner.nextLine();
-            for (int i = 0; i < this.nbLignes; i++) {
-                this.cases.add(new ArrayList<Case>());
-                for (int j = 0; j < this.nbColonnes; j++) {
-                    switch (line.charAt(0)) {
-                        case 'E':
-                            this.cases.get(i).add(new Case(i, j, Case.NatureTerrain.EAU));
-                            break;
-                        case 'F':
-                            this.cases.get(i).add(new Case(i, j, Case.NatureTerrain.FORET));
-                            break;
-                        case 'R':
-                            this.cases.get(i).add(new Case(i, j, Case.NatureTerrain.ROCHE));
-                            break;
-                        case 'T':
-                            this.cases.get(i).add(new Case(i, j, Case.NatureTerrain.TERRAIN_LIBRE));
-                            break;
-                        case 'H':
-                            this.cases.get(i).add(new Case(i, j, Case.NatureTerrain.HABITAT));
-                            break;
-                        default:
-                            break;
-                    }
-                    // passe à la prochaine ligne à chaque lecture de case
-                    line = scanner.nextLine();
-                }
-                // saute une ligne pour passer celle commençant par #
-                line = scanner.nextLine();
-            }
-            // scanner.close();
+    // // boucle pour ignorer certaines lignes
+    // String line = scanner.nextLine();
+    // while (!line.equals("# l0")) {
+    // line = scanner.nextLine();
+    // }
+    // line = scanner.nextLine();
+    // for (int i = 0; i < this.nbLignes; i++) {
+    // this.cases.add(new ArrayList<Case>());
+    // for (int j = 0; j < this.nbColonnes; j++) {
+    // switch (line.charAt(0)) {
+    // case 'E':
+    // this.cases.get(i).add(new Case(i, j, Case.NatureTerrain.EAU));
+    // break;
+    // case 'F':
+    // this.cases.get(i).add(new Case(i, j, Case.NatureTerrain.FORET));
+    // break;
+    // case 'R':
+    // this.cases.get(i).add(new Case(i, j, Case.NatureTerrain.ROCHE));
+    // break;
+    // case 'T':
+    // this.cases.get(i).add(new Case(i, j, Case.NatureTerrain.TERRAIN_LIBRE));
+    // break;
+    // case 'H':
+    // this.cases.get(i).add(new Case(i, j, Case.NatureTerrain.HABITAT));
+    // break;
+    // default:
+    // break;
+    // }
+    // // passe à la prochaine ligne à chaque lecture de case
+    // line = scanner.nextLine();
+    // }
+    // // saute une ligne pour passer celle commençant par #
+    // line = scanner.nextLine();
+    // }
+    // // scanner.close();
+    // // ajouter le code pour lire les pompiers et les incendies quand les
+    // // classes auront été faites
 
-            // TODO
-            // ajouter le code pour lire les pompiers et les incendies quand les
-            // classes auront été faites
-
-        } catch (FileNotFoundException e) {
-            System.out.println("File not found");
-        }
-    }
+    // } catch (FileNotFoundException e) {
+    // System.out.println("File not found");
+    // }
+    // }
 
 }
