@@ -33,14 +33,14 @@ public class Chenilles extends Robot {
     }
 
     public void setPosition(Case position) {
-        if (position.getNature() == NatureTerrain.EAU || position.getNature() == NatureTerrain.ROCHE) {
-            try {
-                throw new RobotTerrainException("The robot can't be on the water or on rocks");
-            } catch (RobotTerrainException e) {
-                e.printStackTrace();
+        try {
+            if (position.getNature() == NatureTerrain.EAU || position.getNature() == NatureTerrain.ROCHE) {
+                throw new RobotTerrainException("Le robot à chenilles ne peut pas se déplacer sur les rochers");
+            } else {
+                this.Position = position;
             }
-        } else {
-            this.Position = position;
+        } catch (RobotTerrainException e) {
+            e.printStackTrace();
         }
     }
 

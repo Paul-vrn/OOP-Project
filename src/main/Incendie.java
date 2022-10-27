@@ -18,4 +18,13 @@ public class Incendie {
     public int getEauNecessaire() {
         return this.EauNecessaire;
     }
+
+    public String toString() {
+        return "Incendie (" + this.Position.getLigne() + ", " + this.Position.getColonne() + ") : "
+                + this.EauNecessaire;
+    }
+
+    public void print() {
+        System.out.println(this);
+    }
 }

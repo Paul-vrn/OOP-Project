@@ -12,7 +12,7 @@ public class Carte {
     // TODO : finalement on utilise pas d'ArrayList (conseil du prof)
     private ArrayList<ArrayList<Case>> cases;
 
-    public Carte(int tailleCases, int nblignes, int nbColonnes) {
+    public Carte(int nblignes, int nbColonnes, int tailleCases) {
         this.tailleCases = tailleCases;
         this.nbLignes = nblignes;
         this.nbColonnes = nbColonnes;

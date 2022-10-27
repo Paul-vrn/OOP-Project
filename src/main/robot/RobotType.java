@@ -1,5 +1,5 @@
 package main.robot;
 
-enum RobotType {
+public enum RobotType {
     DRONE, ROUES, CHENILLES, PATTES;
 }
