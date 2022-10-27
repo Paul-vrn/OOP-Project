@@ -1,9 +1,9 @@
+package main.robot;
+
+import main.Case;
+
 public abstract class Robot {
     // Robots can be drones or tanks
-    enum RobotType {
-        DRONE, ROUES, CHENILLES, PATTES;
-    }
-
     protected RobotType Type;
     protected Case Position;
     protected int Reservoir;
@@ -38,7 +38,7 @@ public abstract class Robot {
     }
 
     public void print() {
-        System.out.println(this.toString());
+        System.out.println(this);
     }
 
 }

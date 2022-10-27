@@ -1,3 +1,7 @@
+package main;
+
+import main.Case;
+
 public class Incendie {
     private Case Position;
     private int EauNecessaire;

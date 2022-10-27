@@ -1,5 +1,9 @@
+package main.robot;
+
 import Exceptions.RobotMaxSpeedException;
 import Exceptions.RobotTerrainException;
+import main.Case;
+import main.NatureTerrain;
 
 public class Chenilles extends Robot {
     // definition of the abstract setVitesse method
@@ -21,7 +25,7 @@ public class Chenilles extends Robot {
     }
 
     public int getVitesse(Case position) {
-        if (position.getNature() == Case.NatureTerrain.FORET) {
+        if (position.getNature() == NatureTerrain.FORET) {
             return this.BaseVitesse / 2;
         } else {
             return this.BaseVitesse;
@@ -29,7 +33,7 @@ public class Chenilles extends Robot {
     }
 
     public void setPosition(Case position) {
-        if (position.getNature() == Case.NatureTerrain.EAU || position.getNature() == Case.NatureTerrain.ROCHE) {
+        if (position.getNature() == NatureTerrain.EAU || position.getNature() == NatureTerrain.ROCHE) {
             try {
                 throw new RobotTerrainException("The robot can't be on the water or on rocks");
             } catch (RobotTerrainException e) {

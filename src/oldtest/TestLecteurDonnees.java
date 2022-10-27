@@ -1,3 +1,10 @@
+<<<<<<< HEAD:src/TestLecteurDonnees.java
+=======
+package oldtest;
+
+import io.LecteurDonnees;
+
+>>>>>>> 27bb16267d79282e1edf8726e1cb4693863f8c6d:src/oldtest/TestLecteurDonnees.java
 import java.io.FileNotFoundException;
 import java.util.zip.DataFormatException;
 
@@ -5,7 +12,7 @@ public class TestLecteurDonnees {
 
     public static void main(String[] args) {
         if (args.length < 1) {
-            System.out.println("Syntaxe: java TestLecteurDonnees <nomDeFichier>");
+            System.out.println("Syntaxe: java test.TestLecteurDonnees <nomDeFichier>");
             System.exit(1);
         }
 

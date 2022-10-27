@@ -1,29 +1,31 @@
+package main;
 
-// import java.io.File;
-// import java.io.FileNotFoundException;
-// import java.util.Scanner;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.Scanner;
 import java.util.ArrayList;
 
 public class Carte {
     private int tailleCases;
     private int nbLignes;
     private int nbColonnes;
+    // TODO : finalement on utilise pas d'ArrayList (conseil du prof)
     private ArrayList<ArrayList<Case>> cases;
 
-    public Carte(int nblignes, int nbColonnes, int tailleCases) {
+    public Carte(int tailleCases, int nblignes, int nbColonnes) {
         this.tailleCases = tailleCases;
         this.nbLignes = nblignes;
         this.nbColonnes = nbColonnes;
-        this.cases = new ArrayList<ArrayList<Case>>();
+        this.cases = new ArrayList<>();
         for (int i = 0; i < this.nbLignes; i++) {
-            this.cases.add(new ArrayList<Case>());
+            this.cases.add(new ArrayList<>());
             for (int j = 0; j < this.nbColonnes; j++) {
-                this.cases.get(i).add(new Case(i, j, Case.NatureTerrain.TERRAIN_LIBRE));
+                this.cases.get(i).add(new Case(i, j, NatureTerrain.EAU));
             }
         }
     }
 
-    public void setNature(int ligne, int colonne, Case.NatureTerrain nature) {
+    public void setNature(int ligne, int colonne, NatureTerrain nature) {
         this.cases.get(ligne).get(colonne).setNature(nature);
     }
 

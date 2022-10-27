@@ -1,9 +1,13 @@
-public class Case {
+package main;
 
+<<<<<<< HEAD:src/Case.java
     // ENUMERATION DES DIFFERENTES NATURES DE TERRAIN
     public enum NatureTerrain {
         EAU, FORET, ROCHE, TERRAIN_LIBRE, HABITAT, UNDEFINED;
     }
+=======
+public class Case {
+>>>>>>> 27bb16267d79282e1edf8726e1cb4693863f8c6d:src/main/Case.java
 
     // ATTRIBUTS DES CASES
     private int ligne;
@@ -43,10 +47,10 @@ public class Case {
     }
 
     public String toString() {
-        return "Case (" + this.ligne + ", " + this.colonne + ") : " + this.nature;
+        return "main.Case (" + this.ligne + ", " + this.colonne + ") : " + this.nature;
     }
 
     public void print() {
-        System.out.println(this.toString());
+        System.out.println(this);
     }
 }

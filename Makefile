@@ -24,10 +24,10 @@
 all: testInvader testLecture
 
 testInvader:
-	javac -d bin -classpath bin/gui.jar -sourcepath src src/TestInvader.java
+	javac -d bin -classpath bin/gui.jar -sourcepath src src/test.TestInvader.java
 
 testLecture:
-	javac -d bin -sourcepath src src/TestLecteurDonnees.java
+	javac -d bin -sourcepath src src/test.TestLecteurDonnees.java
 
 testCarte:
 	javac src/TestCarte.java
@@ -35,14 +35,14 @@ testCarte:
 
 # Execution:
 # on peut taper directement la ligne de commande :
-#   > java -classpath bin:bin/gui.jar TestInvader
+#   > java -classpath bin:bin/gui.jar test.TestInvader
 # ou bien lancer l'execution en passant par ce Makefile:
 #   > make exeInvader
 exeInvader: 
-	java -classpath bin:bin/gui.jar TestInvader
+	java -classpath bin:bin/gui.jar test.TestInvader
 
 exeLecture: 
-	java -classpath bin TestLecteurDonnees cartes/carteSujet.map
+	java -classpath bin test.TestLecteurDonnees cartes/carteSujet.map
 
 clean:
 	rm -rf bin/*.class
