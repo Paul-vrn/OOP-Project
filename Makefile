@@ -29,6 +29,10 @@ testInvader:
 testLecture:
 	javac -d bin -sourcepath src src/TestLecteurDonnees.java
 
+testCarte:
+	javac src/TestCarte.java
+	java src/TestCarte
+
 # Execution:
 # on peut taper directement la ligne de commande :
 #   > java -classpath bin:bin/gui.jar TestInvader
