@@ -33,6 +33,8 @@ public abstract class Robot {
 
     public abstract void setPosition(Case position);
 
+    public abstract boolean CanMoveTo(Case Target_position);
+
     public String toString() {
         return "Robot " + this.Type + " en " + this.Position + " avec " + this.Reservoir + "L";
     }

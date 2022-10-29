@@ -1,4 +1,5 @@
 package main.robot;
+
 import Exceptions.RobotMaxSpeedException;
 import main.Case;
 
@@ -28,6 +29,15 @@ public class Drone extends Robot {
 
     public void setPosition(Case position) {
         this.Position = position;
+    }
+
+    public boolean CanMoveTo(Case Target_Position) {
+        // vérrifie bien qu'on essaye de bouger à sur une case adjacente
+        if (Math.abs(this.Position.getLigne() - Target_Position.getLigne())
+                + Math.abs(this.Position.getColonne() - Target_Position.getColonne()) != 1) {
+            return false;
+        }
+        return true;
     }
 
     public Drone(Case position) {

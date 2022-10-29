@@ -31,6 +31,19 @@ public class Roues extends Robot {
         }
     }
 
+    public boolean CanMoveTo(Case Target_Position) {
+        // vérrifie bien qu'on essaye de bouger à sur une case adjacente
+        if (Math.abs(this.Position.getLigne() - Target_Position.getLigne())
+                + Math.abs(this.Position.getColonne() - Target_Position.getColonne()) != 1) {
+            return false;
+        }
+        if (Target_Position.getNature() == NatureTerrain.TERRAIN_LIBRE
+                || Target_Position.getNature() == NatureTerrain.HABITAT) {
+            return true;
+        }
+        return false;
+    }
+
     public Roues(Case position) {
         setPosition(position);
         this.Type = RobotType.ROUES;

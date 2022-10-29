@@ -35,13 +35,26 @@ public class Chenilles extends Robot {
     public void setPosition(Case position) {
         try {
             if (position.getNature() == NatureTerrain.EAU || position.getNature() == NatureTerrain.ROCHE) {
-                throw new RobotTerrainException("Le robot à chenilles ne peut pas se déplacer sur les rochers");
+                throw new RobotTerrainException(
+                        "Le robot à chenilles ne peut pas se déplacer sur les rochers ou sur l'eau");
             } else {
                 this.Position = position;
             }
         } catch (RobotTerrainException e) {
             e.printStackTrace();
         }
+    }
+
+    public boolean CanMoveTo(Case Target_Position) {
+        // vérrifie bien qu'on essaye de bouger à sur une case adjacente
+        if (Math.abs(this.Position.getLigne() - Target_Position.getLigne())
+                + Math.abs(this.Position.getColonne() - Target_Position.getColonne()) != 1) {
+            return false;
+        }
+        if (Target_Position.getNature() == NatureTerrain.EAU || Target_Position.getNature() == NatureTerrain.ROCHE) {
+            return false;
+        }
+        return true;
     }
 
     public Chenilles(Case position) {
