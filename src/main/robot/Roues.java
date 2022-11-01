@@ -1,27 +1,26 @@
 package main.robot;
 
-import Exceptions.RobotTerrainException;
 import main.Case;
 import main.NatureTerrain;
 
 public class Roues extends Robot {
 
     public void setVitesse(int vitesse) {
-        this.BaseVitesse = vitesse;
+        this.baseVitesse = vitesse;
     }
 
     public int getVitesse() {
-        return getVitesse(this.Position);
+        return getVitesse(this.position);
     }
 
     public int getVitesse(Case position) {
-        return this.BaseVitesse;
+        return this.baseVitesse;
     }
 
     public void setPosition(Case position) {
         try {
             if (position.getNature() == NatureTerrain.TERRAIN_LIBRE || position.getNature() == NatureTerrain.HABITAT) {
-                this.Position = position;
+                this.position = position;
             } else {
                 throw new RobotTerrainException(
                         "Le robot à roues ne peut se déplacer que sur du terrain libre ou dans des zones d'habitations");
@@ -31,26 +30,22 @@ public class Roues extends Robot {
         }
     }
 
-    public boolean CanMoveTo(Case Target_Position) {
+    public boolean canMoveTo(Case targetPosition) {
         // vérrifie bien qu'on essaye de bouger à sur une case adjacente
-        if (Math.abs(this.Position.getLigne() - Target_Position.getLigne())
-                + Math.abs(this.Position.getColonne() - Target_Position.getColonne()) != 1) {
+        if (Math.abs(this.position.getLigne() - targetPosition.getLigne())
+                + Math.abs(this.position.getColonne() - targetPosition.getColonne()) != 1) {
             return false;
         }
-        if (Target_Position.getNature() == NatureTerrain.TERRAIN_LIBRE
-                || Target_Position.getNature() == NatureTerrain.HABITAT) {
-            return true;
-        }
-        return false;
+        return (targetPosition.getNature() == NatureTerrain.TERRAIN_LIBRE || targetPosition.getNature() == NatureTerrain.HABITAT);
     }
 
     public Roues(Case position) {
         setPosition(position);
-        this.Type = RobotType.ROUES;
-        this.BaseVitesse = 80;
-        this.Reservoir = 0;
+        this.type = RobotType.ROUES;
+        this.baseVitesse = 80;
+        this.reservoir = 0;
         // 30 minutes
-        this.TempsRemplissage = 10 * 60;
+        this.tempsRemplissage = 10 * 60;
     }
 
 }

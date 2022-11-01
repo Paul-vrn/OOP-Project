@@ -1,6 +1,5 @@
 package main.robot;
 
-import Exceptions.RobotMaxSpeedException;
 import main.Case;
 
 public class Drone extends Robot {
@@ -15,38 +14,35 @@ public class Drone extends Robot {
                 e.printStackTrace();
             }
         } else {
-            this.BaseVitesse = vitesse;
+            this.baseVitesse = vitesse;
         }
     }
 
     public int getVitesse() {
-        return getVitesse(this.Position);
+        return getVitesse(this.position);
     }
 
     public int getVitesse(Case position) {
-        return this.BaseVitesse;
+        return this.baseVitesse;
     }
 
     public void setPosition(Case position) {
-        this.Position = position;
+        this.position = position;
     }
 
-    public boolean CanMoveTo(Case Target_Position) {
+    public boolean canMoveTo(Case targetPosition) {
         // vérrifie bien qu'on essaye de bouger à sur une case adjacente
-        if (Math.abs(this.Position.getLigne() - Target_Position.getLigne())
-                + Math.abs(this.Position.getColonne() - Target_Position.getColonne()) != 1) {
-            return false;
-        }
-        return true;
+        return (Math.abs(this.position.getLigne() - targetPosition.getLigne())
+                + Math.abs(this.position.getColonne() - targetPosition.getColonne()) == 1);
     }
 
     public Drone(Case position) {
         setPosition(position);
-        this.Type = RobotType.DRONE;
-        this.BaseVitesse = 100;
-        this.Reservoir = 0;
+        this.type = RobotType.DRONE;
+        this.baseVitesse = 100;
+        this.reservoir = 0;
         // 30 minutes
-        this.TempsRemplissage = 30 * 60;
+        this.tempsRemplissage = 30 * 60;
     }
 
 }

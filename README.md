@@ -18,3 +18,10 @@ Ensimag 2A POO - TP 2022/23
 - doc: la documentation (API) des classes de l'interface graphique contenues dans gui.jar. Point d'entrée: index.html
 
 - Makefile: quelques explications sur la compilation en ligne, notamment la notion de classpath et l'utilisation de gui.jar
+
+## Travailler sur le projet
+
+Installer SonnarLint pour faire du jolie code.  
+Pour chaque nouvelle classe :
+- Créer un fichier test correspondant dans le dossier test
+- Faire la javadoc de la classe

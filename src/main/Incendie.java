@@ -1,27 +1,25 @@
 package main;
 
-import main.Case;
-
 public class Incendie {
-    private Case Position;
-    private int EauNecessaire;
+    private Case position;
+    private int eauNecessaire;
 
-    public Incendie(Case Position, int EauNecessaire) {
-        this.Position = Position;
-        this.EauNecessaire = EauNecessaire;
+    public Incendie(Case position, int eauNecessaire) {
+        this.position = position;
+        this.eauNecessaire = eauNecessaire;
     }
 
     public Case getPosition() {
-        return this.Position;
+        return this.position;
     }
 
     public int getEauNecessaire() {
-        return this.EauNecessaire;
+        return this.eauNecessaire;
     }
 
     public String toString() {
-        return "Incendie (" + this.Position.getLigne() + ", " + this.Position.getColonne() + ") : "
-                + this.EauNecessaire;
+        return "Incendie (" + this.position.getLigne() + ", " + this.position.getColonne() + ") : "
+                + this.eauNecessaire;
     }
 
     public void print() {

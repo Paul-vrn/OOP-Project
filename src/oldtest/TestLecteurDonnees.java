@@ -1,6 +1,6 @@
 package oldtest;
 
-import io.LecteurDonnees;
+import main.io.LecteurDonnees;
 import java.io.FileNotFoundException;
 import java.util.zip.DataFormatException;
 

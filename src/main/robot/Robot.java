@@ -4,23 +4,23 @@ import main.Case;
 
 public abstract class Robot {
     // Robots can be drones or tanks
-    protected RobotType Type;
-    protected Case Position;
-    protected int Reservoir;
-    protected int CapaciteReservoir;
-    protected int BaseVitesse;
-    protected int TempsRemplissage;
+    protected RobotType type;
+    protected Case position;
+    protected int reservoir;
+    protected int capaciteReservoir;
+    protected int baseVitesse;
+    protected int tempsRemplissage;
 
     public Case getPosition() {
-        return this.Position;
+        return this.position;
     }
 
     public int getReservoir() {
-        return this.Reservoir;
+        return this.reservoir;
     }
 
     public int getCapaciteReservoir() {
-        return this.CapaciteReservoir;
+        return this.capaciteReservoir;
     }
 
     public abstract void setVitesse(int vitesse);
@@ -33,10 +33,10 @@ public abstract class Robot {
 
     public abstract void setPosition(Case position);
 
-    public abstract boolean CanMoveTo(Case Target_position);
+    public abstract boolean canMoveTo(Case targetPosition);
 
     public String toString() {
-        return "Robot " + this.Type + " en " + this.Position + " avec " + this.Reservoir + "L";
+        return "Robot " + this.type + " en " + this.position + " avec " + this.reservoir + "L";
     }
 
     public void print() {

@@ -1,4 +1,4 @@
-package io;
+package main.io;
 
 import java.io.*;
 import java.util.*;
@@ -58,8 +58,8 @@ public class LecteurDonnees {
      * @param fichierDonnees nom du fichier à lire
      */
 
-    public static DonneesSimulation getData(String fichierDonnes) throws FileNotFoundException, DataFormatException {
-        LecteurDonnees lecteur = new LecteurDonnees(fichierDonnes);
+    public static DonneesSimulation getData(String fichierDonnees) throws FileNotFoundException, DataFormatException {
+        LecteurDonnees lecteur = new LecteurDonnees(fichierDonnees);
         Carte carte = lecteur.getCarte();
         ArrayList<Incendie> incendies = lecteur.getIncendies();
         ArrayList<Robot> robots = lecteur.getRobots();
@@ -85,7 +85,7 @@ public class LecteurDonnees {
     /**
      * Lit et affiche les donnees de la carte.
      * 
-     * @throws ExceptionFormatDonnees
+     * @throws DataFormatException
      */
     private void lireCarte() throws DataFormatException {
         ignorerCommentaires();
@@ -253,14 +253,14 @@ public class LecteurDonnees {
         try {
             int lig = scanner.nextInt();
             int col = scanner.nextInt();
-            Case Position = new Case(lig, col);
-            int EauNecessaire = scanner.nextInt();
-            if (EauNecessaire <= 0) {
+            Case position = new Case(lig, col);
+            int eauNecessaire = scanner.nextInt();
+            if (eauNecessaire <= 0) {
                 throw new DataFormatException("incendie nb litres pour eteindre doit etre > 0");
             }
             verifieLigneTerminee();
 
-            return new Incendie(Position, EauNecessaire);
+            return new Incendie(position, eauNecessaire);
 
         } catch (NoSuchElementException e) {
             throw new DataFormatException("format d'incendie invalide. "
@@ -351,22 +351,22 @@ public class LecteurDonnees {
         try {
             int lig = scanner.nextInt();
             int col = scanner.nextInt();
-            Case Position = new Case(lig, col);
+            Case position = new Case(lig, col);
             String type = scanner.next();
             RobotType typeRobot = RobotType.valueOf(type);
             Robot robot = null;
             switch (typeRobot) {
                 case DRONE:
-                    robot = new Drone(Position);
+                    robot = new Drone(position);
                     break;
                 case ROUES:
-                    robot = new Roues(Position);
+                    robot = new Roues(position);
                     break;
                 case PATTES:
-                    robot = new Pattes(Position);
+                    robot = new Pattes(position);
                     break;
                 case CHENILLES:
-                    robot = new Chenilles(Position);
+                    robot = new Chenilles(position);
                     break;
                 default:
                     throw new DataFormatException("type de robot invalide. "
@@ -376,7 +376,7 @@ public class LecteurDonnees {
             String s = scanner.findInLine("(\\d+)"); // 1 or more digit(s) ?
             // pour lire un flottant: ("(\\d+(\\.\\d+)?)");
             // si s n'est pas null
-            if (s != null && robot != null) {
+            if (s != null) {
                 int vitesse = Integer.parseInt(s);
                 robot.setVitesse(vitesse);
             }
@@ -397,7 +397,7 @@ public class LecteurDonnees {
     /**
      * Verifie qu'il n'y a plus rien a lire sur cette ligne (int ou float).
      * 
-     * @throws ExceptionFormatDonnees
+     * @throws DataFormatException
      */
     private void verifieLigneTerminee() throws DataFormatException {
         if (scanner.findInLine("(\\d+)") != null) {

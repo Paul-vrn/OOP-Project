@@ -57,7 +57,7 @@ public class Carte {
         }
     }
 
-    public void print_board_style() {
+    public void printBoardStyle() {
         for (int i = 0; i < this.nbLignes; i++) {
             for (int j = 0; j < this.nbColonnes; j++) {
                 System.out.print("[" + this.cases.get(i).get(j).getNature().toString().charAt(0) + "]");
