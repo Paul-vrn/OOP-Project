@@ -18,11 +18,11 @@ public class Chenilles extends Robot {
         }
     }
 
-    public int getVitesse() {
+    public double getVitesse() {
         return getVitesse(this.position);
     }
 
-    public int getVitesse(Case position) {
+    public double getVitesse(Case position) {
         if (position.getNature() == NatureTerrain.FORET) {
             return this.baseVitesse / 2;
         } else {

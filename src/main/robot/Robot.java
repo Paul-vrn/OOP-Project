@@ -26,10 +26,10 @@ public abstract class Robot {
     public abstract void setVitesse(int vitesse);
 
     // la première méthode c'est pour retourner la vitesse sur la case actuelle
-    public abstract int getVitesse();
+    public abstract double getVitesse();
 
     // la seconde c'est pour n'importe quelle case
-    public abstract int getVitesse(Case position);
+    public abstract double getVitesse(Case position);
 
     public abstract void setPosition(Case position);
 

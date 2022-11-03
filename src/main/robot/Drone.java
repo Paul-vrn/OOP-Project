@@ -18,11 +18,11 @@ public class Drone extends Robot {
         }
     }
 
-    public int getVitesse() {
+    public double getVitesse() {
         return getVitesse(this.position);
     }
 
-    public int getVitesse(Case position) {
+    public double getVitesse(Case position) {
         return this.baseVitesse;
     }
 

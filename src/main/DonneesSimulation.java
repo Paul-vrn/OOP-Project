@@ -1,18 +1,21 @@
 package main;
 
-import java.util.ArrayList;
+import java.util.List;
 
 import main.robot.*;
 
 public class DonneesSimulation {
 
     private Carte carte;
-    private ArrayList<Incendie> incendies;
-    private ArrayList<Robot> robots;
+    private List<Incendie> incendies;
+    private List<Robot> robots;
 
-    public DonneesSimulation(Carte carte, ArrayList<Incendie> incendies, ArrayList<Robot> robots) {
+    public DonneesSimulation(Carte carte, List<Incendie> incendies, List<Robot> robots) {
         this.carte = carte;
         this.incendies = incendies;
+        if (robots.isEmpty()){
+            throw new IllegalArgumentException("Il faut au moins un robot");
+        }
         this.robots = robots;
     }
 
@@ -20,11 +23,11 @@ public class DonneesSimulation {
         return carte;
     }
 
-    public ArrayList<Incendie> getIncendies() {
+    public List<Incendie> getIncendies() {
         return incendies;
     }
 
-    public ArrayList<Robot> getRobots() {
+    public List<Robot> getRobots() {
         return robots;
     }
 

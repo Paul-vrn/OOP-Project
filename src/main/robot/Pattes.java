@@ -9,11 +9,11 @@ public class Pattes extends Robot {
         this.baseVitesse = vitesse;
     }
 
-    public int getVitesse() {
+    public double getVitesse() {
         return getVitesse(this.position);
     }
 
-    public int getVitesse(Case position) {
+    public double getVitesse(Case position) {
         if (position.getNature() == NatureTerrain.ROCHE) {
             // vitesse réduite à 10 sur la roche
             return 10;
