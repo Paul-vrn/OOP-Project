@@ -11,6 +11,7 @@ import java.util.zip.DataFormatException;
 import main.modele.Carte;
 import main.modele.Incendie;
 import main.simulateur.evenement.Evenement;
+import main.simulateur.evenement.Move;
 import main.simulateur.io.LecteurDonnees;
 import main.modele.robot.Robot;
 
@@ -20,7 +21,13 @@ class SimulateurTest {
         GUISimulator gui = new GUISimulator(800, 600, Color.BLACK);
         // crée l'invader, en l'associant à la fenêtre graphique précédente
         DonneesSimulation data = LecteurDonnees.getData(args[0]);
-        new Simulateur(gui, data);
+        Simulateur simulateur = new Simulateur(gui, data);
+        simulateur.ajouteEvenement(new Move(0, data.getRobots().get(0), data.getCarte().getCase(3,4)));
+        simulateur.ajouteEvenement(new Move(1, data.getRobots().get(0), data.getCarte().getCase(3,5)));
+        simulateur.ajouteEvenement(new Move(2, data.getRobots().get(0), data.getCarte().getCase(3,6)));
+        simulateur.ajouteEvenement(new Move(3, data.getRobots().get(0), data.getCarte().getCase(3,7)));
+        simulateur.ajouteEvenement(new Move(4, data.getRobots().get(0), data.getCarte().getCase(3,8)));
+        simulateur.ajouteEvenement(new Move(5, data.getRobots().get(0), data.getCarte().getCase(3,9)));
     }
 }
 
@@ -69,8 +76,15 @@ public class Simulateur implements Simulable {
     }
     @Override
     public void next() {
+        if(tempsEcoule >= evenements.size()){
+            System.out.println("Il n'y a plus d'évènements à afficher/simuler");
+            return;
+        }
+        evenements.get(tempsEcoule).execute();
         incrementeTemps();
         // TODO faire qlq chose quand on appuie sur next
+
+        draw();
     }
 
     @Override
@@ -95,6 +109,7 @@ public class Simulateur implements Simulable {
     public void ajouteEvenement(Evenement e) {
         this.evenements.add(e);
     }
+
 
 
     public void incrementeTemps() {

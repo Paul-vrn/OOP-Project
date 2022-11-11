@@ -31,7 +31,7 @@ public class Roues extends Robot {
     }
 
     public boolean canMoveTo(Case targetPosition) {
-        // vérrifie bien qu'on essaye de bouger à sur une case adjacente
+        // vérrifie bien qu'on essaye de bouger sur une case adjacente
         if (Math.abs(this.position.getLigne() - targetPosition.getLigne())
                 + Math.abs(this.position.getColonne() - targetPosition.getColonne()) != 1) {
             return false;

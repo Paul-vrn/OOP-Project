@@ -77,8 +77,8 @@ public class Carte {
      * @param colonne colonne de la case
      * @return case à la ligne et colonne passées en paramètres
      */
-    public Case getCase(int ligne, int colonne) {
-        return this.cases[ligne][colonne];
+    public Case getCase(int colonne, int ligne) {
+        return this.cases[colonne][ligne];
     }
 
     /**

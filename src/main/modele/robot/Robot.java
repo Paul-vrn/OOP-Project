@@ -3,7 +3,7 @@ package main.modele.robot;
 import main.modele.Case;
 
 public abstract class Robot {
-    // Robots can be drones or tanks
+    // Robots can be Drones or Chenilles or Pattes or Roues
     protected RobotType type;
     protected Case position;
     protected int reservoir;
