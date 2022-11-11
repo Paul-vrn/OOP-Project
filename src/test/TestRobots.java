@@ -1,8 +1,8 @@
 package test;
 
-import main.robot.*;
-import main.Case;
-import main.NatureTerrain;
+import main.modele.robot.*;
+import main.modele.Case;
+import main.modele.NatureTerrain;
 
 public class TestRobots {
     public static void main(String[] args) {

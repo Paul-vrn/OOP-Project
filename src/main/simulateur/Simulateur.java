@@ -1,14 +1,18 @@
-package main;
+package main.simulateur;
 
 import gui.*;
 import gui.Rectangle;
 import java.awt.*;
 import java.io.FileNotFoundException;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.zip.DataFormatException;
 
-import main.io.LecteurDonnees;
-import main.robot.Robot;
+import main.modele.Carte;
+import main.modele.Incendie;
+import main.simulateur.evenement.Evenement;
+import main.simulateur.io.LecteurDonnees;
+import main.modele.robot.Robot;
 
 class SimulateurTest {
     public static void main(String[] args) throws DataFormatException, FileNotFoundException {
@@ -25,13 +29,16 @@ public class Simulateur implements Simulable {
     private GUISimulator gui;
     private DonneesSimulation donneesSimulation;
     private int tempsEcoule;
-    int xMin = 40;
-    int yMin = 40;
+    int xMin;
+    int yMin;
+
+    private List<Evenement> evenements;
     public Simulateur(GUISimulator gui, DonneesSimulation donneesSimulation) {
         this.gui = gui;
         gui.setSimulable(this);
         this.donneesSimulation = donneesSimulation;
         this.tempsEcoule = 0;
+        this.evenements = new LinkedList<>();
         draw();
     }
 
@@ -39,28 +46,30 @@ public class Simulateur implements Simulable {
     private void draw() {
         gui.reset();
         Carte carte = donneesSimulation.getCarte();
-        int caseHeight = (gui.getPanelHeight()-40) / carte.getNbLignes();
-        int caseWidth = (gui.getPanelWidth()-40) / carte.getNbColonnes();
+        int caseWidth = gui.getPanelWidth() / carte.getNbColonnes();
+        int caseHeight = gui.getPanelHeight() / carte.getNbLignes();
+        xMin = caseWidth / 2;
+        yMin = caseHeight / 2;
         // dessine la carte
         for (int i = 0; i < carte.getNbLignes(); i++) {
             for (int j = 0; j < carte.getNbColonnes(); j++) {
-                gui.addGraphicalElement(new Rectangle(yMin+i * caseWidth,  xMin+j * caseHeight, Color.BLACK, carte.getCase(i,j).getNature().getColor(), caseWidth, caseHeight));
+                gui.addGraphicalElement(new Rectangle(xMin+i * caseWidth,  yMin+j * caseHeight, Color.BLACK, carte.getCase(i,j).getNature().getColor(), caseWidth, caseHeight));
             }
         }
         // dessine les incendies
         List<Incendie> incendies = donneesSimulation.getIncendies();
         for (Incendie incendie : incendies) {
-            gui.addGraphicalElement(new Oval(yMin+incendie.getPosition().getLigne() * caseWidth, xMin+incendie.getPosition().getColonne() * caseHeight, Color.BLACK, Color.YELLOW, caseWidth/2, caseHeight/2));
+            gui.addGraphicalElement(new Oval(xMin+incendie.getPosition().getLigne() * caseWidth, yMin+incendie.getPosition().getColonne() * caseHeight, Color.BLACK, Color.YELLOW, caseWidth/2, caseHeight/2));
         }
         // dessine les robots
         List<Robot> robots = donneesSimulation.getRobots();
         for (Robot robot : robots) {
-            gui.addGraphicalElement(new Rectangle(yMin+robot.getPosition().getLigne() * caseWidth, xMin+robot.getPosition().getColonne() * caseHeight, Color.BLACK, Color.MAGENTA, caseWidth/2, caseHeight/2));
+            gui.addGraphicalElement(new Rectangle(xMin+robot.getPosition().getLigne() * caseWidth, yMin+robot.getPosition().getColonne() * caseHeight, Color.BLACK, Color.MAGENTA, caseWidth/2, caseHeight/2));
         }
     }
     @Override
     public void next() {
-        tempsEcoule++;
+        incrementeTemps();
         // TODO faire qlq chose quand on appuie sur next
     }
 
@@ -70,8 +79,29 @@ public class Simulateur implements Simulable {
         draw();
     }
 
+    /**
+     * Retourne un item
+     * @param s
+     */
     @Override
     public void selectedItem(String s) {
         Simulable.super.selectedItem(s);
+    }
+
+    /**
+     * ajoute un événement à la liste des événements
+     * @param e l'événement à ajouter
+     */
+    public void ajouteEvenement(Evenement e) {
+        this.evenements.add(e);
+    }
+
+
+    public void incrementeTemps() {
+        this.tempsEcoule++;
+    }
+    public void simulationTerminee() {
+        System.out.println("Simulation terminée");
+        this.restart();
     }
 }

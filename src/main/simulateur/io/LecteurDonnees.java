@@ -1,15 +1,15 @@
-package main.io;
+package main.simulateur.io;
 
 import java.io.*;
 import java.util.*;
 import java.util.zip.DataFormatException;
 
-import main.Carte;
-import main.Case;
-import main.DonneesSimulation;
-import main.Incendie;
-import main.NatureTerrain;
-import main.robot.*;
+import main.modele.Carte;
+import main.modele.Case;
+import main.simulateur.DonneesSimulation;
+import main.modele.Incendie;
+import main.modele.NatureTerrain;
+import main.modele.robot.*;
 
 /**
  * Lecteur de cartes au format spectifié dans le sujet.

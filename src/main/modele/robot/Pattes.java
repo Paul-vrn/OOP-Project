@@ -1,9 +1,9 @@
-package main.robot;
+package main.modele.robot;
 
-import main.Case;
-import main.NatureTerrain;
+import main.modele.Case;
+import main.modele.NatureTerrain;
 
-public class Roues extends Robot {
+public class Pattes extends Robot {
 
     public void setVitesse(int vitesse) {
         this.baseVitesse = vitesse;
@@ -14,16 +14,20 @@ public class Roues extends Robot {
     }
 
     public double getVitesse(Case position) {
-        return this.baseVitesse;
+        if (position.getNature() == NatureTerrain.ROCHE) {
+            // vitesse réduite à 10 sur la roche
+            return 10;
+        } else {
+            return this.baseVitesse;
+        }
     }
 
     public void setPosition(Case position) {
         try {
-            if (position.getNature() == NatureTerrain.TERRAIN_LIBRE || position.getNature() == NatureTerrain.HABITAT) {
-                this.position = position;
+            if (position.getNature() == NatureTerrain.EAU) {
+                throw new RobotTerrainException("Le robot à pattes ne peut pas se déplacer sur l'eau");
             } else {
-                throw new RobotTerrainException(
-                        "Le robot à roues ne peut se déplacer que sur du terrain libre ou dans des zones d'habitations");
+                this.position = position;
             }
         } catch (RobotTerrainException e) {
             System.out.println(e.getMessage());
@@ -36,16 +40,16 @@ public class Roues extends Robot {
                 + Math.abs(this.position.getColonne() - targetPosition.getColonne()) != 1) {
             return false;
         }
-        return (targetPosition.getNature() == NatureTerrain.TERRAIN_LIBRE || targetPosition.getNature() == NatureTerrain.HABITAT);
+        return (targetPosition.getNature() != NatureTerrain.EAU);
     }
 
-    public Roues(Case position) {
+    public Pattes(Case position) {
         setPosition(position);
-        this.type = RobotType.ROUES;
-        this.baseVitesse = 80;
+        this.type = RobotType.PATTES;
+        this.baseVitesse = 100;
         this.reservoir = 0;
         // 30 minutes
-        this.tempsRemplissage = 10 * 60;
+        this.tempsRemplissage = 30 * 60;
     }
 
 }

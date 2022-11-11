@@ -1,4 +1,4 @@
-package main;
+package main.modele;
 
 /**
  * Classe représentant une carte du jeu.

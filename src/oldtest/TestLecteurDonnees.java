@@ -1,10 +1,10 @@
 package oldtest;
 
-import main.io.LecteurDonnees;
+import main.simulateur.io.LecteurDonnees;
 import java.io.FileNotFoundException;
 import java.util.zip.DataFormatException;
 
-import main.DonneesSimulation;
+import main.simulateur.DonneesSimulation;
 
 public class TestLecteurDonnees {
 

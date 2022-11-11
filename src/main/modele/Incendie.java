@@ -1,4 +1,4 @@
-package main;
+package main.modele;
 
 public class Incendie {
     private Case position;

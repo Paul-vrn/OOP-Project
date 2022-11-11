@@ -1,6 +1,6 @@
-package main.robot;
+package main.modele.robot;
 
-import main.Case;
+import main.modele.Case;
 
 public abstract class Robot {
     // Robots can be drones or tanks

@@ -1,8 +1,10 @@
-package main;
+package main.simulateur;
 
 import java.util.List;
 
-import main.robot.*;
+import main.modele.Carte;
+import main.modele.Incendie;
+import main.modele.robot.*;
 
 public class DonneesSimulation {
 

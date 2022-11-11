@@ -1,4 +1,4 @@
-package main;
+package main.modele;
 
 public class Case {
 
@@ -40,7 +40,7 @@ public class Case {
     }
 
     public String toString() {
-        return "main.Case (" + this.ligne + ", " + this.colonne + ") : " + this.nature;
+        return "main.modele.Case (" + this.ligne + ", " + this.colonne + ") : " + this.nature;
     }
 
     public void print() {

@@ -1,7 +1,7 @@
-package main.robot;
+package main.modele.robot;
 
-import main.Case;
-import main.NatureTerrain;
+import main.modele.Case;
+import main.modele.NatureTerrain;
 
 public class Chenilles extends Robot {
     // definition of the abstract setVitesse method
