@@ -59,12 +59,17 @@ public class LecteurDonnees {
      */
 
     public static DonneesSimulation getData(String fichierDonnees) throws FileNotFoundException, DataFormatException {
-        LecteurDonnees lecteur = new LecteurDonnees(fichierDonnees);
-        Carte carte = lecteur.getCarte();
-        ArrayList<Incendie> incendies = lecteur.getIncendies();
-        ArrayList<Robot> robots = lecteur.getRobots();
+        try {
+            LecteurDonnees lecteur = new LecteurDonnees(fichierDonnees);
+            Carte carte = lecteur.getCarte();
+            ArrayList<Incendie> incendies = lecteur.getIncendies();
+            ArrayList<Robot> robots = lecteur.getRobots();
 
-        return new DonneesSimulation(carte, incendies, robots);
+            return new DonneesSimulation(carte, incendies, robots);
+        } catch (Exception e) {
+            //System.out.println(e.getMessage());
+            throw e;
+        }
     }
 
     // Tout le reste de la classe est prive!
@@ -76,10 +81,14 @@ public class LecteurDonnees {
      * 
      * @param fichierDonnees nom du fichier a lire
      */
-    private LecteurDonnees(String fichierDonnees)
-            throws FileNotFoundException {
-        scanner = new Scanner(new File(fichierDonnees));
-        scanner.useLocale(Locale.US);
+    private LecteurDonnees(String fichierDonnees) throws FileNotFoundException {
+        try {
+            scanner = new Scanner(new File(fichierDonnees));
+            scanner.useLocale(Locale.US);
+        } catch (FileNotFoundException e) {
+            System.out.println(e.getMessage());
+            throw e;
+        }
     }
 
     /**

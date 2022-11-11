@@ -21,4 +21,20 @@ public enum NatureTerrain {
                 return Color.BLACK;
         }
     }
+    public String getImage() {
+        switch (this) {
+            case EAU:
+                return "images/water01.png";
+            case FORET:
+                return "images/tree.png";
+            case ROCHE:
+                return "images/wall.png";
+            case TERRAIN_LIBRE:
+                return "images/grass01.png";
+            case HABITAT:
+                return "images/hut.png";
+            default:
+                return "images/road00.png";
+        }
+    }
 }

@@ -25,4 +25,8 @@ public class Incendie {
     public void print() {
         System.out.println(this);
     }
+
+    public String getImage() {
+        return "images/fire.gif";
+    }
 }

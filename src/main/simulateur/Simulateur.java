@@ -3,7 +3,9 @@ package main.simulateur;
 import gui.*;
 import gui.Rectangle;
 import java.awt.*;
+import java.awt.image.ImageObserver;
 import java.io.FileNotFoundException;
+import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.zip.DataFormatException;
@@ -20,14 +22,19 @@ class SimulateurTest {
         // crée la fenêtre graphique dans laquelle dessiner
         GUISimulator gui = new GUISimulator(800, 600, Color.BLACK);
         // crée l'invader, en l'associant à la fenêtre graphique précédente
-        DonneesSimulation data = LecteurDonnees.getData(args[0]);
-        Simulateur simulateur = new Simulateur(gui, data);
-        simulateur.ajouteEvenement(new Move(0, data.getRobots().get(0), data.getCarte().getCase(3,4)));
-        simulateur.ajouteEvenement(new Move(1, data.getRobots().get(0), data.getCarte().getCase(3,5)));
-        simulateur.ajouteEvenement(new Move(2, data.getRobots().get(0), data.getCarte().getCase(3,6)));
-        simulateur.ajouteEvenement(new Move(3, data.getRobots().get(0), data.getCarte().getCase(3,7)));
-        simulateur.ajouteEvenement(new Move(4, data.getRobots().get(0), data.getCarte().getCase(3,8)));
-        simulateur.ajouteEvenement(new Move(5, data.getRobots().get(0), data.getCarte().getCase(3,9)));
+        try {
+            DonneesSimulation data = LecteurDonnees.getData(args[0]);
+            Simulateur simulateur = new Simulateur(gui, data);
+            simulateur.ajouteEvenement(new Move(0, data.getRobots().get(0), data.getCarte().getCase(3,4)));
+            simulateur.ajouteEvenement(new Move(1, data.getRobots().get(0), data.getCarte().getCase(3,5)));
+            simulateur.ajouteEvenement(new Move(2, data.getRobots().get(0), data.getCarte().getCase(3,6)));
+            simulateur.ajouteEvenement(new Move(3, data.getRobots().get(0), data.getCarte().getCase(3,7)));
+            simulateur.ajouteEvenement(new Move(4, data.getRobots().get(0), data.getCarte().getCase(3,8)));
+            simulateur.ajouteEvenement(new Move(5, data.getRobots().get(0), data.getCarte().getCase(3,9)));
+        } catch (DataFormatException | FileNotFoundException e) {
+            e.printStackTrace();
+            System.exit(1);
+        }
     }
 }
 
@@ -43,9 +50,10 @@ public class Simulateur implements Simulable {
     public Simulateur(GUISimulator gui, DonneesSimulation donneesSimulation) {
         this.gui = gui;
         gui.setSimulable(this);
+
         this.donneesSimulation = donneesSimulation;
         this.tempsEcoule = 0;
-        this.evenements = new LinkedList<>();
+        this.evenements = new ArrayList<>();
         draw();
     }
 
@@ -60,18 +68,36 @@ public class Simulateur implements Simulable {
         // dessine la carte
         for (int i = 0; i < carte.getNbLignes(); i++) {
             for (int j = 0; j < carte.getNbColonnes(); j++) {
-                gui.addGraphicalElement(new Rectangle(xMin+i * caseWidth,  yMin+j * caseHeight, Color.BLACK, carte.getCase(i,j).getNature().getColor(), caseWidth, caseHeight));
+                gui.addGraphicalElement(new ImageElement(
+                         i * caseWidth,
+                        j * caseHeight,
+                        carte.getCase(i, j).getNature().getImage(),
+                        caseWidth,
+                        caseHeight,
+                        null));
             }
         }
         // dessine les incendies
         List<Incendie> incendies = donneesSimulation.getIncendies();
         for (Incendie incendie : incendies) {
-            gui.addGraphicalElement(new Oval(xMin+incendie.getPosition().getLigne() * caseWidth, yMin+incendie.getPosition().getColonne() * caseHeight, Color.BLACK, Color.YELLOW, caseWidth/2, caseHeight/2));
+            gui.addGraphicalElement(new ImageElement(
+                    incendie.getPosition().getLigne() * caseWidth,
+                    incendie.getPosition().getColonne() * caseHeight,
+                    incendie.getImage(),
+                    caseWidth,
+                    caseHeight,
+                    null));
         }
         // dessine les robots
         List<Robot> robots = donneesSimulation.getRobots();
         for (Robot robot : robots) {
-            gui.addGraphicalElement(new Rectangle(xMin+robot.getPosition().getLigne() * caseWidth, yMin+robot.getPosition().getColonne() * caseHeight, Color.BLACK, Color.MAGENTA, caseWidth/2, caseHeight/2));
+            gui.addGraphicalElement(new ImageElement(
+                    robot.getPosition().getLigne() * caseWidth,
+                    robot.getPosition().getColonne() * caseHeight,
+                    robot.getImage(),
+                    caseWidth,
+                    caseHeight,
+                    null));
         }
     }
     @Override
@@ -109,7 +135,6 @@ public class Simulateur implements Simulable {
     public void ajouteEvenement(Evenement e) {
         this.evenements.add(e);
     }
-
 
 
     public void incrementeTemps() {

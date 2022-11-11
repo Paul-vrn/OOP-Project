@@ -45,4 +45,10 @@ public class Drone extends Robot {
         this.tempsRemplissage = 30 * 60;
     }
 
+
+    @Override
+    public String getImage(){
+        return "images/drone.gif";
+    }
+
 }

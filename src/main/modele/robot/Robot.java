@@ -43,4 +43,7 @@ public abstract class Robot {
         System.out.println(this);
     }
 
+    public String getImage(){
+        return "images/robot.gif";
+    }
 }
