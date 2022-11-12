@@ -2,8 +2,6 @@ package main.modele;
 
 /**
  * Classe représentant une carte du jeu.
- *
- *
  */
 public class Carte {
     private int tailleCases;
@@ -80,88 +78,4 @@ public class Carte {
     public Case getCase(int colonne, int ligne) {
         return this.cases[colonne][ligne];
     }
-
-    /**
-     * Display the map.
-     */
-    public void print() {
-        System.out.println("Nombre de lignes : " + this.nbLignes + "\n" + "Nombre de colonnes : " + this.nbColonnes
-                + "\n" + "Taille des cases : " + this.tailleCases);
-        for (int i = 0; i < this.nbLignes; i++) {
-            for (int j = 0; j < this.nbColonnes; j++) {
-                this.cases[i][j].print();
-            }
-            System.out.println();
-        }
-    }
-
-    /**
-     * Retourne la représentation textuelle de la carte.
-     */
-    public void printBoardStyle() {
-        for (int i = 0; i < this.nbLignes; i++) {
-            for (int j = 0; j < this.nbColonnes; j++) {
-                System.out.print("[" + this.cases[i][j].getNature().toString().charAt(0) + "]");
-            }
-            System.out.println();
-        }
-    }
-
-    // public Carte(String filename) {
-
-    // try (Scanner scanner = new Scanner(new File("../cartes/" + filename))) {
-
-    // // tant que la ligne courante du fichier ne commmence pas par un int on next
-    // while (!scanner.hasNextInt()) {
-    // scanner.nextLine();
-    // }
-    // this.nbLignes = scanner.nextInt();
-    // this.nbColonnes = scanner.nextInt();
-    // this.tailleCases = scanner.nextInt();
-
-    // this.cases = new ArrayList<ArrayList<Case>>();
-
-    // // boucle pour ignorer certaines lignes
-    // String line = scanner.nextLine();
-    // while (!line.equals("# l0")) {
-    // line = scanner.nextLine();
-    // }
-    // line = scanner.nextLine();
-    // for (int i = 0; i < this.nbLignes; i++) {
-    // this.cases.add(new ArrayList<Case>());
-    // for (int j = 0; j < this.nbColonnes; j++) {
-    // switch (line.charAt(0)) {
-    // case 'E':
-    // this.cases.get(i).add(new Case(i, j, Case.NatureTerrain.EAU));
-    // break;
-    // case 'F':
-    // this.cases.get(i).add(new Case(i, j, Case.NatureTerrain.FORET));
-    // break;
-    // case 'R':
-    // this.cases.get(i).add(new Case(i, j, Case.NatureTerrain.ROCHE));
-    // break;
-    // case 'T':
-    // this.cases.get(i).add(new Case(i, j, Case.NatureTerrain.TERRAIN_LIBRE));
-    // break;
-    // case 'H':
-    // this.cases.get(i).add(new Case(i, j, Case.NatureTerrain.HABITAT));
-    // break;
-    // default:
-    // break;
-    // }
-    // // passe à la prochaine ligne à chaque lecture de case
-    // line = scanner.nextLine();
-    // }
-    // // saute une ligne pour passer celle commençant par #
-    // line = scanner.nextLine();
-    // }
-    // // scanner.close();
-    // // ajouter le code pour lire les pompiers et les incendies quand les
-    // // classes auront été faites
-
-    // } catch (FileNotFoundException e) {
-    // System.out.println("File not found");
-    // }
-    // }
-
 }

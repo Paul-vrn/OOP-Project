@@ -1,4 +1,4 @@
-package main.simulateur.evenement;
+package main.controlleur.evenement;
 
 public class EvenementMessage extends Evenement {
     private String message;

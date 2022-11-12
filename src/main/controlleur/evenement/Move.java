@@ -1,28 +1,28 @@
-package main.simulateur.evenement;
+package main.controlleur.evenement;
 import main.modele.robot.Robot;
 import main.modele.Case;
 
 public class Move extends Evenement{
     private Robot robot;
-    private Case case_cible;
+    private Case caseCible;
     /**
 
      */
-    public Move(int date, Robot robot, Case case_cible){
+    public Move(int date, Robot robot, Case caseCible){
         super(date);
         this.robot = robot;
-        this.case_cible = case_cible;
+        this.caseCible = caseCible;
     }
 
     public void execute() {
         try {
-            if (this.robot.canMoveTo(case_cible)) {
-                robot.setPosition(case_cible);
+            if (this.robot.canMoveTo(caseCible)) {
+                robot.setPosition(caseCible);
             } else {
                 throw new IllegalMove("Tentative de mouvement interdit");
             }
         } catch (IllegalMove e) {
-            System.out.println(e.getMessage());
+            System.err.println(e.getMessage());
         }
     }
 }

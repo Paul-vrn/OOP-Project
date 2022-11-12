@@ -3,28 +3,52 @@ package main.modele.robot;
 import main.modele.Case;
 import main.modele.NatureTerrain;
 
+/**
+ * Classe représentant un robot à chenilles.
+ *
+ *
+ */
 public class Chenilles extends Robot {
-    // definition of the abstract setVitesse method
+
+    /**
+     * Constructeur de la classe Chenilles.
+     * @param position
+     */
+    public Chenilles(Case position) {
+        setPosition(position);
+        this.type = RobotType.CHENILLES;
+        this.baseVitesse = 60;
+        this.reservoir = 0;
+        // 30 minutes
+        this.tempsRemplissage = 5 * 60;
+    }
+
+    /**
+     * Définit la vitesse du robot à chenilles.
+     * @param vitesse La vitesse du robot à chenilles.
+     */
+    @Override
     public void setVitesse(int vitesse) {
         // if the speed is greater than the 100, throw an exception
-        if (vitesse > 80) {
-            try {
-                throw new RobotMaxSpeedException("The speed of the robot is greater than 80");
-            } catch (RobotMaxSpeedException e) {
-                e.printStackTrace();
+        try {
+            if (vitesse > 100) {
+                throw new RobotMaxSpeedException("La vitesse du robot à chenilles ne peut pas dépasser 100");
+            } else {
+                this.baseVitesse = vitesse;
             }
-        } else {
-            this.baseVitesse = vitesse;
+        } catch (RobotMaxSpeedException e) {
+            System.err.println(e.getMessage());
         }
     }
-
-    public double getVitesse() {
-        return getVitesse(this.position);
-    }
-
+    /**
+     *
+     * @param position
+     * @return
+     */
+    @Override
     public double getVitesse(Case position) {
         if (position.getNature() == NatureTerrain.FORET) {
-            return this.baseVitesse / 2;
+            return (double) this.baseVitesse / 2;
         } else {
             return this.baseVitesse;
         }
@@ -52,13 +76,10 @@ public class Chenilles extends Robot {
         return (targetPosition.getNature() != NatureTerrain.EAU && targetPosition.getNature() != NatureTerrain.ROCHE);
     }
 
-    public Chenilles(Case position) {
-        setPosition(position);
-        this.type = RobotType.CHENILLES;
-        this.baseVitesse = 60;
-        this.reservoir = 0;
-        // 30 minutes
-        this.tempsRemplissage = 5 * 60;
-    }
 
+
+    @Override
+    public String getName() {
+        return super.getName() + " à chenilles";
+    }
 }

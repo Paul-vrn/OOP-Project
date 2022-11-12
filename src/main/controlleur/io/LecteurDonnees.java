@@ -1,4 +1,4 @@
-package main.simulateur.io;
+package main.controlleur.io;
 
 import java.io.*;
 import java.util.*;
@@ -6,7 +6,7 @@ import java.util.zip.DataFormatException;
 
 import main.modele.Carte;
 import main.modele.Case;
-import main.simulateur.DonneesSimulation;
+import main.controlleur.DonneesSimulation;
 import main.modele.Incendie;
 import main.modele.NatureTerrain;
 import main.modele.robot.*;

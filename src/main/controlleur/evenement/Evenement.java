@@ -1,7 +1,7 @@
-package main.simulateur.evenement;
+package main.controlleur.evenement;
 
 public abstract class Evenement {
-    private int date;
+    protected int date;
 
     public Evenement(int date) {
         this.date = date;
@@ -15,9 +15,5 @@ public abstract class Evenement {
 
     public String toString() {
         return "Evenement (" + this.date + ")";
-    }
-
-    public void print() {
-        System.out.println(this);
     }
 }

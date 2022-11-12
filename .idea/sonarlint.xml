@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SonarLintProjectSettings">
+    <option name="analysisLogsEnabled" value="true" />
+    <option name="fileExclusions">
+      <list>
+        <option value="FILE:doc/gui/GUISimulator.html" />
+        <option value="FILE:doc/io/LecteurDonnees.html" />
+        <option value="DIRECTORY:.idea" />
+        <option value="DIRECTORY:bin" />
+        <option value="DIRECTORY:cartes" />
+        <option value="DIRECTORY:doc" />
+        <option value="DIRECTORY:images" />
+        <option value="DIRECTORY:lib" />
+        <option value="FILE:src/TestInvader.java" />
+      </list>
+    </option>
+  </component>
+</project>

@@ -5,18 +5,14 @@ import main.modele.NatureTerrain;
 
 public class Roues extends Robot {
 
-    public void setVitesse(int vitesse) {
-        this.baseVitesse = vitesse;
+    public Roues(Case position) {
+        setPosition(position);
+        this.type = RobotType.ROUES;
+        this.baseVitesse = 80;
+        this.reservoir = 0;
+        // 30 minutes
+        this.tempsRemplissage = 10 * 60;
     }
-
-    public double getVitesse() {
-        return getVitesse(this.position);
-    }
-
-    public double getVitesse(Case position) {
-        return this.baseVitesse;
-    }
-
     public void setPosition(Case position) {
         try {
             if (position.getNature() == NatureTerrain.TERRAIN_LIBRE || position.getNature() == NatureTerrain.HABITAT) {
@@ -26,7 +22,7 @@ public class Roues extends Robot {
                         "Le robot à roues ne peut se déplacer que sur du terrain libre ou dans des zones d'habitations");
             }
         } catch (RobotTerrainException e) {
-            System.out.println(e.getMessage());
+            System.err.println(e.getMessage());
         }
     }
 
@@ -39,13 +35,8 @@ public class Roues extends Robot {
         return (targetPosition.getNature() == NatureTerrain.TERRAIN_LIBRE || targetPosition.getNature() == NatureTerrain.HABITAT);
     }
 
-    public Roues(Case position) {
-        setPosition(position);
-        this.type = RobotType.ROUES;
-        this.baseVitesse = 80;
-        this.reservoir = 0;
-        // 30 minutes
-        this.tempsRemplissage = 10 * 60;
+    @Override
+    public String getName() {
+        return super.getName() + " à roues";
     }
-
 }

@@ -3,16 +3,25 @@ package main.modele.robot;
 import main.modele.Case;
 import main.modele.NatureTerrain;
 
+/**
+ * Classe représentant un robot à pattes.
+ */
 public class Pattes extends Robot {
 
-    public void setVitesse(int vitesse) {
-        this.baseVitesse = vitesse;
+    /**
+     * Constructeur de la classe Robot à Pattes
+     * @param position La position du robot
+     */
+    public Pattes(Case position) {
+        setPosition(position);
+        this.type = RobotType.PATTES;
+        this.baseVitesse = 100;
+        this.reservoir = 0;
+        // 30 minutes
+        this.tempsRemplissage = 30 * 60;
     }
 
-    public double getVitesse() {
-        return getVitesse(this.position);
-    }
-
+    @Override
     public double getVitesse(Case position) {
         if (position.getNature() == NatureTerrain.ROCHE) {
             // vitesse réduite à 10 sur la roche
@@ -43,13 +52,8 @@ public class Pattes extends Robot {
         return (targetPosition.getNature() != NatureTerrain.EAU);
     }
 
-    public Pattes(Case position) {
-        setPosition(position);
-        this.type = RobotType.PATTES;
-        this.baseVitesse = 100;
-        this.reservoir = 0;
-        // 30 minutes
-        this.tempsRemplissage = 30 * 60;
+    @Override
+    public String getName() {
+        return super.getName() + " à pattes";
     }
-
 }

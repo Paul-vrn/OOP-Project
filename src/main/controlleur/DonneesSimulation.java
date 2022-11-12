@@ -1,4 +1,4 @@
-package main.simulateur;
+package main.controlleur;
 
 import java.util.List;
 

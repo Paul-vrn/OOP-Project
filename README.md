@@ -5,23 +5,20 @@ Réalisé par Paul Vernin, Marc Félix-Henry et Paul Bonmariage.
 Ensimag 2A POO - TP 2022/23
 ============================
 
-- src: contient les classes fournies par les enseignants
-  -> LecteurDonnees.java         : lit tous les elements d'un fichier de description de donnees (cases, incendies et robots) et les affiche.
-                                   A vous de MODIFIER cette classe (ou en ecrire une nouvelle) pour creer les objets correspondants à vos propres classes
-  -> test.TestLecteurDonnees.java     : lit un fichier de donnees et affiche son contenu
-  -> test.TestInvader                 : cree un simulateur "mini Invaders" dans une fenetre graphique
+## Modèle MVC
+On s'est inspiré du très connu modèle MVC (Model View Controller) pour structurer notre projet. Le modèle MVC est un modèle de conception logiciel qui sépare les données d'une application, la logique métier et la présentation. Il est composé de trois éléments : le modèle, la vue et le contrôleur.\
+Dans notre cas la partie vue était déjà réalisé en grande partie à l'aide de la librairie GUI fournie par les enseignants.\
+La partie modèle est représenté par l'ensemble des classes du package model.\
+La partie contrôleur est représenté par l'ensemble des classes du package controller.
 
-- cartes: quelques exemples de fichiers de donnees
+## Linting
+Nous avons utilisé le linter SonarLint pour vérifier la qualité du code.\
+Cela nous a permi de structurer notre code pour suivre les conventions de programmation en Java comme par exemple le nommage des variables, des fonctions, des classes, etc.\
+Et surotut faire en sorte que chaque membre de l'équipe suive les mêmes conventions de programmation pour avoir un code plus lisible et plus facile à maintenir.
 
-- bin/gui.jar: archive Java contenant les classes de l'interface graphique. Voir un exemple d'utilisation dans test.TestInvader.java
+## Testing
+Pour tester la partie modèle de l'application nous avons utilisé le framework JUnit afin de réaliser principalement des tests unitaires.
 
-- doc: la documentation (API) des classes de l'interface graphique contenues dans gui.jar. Point d'entrée: index.html
 
-- Makefile: quelques explications sur la compilation en ligne, notamment la notion de classpath et l'utilisation de gui.jar
-
-## Travailler sur le projet
-
-Installer SonnarLint pour faire du jolie code.  
-Pour chaque nouvelle classe :
-- Créer un fichier test correspondant dans le dossier test
-- Faire la javadoc de la classe
+Intellij IDEA
+Logger

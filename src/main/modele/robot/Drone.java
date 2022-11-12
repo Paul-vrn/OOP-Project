@@ -2,9 +2,31 @@ package main.modele.robot;
 
 import main.modele.Case;
 
+/**
+ * Classe représentant un Drone.
+ */
 public class Drone extends Robot {
 
-    // definition of the abstract setVitesse method
+    /**
+     * Constructeur de la classe Drone
+     * @param position La position du robot
+     */
+    public Drone(Case position) {
+        setPosition(position);
+        this.type = RobotType.DRONE;
+        this.baseVitesse = 100;
+        this.reservoir = 0;
+        // 30 minutes
+        this.tempsRemplissage = 30 * 60;
+    }
+
+
+    /**
+     * Définit la vitesse du robot Drone.
+     * @param vitesse La vitesse du robot Drone.
+     * @throws RobotMaxSpeedException Si la vitesse du robot dépasse 100.
+     */
+    @Override
     public void setVitesse(int vitesse) {
         // if the speed is greater than the 100, throw an exception
         if (vitesse > 150) {
@@ -17,15 +39,6 @@ public class Drone extends Robot {
             this.baseVitesse = vitesse;
         }
     }
-
-    public double getVitesse() {
-        return getVitesse(this.position);
-    }
-
-    public double getVitesse(Case position) {
-        return this.baseVitesse;
-    }
-
     public void setPosition(Case position) {
         this.position = position;
     }
@@ -36,14 +49,6 @@ public class Drone extends Robot {
                 + Math.abs(this.position.getColonne() - targetPosition.getColonne()) == 1);
     }
 
-    public Drone(Case position) {
-        setPosition(position);
-        this.type = RobotType.DRONE;
-        this.baseVitesse = 100;
-        this.reservoir = 0;
-        // 30 minutes
-        this.tempsRemplissage = 30 * 60;
-    }
 
 
     @Override
@@ -51,4 +56,6 @@ public class Drone extends Robot {
         return "images/drone.gif";
     }
 
+    @Override
+    public String getName() { return "Drone"; }
 }

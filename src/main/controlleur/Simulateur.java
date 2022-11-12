@@ -1,20 +1,18 @@
-package main.simulateur;
+package main.controlleur;
 
 import gui.*;
-import gui.Rectangle;
+
 import java.awt.*;
-import java.awt.image.ImageObserver;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
-import java.util.LinkedList;
 import java.util.List;
 import java.util.zip.DataFormatException;
 
 import main.modele.Carte;
 import main.modele.Incendie;
-import main.simulateur.evenement.Evenement;
-import main.simulateur.evenement.Move;
-import main.simulateur.io.LecteurDonnees;
+import main.controlleur.evenement.Evenement;
+import main.controlleur.evenement.Move;
+import main.controlleur.io.LecteurDonnees;
 import main.modele.robot.Robot;
 
 class SimulateurTest {
@@ -43,9 +41,6 @@ public class Simulateur implements Simulable {
     private GUISimulator gui;
     private DonneesSimulation donneesSimulation;
     private int tempsEcoule;
-    int xMin;
-    int yMin;
-
     private List<Evenement> evenements;
     public Simulateur(GUISimulator gui, DonneesSimulation donneesSimulation) {
         this.gui = gui;
@@ -63,8 +58,6 @@ public class Simulateur implements Simulable {
         Carte carte = donneesSimulation.getCarte();
         int caseWidth = gui.getPanelWidth() / carte.getNbColonnes();
         int caseHeight = gui.getPanelHeight() / carte.getNbLignes();
-        xMin = caseWidth / 2;
-        yMin = caseHeight / 2;
         // dessine la carte
         for (int i = 0; i < carte.getNbLignes(); i++) {
             for (int j = 0; j < carte.getNbColonnes(); j++) {
@@ -98,6 +91,11 @@ public class Simulateur implements Simulable {
                     caseWidth,
                     caseHeight,
                     null));
+            gui.addGraphicalElement(new Text(
+                    robot.getPosition().getLigne() * caseWidth + caseWidth / 2,
+                    robot.getPosition().getColonne() * caseHeight + (int)(caseHeight / 1.2),
+                    Color.WHITE,
+                    robot.getName()));
         }
     }
     @Override
@@ -108,14 +106,11 @@ public class Simulateur implements Simulable {
         }
         evenements.get(tempsEcoule).execute();
         incrementeTemps();
-        // TODO faire qlq chose quand on appuie sur next
-
         draw();
     }
 
     @Override
     public void restart() {
-        // TODO reset la simulation
         draw();
     }
 
@@ -142,6 +137,6 @@ public class Simulateur implements Simulable {
     }
     public void simulationTerminee() {
         System.out.println("Simulation terminée");
-        this.restart();
+        System.exit(0);
     }
 }
