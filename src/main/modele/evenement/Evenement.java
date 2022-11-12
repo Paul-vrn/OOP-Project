@@ -1,4 +1,4 @@
-package main.controlleur.evenement;
+package main.modele.evenement;
 
 public abstract class Evenement {
     protected int date;

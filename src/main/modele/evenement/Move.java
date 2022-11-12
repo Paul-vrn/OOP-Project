@@ -1,4 +1,4 @@
-package main.controlleur.evenement;
+package main.modele.evenement;
 import main.modele.robot.Robot;
 import main.modele.Case;
 

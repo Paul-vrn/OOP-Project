@@ -12,6 +12,7 @@ public abstract class Robot {
     protected int tempsRemplissage;
 
     protected String imageUrl = "images/robot.gif";
+
     protected String name = "Robot";
 
     public Case getPosition() {

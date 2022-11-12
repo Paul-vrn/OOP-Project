@@ -3,56 +3,44 @@ package main.controlleur;
 import gui.*;
 
 import java.awt.*;
-import java.io.FileNotFoundException;
-import java.util.ArrayList;
+import java.util.*;
 import java.util.List;
-import java.util.zip.DataFormatException;
 
+import main.controlleur.navigation.ChefRobot;
+import main.controlleur.navigation.NavigationStrategy;
 import main.modele.Carte;
 import main.modele.Incendie;
-import main.controlleur.evenement.Evenement;
-import main.controlleur.evenement.Move;
-import main.controlleur.io.LecteurDonnees;
+import main.modele.evenement.Evenement;
 import main.modele.robot.Robot;
 
-class SimulateurTest {
-    public static void main(String[] args) throws DataFormatException, FileNotFoundException {
-        // crée la fenêtre graphique dans laquelle dessiner
-        GUISimulator gui = new GUISimulator(800, 600, Color.BLACK);
-        // crée l'invader, en l'associant à la fenêtre graphique précédente
-        try {
-            DonneesSimulation data = LecteurDonnees.getData(args[0]);
-            Simulateur simulateur = new Simulateur(gui, data);
-            simulateur.ajouteEvenement(new Move(0, data.getRobots().get(0), data.getCarte().getCase(3,4)));
-            simulateur.ajouteEvenement(new Move(1, data.getRobots().get(0), data.getCarte().getCase(3,5)));
-            simulateur.ajouteEvenement(new Move(2, data.getRobots().get(0), data.getCarte().getCase(3,6)));
-            simulateur.ajouteEvenement(new Move(3, data.getRobots().get(0), data.getCarte().getCase(3,7)));
-            simulateur.ajouteEvenement(new Move(4, data.getRobots().get(0), data.getCarte().getCase(3,8)));
-            simulateur.ajouteEvenement(new Move(5, data.getRobots().get(0), data.getCarte().getCase(3,9)));
-        } catch (DataFormatException | FileNotFoundException e) {
-            e.printStackTrace();
-            System.exit(1);
-        }
-    }
-}
 
 public class Simulateur implements Simulable {
 
     private GUISimulator gui;
     private DonneesSimulation donneesSimulation;
     private int tempsEcoule;
-    private List<Evenement> evenements;
-    public Simulateur(GUISimulator gui, DonneesSimulation donneesSimulation) {
+    private Map<Integer, List<Evenement>> evenements;
+
+    private ChefRobot chefRobot;
+    /**
+     * Constructeur de la classe Simulateur
+     * @param gui l'interface graphique
+     * @param donneesSimulation les données de la simulation
+     */
+    public Simulateur(GUISimulator gui, DonneesSimulation donneesSimulation, NavigationStrategy navigationStrategy) {
         this.gui = gui;
         gui.setSimulable(this);
-
         this.donneesSimulation = donneesSimulation;
+        this.chefRobot = new ChefRobot(navigationStrategy);
         this.tempsEcoule = 0;
-        this.evenements = new ArrayList<>();
+        this.evenements = new HashMap<>();
         draw();
     }
 
 
+    /**
+     * Dessine la carte et les robots
+     */
     private void draw() {
         gui.reset();
         Carte carte = donneesSimulation.getCarte();
@@ -104,7 +92,9 @@ public class Simulateur implements Simulable {
             System.out.println("Il n'y a plus d'évènements à afficher/simuler");
             return;
         }
-        evenements.get(tempsEcoule).execute();
+        for (Evenement evenement : evenements.get(tempsEcoule)) {
+            evenement.execute();
+        }
         incrementeTemps();
         draw();
     }
@@ -128,7 +118,8 @@ public class Simulateur implements Simulable {
      * @param e l'événement à ajouter
      */
     public void ajouteEvenement(Evenement e) {
-        this.evenements.add(e);
+
+        this.evenements.computeIfAbsent(e.getDate(), k -> new ArrayList<>()).add(e);
     }
 
 
