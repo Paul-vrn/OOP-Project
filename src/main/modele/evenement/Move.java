@@ -1,6 +1,7 @@
 package main.modele.evenement;
-import main.modele.robot.Robot;
+
 import main.modele.Case;
+import main.modele.robot.Robot;
 
 public class Move extends Evenement{
     private Robot robot;
@@ -13,6 +14,7 @@ public class Move extends Evenement{
         this.robot = robot;
         this.caseCible = caseCible;
     }
+
 
     public void execute() {
         try {

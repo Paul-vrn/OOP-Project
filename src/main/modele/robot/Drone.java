@@ -18,6 +18,8 @@ public class Drone extends Robot {
         this.reservoir = 0;
         // 30 minutes
         this.tempsRemplissage = 30 * 60;
+        this.QuantiteEauParIntervention = 10000;
+        this.TempsIntervention = 30;
     }
 
 

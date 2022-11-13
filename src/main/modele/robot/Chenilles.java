@@ -21,6 +21,8 @@ public class Chenilles extends Robot {
         this.reservoir = 0;
         // 30 minutes
         this.tempsRemplissage = 5 * 60;
+        this.QuantiteEauParIntervention = 100;
+        this.TempsIntervention = 8;
     }
 
     /**

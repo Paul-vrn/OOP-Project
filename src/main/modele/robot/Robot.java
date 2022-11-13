@@ -8,6 +8,9 @@ public abstract class Robot {
     protected Case position;
     protected int reservoir;
     protected int capaciteReservoir;
+
+    protected int QuantiteEauParIntervention;
+    protected int TempsIntervention;
     protected int baseVitesse;
     protected int tempsRemplissage;
 
@@ -51,6 +54,11 @@ public abstract class Robot {
 
     public void print() {
         System.out.println(this);
+    }
+
+    public int EmptyTank(){
+        this.reservoir = this.reservoir - this.QuantiteEauParIntervention;
+        return this.QuantiteEauParIntervention;
     }
 
     public String getImage(){return this.imageUrl;}

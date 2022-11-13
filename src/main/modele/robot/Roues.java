@@ -12,6 +12,8 @@ public class Roues extends Robot {
         this.reservoir = 0;
         // 30 minutes
         this.tempsRemplissage = 10 * 60;
+        this.QuantiteEauParIntervention = 100;
+        this.TempsIntervention = 5;
     }
     public void setPosition(Case position) {
         try {
