@@ -1,6 +1,8 @@
 package main.modele.evenement;
 
 public abstract class Evenement {
+
+
     protected int date;
 
     public Evenement(int date) {

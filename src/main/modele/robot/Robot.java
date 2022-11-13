@@ -46,6 +46,12 @@ public abstract class Robot {
         return this.baseVitesse;
     }
 
+    public boolean IsActionEnCours(){return this.ActionEnCours;}
+
+    public void ActionDebut(){this.ActionEnCours = true;}
+
+    public void ActionFin(){this.ActionEnCours = false;}
+
     public abstract void setPosition(Case position);
 
     public abstract boolean canMoveTo(Case targetPosition);
