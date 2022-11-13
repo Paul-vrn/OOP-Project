@@ -1,5 +1,7 @@
 package main.modele;
 
+import java.util.Objects;
+
 public class Case {
 
     // ATTRIBUTS DES CASES
@@ -39,6 +41,7 @@ public class Case {
         return this.nature;
     }
 
+    @Override
     public String toString() {
         return "main.modele.Case (" + this.ligne + ", " + this.colonne + ") : " + this.nature;
     }
@@ -46,4 +49,20 @@ public class Case {
     public void print() {
         System.out.println(this);
     }
+
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Case)) return false;
+        Case aCase = (Case) o;
+        return ligne == aCase.ligne && colonne == aCase.colonne;
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(ligne, colonne);
+    }
+
+
 }

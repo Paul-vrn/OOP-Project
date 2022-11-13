@@ -1,18 +1,19 @@
 package main.modele;
 
 public class Incendie {
+
+    private int id;
     private Case position;
     private int eauNecessaire;
 
-    private boolean is_handled;
+    private boolean isHandled;
 
-    private boolean is_eteint;
 
-    public Incendie(Case position, int eauNecessaire) {
+    public Incendie(int id, Case position, int eauNecessaire) {
+        this.id = id;
         this.position = position;
         this.eauNecessaire = eauNecessaire;
-        this.is_handled = false;
-        this.is_eteint = false;
+        this.isHandled = false;
     }
 
     public Case getPosition() {
@@ -27,7 +28,6 @@ public class Incendie {
         int res = this.eauNecessaire - QuantiteEau;
         if(res<=0){
             this.eauNecessaire = 0;
-            this.is_eteint = true;
         }
         else{
             this.eauNecessaire = res;
@@ -35,20 +35,19 @@ public class Incendie {
     }
 
     public boolean IsHandled(){
-        return this.is_handled;
+        return this.isHandled;
+    }
+    public void setHandle(boolean handle){
+        this.isHandled = handle;
     }
 
     public boolean IsEteint(){
-        return this.is_eteint;
+        return this.eauNecessaire == 0;
     }
 
     public String toString() {
         return "Incendie (" + this.position.getLigne() + ", " + this.position.getColonne() + ") : "
                 + this.eauNecessaire;
-    }
-
-    public void print() {
-        System.out.println(this);
     }
 
     public String getImage() {

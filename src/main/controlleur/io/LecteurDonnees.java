@@ -220,7 +220,7 @@ public class LecteurDonnees {
             int nbIncendies = scanner.nextInt();
             ArrayList<Incendie> incendies = new ArrayList<Incendie>();
             for (int i = 0; i < nbIncendies; i++) {
-                incendies.add(getIncendie(carte));
+                incendies.add(getIncendie(i, carte));
             }
             return incendies;
 
@@ -261,7 +261,7 @@ public class LecteurDonnees {
     /**
      * Lit et retourne le i-eme incendie
      */
-    private Incendie getIncendie(Carte carte) throws DataFormatException {
+    private Incendie getIncendie(int i, Carte carte) throws DataFormatException {
         ignorerCommentaires();
         try {
             int lig = scanner.nextInt();
@@ -273,7 +273,7 @@ public class LecteurDonnees {
             }
             verifieLigneTerminee();
 
-            return new Incendie(position, eauNecessaire);
+            return new Incendie(i, position, eauNecessaire);
 
         } catch (NoSuchElementException e) {
             throw new DataFormatException("format d'incendie invalide. "
@@ -308,7 +308,7 @@ public class LecteurDonnees {
             int nbRobots = scanner.nextInt();
             ArrayList<Robot> robots = new ArrayList<Robot>();
             for (int i = 0; i < nbRobots; i++) {
-                robots.add(getRobot(carte));
+                robots.add(getRobot(i, carte));
             }
             return robots;
 
@@ -359,7 +359,7 @@ public class LecteurDonnees {
     /**
      * Lit et retourne le i-eme robot
      */
-    private Robot getRobot(Carte carte) throws DataFormatException {
+    private Robot getRobot(int i, Carte carte) throws DataFormatException {
         ignorerCommentaires();
         try {
             int lig = scanner.nextInt();
@@ -370,16 +370,16 @@ public class LecteurDonnees {
             Robot robot = null;
             switch (typeRobot) {
                 case DRONE:
-                    robot = new Drone(position);
+                    robot = new Drone(i, position);
                     break;
                 case ROUES:
-                    robot = new Roues(position);
+                    robot = new Roues(i, position);
                     break;
                 case PATTES:
-                    robot = new Pattes(position);
+                    robot = new Pattes(i, position);
                     break;
                 case CHENILLES:
-                    robot = new Chenilles(position);
+                    robot = new Chenilles(i, position);
                     break;
                 default:
                     throw new DataFormatException("type de robot invalide. "

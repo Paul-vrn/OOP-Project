@@ -12,7 +12,8 @@ public class Pattes extends Robot {
      * Constructeur de la classe Robot à Pattes
      * @param position La position du robot
      */
-    public Pattes(Case position) {
+    public Pattes(int i, Case position) {
+        super(i);
         setPosition(position);
         this.type = RobotType.PATTES;
         this.baseVitesse = 100;

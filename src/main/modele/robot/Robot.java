@@ -1,16 +1,15 @@
 package main.modele.robot;
 
-import main.modele.Carte;
 import main.modele.Case;
+import main.modele.Carte;
 import main.modele.evenement.Evenement;
 
 import java.util.List;
 
 public abstract class Robot {
     // Robots can be Drones or Chenilles or Pattes or Roues
-    protected ArrayList<Evenement> evenements;
-    protected int eventIndex = 0;
 
+    protected int id;
     protected RobotType type;
     protected Case position;
     protected int reservoir;
@@ -21,13 +20,20 @@ public abstract class Robot {
     protected int baseVitesse;
     protected int tempsRemplissage;
 
-    protected boolean ActionEnCours = false;
+    protected List<Evenement> evenements;
+    protected boolean isOccupied;
     public int TimeUntilAvailable = 0;
 
     protected String imageUrl = "images/robot.gif";
 
     protected String name = "Robot";
 
+    public Robot(int id) {
+        this.id = id;
+        this.isOccupied = false;
+    }
+
+    public abstract void setPosition(Case position);
     public Case getPosition() {
         return this.position;
     }
@@ -70,32 +76,23 @@ public abstract class Robot {
         return this.type;
     }
 
-    public boolean IsActionEnCours(){return this.ActionEnCours;}
-
+    public boolean isOccupied(){return this.isOccupied;}
+    public void setOccupied(boolean occupied){this.isOccupied = occupied;}
     public int getTimeUntilAvailable(){return TimeUntilAvailable;}
 
     public void setTimeUntilAvailable(int time){
         TimeUntilAvailable = time;
     }
 
-    public void ActionDebut(){this.ActionEnCours = true;}
-
-    public void ActionFin(){this.ActionEnCours = false;}
-
     public void RemplirReservoir(){
         this.reservoir = this.capaciteReservoir;
     }
 
-    public abstract void setPosition(Case position);
 
     public abstract boolean canMoveTo(Case targetPosition);
 
     public String toString() {
         return "Robot " + this.type + " en " + this.position + " avec " + this.reservoir + "L";
-    }
-
-    public void print() {
-        System.out.println(this);
     }
 
     public int EmptyTank(){
@@ -111,13 +108,14 @@ public abstract class Robot {
     public String getName() { return name; }
 
 
-    public void AjouterEvent(Evenement event){
+    public void addEvenement(Evenement event){
         evenements.add(event);
     }
-
+    public void addEvenements(List<Evenement> events) {
+        this.evenements.addAll(events);
+    }
     public List<Evenement> getEvenements(){
         return evenements;
     }
-
 
 }

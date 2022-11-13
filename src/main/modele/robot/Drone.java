@@ -11,7 +11,8 @@ public class Drone extends Robot {
      * Constructeur de la classe Drone
      * @param position La position du robot
      */
-    public Drone(Case position) {
+    public Drone(int i, Case position) {
+        super(i);
         setPosition(position);
         this.type = RobotType.DRONE;
         this.baseVitesse = 100;

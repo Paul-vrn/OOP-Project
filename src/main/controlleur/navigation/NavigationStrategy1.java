@@ -1,11 +1,12 @@
 package main.controlleur.navigation;
 
 import main.controlleur.DonneesSimulation;
-import main.modele.Case;
+import main.modele.Incendie;
 import main.modele.evenement.Evenement;
+import main.modele.robot.Robot;
 
-import java.util.LinkedList;
-import java.util.List;
+import java.util.*;
+
 
 /**
  * Stratégie de navigation 1
@@ -13,19 +14,39 @@ import java.util.List;
 public class NavigationStrategy1 implements NavigationStrategy {
 
 
-    /**
-     * Calcule le chemin le plus court entre deux cases
-     *
-     * @param depart            la case de départ
-     * @param arrivee           la case d'arrivée
-     * @param donneesSimulation les données de la simulation
-     * @return le chemin le plus court entre les deux cases
-     */
     @Override
-    public List<Evenement> plusCourtChemin(Case depart, Case arrivee, DonneesSimulation donneesSimulation) {
+    public Chemin plusCourtChemin(Robot robot, Incendie incendie, DonneesSimulation donneesSimulation) {
         List<Evenement> events = new LinkedList<>();
+        int duration = 0;
         // TODO : implémenter l'algorithme de Dijkstra pour trouver le chemin le plus court en prenant en compte :
         // - les obstacles (mur et eau)
-        return events;
+
+
+        return new Chemin(robot, incendie, duration, events);
     }
+
+    @Override
+    public List<Chemin> init(DonneesSimulation donneesSimulation) {
+        List<Chemin> chemins = new LinkedList<>();
+        for (Incendie incendie : donneesSimulation.getIncendies()) {
+            for (Robot robot : donneesSimulation.getRobots()) {
+                Chemin chemin = plusCourtChemin(robot, incendie, donneesSimulation);
+                chemins.add(chemin);
+            }
+        }
+        Collections.sort(chemins, Chemin.Comparators.DURATION);
+        return chemins;
+    }
+
+    public void distribution(ChefRobot chef, List<Chemin> chemins) {
+        for (Chemin chemin : chemins) {
+            if (!chemin.getRobot().isOccupied()) {
+                chemin.getRobot().addEvenements(chemin.getEvents());
+                chemin.getRobot().setOccupied(true);
+                chemin.getIncendie().setHandle(true);
+            }
+        }
+    }
+
+
 }

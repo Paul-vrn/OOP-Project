@@ -5,7 +5,8 @@ import main.modele.NatureTerrain;
 
 public class Roues extends Robot {
 
-    public Roues(Case position) {
+    public Roues(int i, Case position) {
+        super(i);
         setPosition(position);
         this.type = RobotType.ROUES;
         this.baseVitesse = 80;
