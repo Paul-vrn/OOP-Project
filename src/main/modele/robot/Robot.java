@@ -1,10 +1,16 @@
 package main.modele.robot;
 
-import main.modele.Case;
 import main.modele.Carte;
+import main.modele.Case;
+import main.modele.evenement.Evenement;
+
+import java.util.List;
 
 public abstract class Robot {
     // Robots can be Drones or Chenilles or Pattes or Roues
+    protected List<Evenement> evenements;
+    protected Evenement currentEvent;
+
     protected RobotType type;
     protected Case position;
     protected int reservoir;
@@ -16,7 +22,7 @@ public abstract class Robot {
     protected int tempsRemplissage;
 
     protected boolean ActionEnCours = false;
-    public int AvailableAt = 0;
+    public int TimeUntilAvailable = 0;
 
     protected String imageUrl = "images/robot.gif";
 
@@ -66,7 +72,11 @@ public abstract class Robot {
 
     public boolean IsActionEnCours(){return this.ActionEnCours;}
 
-    public int AvailableAt(){return AvailableAt;}
+    public int getTimeUntilAvailable(){return TimeUntilAvailable;}
+
+    public void setTimeUntilAvailable(int time){
+        TimeUntilAvailable = time;
+    }
 
     public void ActionDebut(){this.ActionEnCours = true;}
 

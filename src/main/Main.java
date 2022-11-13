@@ -5,7 +5,6 @@ import main.controlleur.DonneesSimulation;
 import main.controlleur.Simulateur;
 import main.controlleur.navigation.NavigationStrategy;
 import main.controlleur.navigation.NavigationStrategy1;
-import main.modele.evenement.Move;
 import main.controlleur.io.LecteurDonnees;
 
 import java.awt.*;

@@ -1,21 +1,30 @@
 package main.modele.evenement;
 
+import main.modele.robot.Robot;
+
 public abstract class Evenement {
 
 
-    protected int date;
+    protected int dateStart;
 
-    public Evenement(int date) {
-        this.date = date;
+    protected int duration;
+
+    protected Robot robot;
+
+
+    public Evenement(int dateStart, int duration, Robot robot) {
+        this.dateStart = dateStart;
+        this.duration = duration;
+        this.robot = robot;
     }
 
     public int getDate() {
-        return this.date;
+        return this.dateStart;
     }
 
     public abstract void execute();
 
     public String toString() {
-        return "Evenement (" + this.date + ")";
+        return "Evenement (" + this.dateStart + ")";
     }
 }
