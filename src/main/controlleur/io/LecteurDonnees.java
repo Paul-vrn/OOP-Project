@@ -1,15 +1,19 @@
 package main.controlleur.io;
 
-import java.io.*;
-import java.util.*;
-import java.util.zip.DataFormatException;
-
+import main.controlleur.DonneesSimulation;
 import main.modele.Carte;
 import main.modele.Case;
-import main.controlleur.DonneesSimulation;
 import main.modele.Incendie;
 import main.modele.NatureTerrain;
 import main.modele.robot.*;
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.ArrayList;
+import java.util.Locale;
+import java.util.NoSuchElementException;
+import java.util.Scanner;
+import java.util.zip.DataFormatException;
 
 /**
  * Lecteur de cartes au format spectifié dans le sujet.
@@ -62,8 +66,8 @@ public class LecteurDonnees {
         try {
             LecteurDonnees lecteur = new LecteurDonnees(fichierDonnees);
             Carte carte = lecteur.getCarte();
-            ArrayList<Incendie> incendies = lecteur.getIncendies();
-            ArrayList<Robot> robots = lecteur.getRobots();
+            ArrayList<Incendie> incendies = lecteur.getIncendies(carte);
+            ArrayList<Robot> robots = lecteur.getRobots(carte);
 
             return new DonneesSimulation(carte, incendies, robots);
         } catch (Exception e) {
@@ -210,13 +214,13 @@ public class LecteurDonnees {
     /**
      * Lit et retourne les incendies
      */
-    private ArrayList<Incendie> getIncendies() throws DataFormatException {
+    private ArrayList<Incendie> getIncendies(Carte carte) throws DataFormatException {
         ignorerCommentaires();
         try {
             int nbIncendies = scanner.nextInt();
             ArrayList<Incendie> incendies = new ArrayList<Incendie>();
             for (int i = 0; i < nbIncendies; i++) {
-                incendies.add(getIncendie());
+                incendies.add(getIncendie(carte));
             }
             return incendies;
 
@@ -257,12 +261,12 @@ public class LecteurDonnees {
     /**
      * Lit et retourne le i-eme incendie
      */
-    private Incendie getIncendie() throws DataFormatException {
+    private Incendie getIncendie(Carte carte) throws DataFormatException {
         ignorerCommentaires();
         try {
             int lig = scanner.nextInt();
             int col = scanner.nextInt();
-            Case position = new Case(lig, col);
+            Case position = carte.getCase(lig,col);
             int eauNecessaire = scanner.nextInt();
             if (eauNecessaire <= 0) {
                 throw new DataFormatException("incendie nb litres pour eteindre doit etre > 0");
@@ -298,13 +302,13 @@ public class LecteurDonnees {
     /**
      * Lit et retourne les robots
      */
-    private ArrayList<Robot> getRobots() throws DataFormatException {
+    private ArrayList<Robot> getRobots(Carte carte) throws DataFormatException {
         ignorerCommentaires();
         try {
             int nbRobots = scanner.nextInt();
             ArrayList<Robot> robots = new ArrayList<Robot>();
             for (int i = 0; i < nbRobots; i++) {
-                robots.add(getRobot());
+                robots.add(getRobot(carte));
             }
             return robots;
 
@@ -355,12 +359,12 @@ public class LecteurDonnees {
     /**
      * Lit et retourne le i-eme robot
      */
-    private Robot getRobot() throws DataFormatException {
+    private Robot getRobot(Carte carte) throws DataFormatException {
         ignorerCommentaires();
         try {
             int lig = scanner.nextInt();
             int col = scanner.nextInt();
-            Case position = new Case(lig, col);
+            Case position = carte.getCase(lig,col);
             String type = scanner.next();
             RobotType typeRobot = RobotType.valueOf(type);
             Robot robot = null;
