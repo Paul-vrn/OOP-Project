@@ -8,8 +8,8 @@ import java.util.List;
 
 public abstract class Robot {
     // Robots can be Drones or Chenilles or Pattes or Roues
-    protected List<Evenement> evenements;
-    protected Evenement currentEvent;
+    protected ArrayList<Evenement> evenements;
+    protected int eventIndex = 0;
 
     protected RobotType type;
     protected Case position;
@@ -109,4 +109,15 @@ public abstract class Robot {
 
     public String getImage(){return this.imageUrl;}
     public String getName() { return name; }
+
+
+    public void AjouterEvent(Evenement event){
+        evenements.add(event);
+    }
+
+    public List<Evenement> getEvenements(){
+        return evenements;
+    }
+
+
 }

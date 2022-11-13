@@ -23,6 +23,7 @@ public class Chenilles extends Robot {
         this.tempsRemplissage = 5 * 60;
         this.QuantiteEauParIntervention = 100;
         this.TempsIntervention = 8;
+        //this.evenements = new ArrayList<Evenement>();
     }
 
     /**
