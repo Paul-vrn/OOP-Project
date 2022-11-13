@@ -1,7 +1,9 @@
 package main.modele.evenement;
 
 import main.modele.Case;
+import main.modele.Carte;
 import main.modele.robot.Robot;
+import main.modele.Direction;
 
 public class Move extends Evenement{
     private Robot robot;
@@ -9,10 +11,21 @@ public class Move extends Evenement{
     /**
 
      */
-    public Move(int date, Robot robot, Case caseCible){
+    public StartMove(int date, Robot robot, Case caseCible){
         super(date);
         this.robot = robot;
         this.caseCible = caseCible;
+    }
+
+    public Move(int date, Robot robot, Carte carte, Direction direction){
+        super(date);
+        this.robot = robot;
+        try{
+            this.caseCible = carte.getCase(-1,-1);
+        }
+        catch(ArrayIndexOutOfBoundsException e){
+            System.err.println("Tentative de bouger en dehors de la carte");
+        }
     }
 
 

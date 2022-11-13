@@ -14,6 +14,8 @@ public abstract class Robot {
     protected int baseVitesse;
     protected int tempsRemplissage;
 
+    protected boolean ActionEnCours = false;
+
     protected String imageUrl = "images/robot.gif";
 
     protected String name = "Robot";
