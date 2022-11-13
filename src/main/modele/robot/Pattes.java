@@ -58,4 +58,9 @@ public class Pattes extends Robot {
     public String getName() {
         return super.getName() + " à pattes";
     }
+
+    @Override
+    public boolean IsEmpty(){
+        return false;
+    }
 }

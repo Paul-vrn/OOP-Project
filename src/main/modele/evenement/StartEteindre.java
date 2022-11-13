@@ -3,12 +3,12 @@ package main.modele.evenement;
 import main.modele.robot.Robot;
 import main.modele.Incendie;
 
-public class Eteindre extends Evenement{
+public class StartEteindre extends Evenement{
 
     private Robot robot;
     private Incendie incendie;
 
-    public Eteindre(int date, Robot robot, Incendie incendie){
+    public StartEteindre(int date, Robot robot, Incendie incendie){
         super(date);
         this.robot = robot;
         this.incendie = incendie;
@@ -20,7 +20,20 @@ public class Eteindre extends Evenement{
     et on diminue la quantité d'eau nécessaire à éteindre l'incendie dans les attributs de l'incendie
      */
     public void execute() {
-        int EauDeverse = this.robot.EmptyTank();
-        this.incendie.Eteindre(EauDeverse);
+        try{
+            if (robot.getPosition().getColonne() != incendie.getPosition().getColonne() || robot.getPosition().getLigne()!=incendie.getPosition().getLigne()) {
+                throw new NoIncendieException("Le robot n'est pas sur la même case que l'incendie");
+            } else if (incendie.IsEteint()) {
+                throw new NoIncendieException("L'incendie est déjà éteint");
+            } else if(robot.IsEmpty()){
+                throw new NoIncendieException("Le robot est vide");
+            }
+            else {
+                this.robot.ActionDebut();
+            }
+        }
+        catch(NoIncendieException e){
+            System.err.println(e.getMessage());
+        }
     }
 }

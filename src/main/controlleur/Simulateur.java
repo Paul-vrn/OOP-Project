@@ -1,17 +1,22 @@
 package main.controlleur;
 
-import gui.*;
-
-import java.awt.*;
-import java.util.*;
-import java.util.List;
-
+import gui.GUISimulator;
+import gui.ImageElement;
+import gui.Simulable;
+import gui.Text;
 import main.controlleur.navigation.ChefRobot;
 import main.controlleur.navigation.NavigationStrategy;
 import main.modele.Carte;
+import main.modele.Case;
 import main.modele.Incendie;
-import main.modele.evenement.Evenement;
+import main.modele.evenement.*;
 import main.modele.robot.Robot;
+
+import java.awt.*;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 
 public class Simulateur implements Simulable {
@@ -61,13 +66,14 @@ public class Simulateur implements Simulable {
         // dessine les incendies
         List<Incendie> incendies = donneesSimulation.getIncendies();
         for (Incendie incendie : incendies) {
+            if(!incendie.IsEteint()){
             gui.addGraphicalElement(new ImageElement(
                     incendie.getPosition().getLigne() * caseWidth,
                     incendie.getPosition().getColonne() * caseHeight,
                     incendie.getImage(),
                     caseWidth,
                     caseHeight,
-                    null));
+                    null));}
         }
         // dessine les robots
         List<Robot> robots = donneesSimulation.getRobots();
@@ -88,12 +94,10 @@ public class Simulateur implements Simulable {
     }
     @Override
     public void next() {
-        if(tempsEcoule >= evenements.size()){
-            System.out.println("Il n'y a plus d'évènements à afficher/simuler");
-            return;
-        }
-        for (Evenement evenement : evenements.get(tempsEcoule)) {
-            evenement.execute();
+        if(evenements.get(tempsEcoule)!=null) {
+            for (Evenement evenement : evenements.get(tempsEcoule)) {
+                evenement.execute();
+            }
         }
         incrementeTemps();
         draw();
@@ -120,6 +124,20 @@ public class Simulateur implements Simulable {
     public void ajouteEvenement(Evenement e) {
 
         this.evenements.computeIfAbsent(e.getDate(), k -> new ArrayList<>()).add(e);
+    }
+
+    public void AjouteMouvement(int dateStart, Robot robot, Case CaseCible){
+        StartMove start = new StartMove(dateStart, robot, CaseCible);
+        EndMove end = new EndMove((int)Math.round(dateStart + this.donneesSimulation.getCarte().getTailleCases()/(robot.getVitesse()/3.6)),robot,CaseCible);
+        this.evenements.computeIfAbsent(start.getDate(), k -> new ArrayList<>()).add(start);
+        this.evenements.computeIfAbsent(end.getDate(), k -> new ArrayList<>()).add(end);
+    }
+
+    public void AjouteEteindre(int dateStart, Robot robot, Incendie incendie){
+        StartEteindre start = new StartEteindre(dateStart, robot, incendie);
+        EndEteindre end = new EndEteindre(dateStart + robot.getTempsIntervention(),robot, incendie);
+        this.evenements.computeIfAbsent(start.getDate(), k -> new ArrayList<>()).add(start);
+        this.evenements.computeIfAbsent(end.getDate(), k -> new ArrayList<>()).add(end);
     }
 
 

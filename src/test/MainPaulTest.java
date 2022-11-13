@@ -5,7 +5,6 @@ import main.controlleur.DonneesSimulation;
 import main.controlleur.Simulateur;
 import main.controlleur.io.LecteurDonnees;
 import main.controlleur.navigation.NavigationStrategy;
-import main.modele.evenement.*;
 
 import java.awt.*;
 import java.io.FileNotFoundException;
@@ -26,9 +25,18 @@ public class MainPaulTest {
             DonneesSimulation data = LecteurDonnees.getData(path);
             NavigationStrategy navigationStrategy = new NavigationStrategyPaulTest();
             Simulateur simu = new Simulateur(gui, data, navigationStrategy);
-            simu.ajouteEvenement(new Move(0, data.getRobots().get(0), data.getCarte().getCase(3,4)));
-            simu.ajouteEvenement(new Move(1, data.getRobots().get(0), data.getCarte().getCase(3,5)));
-            simu.ajouteEvenement(new Move(1, data.getRobots().get(1), data.getCarte().getCase(3,4)));
+            int temps = 0;
+            simu.AjouteMouvement(temps, data.getRobots().get(0), data.getCarte().getCase(4,3));
+            temps = temps + data.getRobots().get(0).getTempsDeplacement(data.getCarte(),data.getCarte().getCase(4,3));
+            simu.AjouteMouvement(temps, data.getRobots().get(0), data.getCarte().getCase(5,3));
+            temps = temps + data.getRobots().get(0).getTempsDeplacement(data.getCarte(),data.getCarte().getCase(5,3));
+            simu.AjouteMouvement(temps, data.getRobots().get(0), data.getCarte().getCase(5,4));
+            temps = temps + data.getRobots().get(0).getTempsDeplacement(data.getCarte(),data.getCarte().getCase(5,4));
+            simu.AjouteMouvement(temps, data.getRobots().get(0), data.getCarte().getCase(5,5));
+            temps = temps + data.getRobots().get(0).getTempsDeplacement(data.getCarte(),data.getCarte().getCase(5,5))+10;
+            data.getIncendies().get(4).print();
+            simu.AjouteEteindre(temps, data.getRobots().get(0), data.getIncendies().get(4));
+
         } catch (DataFormatException | FileNotFoundException e) {
             e.printStackTrace();
             System.exit(1);

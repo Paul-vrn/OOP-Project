@@ -14,15 +14,16 @@ public class EndMove extends Evenement{
         this.CaseCible = CaseCible;
     }
     public void execute() {
-        try {
-            if (this.robot.canMoveTo(CaseCible)) {
-                robot.setPosition(CaseCible);
-                robot.ActionFin();
-            } else {
-                throw new IllegalMove("Tentative de mouvement interdit");
-            }
-        } catch (IllegalMove e) {
-            System.err.println(e.getMessage());
-        }
+        print();
+        robot.setPosition(CaseCible);
+        robot.ActionFin();
+    }
+
+    public String toString(){
+        return "Fin mouvement -> date : "+date+" Position robot : "+robot.getPosition().toString()+" Case cible : "+CaseCible.toString();
+    }
+
+    public void print(){
+        System.out.println(this.toString());
     }
 }

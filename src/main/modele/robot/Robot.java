@@ -1,6 +1,7 @@
 package main.modele.robot;
 
 import main.modele.Case;
+import main.modele.Carte;
 
 public abstract class Robot {
     // Robots can be Drones or Chenilles or Pattes or Roues
@@ -15,6 +16,7 @@ public abstract class Robot {
     protected int tempsRemplissage;
 
     protected boolean ActionEnCours = false;
+    public int AvailableAt = 0;
 
     protected String imageUrl = "images/robot.gif";
 
@@ -46,11 +48,33 @@ public abstract class Robot {
         return this.baseVitesse;
     }
 
+    public int getTempsDeplacement(Carte carte, Case position){
+        return (int)Math.round(carte.getTailleCases()/(getVitesse(position)/3.6));
+    }
+
+    public int getTempsDeplacement(Carte carte){
+        return getTempsDeplacement(carte, this.position);
+    }
+
+    public int getTempsIntervention(){
+        return this.TempsIntervention;
+    }
+
+    public RobotType getType(){
+        return this.type;
+    }
+
     public boolean IsActionEnCours(){return this.ActionEnCours;}
+
+    public int AvailableAt(){return AvailableAt;}
 
     public void ActionDebut(){this.ActionEnCours = true;}
 
     public void ActionFin(){this.ActionEnCours = false;}
+
+    public void RemplirReservoir(){
+        this.reservoir = this.capaciteReservoir;
+    }
 
     public abstract void setPosition(Case position);
 
@@ -67,6 +91,10 @@ public abstract class Robot {
     public int EmptyTank(){
         this.reservoir = this.reservoir - this.QuantiteEauParIntervention;
         return this.QuantiteEauParIntervention;
+    }
+
+    public boolean IsEmpty(){
+        return reservoir==0;
     }
 
     public String getImage(){return this.imageUrl;}
