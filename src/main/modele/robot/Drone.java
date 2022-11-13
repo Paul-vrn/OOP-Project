@@ -15,7 +15,7 @@ public class Drone extends Robot {
         setPosition(position);
         this.type = RobotType.DRONE;
         this.baseVitesse = 100;
-        this.reservoir = 0;
+        this.reservoir = 10000;
         // 30 minutes
         this.tempsRemplissage = 30 * 60;
         this.QuantiteEauParIntervention = 10000;

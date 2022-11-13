@@ -18,7 +18,7 @@ public class Chenilles extends Robot {
         setPosition(position);
         this.type = RobotType.CHENILLES;
         this.baseVitesse = 60;
-        this.reservoir = 0;
+        this.reservoir = 2000;
         // 30 minutes
         this.tempsRemplissage = 5 * 60;
         this.QuantiteEauParIntervention = 100;
