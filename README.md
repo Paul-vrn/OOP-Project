@@ -25,5 +25,14 @@ Nous avons utilisé une implémentation de la classe PriorityQueue fournie par l
 En s'inspirant du design pattern Strategy nous avons implémenté deux stratégies pour calculer le plus court chemin :\
 (En apprendre plus sur le design pattern Strategy : https://refactoring.guru/design-patterns/strategy)\
 
+## Gestion des robots par le Chef robot (Observer)
+On voulait éviter un problème connu dans les applications de ce genre, c'est le spam pour connaître l'état.\
+C'est à dire qu'avec une implémentation simplicite, à chaque appel de la fonction next() qui change de date, le chef robot va aller regarder l'état de tous les robots pour savoir s'ils sont occupés et de tous les incendies pour savoir s'ils sont pris en change.\
+Si par exemple le temps qu'un robot X éteigne le feu Y prend 300 jours, le chef robot va aller demander 300 fois au robot s'il a fini d'éteindre le feu et 300 fois à l'incendie s'il est éteint.\
+
+Pour palier à ce problème, on a implémenté le design pattern Observer.\
+En apprendre plus sur le design pattern Observer : https://refactoring.guru/design-patterns/observer\
+
+
 Intellij IDEA
 Logger
