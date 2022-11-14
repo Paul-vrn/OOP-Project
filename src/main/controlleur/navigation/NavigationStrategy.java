@@ -26,6 +26,6 @@ public interface NavigationStrategy {
      * @param donneesSimulation
      * @return
      */
-    void init(Queue<Chemin> chemins, DonneesSimulation donneesSimulation);
-    void distribution(ChefRobot chef, List<Chemin> chemins);
+    void fillChemins(Queue<Chemin> chemins, DonneesSimulation donneesSimulation);
+    void distribution(Queue<Chemin> chemins);
 }

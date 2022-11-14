@@ -22,19 +22,44 @@ Pour tester la partie modèle de l'application nous avons utilisé le framework 
 ## Gestion plus court chemin
 Nous avons utilisé l'algorithme de Dijkstra pour calculer le plus court chemin entre deux points.\
 Nous avons utilisé une implémentation de la classe PriorityQueue fournie par la librairie Java Collections Framework.\
-En s'inspirant du design pattern Strategy nous avons implémenté deux stratégies pour calculer le plus court chemin :\
+
+## Chef robot (Design Pattern Singleton)
+Vu qu'il n'existe qu'un seul chef robot dans l'application nous avons utilisé le design pattern Singleton pour s'assurer qu'il n'y ait qu'une seule instance de la classe ChefRobot.\
+(En apprendre plus sur le design pattern Singleton : https://refactoring.guru/design-patterns/singleton)
+
+## Gestion des stratégies (Design Pattern Strategy)
+En s'inspirant du design pattern Strategy nous avons implémenté deux stratégies pour calculer le plus court chemin.\
+La classe ChefRobot avait le rôle du Navigateur, c'est lui qui possède la stratégie dans ses attributs.
+
+![diagram strategy](images/diagram strategy.png)\
 (En apprendre plus sur le design pattern Strategy : https://refactoring.guru/design-patterns/strategy)\
-
 ## Gestion des robots par le Chef robot (Observer)
-On voulait éviter un problème connu dans les applications de ce genre, c'est le spam pour connaître l'état.\
-C'est à dire qu'avec une implémentation simplicite, à chaque appel de la fonction next() qui change de date, le chef robot va aller regarder l'état de tous les robots pour savoir s'ils sont occupés et de tous les incendies pour savoir s'ils sont pris en change.\
-Si par exemple le temps qu'un robot X éteigne le feu Y prend 300 jours, le chef robot va aller demander 300 fois au robot s'il a fini d'éteindre le feu et 300 fois à l'incendie s'il est éteint.\
+On voulait éviter de surcharger d'appel aux classes robots et incendies inutiles.\
+C'est-à-dire que dans une implémentation simpliste, le chef robot appellerait toutes les classes robots et incendies pour leur demander "Est ce que vous êtes disponibles ?"\
+Donc si un robot était occupé pour une suite d'événements qui durerait 300 tours, le chef robot appellerait 300 fois la classe robot pour rien.\
+Pour palier à ce problème nous avons implémenté le design pattern Observer avec quelques modifications pour que cela colle à nos besoins.\
 
+Une fois que le chef robot a fini d'assigner tous les robots à des incendies, il va se mettre en "off" et c'est un des robots qui va réveiller le chef robot.\
+Donc à la place d'avoir une fonction next qui fait :
+```
+next():
+    Pour chaque robot si il est disponible:
+        Pour chaque incendie s'il n'est pas pris en charge:
+            ...calculer chemins, etc...
+
+```
+On aura :
+```
+next():
+    Si chef robot est "on":
+        Pour chaque robot si il est disponible:
+            Pour chaque incendie s'il n'est pas pris en charge:
+                ...calculer chemins, etc...
+```
+Cela réduit la complexité de la méthode ``next()`` qui est beaucoup appelée par le simulateur.\
 Pour palier à ce problème, on a implémenté le design pattern Observer.\
 En apprendre plus sur le design pattern Observer : https://refactoring.guru/design-patterns/observer\
 
-
-# Chef robot (Singleton)
 
 Intellij IDEA
 Logger

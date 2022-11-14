@@ -26,11 +26,11 @@ public class NavigationStrategy2 implements NavigationStrategy {
     }
 
     @Override
-    public void init(Queue<Chemin> chemins, DonneesSimulation donneesSimulation) {
+    public void fillChemins(Queue<Chemin> chemins, DonneesSimulation donneesSimulation){
     }
 
     @Override
-    public void distribution(ChefRobot chef, List<Chemin> chemins) {
+    public void distribution(Queue<Chemin> chemins) {
 
     }
 }

@@ -91,8 +91,8 @@ public class Simulateur implements Simulable {
     @Override
     public void next() {
         if (ChefRobot.notif) {
+            ChefRobot.updateChemins(this.donneesSimulation);
             ChefRobot.notif = false;
-            //TODO regarder si y a robots ou incendies de disponible
         }
 
         incrementeTemps();

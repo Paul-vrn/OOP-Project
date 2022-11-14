@@ -60,4 +60,20 @@ public class Chemin {
     public void setEvents(List<Evenement> events) {
         this.events = events;
     }
+
+    public Case getStart() {
+        return start;
+    }
+
+    public void setStart(Case start) {
+        this.start = start;
+    }
+
+    public Case getEnd() {
+        return end;
+    }
+
+    public void setEnd(Case end) {
+        this.end = end;
+    }
 }

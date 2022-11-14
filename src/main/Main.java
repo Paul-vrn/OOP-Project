@@ -18,7 +18,8 @@ public class Main {
         try {
             GUISimulator gui = new GUISimulator(800, 600, Color.BLACK);
             DonneesSimulation data = LecteurDonnees.getData(args[0]);
-            ChefRobot robot = ChefRobot.getInstance(); // création du singleton chef robot avec la stratégie 1
+            ChefRobot.getInstance(); // création du singleton chef robot
+            ChefRobot.setStrategy(new NavigationStrategy1()); // on charge la stratégie 1
             new Simulateur(gui, data);
         } catch (DataFormatException | FileNotFoundException e) {
             e.printStackTrace();

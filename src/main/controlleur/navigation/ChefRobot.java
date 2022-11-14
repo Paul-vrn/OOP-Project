@@ -4,23 +4,21 @@ import main.controlleur.DonneesSimulation;
 import main.modele.Incendie;
 import main.modele.robot.Robot;
 
-import java.util.List;
-import java.util.Map;
-import java.util.PriorityQueue;
-import java.util.Queue;
+import java.util.*;
 
 public class ChefRobot
 {
     private static ChefRobot instance = null;
-    private NavigationStrategy strategy;
+    public static NavigationStrategy strategy;
     public static boolean notif;
 
     public static Queue<Chemin> chemins;
 
     private ChefRobot(NavigationStrategy strategy)
     {
-        this.strategy = strategy;
+        ChefRobot.strategy = strategy;
         notif = false;
+        chemins = new PriorityQueue<>(Chemin.Comparators.DURATION);
     }
 
     public static ChefRobot getInstance() {
@@ -31,22 +29,30 @@ public class ChefRobot
     }
 
     public static void setStrategy(NavigationStrategy strategy) {
-        instance.strategy = strategy;
+        ChefRobot.strategy = strategy;
     }
 
-    public static void setChemins(Queue<Chemin> chemins) {
-        instance.chemins = chemins;
+    public static void initDistribution(DonneesSimulation donneesSimulation) {
+        strategy.fillChemins(chemins, donneesSimulation);
+        strategy.distribution(chemins);
+        notif = false;
     }
 
-    public void calculChemins(DonneesSimulation donneesSimulation) {
-        this.chemins = new PriorityQueue<>(Chemin.Comparators.DURATION);
-        this.strategy.init(chemins, donneesSimulation);
-        for (Chemin chemin : chemins) {
-            if (!chemin.getRobot().isOccupied()) {
-                chemin.getRobot().addEvenements(chemin.getEvents());
-                chemin.getRobot().setOccupied(true);
-                chemin.getIncendie().setHandle(true);
-            }
+    /**
+     * Appel après que notify == true, supprime les chemins qui servent plus à rien.
+     */
+    public static void updateChemins(DonneesSimulation donneesSimulation) {
+        if (notif){
+            // si chemin est obsolète, robot vide ou incendie éteint, on le supprime
+            chemins.removeIf(chemin ->
+                    !chemin.getStart().equals(chemin.getRobot().getPosition()) ||
+                    !chemin.getEnd().equals(chemin.getIncendie().getPosition()) ||
+                    chemin.getRobot().IsEmpty() || chemin.getIncendie().IsEteint()
+            );
+            strategy.fillChemins(chemins, donneesSimulation);
+            strategy.distribution(chemins);
+            notif = false;
         }
     }
+
 }

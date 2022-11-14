@@ -25,8 +25,7 @@ public class NavigationStrategy1 implements NavigationStrategy {
         return new Chemin(robot, incendie, duration, events);
     }
 
-    @Override
-    public void init(Queue<Chemin> chemins, DonneesSimulation donneesSimulation) {
+    public void initChemins(Queue<Chemin> chemins, DonneesSimulation donneesSimulation) {
         for (Incendie incendie : donneesSimulation.getIncendies()) {
             for (Robot robot : donneesSimulation.getRobots()) {
                 Chemin chemin = plusCourtChemin(robot, incendie, donneesSimulation);
@@ -35,14 +34,40 @@ public class NavigationStrategy1 implements NavigationStrategy {
         }
     }
 
-    public void distribution(ChefRobot chef, List<Chemin> chemins) {
-        for (Chemin chemin : chemins) {
-            if (!chemin.getRobot().isOccupied()) {
-                chemin.getRobot().addEvenements(chemin.getEvents());
-                chemin.getRobot().setOccupied(true);
-                chemin.getIncendie().setHandle(true);
+    /**
+     * Va reremplir les chemins avec les robots non assignés et les incendies non éteints
+     * @param chemins les chemins à remplir
+     * @param donneesSimulation les données de la simulation
+     */
+    public void fillChemins(Queue<Chemin> chemins, DonneesSimulation donneesSimulation){
+        for (Incendie incendie : donneesSimulation.getIncendies()) {
+            if (!incendie.IsEteint() && !incendie.IsHandled()) {
+                for (Robot robot : donneesSimulation.getRobots()) {
+                    if (!robot.IsEmpty() && !robot.isOccupied()) {
+                        Chemin chemin = plusCourtChemin(robot, incendie, donneesSimulation);
+                        chemins.add(chemin);
+                    }
+                }
             }
         }
     }
+
+    /**
+     * Une fois qu'on a viré les chemins obsolètes et ceux relient des robots vides ou des incendies éteints
+     * on redistribue les chemins restants aux robots non occupés et aux incendies non éteints
+     */
+    public void distribution(Queue<Chemin> chemins) {
+        Iterator<Chemin> iterator = chemins.iterator();
+        while (iterator.hasNext()) {
+            Chemin chemin = iterator.next();
+            if (!chemin.getRobot().isOccupied() && !chemin.getIncendie().IsHandled()) {
+                chemin.getRobot().addEvenements(chemin.getEvents());
+                chemin.getRobot().setOccupied(true);
+                chemin.getIncendie().setHandle(true);
+                iterator.remove();
+            }
+        }
+    }
+
 
 }
