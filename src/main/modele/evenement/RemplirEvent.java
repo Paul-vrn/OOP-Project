@@ -22,7 +22,7 @@ public class RemplirEvent extends Evenement{
                     switch(robot.getType()){
                         case DRONE:
                             if(robot.getPosition().getNature() == NatureTerrain.EAU){
-                                robot.ActionDebut();
+                                robot.fillReservoir();
                             }
                             else{
                                 throw new IllegalFillException("Tentative de remplissage interdit, les drones doivent être sur une case d'eau pour pouvoir remplir leur réservoir.");
@@ -33,25 +33,25 @@ public class RemplirEvent extends Evenement{
                         case CHENILLES:
                             if(robot.getPosition().getColonne() + 1 < carte.getNbColonnes()){
                                 if(carte.getCase(robot.getPosition().getColonne() + 1, robot.getPosition().getLigne()).getNature() == NatureTerrain.EAU){
-                                    robot.ActionDebut();
+                                    robot.fillReservoir();
                                     break;
                                 }
                             }
                             if(robot.getPosition().getColonne() -1 >= 0){
                                 if(carte.getCase(robot.getPosition().getColonne() - 1, robot.getPosition().getLigne()).getNature() == NatureTerrain.EAU){
-                                    robot.ActionDebut();
+                                    robot.fillReservoir();
                                     break;
                                 }
                             }
                             if(robot.getPosition().getLigne() + 1 < carte.getNbLignes()){
                                 if(carte.getCase(robot.getPosition().getColonne(),robot.getPosition().getLigne() + 1).getNature() == NatureTerrain.EAU){
-                                    robot.ActionDebut();
+                                    robot.fillReservoir();
                                     break;
                                 }
                             }
                             if(robot.getPosition().getLigne() -1 >= 0){
                                 if(carte.getCase(robot.getPosition().getColonne(),robot.getPosition().getLigne() - 1).getNature() == NatureTerrain.EAU){
-                                    robot.ActionDebut();
+                                    robot.fillReservoir();
                                     break;
                                 }
                             }

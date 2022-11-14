@@ -3,6 +3,8 @@ package main.modele.robot;
 import main.modele.Case;
 import main.modele.NatureTerrain;
 
+import java.util.ArrayList;
+
 /**
  * Classe représentant un robot à chenilles.
  *
@@ -24,7 +26,7 @@ public class Chenilles extends Robot {
         this.tempsRemplissage = 5 * 60;
         this.QuantiteEauParIntervention = 100;
         this.TempsIntervention = 8;
-        //this.evenements = new ArrayList<Evenement>();
+        this.evenements = new ArrayList<>();
     }
 
     /**

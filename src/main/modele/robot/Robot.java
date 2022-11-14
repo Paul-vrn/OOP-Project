@@ -4,7 +4,7 @@ import main.modele.Case;
 import main.modele.Carte;
 import main.modele.evenement.Evenement;
 
-import java.util.List;
+import java.util.ArrayList;
 
 public abstract class Robot {
     // Robots can be Drones or Chenilles or Pattes or Roues
@@ -20,7 +20,9 @@ public abstract class Robot {
     protected int baseVitesse;
     protected int tempsRemplissage;
 
-    protected List<Evenement> evenements;
+    protected ArrayList<Evenement> evenements;
+    protected int indexEvenement;
+
     protected boolean isOccupied;
     public int TimeUntilAvailable = 0;
 
@@ -44,6 +46,11 @@ public abstract class Robot {
 
     public int getCapaciteReservoir() {
         return this.capaciteReservoir;
+    }
+
+    public void fillReservoir(){
+        this.reservoir = this.capaciteReservoir;
+        this.nextEvent();
     }
 
     public void setVitesse(int vitesse) {
@@ -70,6 +77,10 @@ public abstract class Robot {
 
     public int getTempsIntervention(){
         return this.TempsIntervention;
+    }
+
+    public int getIndexEvenement(){
+        return this.indexEvenement;
     }
 
     public RobotType getType(){
@@ -111,11 +122,18 @@ public abstract class Robot {
     public void addEvenement(Evenement event){
         evenements.add(event);
     }
-    public void addEvenements(List<Evenement> events) {
+    public void addEvenements(ArrayList<Evenement> events) {
         this.evenements.addAll(events);
     }
-    public List<Evenement> getEvenements(){
+    public ArrayList<Evenement> getEvenements(){
         return evenements;
+    }
+
+
+    public void nextEvent(){
+        if(indexEvenement < evenements.size()){
+            indexEvenement++;
+        }
     }
 
 }

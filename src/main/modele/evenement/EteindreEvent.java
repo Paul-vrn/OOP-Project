@@ -28,6 +28,7 @@ public class EteindreEvent extends Evenement{
             else{
                 int EauDeverse = robot.EmptyTank();
                 incendie.Eteindre(EauDeverse);
+                robot.nextEvent();
             }}
             catch(NoIncendieException e){
                 System.err.println(e.getMessage());

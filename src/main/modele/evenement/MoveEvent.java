@@ -20,6 +20,7 @@ public class MoveEvent extends Evenement{
             try{
                 if(robot.canMoveTo(CaseCible)){
                     robot.setPosition(CaseCible);
+                    robot.nextEvent();
                 }
                 else{
                     throw new IllegalMove("Le robot ne peut pas se déplacer sur la case cible");

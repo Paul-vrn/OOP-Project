@@ -2,6 +2,8 @@ package main.modele.robot;
 
 import main.modele.Case;
 
+import java.util.ArrayList;
+
 /**
  * Classe représentant un Drone.
  */
@@ -21,6 +23,7 @@ public class Drone extends Robot {
         this.tempsRemplissage = 30 * 60;
         this.QuantiteEauParIntervention = 10000;
         this.TempsIntervention = 30;
+        this.evenements = new ArrayList<>();
     }
 
 

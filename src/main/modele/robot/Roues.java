@@ -3,6 +3,8 @@ package main.modele.robot;
 import main.modele.Case;
 import main.modele.NatureTerrain;
 
+import java.util.ArrayList;
+
 public class Roues extends Robot {
 
     public Roues(int i, Case position) {
@@ -15,6 +17,7 @@ public class Roues extends Robot {
         this.tempsRemplissage = 10 * 60;
         this.QuantiteEauParIntervention = 100;
         this.TempsIntervention = 5;
+        this.evenements = new ArrayList<>();
     }
     public void setPosition(Case position) {
         try {

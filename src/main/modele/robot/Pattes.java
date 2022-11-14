@@ -3,6 +3,8 @@ package main.modele.robot;
 import main.modele.Case;
 import main.modele.NatureTerrain;
 
+import java.util.ArrayList;
+
 /**
  * Classe représentant un robot à pattes.
  */
@@ -22,6 +24,7 @@ public class Pattes extends Robot {
         this.tempsRemplissage = 30 * 60;
         this.QuantiteEauParIntervention = 10;
         this.TempsIntervention = 1;
+        this.evenements = new ArrayList<>();
     }
 
     @Override
