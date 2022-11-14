@@ -44,4 +44,5 @@ public class NavigationStrategy1 implements NavigationStrategy {
             }
         }
     }
+
 }

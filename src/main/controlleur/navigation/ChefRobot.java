@@ -11,20 +11,31 @@ import java.util.Queue;
 
 public class ChefRobot
 {
+    private static ChefRobot instance = null;
     private NavigationStrategy strategy;
+    public static boolean notif;
 
-    private Queue<Chemin> chemins;
+    public static Queue<Chemin> chemins;
 
-    public ChefRobot(NavigationStrategy strategy) {
+    private ChefRobot(NavigationStrategy strategy)
+    {
         this.strategy = strategy;
+        notif = false;
     }
 
-    public void setStrategy(NavigationStrategy strategy) {
-        this.strategy = strategy;
+    public static ChefRobot getInstance() {
+        if (instance == null) {
+            instance = new ChefRobot(new NavigationStrategy1());
+        }
+        return instance;
     }
 
-    public NavigationStrategy getStrategy() {
-        return this.strategy;
+    public static void setStrategy(NavigationStrategy strategy) {
+        instance.strategy = strategy;
+    }
+
+    public static void setChemins(Queue<Chemin> chemins) {
+        instance.chemins = chemins;
     }
 
     public void calculChemins(DonneesSimulation donneesSimulation) {
@@ -38,6 +49,4 @@ public class ChefRobot
             }
         }
     }
-
-
 }

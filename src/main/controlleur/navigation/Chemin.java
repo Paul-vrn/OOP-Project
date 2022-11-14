@@ -1,5 +1,6 @@
 package main.controlleur.navigation;
 
+import main.modele.Case;
 import main.modele.Incendie;
 import main.modele.evenement.Evenement;
 import main.modele.robot.Robot;
@@ -7,6 +8,9 @@ import main.modele.robot.Robot;
 import java.util.List;
 
 public class Chemin {
+
+    private Case start;
+    private Case end;
     private Robot robot;
     private Incendie incendie;
     private int duration;
@@ -17,6 +21,8 @@ public class Chemin {
         this.incendie = incendie;
         this.duration = duration;
         this.events = events;
+        this.start = robot.getPosition();
+        this.end = incendie.getPosition();
     }
 
     public static class Comparators {

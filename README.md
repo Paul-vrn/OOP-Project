@@ -34,5 +34,7 @@ Pour palier à ce problème, on a implémenté le design pattern Observer.\
 En apprendre plus sur le design pattern Observer : https://refactoring.guru/design-patterns/observer\
 
 
+# Chef robot (Singleton)
+
 Intellij IDEA
 Logger

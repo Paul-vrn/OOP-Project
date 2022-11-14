@@ -24,18 +24,15 @@ public class Simulateur implements Simulable {
     private DonneesSimulation donneesSimulation;
     private int tempsEcoule;
     private Map<Integer, List<Evenement>> evenements;
-
-    private ChefRobot chefRobot;
     /**
      * Constructeur de la classe Simulateur
      * @param gui l'interface graphique
      * @param donneesSimulation les données de la simulation
      */
-    public Simulateur(GUISimulator gui, DonneesSimulation donneesSimulation, NavigationStrategy navigationStrategy) {
+    public Simulateur(GUISimulator gui, DonneesSimulation donneesSimulation) {
         this.gui = gui;
         gui.setSimulable(this);
         this.donneesSimulation = donneesSimulation;
-        this.chefRobot = new ChefRobot(navigationStrategy);
         this.tempsEcoule = 0;
         this.evenements = new HashMap<>();
         draw();
@@ -93,11 +90,11 @@ public class Simulateur implements Simulable {
     }
     @Override
     public void next() {
-        if(evenements.get(tempsEcoule)!=null) {
-            for (Evenement evenement : evenements.get(tempsEcoule)) {
-                evenement.execute();
-            }
+        if (ChefRobot.notif) {
+            ChefRobot.notif = false;
+            //TODO regarder si y a robots ou incendies de disponible
         }
+
         incrementeTemps();
         draw();
     }

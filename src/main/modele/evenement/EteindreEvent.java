@@ -1,5 +1,6 @@
 package main.modele.evenement;
 
+import main.controlleur.navigation.ChefRobot;
 import main.modele.Incendie;
 import main.modele.robot.Robot;
 
