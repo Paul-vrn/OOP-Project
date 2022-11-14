@@ -5,11 +5,11 @@ import main.modele.robot.Robot;
 
 public class MoveEvent extends Evenement {
 
-    private Case CaseCible;
+    private Case caseCible;
 
-    public MoveEvent(int dateStart, int duration, Robot robot, Case CaseCible) {
+    public MoveEvent(int dateStart, int duration, Robot robot, Case caseCible) {
         super(dateStart, duration, robot);
-        this.CaseCible = CaseCible;
+        this.caseCible = caseCible;
     }
 
     public void execute() {
@@ -17,8 +17,8 @@ public class MoveEvent extends Evenement {
             duration--;
         } else {
             try {
-                if (robot.canMoveTo(CaseCible)) {
-                    robot.setPosition(CaseCible);
+                if (robot.canMoveTo(caseCible)) {
+                    robot.setPosition(caseCible);
                     robot.nextEvent();
                 } else {
                     throw new IllegalMove("Le robot ne peut pas se déplacer sur la case cible");
@@ -28,6 +28,5 @@ public class MoveEvent extends Evenement {
             }
         }
     }
-
 
 }

@@ -37,6 +37,7 @@ public abstract class Robot {
     }
 
     public abstract void setPosition(Case position);
+
     public Case getPosition() {
         return this.position;
     }
@@ -49,7 +50,7 @@ public abstract class Robot {
         return this.capaciteReservoir;
     }
 
-    public void fillReservoir(){
+    public void fillReservoir() {
         this.reservoir = this.capaciteReservoir;
         this.nextEvent();
     }
@@ -68,38 +69,49 @@ public abstract class Robot {
         return this.baseVitesse;
     }
 
-    public int getTempsDeplacement(Carte carte, Case position){
-        return (int)Math.round(carte.getTailleCases()/(getVitesse(position)/3.6));
+    public int getBaseVitesse() {
+        return this.baseVitesse;
     }
 
-    public int getTempsDeplacement(Carte carte){
+    public int getTempsDeplacement(Carte carte, Case position) {
+        return (int) Math.round(carte.getTailleCases() / (getVitesse(position) / 3.6));
+    }
+
+    public int getTempsDeplacement(Carte carte) {
         return getTempsDeplacement(carte, this.position);
     }
 
-    public int getTempsIntervention(){
+    public int getTempsIntervention() {
         return this.TempsIntervention;
     }
 
-    public int getIndexEvenement(){
+    public int getIndexEvenement() {
         return this.indexEvenement;
     }
 
-    public RobotType getType(){
+    public RobotType getType() {
         return this.type;
     }
 
-    public boolean isOccupied(){return this.isOccupied;}
-    public void setOccupied(boolean occupied){this.isOccupied = occupied;}
-    public int getTimeUntilAvailable(){return TimeUntilAvailable;}
+    public boolean isOccupied() {
+        return this.isOccupied;
+    }
 
-    public void setTimeUntilAvailable(int time){
+    public void setOccupied(boolean occupied) {
+        this.isOccupied = occupied;
+    }
+
+    public int getTimeUntilAvailable() {
+        return TimeUntilAvailable;
+    }
+
+    public void setTimeUntilAvailable(int time) {
         TimeUntilAvailable = time;
     }
 
-    public void RemplirReservoir(){
+    public void RemplirReservoir() {
         this.reservoir = this.capaciteReservoir;
     }
-
 
     public abstract boolean canMoveTo(Case targetPosition);
 
@@ -107,33 +119,37 @@ public abstract class Robot {
         return "Robot " + this.type + " en " + this.position + " avec " + this.reservoir + "L";
     }
 
-    public int EmptyTank(){
+    public int EmptyTank() {
         this.reservoir = this.reservoir - this.QuantiteEauParIntervention;
         return this.QuantiteEauParIntervention;
     }
 
-    public boolean IsEmpty(){
-        return reservoir==0;
+    public boolean IsEmpty() {
+        return reservoir == 0;
     }
 
-    public String getImage(){return this.imageUrl;}
-    public String getName() { return name; }
+    public String getImage() {
+        return this.imageUrl;
+    }
 
+    public String getName() {
+        return name;
+    }
 
-    public void addEvenement(Evenement event){
+    public void addEvenement(Evenement event) {
         evenements.add(event);
     }
+
     public void addEvenements(List<Evenement> events) {
         this.evenements.addAll(events);
     }
 
-    public List<Evenement> getEvenements(){
+    public List<Evenement> getEvenements() {
         return evenements;
     }
 
-
-    public void nextEvent(){
-        if(indexEvenement < evenements.size()){
+    public void nextEvent() {
+        if (indexEvenement < evenements.size()) {
             indexEvenement++;
         }
     }
