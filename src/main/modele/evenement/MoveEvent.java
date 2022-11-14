@@ -29,4 +29,9 @@ public class MoveEvent extends Evenement {
         }
     }
 
+    @Override
+    public String toString() {
+        return "MoveEvent" + caseCible.toString();
+    }
+
 }

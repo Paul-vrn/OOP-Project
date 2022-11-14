@@ -115,6 +115,8 @@ public abstract class Robot {
 
     public abstract boolean canMoveTo(Case targetPosition);
 
+    public abstract boolean canRobotBeOnCase(Case targetPosition);
+
     public String toString() {
         return "Robot " + this.type + " en " + this.position + " avec " + this.reservoir + "L";
     }

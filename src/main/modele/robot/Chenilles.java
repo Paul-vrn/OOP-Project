@@ -14,6 +14,7 @@ public class Chenilles extends Robot {
 
     /**
      * Constructeur de la classe Chenilles.
+     * 
      * @param position
      */
     public Chenilles(int id, Case position) {
@@ -31,6 +32,7 @@ public class Chenilles extends Robot {
 
     /**
      * Définit la vitesse du robot à chenilles.
+     * 
      * @param vitesse La vitesse du robot à chenilles.
      */
     @Override
@@ -46,6 +48,7 @@ public class Chenilles extends Robot {
             System.err.println(e.getMessage());
         }
     }
+
     /**
      *
      * @param position
@@ -82,7 +85,9 @@ public class Chenilles extends Robot {
         return (targetPosition.getNature() != NatureTerrain.EAU && targetPosition.getNature() != NatureTerrain.ROCHE);
     }
 
-
+    public boolean canRobotBeOnCase(Case targetPosition) {
+        return (targetPosition.getNature() != NatureTerrain.EAU && targetPosition.getNature() != NatureTerrain.ROCHE);
+    }
 
     @Override
     public String getName() {

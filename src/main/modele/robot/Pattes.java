@@ -12,6 +12,7 @@ public class Pattes extends Robot {
 
     /**
      * Constructeur de la classe Robot à Pattes
+     * 
      * @param position La position du robot
      */
     public Pattes(int i, Case position) {
@@ -19,7 +20,7 @@ public class Pattes extends Robot {
         setPosition(position);
         this.type = RobotType.PATTES;
         this.baseVitesse = 100;
-        this.reservoir = -1; //infini
+        this.reservoir = -1; // infini
         // 30 minutes
         this.tempsRemplissage = 30 * 60;
         this.QuantiteEauParIntervention = 10;
@@ -58,13 +59,17 @@ public class Pattes extends Robot {
         return (targetPosition.getNature() != NatureTerrain.EAU);
     }
 
+    public boolean canRobotBeOnCase(Case targetPosition) {
+        return (targetPosition.getNature() != NatureTerrain.EAU);
+    }
+
     @Override
     public String getName() {
         return super.getName() + " à pattes";
     }
 
     @Override
-    public boolean IsEmpty(){
+    public boolean IsEmpty() {
         return false;
     }
 }

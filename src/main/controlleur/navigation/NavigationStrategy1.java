@@ -34,16 +34,40 @@ public class NavigationStrategy1 implements NavigationStrategy {
         }
         openNodes.add(nodeMap[robot.getPosition().getLigne()][robot.getPosition().getColonne()]);
 
-        Node currentNode = new Node(robot.getPosition());
-        currentNode.setfScore(0);// On met le noeud de départ à 0
+        Node currentNode = nodeMap[robot.getPosition().getLigne()][robot.getPosition().getColonne()];
+        Node minNode = currentNode;
+        currentNode.setgScore(0);
+        currentNode.setfScore(
+                (double) currentNode.hCalculator(incendie) * carte.getTailleCases() / (robot.getBaseVitesse() / 3.6));// On
+                                                                                                                      // met
+                                                                                                                      // le
+                                                                                                                      // noeud
+                                                                                                                      // de
+                                                                                                                      // départ
+                                                                                                                      // à
+                                                                                                                      // 0
         while (!openNodes.isEmpty()) {
-            Node minNode = openNodes.get(0);
-            for (int i = 1; i < openNodes.size(); i++) {
-                if (minNode.getfScore() < openNodes.get(i).getfScore()) {
-                    minNode = openNodes.get(i);
+            System.out
+                    .println("openNodes.size() = " + openNodes.size() + " closedNodes.size() = " + closedNodes.size());
+            // currentNode becomes the node in openNodes with the smalles fScore
+            minNode = openNodes.get(0);
+            for (Node node : openNodes) {
+                System.out.println(node.getPosition() + "   " + node.getfScore());
+                if (node.getfScore() < minNode.getfScore()) {
+                    minNode = node;
                 }
             }
-            if (minNode.getPosition() == incendie.getPosition()) {
+            System.out.println("MinNode : " + minNode.getPosition());
+            // currentNode = openNodes.get(0);
+            // for (int i = 0; i < openNodes.size(); i++) {
+            // if (currentNode.getfScore() < openNodes.get(i).getfScore()) {
+            // System.out.println(openNodes.get(i).getPosition());
+            // currentNode = openNodes.get(i);
+            // }
+            // }
+            currentNode = minNode;
+            // System.out.println("currentNodeZAZA = " + currentNode.getgScore());
+            if (currentNode.getPosition() == incendie.getPosition()) {
                 // crée une liste node pour le chemin le plus court
                 List<Node> nodeChemin = new LinkedList<>();
                 Node tempNode = nodeMap[incendie.getPosition().getLigne()][incendie.getPosition().getColonne()];
@@ -66,15 +90,23 @@ public class NavigationStrategy1 implements NavigationStrategy {
             }
 
             double edgeTime = carte.getTailleCases() / (robot.getVitesse(currentNode.getPosition()) / 3.6);
+            // System.out.println(edgeTime);
             if (currentNode.getPosition().getColonne() + 1 < carte.getNbColonnes() && robot
-                    .canMoveTo(nodeMap[currentNode.getPosition().getLigne()][currentNode.getPosition().getColonne() + 1]
-                            .getPosition())) {
+                    .canRobotBeOnCase(
+                            nodeMap[currentNode.getPosition().getLigne()][currentNode.getPosition().getColonne() + 1]
+                                    .getPosition())) {
                 Node voisinDroite = nodeMap[currentNode.getPosition().getLigne()][currentNode.getPosition().getColonne()
                         + 1];
+
                 if (!closedNodes.contains(voisinDroite) && !openNodes.contains(voisinDroite)) {
                     voisinDroite.setParent(currentNode);
                     openNodes.add(voisinDroite);
+                    // System.out.println("VoisinDroite gscore avant changement = " +
+                    // voisinDroite.getgScore());
+                    // System.out.println("Current gscore = " + currentNode.getgScore());
                     voisinDroite.setgScore(currentNode.getgScore() + edgeTime);
+                    // System.out.println("VoisinDroite gscore apres changement = " +
+                    // voisinDroite.getgScore());
                     voisinDroite.setfScore(voisinDroite.getgScore()
                             + (((double) voisinDroite.hCalculator(incendie) * carte.getTailleCases())
                                     / (robot.getBaseVitesse() / 3.6)));
@@ -92,11 +124,13 @@ public class NavigationStrategy1 implements NavigationStrategy {
                     }
                 }
             }
-            if (currentNode.getPosition().getColonne() - 1 < carte.getNbColonnes() && robot
-                    .canMoveTo(nodeMap[currentNode.getPosition().getLigne()][currentNode.getPosition().getColonne() - 1]
-                            .getPosition())) {
+            if (currentNode.getPosition().getColonne() - 1 >= 0 && robot
+                    .canRobotBeOnCase(
+                            nodeMap[currentNode.getPosition().getLigne()][currentNode.getPosition().getColonne() - 1]
+                                    .getPosition())) {
                 Node voisinGauche = nodeMap[currentNode.getPosition().getLigne()][currentNode.getPosition().getColonne()
                         - 1];
+                System.out.println("VoisinGauche" + voisinGauche.getPosition());
                 if (!closedNodes.contains(voisinGauche) && !openNodes.contains(voisinGauche)) {
                     openNodes.add(voisinGauche);
                     voisinGauche.setParent(currentNode);
@@ -119,9 +153,10 @@ public class NavigationStrategy1 implements NavigationStrategy {
                     }
                 }
             }
-            if (currentNode.getPosition().getLigne() - 1 < carte.getNbLignes() && robot
-                    .canMoveTo(nodeMap[currentNode.getPosition().getLigne() - 1][currentNode.getPosition().getColonne()]
-                            .getPosition())) {
+            if (currentNode.getPosition().getLigne() - 1 >= 0 && robot
+                    .canRobotBeOnCase(
+                            nodeMap[currentNode.getPosition().getLigne() - 1][currentNode.getPosition().getColonne()]
+                                    .getPosition())) {
                 Node voisinHaut = nodeMap[currentNode.getPosition().getLigne() - 1][currentNode.getPosition()
                         .getColonne()];
                 if (!closedNodes.contains(voisinHaut) && !openNodes.contains(voisinHaut)) {
@@ -147,8 +182,9 @@ public class NavigationStrategy1 implements NavigationStrategy {
                 }
             }
             if (currentNode.getPosition().getLigne() + 1 < carte.getNbLignes() && robot
-                    .canMoveTo(nodeMap[currentNode.getPosition().getLigne() + 1][currentNode.getPosition().getColonne()]
-                            .getPosition())) {
+                    .canRobotBeOnCase(
+                            nodeMap[currentNode.getPosition().getLigne() + 1][currentNode.getPosition().getColonne()]
+                                    .getPosition())) {
                 Node voisinBas = nodeMap[currentNode.getPosition().getLigne() + 1][currentNode.getPosition()
                         .getColonne()];
                 if (!closedNodes.contains(voisinBas) && !openNodes.contains(voisinBas)) {

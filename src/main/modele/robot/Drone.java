@@ -11,6 +11,7 @@ public class Drone extends Robot {
 
     /**
      * Constructeur de la classe Drone
+     * 
      * @param position La position du robot
      */
     public Drone(int i, Case position) {
@@ -26,9 +27,9 @@ public class Drone extends Robot {
         this.evenements = new ArrayList<>();
     }
 
-
     /**
      * Définit la vitesse du robot Drone.
+     * 
      * @param vitesse La vitesse du robot Drone.
      * @throws RobotMaxSpeedException Si la vitesse du robot dépasse 100.
      */
@@ -45,6 +46,7 @@ public class Drone extends Robot {
             this.baseVitesse = vitesse;
         }
     }
+
     public void setPosition(Case position) {
         this.position = position;
     }
@@ -55,13 +57,17 @@ public class Drone extends Robot {
                 + Math.abs(this.position.getColonne() - targetPosition.getColonne()) == 1);
     }
 
-
+    public boolean canRobotBeOnCase(Case targetPosition) {
+        return true;
+    }
 
     @Override
-    public String getImage(){
+    public String getImage() {
         return "images/drone.gif";
     }
 
     @Override
-    public String getName() { return "Drone"; }
+    public String getName() {
+        return "Drone";
+    }
 }

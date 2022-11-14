@@ -19,6 +19,7 @@ public class Roues extends Robot {
         this.TempsIntervention = 5;
         this.evenements = new ArrayList<>();
     }
+
     public void setPosition(Case position) {
         try {
             if (position.getNature() == NatureTerrain.TERRAIN_LIBRE || position.getNature() == NatureTerrain.HABITAT) {
@@ -38,7 +39,13 @@ public class Roues extends Robot {
                 + Math.abs(this.position.getColonne() - targetPosition.getColonne()) != 1) {
             return false;
         }
-        return (targetPosition.getNature() == NatureTerrain.TERRAIN_LIBRE || targetPosition.getNature() == NatureTerrain.HABITAT);
+        return (targetPosition.getNature() == NatureTerrain.TERRAIN_LIBRE
+                || targetPosition.getNature() == NatureTerrain.HABITAT);
+    }
+
+    public boolean canRobotBeOnCase(Case targetPosition) {
+        return (targetPosition.getNature() == NatureTerrain.TERRAIN_LIBRE
+                || targetPosition.getNature() == NatureTerrain.HABITAT);
     }
 
     @Override

@@ -76,4 +76,13 @@ public class Chemin {
     public void setEnd(Case end) {
         this.end = end;
     }
+
+    public void print() {
+        System.out.println("Chemin de " + this.robot + " vers " + this.incendie);
+        System.out.println("Durée : " + this.duration);
+        System.out.println("Evenements : ");
+        for (Evenement event : this.events) {
+            System.out.println(event);
+        }
+    }
 }
