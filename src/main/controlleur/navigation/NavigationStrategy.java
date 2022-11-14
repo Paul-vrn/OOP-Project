@@ -7,18 +7,25 @@ import main.modele.evenement.Evenement;
 import main.modele.robot.Robot;
 
 import java.util.List;
+import java.util.Queue;
 
 public interface NavigationStrategy {
 
+
     /**
-     * Calcule le chemin le plus court entre deux cases
-     * @param depart la case de départ
-     * @param arrivee la case d'arrivée
-     * @param donneesSimulation les données de la simulation
-     * @return le chemin le plus court entre les deux cases
+     * calcule le plus court chemin entre un robot et un incendie
+     * @param robot
+     * @param incendie
+     * @param donneesSimulation
+     * @return
      */
     Chemin plusCourtChemin(Robot robot, Incendie incendie, DonneesSimulation donneesSimulation);
 
-    List<Chemin> init(DonneesSimulation donneesSimulation);
+    /**
+     * Initialise la liste des chemins de tous les robots vers tous les incendies
+     * @param donneesSimulation
+     * @return
+     */
+    void init(Queue<Chemin> chemins, DonneesSimulation donneesSimulation);
     void distribution(ChefRobot chef, List<Chemin> chemins);
 }

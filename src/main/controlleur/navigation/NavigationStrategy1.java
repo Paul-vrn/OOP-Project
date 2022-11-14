@@ -26,16 +26,13 @@ public class NavigationStrategy1 implements NavigationStrategy {
     }
 
     @Override
-    public List<Chemin> init(DonneesSimulation donneesSimulation) {
-        List<Chemin> chemins = new LinkedList<>();
+    public void init(Queue<Chemin> chemins, DonneesSimulation donneesSimulation) {
         for (Incendie incendie : donneesSimulation.getIncendies()) {
             for (Robot robot : donneesSimulation.getRobots()) {
                 Chemin chemin = plusCourtChemin(robot, incendie, donneesSimulation);
                 chemins.add(chemin);
             }
         }
-        Collections.sort(chemins, Chemin.Comparators.DURATION);
-        return chemins;
     }
 
     public void distribution(ChefRobot chef, List<Chemin> chemins) {
@@ -47,6 +44,4 @@ public class NavigationStrategy1 implements NavigationStrategy {
             }
         }
     }
-
-
 }

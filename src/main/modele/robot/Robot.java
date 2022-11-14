@@ -5,6 +5,7 @@ import main.modele.Carte;
 import main.modele.evenement.Evenement;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public abstract class Robot {
     // Robots can be Drones or Chenilles or Pattes or Roues
@@ -20,7 +21,7 @@ public abstract class Robot {
     protected int baseVitesse;
     protected int tempsRemplissage;
 
-    protected ArrayList<Evenement> evenements;
+    protected List<Evenement> evenements;
     protected int indexEvenement;
 
     protected boolean isOccupied;
@@ -122,10 +123,11 @@ public abstract class Robot {
     public void addEvenement(Evenement event){
         evenements.add(event);
     }
-    public void addEvenements(ArrayList<Evenement> events) {
+    public void addEvenements(List<Evenement> events) {
         this.evenements.addAll(events);
     }
-    public ArrayList<Evenement> getEvenements(){
+
+    public List<Evenement> getEvenements(){
         return evenements;
     }
 

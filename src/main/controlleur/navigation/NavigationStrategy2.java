@@ -8,6 +8,7 @@ import main.modele.robot.Robot;
 
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Queue;
 
 /**
  * Stratégie de navigation 1
@@ -25,7 +26,11 @@ public class NavigationStrategy2 implements NavigationStrategy {
     }
 
     @Override
-    public List<Chemin>  init(DonneesSimulation donneesSimulation) {
-        return null;
+    public void init(Queue<Chemin> chemins, DonneesSimulation donneesSimulation) {
+    }
+
+    @Override
+    public void distribution(ChefRobot chef, List<Chemin> chemins) {
+
     }
 }
