@@ -6,16 +6,14 @@ import main.modele.robot.Robot;
 
 import java.util.*;
 
-public class ChefRobot
-{
+public class ChefRobot {
     private static ChefRobot instance = null;
     public static NavigationStrategy strategy;
     public static boolean notif;
 
     public static Queue<Chemin> chemins;
 
-    private ChefRobot(NavigationStrategy strategy)
-    {
+    private ChefRobot(NavigationStrategy strategy) {
         ChefRobot.strategy = strategy;
         notif = false;
         chemins = new PriorityQueue<>(Chemin.Comparators.DURATION);
@@ -42,12 +40,12 @@ public class ChefRobot
      * Appel après que notify == true, supprime les chemins qui servent plus à rien.
      */
     public static void updateChemins(DonneesSimulation donneesSimulation) {
-        if (notif){
+        if (notif) {
             // si chemin est obsolète, robot vide ou incendie éteint, on le supprime
             chemins.removeIf(chemin ->
                     !chemin.getStart().equals(chemin.getRobot().getPosition()) ||
-                    !chemin.getEnd().equals(chemin.getIncendie().getPosition()) ||
-                    chemin.getRobot().IsEmpty() || chemin.getIncendie().IsEteint()
+                            !chemin.getEnd().equals(chemin.getIncendie().getPosition()) ||
+                            chemin.getRobot().IsEmpty() || chemin.getIncendie().IsEteint()
             );
             strategy.fillChemins(chemins, donneesSimulation);
             strategy.distribution(chemins);
@@ -55,4 +53,6 @@ public class ChefRobot
         }
     }
 
+    public static void reset() {
+    }
 }

@@ -38,14 +38,7 @@ public class NavigationStrategy1 implements NavigationStrategy {
         Node minNode = currentNode;
         currentNode.setgScore(0);
         currentNode.setfScore(
-                (double) currentNode.hCalculator(incendie) * carte.getTailleCases() / (robot.getBaseVitesse() / 3.6));// On
-                                                                                                                      // met
-                                                                                                                      // le
-                                                                                                                      // noeud
-                                                                                                                      // de
-                                                                                                                      // départ
-                                                                                                                      // à
-                                                                                                                      // 0
+                (double) currentNode.hCalculator(incendie) * carte.getTailleCases() / (robot.getBaseVitesse() / 3.6));// On met le noeud de départ à 0
         while (!openNodes.isEmpty()) {
             System.out
                     .println("openNodes.size() = " + openNodes.size() + " closedNodes.size() = " + closedNodes.size());
@@ -109,14 +102,14 @@ public class NavigationStrategy1 implements NavigationStrategy {
                     // voisinDroite.getgScore());
                     voisinDroite.setfScore(voisinDroite.getgScore()
                             + (((double) voisinDroite.hCalculator(incendie) * carte.getTailleCases())
-                                    / (robot.getBaseVitesse() / 3.6)));
+                            / (robot.getBaseVitesse() / 3.6)));
                 } else {
                     if (voisinDroite.getgScore() > currentNode.getgScore() + edgeTime) {
                         voisinDroite.setParent(currentNode);
                         voisinDroite.setgScore(currentNode.getgScore() + edgeTime);
                         voisinDroite.setfScore(voisinDroite.getgScore()
                                 + (((double) voisinDroite.hCalculator(incendie) * carte.getTailleCases())
-                                        / (robot.getBaseVitesse() / 3.6)));
+                                / (robot.getBaseVitesse() / 3.6)));
                         if (closedNodes.contains(voisinDroite)) {
                             closedNodes.remove(voisinDroite);
                             openNodes.add(voisinDroite);
@@ -137,7 +130,7 @@ public class NavigationStrategy1 implements NavigationStrategy {
                     voisinGauche.setgScore(currentNode.getgScore() + edgeTime);
                     voisinGauche.setfScore(voisinGauche.getgScore()
                             + (((double) voisinGauche.hCalculator(incendie) * carte.getTailleCases())
-                                    / (robot.getBaseVitesse() / 3.6)));
+                            / (robot.getBaseVitesse() / 3.6)));
 
                 } else {
                     if (voisinGauche.getgScore() > currentNode.getgScore() + edgeTime) {
@@ -145,7 +138,7 @@ public class NavigationStrategy1 implements NavigationStrategy {
                         voisinGauche.setgScore(currentNode.getgScore() + edgeTime);
                         voisinGauche.setfScore(voisinGauche.getgScore()
                                 + (((double) voisinGauche.hCalculator(incendie) * carte.getTailleCases())
-                                        / (robot.getBaseVitesse() / 3.6)));
+                                / (robot.getBaseVitesse() / 3.6)));
                         if (closedNodes.contains(voisinGauche)) {
                             closedNodes.remove(voisinGauche);
                             openNodes.add(voisinGauche);
@@ -165,7 +158,7 @@ public class NavigationStrategy1 implements NavigationStrategy {
                     voisinHaut.setgScore(currentNode.getgScore() + edgeTime);
                     voisinHaut.setfScore(voisinHaut.getgScore()
                             + (((double) voisinHaut.hCalculator(incendie) * carte.getTailleCases())
-                                    / (robot.getBaseVitesse() / 3.6)));
+                            / (robot.getBaseVitesse() / 3.6)));
 
                 } else {
                     if (voisinHaut.getgScore() > currentNode.getgScore() + edgeTime) {
@@ -173,7 +166,7 @@ public class NavigationStrategy1 implements NavigationStrategy {
                         voisinHaut.setgScore(currentNode.getgScore() + edgeTime);
                         voisinHaut.setfScore(voisinHaut.getgScore()
                                 + (((double) voisinHaut.hCalculator(incendie) * carte.getTailleCases())
-                                        / (robot.getBaseVitesse() / 3.6)));
+                                / (robot.getBaseVitesse() / 3.6)));
                         if (closedNodes.contains(voisinHaut)) {
                             closedNodes.remove(voisinHaut);
                             openNodes.add(voisinHaut);
@@ -201,7 +194,7 @@ public class NavigationStrategy1 implements NavigationStrategy {
                         voisinBas.setgScore(currentNode.getgScore() + edgeTime);
                         voisinBas.setfScore(voisinBas.getgScore()
                                 + (((double) voisinBas.hCalculator(incendie) * carte.getTailleCases())
-                                        / (robot.getBaseVitesse() / 3.6)));
+                                / (robot.getBaseVitesse() / 3.6)));
                         if (closedNodes.contains(voisinBas)) {
                             closedNodes.remove(voisinBas);
                             openNodes.add(voisinBas);
@@ -228,7 +221,7 @@ public class NavigationStrategy1 implements NavigationStrategy {
     /**
      * Va reremplir les chemins avec les robots non assignés et les incendies non
      * éteints
-     * 
+     *
      * @param chemins           les chemins à remplir
      * @param donneesSimulation les données de la simulation
      */

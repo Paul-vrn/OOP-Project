@@ -7,24 +7,22 @@ import main.controlleur.navigation.ChefRobot;
 import main.controlleur.navigation.NavigationStrategy;
 import main.controlleur.navigation.NavigationStrategy1;
 import main.controlleur.io.LecteurDonnees;
+import main.controlleur.navigation.NavigationStrategy2;
 
 import java.awt.*;
+import java.io.File;
 import java.io.FileNotFoundException;
+import java.io.PrintStream;
 import java.util.zip.DataFormatException;
 
 public class Main {
 
-    public static void main(String[] args) {
-        try {
-            GUISimulator gui = new GUISimulator(800, 600, Color.BLACK);
-            DonneesSimulation data = LecteurDonnees.getData(args[0]);
-            ChefRobot.getInstance(); // création du singleton chef robot
-            ChefRobot.setStrategy(new NavigationStrategy1()); // on charge la stratégie 1
-            new Simulateur(gui, data);
-        } catch (DataFormatException | FileNotFoundException e) {
-            e.printStackTrace();
-            System.exit(1);
-        }
+    public static void main(String[] args) throws FileNotFoundException {
+        PrintStream out = new PrintStream("logs/out.txt");
+        PrintStream err = new PrintStream("logs/err.txt");
+        System.setOut(out);
+        System.setErr(err);
+        new Simulateur(args);
     }
 }
 
