@@ -11,7 +11,7 @@ public class Drone extends Robot {
 
     /**
      * Constructeur de la classe Drone
-     * 
+     *
      * @param position La position du robot
      */
     public Drone(int i, Case position) {
@@ -22,14 +22,14 @@ public class Drone extends Robot {
         this.reservoir = 10000;
         // 30 minutes
         this.tempsRemplissage = 30 * 60;
-        this.QuantiteEauParIntervention = 10000;
-        this.TempsIntervention = 30;
+        this.quantiteEauParIntervention = 10000;
+        this.tempsIntervention = 30;
         this.evenements = new ArrayList<>();
     }
 
     /**
      * Définit la vitesse du robot Drone.
-     * 
+     *
      * @param vitesse La vitesse du robot Drone.
      * @throws RobotMaxSpeedException Si la vitesse du robot dépasse 100.
      */

@@ -4,7 +4,6 @@ import main.modele.Case;
 import main.modele.Carte;
 import main.modele.evenement.Evenement;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public abstract class Robot {
@@ -16,8 +15,8 @@ public abstract class Robot {
     protected int reservoir;
     protected int capaciteReservoir;
 
-    protected int QuantiteEauParIntervention;
-    protected int TempsIntervention;
+    protected int quantiteEauParIntervention;
+    protected int tempsIntervention;
     protected int baseVitesse;
     protected int tempsRemplissage;
 
@@ -25,13 +24,13 @@ public abstract class Robot {
     protected int indexEvenement;
 
     protected boolean isOccupied;
-    public int TimeUntilAvailable = 0;
+    public int timeUntilAvailable = 0;
 
     protected String imageUrl = "images/robot.gif";
 
     protected String name = "Robot";
 
-    public Robot(int id) {
+    protected Robot(int id) {
         this.id = id;
         this.isOccupied = false;
     }
@@ -82,7 +81,7 @@ public abstract class Robot {
     }
 
     public int getTempsIntervention() {
-        return this.TempsIntervention;
+        return this.tempsIntervention;
     }
 
     public int getIndexEvenement() {
@@ -102,14 +101,14 @@ public abstract class Robot {
     }
 
     public int getTimeUntilAvailable() {
-        return TimeUntilAvailable;
+        return timeUntilAvailable;
     }
 
     public void setTimeUntilAvailable(int time) {
-        TimeUntilAvailable = time;
+        timeUntilAvailable = time;
     }
 
-    public void RemplirReservoir() {
+    public void remplirReservoir() {
         this.reservoir = this.capaciteReservoir;
     }
 
@@ -121,12 +120,12 @@ public abstract class Robot {
         return "Robot " + this.type + " en " + this.position + " avec " + this.reservoir + "L";
     }
 
-    public int EmptyTank() {
-        this.reservoir = this.reservoir - this.QuantiteEauParIntervention;
-        return this.QuantiteEauParIntervention;
+    public int emptyTank() {
+        this.reservoir = this.reservoir - this.quantiteEauParIntervention;
+        return this.quantiteEauParIntervention;
     }
 
-    public boolean IsEmpty() {
+    public boolean isEmpty() {
         return reservoir == 0;
     }
 

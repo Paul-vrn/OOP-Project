@@ -6,20 +6,15 @@ import gui.Simulable;
 import gui.Text;
 import main.controlleur.io.LecteurDonnees;
 import main.controlleur.navigation.ChefRobot;
-import main.controlleur.navigation.NavigationStrategy;
 import main.controlleur.navigation.NavigationStrategy1;
 import main.controlleur.navigation.NavigationStrategy2;
 import main.modele.Carte;
 import main.modele.Incendie;
-import main.modele.evenement.Evenement;
 import main.modele.robot.Robot;
 
 import java.awt.*;
 import java.io.FileNotFoundException;
-import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 import java.util.zip.DataFormatException;
 
 
@@ -29,15 +24,15 @@ public class Simulateur implements Simulable {
     private DonneesSimulation donneesSimulation;
     private int tempsEcoule;
     private String map;
+    private ChefRobot chefRobot;
 
-    public Simulateur(String args[]) {
+    public Simulateur(String[] args) {
         this.gui = new GUISimulator(800, 600, Color.BLACK);
         gui.setSimulable(this);
         try {
             this.map = args[0];
             donneesSimulation = LecteurDonnees.getData(map);
         } catch (DataFormatException | FileNotFoundException e) {
-            //System.exit(1);
             System.err.println("Erreur lors de la lecture du fichier");
             System.exit(1);
         } catch (ArrayIndexOutOfBoundsException e) {
@@ -45,19 +40,19 @@ public class Simulateur implements Simulable {
             System.exit(1);
         }
 
-        ChefRobot.getInstance(); // création du singleton chef robot
+        this.chefRobot = ChefRobot.getInstance(); // création du singleton chef robot
         switch (args.length > 1 && args[1] != null ? args[1] : "1") {
-            case "1" -> ChefRobot.setStrategy(new NavigationStrategy1());
-            case "2" -> ChefRobot.setStrategy(new NavigationStrategy2());
+            case "1" -> chefRobot.setStrategy(new NavigationStrategy1());
+            case "2" -> chefRobot.setStrategy(new NavigationStrategy2());
             default -> {
-                ChefRobot.setStrategy(new NavigationStrategy1());
+                chefRobot.setStrategy(new NavigationStrategy1());
                 System.out.println("Stratégie non reconnue, stratégie 1 par défaut");
             }
         }
 
 
         this.tempsEcoule = 0;
-        ChefRobot.initDistribution(donneesSimulation);
+        chefRobot.initDistribution(donneesSimulation);
         draw();
     }
 
@@ -118,12 +113,12 @@ public class Simulateur implements Simulable {
      */
     @Override
     public void next() {
-        if (ChefRobot.notif) {
-            ChefRobot.updateChemins(this.donneesSimulation);
-            ChefRobot.notif = false;
+        if (chefRobot.notif) {
+            chefRobot.updateChemins(this.donneesSimulation);
+            chefRobot.notif = false;
         }
         for (Robot robot : donneesSimulation.getRobots()) {
-            if (robot.isOccupied()){
+            if (robot.isOccupied()) {
                 // TODO : faire l'event current du robot
             }
         }
@@ -138,7 +133,7 @@ public class Simulateur implements Simulable {
     public void restart() {
         try {
             donneesSimulation = LecteurDonnees.getData(map);
-            ChefRobot.reset();
+            chefRobot.reset();
             draw();
         } catch (FileNotFoundException | DataFormatException e) {
             throw new RuntimeException(e);

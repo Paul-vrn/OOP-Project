@@ -1,0 +1,3762 @@
+Carte 8x8; taille des cases = 10000
+openNodes.size() = 1 closedNodes.size() = 0
+main.modele.Case (3, 3) : EAU   1680.0
+MinNode : main.modele.Case (3, 3) : EAU
+VoisinGauchemain.modele.Case (3, 2) : EAU
+openNodes.size() = 4 closedNodes.size() = 1
+main.modele.Case (3, 4) : TERRAIN_LIBRE   2160.0
+main.modele.Case (3, 2) : EAU   1680.0
+main.modele.Case (2, 3) : EAU   2160.0
+main.modele.Case (4, 3) : TERRAIN_LIBRE   1680.0
+MinNode : main.modele.Case (3, 2) : EAU
+VoisinGauchemain.modele.Case (3, 1) : TERRAIN_LIBRE
+openNodes.size() = 6 closedNodes.size() = 2
+main.modele.Case (3, 4) : TERRAIN_LIBRE   2160.0
+main.modele.Case (2, 3) : EAU   2160.0
+main.modele.Case (4, 3) : TERRAIN_LIBRE   1680.0
+main.modele.Case (3, 1) : TERRAIN_LIBRE   1680.0
+main.modele.Case (2, 2) : EAU   2160.0
+main.modele.Case (4, 2) : EAU   1680.0
+MinNode : main.modele.Case (4, 3) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (4, 2) : EAU
+openNodes.size() = 7 closedNodes.size() = 3
+main.modele.Case (3, 4) : TERRAIN_LIBRE   2160.0
+main.modele.Case (2, 3) : EAU   2160.0
+main.modele.Case (3, 1) : TERRAIN_LIBRE   1680.0
+main.modele.Case (2, 2) : EAU   2160.0
+main.modele.Case (4, 2) : EAU   1680.0
+main.modele.Case (4, 4) : TERRAIN_LIBRE   2160.0
+main.modele.Case (5, 3) : TERRAIN_LIBRE   1680.0
+MinNode : main.modele.Case (3, 1) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (3, 0) : TERRAIN_LIBRE
+openNodes.size() = 9 closedNodes.size() = 4
+main.modele.Case (3, 4) : TERRAIN_LIBRE   2160.0
+main.modele.Case (2, 3) : EAU   2160.0
+main.modele.Case (2, 2) : EAU   2160.0
+main.modele.Case (4, 2) : EAU   1680.0
+main.modele.Case (4, 4) : TERRAIN_LIBRE   2160.0
+main.modele.Case (5, 3) : TERRAIN_LIBRE   1680.0
+main.modele.Case (3, 0) : TERRAIN_LIBRE   1680.0
+main.modele.Case (2, 1) : TERRAIN_LIBRE   2160.0
+main.modele.Case (4, 1) : TERRAIN_LIBRE   1680.0
+MinNode : main.modele.Case (4, 2) : EAU
+VoisinGauchemain.modele.Case (4, 1) : TERRAIN_LIBRE
+openNodes.size() = 9 closedNodes.size() = 5
+main.modele.Case (3, 4) : TERRAIN_LIBRE   2160.0
+main.modele.Case (2, 3) : EAU   2160.0
+main.modele.Case (2, 2) : EAU   2160.0
+main.modele.Case (4, 4) : TERRAIN_LIBRE   2160.0
+main.modele.Case (5, 3) : TERRAIN_LIBRE   1680.0
+main.modele.Case (3, 0) : TERRAIN_LIBRE   1680.0
+main.modele.Case (2, 1) : TERRAIN_LIBRE   2160.0
+main.modele.Case (4, 1) : TERRAIN_LIBRE   1680.0
+main.modele.Case (5, 2) : EAU   1680.0
+MinNode : main.modele.Case (5, 3) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (5, 2) : EAU
+openNodes.size() = 10 closedNodes.size() = 6
+main.modele.Case (3, 4) : TERRAIN_LIBRE   2160.0
+main.modele.Case (2, 3) : EAU   2160.0
+main.modele.Case (2, 2) : EAU   2160.0
+main.modele.Case (4, 4) : TERRAIN_LIBRE   2160.0
+main.modele.Case (3, 0) : TERRAIN_LIBRE   1680.0
+main.modele.Case (2, 1) : TERRAIN_LIBRE   2160.0
+main.modele.Case (4, 1) : TERRAIN_LIBRE   1680.0
+main.modele.Case (5, 2) : EAU   1680.0
+main.modele.Case (5, 4) : TERRAIN_LIBRE   2160.0
+main.modele.Case (6, 3) : EAU   1680.0
+MinNode : main.modele.Case (3, 0) : TERRAIN_LIBRE
+openNodes.size() = 11 closedNodes.size() = 7
+main.modele.Case (3, 4) : TERRAIN_LIBRE   2160.0
+main.modele.Case (2, 3) : EAU   2160.0
+main.modele.Case (2, 2) : EAU   2160.0
+main.modele.Case (4, 4) : TERRAIN_LIBRE   2160.0
+main.modele.Case (2, 1) : TERRAIN_LIBRE   2160.0
+main.modele.Case (4, 1) : TERRAIN_LIBRE   1680.0
+main.modele.Case (5, 2) : EAU   1680.0
+main.modele.Case (5, 4) : TERRAIN_LIBRE   2160.0
+main.modele.Case (6, 3) : EAU   1680.0
+main.modele.Case (2, 0) : TERRAIN_LIBRE   2160.0
+main.modele.Case (4, 0) : TERRAIN_LIBRE   1680.0
+MinNode : main.modele.Case (4, 1) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (4, 0) : TERRAIN_LIBRE
+openNodes.size() = 11 closedNodes.size() = 8
+main.modele.Case (3, 4) : TERRAIN_LIBRE   2160.0
+main.modele.Case (2, 3) : EAU   2160.0
+main.modele.Case (2, 2) : EAU   2160.0
+main.modele.Case (4, 4) : TERRAIN_LIBRE   2160.0
+main.modele.Case (2, 1) : TERRAIN_LIBRE   2160.0
+main.modele.Case (5, 2) : EAU   1680.0
+main.modele.Case (5, 4) : TERRAIN_LIBRE   2160.0
+main.modele.Case (6, 3) : EAU   1680.0
+main.modele.Case (2, 0) : TERRAIN_LIBRE   2160.0
+main.modele.Case (4, 0) : TERRAIN_LIBRE   1680.0
+main.modele.Case (5, 1) : TERRAIN_LIBRE   1680.0
+MinNode : main.modele.Case (5, 2) : EAU
+VoisinGauchemain.modele.Case (5, 1) : TERRAIN_LIBRE
+openNodes.size() = 11 closedNodes.size() = 9
+main.modele.Case (3, 4) : TERRAIN_LIBRE   2160.0
+main.modele.Case (2, 3) : EAU   2160.0
+main.modele.Case (2, 2) : EAU   2160.0
+main.modele.Case (4, 4) : TERRAIN_LIBRE   2160.0
+main.modele.Case (2, 1) : TERRAIN_LIBRE   2160.0
+main.modele.Case (5, 4) : TERRAIN_LIBRE   2160.0
+main.modele.Case (6, 3) : EAU   1680.0
+main.modele.Case (2, 0) : TERRAIN_LIBRE   2160.0
+main.modele.Case (4, 0) : TERRAIN_LIBRE   1680.0
+main.modele.Case (5, 1) : TERRAIN_LIBRE   1680.0
+main.modele.Case (6, 2) : EAU   1680.0
+MinNode : main.modele.Case (6, 3) : EAU
+VoisinGauchemain.modele.Case (6, 2) : EAU
+openNodes.size() = 12 closedNodes.size() = 10
+main.modele.Case (3, 4) : TERRAIN_LIBRE   2160.0
+main.modele.Case (2, 3) : EAU   2160.0
+main.modele.Case (2, 2) : EAU   2160.0
+main.modele.Case (4, 4) : TERRAIN_LIBRE   2160.0
+main.modele.Case (2, 1) : TERRAIN_LIBRE   2160.0
+main.modele.Case (5, 4) : TERRAIN_LIBRE   2160.0
+main.modele.Case (2, 0) : TERRAIN_LIBRE   2160.0
+main.modele.Case (4, 0) : TERRAIN_LIBRE   1680.0
+main.modele.Case (5, 1) : TERRAIN_LIBRE   1680.0
+main.modele.Case (6, 2) : EAU   1680.0
+main.modele.Case (6, 4) : TERRAIN_LIBRE   2160.0
+main.modele.Case (7, 3) : EAU   1680.0
+MinNode : main.modele.Case (4, 0) : TERRAIN_LIBRE
+openNodes.size() = 12 closedNodes.size() = 11
+main.modele.Case (3, 4) : TERRAIN_LIBRE   2160.0
+main.modele.Case (2, 3) : EAU   2160.0
+main.modele.Case (2, 2) : EAU   2160.0
+main.modele.Case (4, 4) : TERRAIN_LIBRE   2160.0
+main.modele.Case (2, 1) : TERRAIN_LIBRE   2160.0
+main.modele.Case (5, 4) : TERRAIN_LIBRE   2160.0
+main.modele.Case (2, 0) : TERRAIN_LIBRE   2160.0
+main.modele.Case (5, 1) : TERRAIN_LIBRE   1680.0
+main.modele.Case (6, 2) : EAU   1680.0
+main.modele.Case (6, 4) : TERRAIN_LIBRE   2160.0
+main.modele.Case (7, 3) : EAU   1680.0
+main.modele.Case (5, 0) : TERRAIN_LIBRE   1680.0
+MinNode : main.modele.Case (5, 1) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (5, 0) : TERRAIN_LIBRE
+openNodes.size() = 12 closedNodes.size() = 12
+main.modele.Case (3, 4) : TERRAIN_LIBRE   2160.0
+main.modele.Case (2, 3) : EAU   2160.0
+main.modele.Case (2, 2) : EAU   2160.0
+main.modele.Case (4, 4) : TERRAIN_LIBRE   2160.0
+main.modele.Case (2, 1) : TERRAIN_LIBRE   2160.0
+main.modele.Case (5, 4) : TERRAIN_LIBRE   2160.0
+main.modele.Case (2, 0) : TERRAIN_LIBRE   2160.0
+main.modele.Case (6, 2) : EAU   1680.0
+main.modele.Case (6, 4) : TERRAIN_LIBRE   2160.0
+main.modele.Case (7, 3) : EAU   1680.0
+main.modele.Case (5, 0) : TERRAIN_LIBRE   1680.0
+main.modele.Case (6, 1) : TERRAIN_LIBRE   1680.0
+MinNode : main.modele.Case (6, 2) : EAU
+VoisinGauchemain.modele.Case (6, 1) : TERRAIN_LIBRE
+openNodes.size() = 12 closedNodes.size() = 13
+main.modele.Case (3, 4) : TERRAIN_LIBRE   2160.0
+main.modele.Case (2, 3) : EAU   2160.0
+main.modele.Case (2, 2) : EAU   2160.0
+main.modele.Case (4, 4) : TERRAIN_LIBRE   2160.0
+main.modele.Case (2, 1) : TERRAIN_LIBRE   2160.0
+main.modele.Case (5, 4) : TERRAIN_LIBRE   2160.0
+main.modele.Case (2, 0) : TERRAIN_LIBRE   2160.0
+main.modele.Case (6, 4) : TERRAIN_LIBRE   2160.0
+main.modele.Case (7, 3) : EAU   1680.0
+main.modele.Case (5, 0) : TERRAIN_LIBRE   1680.0
+main.modele.Case (6, 1) : TERRAIN_LIBRE   1680.0
+main.modele.Case (7, 2) : HABITAT   1680.0
+MinNode : main.modele.Case (7, 3) : EAU
+VoisinGauchemain.modele.Case (7, 2) : HABITAT
+openNodes.size() = 12 closedNodes.size() = 14
+main.modele.Case (3, 4) : TERRAIN_LIBRE   2160.0
+main.modele.Case (2, 3) : EAU   2160.0
+main.modele.Case (2, 2) : EAU   2160.0
+main.modele.Case (4, 4) : TERRAIN_LIBRE   2160.0
+main.modele.Case (2, 1) : TERRAIN_LIBRE   2160.0
+main.modele.Case (5, 4) : TERRAIN_LIBRE   2160.0
+main.modele.Case (2, 0) : TERRAIN_LIBRE   2160.0
+main.modele.Case (6, 4) : TERRAIN_LIBRE   2160.0
+main.modele.Case (5, 0) : TERRAIN_LIBRE   1680.0
+main.modele.Case (6, 1) : TERRAIN_LIBRE   1680.0
+main.modele.Case (7, 2) : HABITAT   1680.0
+main.modele.Case (7, 4) : TERRAIN_LIBRE   2160.0
+MinNode : main.modele.Case (5, 0) : TERRAIN_LIBRE
+openNodes.size() = 12 closedNodes.size() = 15
+main.modele.Case (3, 4) : TERRAIN_LIBRE   2160.0
+main.modele.Case (2, 3) : EAU   2160.0
+main.modele.Case (2, 2) : EAU   2160.0
+main.modele.Case (4, 4) : TERRAIN_LIBRE   2160.0
+main.modele.Case (2, 1) : TERRAIN_LIBRE   2160.0
+main.modele.Case (5, 4) : TERRAIN_LIBRE   2160.0
+main.modele.Case (2, 0) : TERRAIN_LIBRE   2160.0
+main.modele.Case (6, 4) : TERRAIN_LIBRE   2160.0
+main.modele.Case (6, 1) : TERRAIN_LIBRE   1680.0
+main.modele.Case (7, 2) : HABITAT   1680.0
+main.modele.Case (7, 4) : TERRAIN_LIBRE   2160.0
+main.modele.Case (6, 0) : TERRAIN_LIBRE   1680.0
+MinNode : main.modele.Case (6, 1) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (6, 0) : TERRAIN_LIBRE
+openNodes.size() = 12 closedNodes.size() = 16
+main.modele.Case (3, 4) : TERRAIN_LIBRE   2160.0
+main.modele.Case (2, 3) : EAU   2160.0
+main.modele.Case (2, 2) : EAU   2160.0
+main.modele.Case (4, 4) : TERRAIN_LIBRE   2160.0
+main.modele.Case (2, 1) : TERRAIN_LIBRE   2160.0
+main.modele.Case (5, 4) : TERRAIN_LIBRE   2160.0
+main.modele.Case (2, 0) : TERRAIN_LIBRE   2160.0
+main.modele.Case (6, 4) : TERRAIN_LIBRE   2160.0
+main.modele.Case (7, 2) : HABITAT   1680.0
+main.modele.Case (7, 4) : TERRAIN_LIBRE   2160.0
+main.modele.Case (6, 0) : TERRAIN_LIBRE   1680.0
+main.modele.Case (7, 1) : HABITAT   1680.0
+MinNode : main.modele.Case (7, 2) : HABITAT
+VoisinGauchemain.modele.Case (7, 1) : HABITAT
+openNodes.size() = 11 closedNodes.size() = 17
+main.modele.Case (3, 4) : TERRAIN_LIBRE   2160.0
+main.modele.Case (2, 3) : EAU   2160.0
+main.modele.Case (2, 2) : EAU   2160.0
+main.modele.Case (4, 4) : TERRAIN_LIBRE   2160.0
+main.modele.Case (2, 1) : TERRAIN_LIBRE   2160.0
+main.modele.Case (5, 4) : TERRAIN_LIBRE   2160.0
+main.modele.Case (2, 0) : TERRAIN_LIBRE   2160.0
+main.modele.Case (6, 4) : TERRAIN_LIBRE   2160.0
+main.modele.Case (7, 4) : TERRAIN_LIBRE   2160.0
+main.modele.Case (6, 0) : TERRAIN_LIBRE   1680.0
+main.modele.Case (7, 1) : HABITAT   1680.0
+MinNode : main.modele.Case (6, 0) : TERRAIN_LIBRE
+openNodes.size() = 11 closedNodes.size() = 18
+main.modele.Case (3, 4) : TERRAIN_LIBRE   2160.0
+main.modele.Case (2, 3) : EAU   2160.0
+main.modele.Case (2, 2) : EAU   2160.0
+main.modele.Case (4, 4) : TERRAIN_LIBRE   2160.0
+main.modele.Case (2, 1) : TERRAIN_LIBRE   2160.0
+main.modele.Case (5, 4) : TERRAIN_LIBRE   2160.0
+main.modele.Case (2, 0) : TERRAIN_LIBRE   2160.0
+main.modele.Case (6, 4) : TERRAIN_LIBRE   2160.0
+main.modele.Case (7, 4) : TERRAIN_LIBRE   2160.0
+main.modele.Case (7, 1) : HABITAT   1680.0
+main.modele.Case (7, 0) : TERRAIN_LIBRE   1680.0
+MinNode : main.modele.Case (7, 1) : HABITAT
+VoisinGauchemain.modele.Case (7, 0) : TERRAIN_LIBRE
+openNodes.size() = 10 closedNodes.size() = 19
+main.modele.Case (3, 4) : TERRAIN_LIBRE   2160.0
+main.modele.Case (2, 3) : EAU   2160.0
+main.modele.Case (2, 2) : EAU   2160.0
+main.modele.Case (4, 4) : TERRAIN_LIBRE   2160.0
+main.modele.Case (2, 1) : TERRAIN_LIBRE   2160.0
+main.modele.Case (5, 4) : TERRAIN_LIBRE   2160.0
+main.modele.Case (2, 0) : TERRAIN_LIBRE   2160.0
+main.modele.Case (6, 4) : TERRAIN_LIBRE   2160.0
+main.modele.Case (7, 4) : TERRAIN_LIBRE   2160.0
+main.modele.Case (7, 0) : TERRAIN_LIBRE   1680.0
+MinNode : main.modele.Case (7, 0) : TERRAIN_LIBRE
+openNodes.size() = 1 closedNodes.size() = 0
+main.modele.Case (6, 5) : TERRAIN_LIBRE   2700.0
+MinNode : main.modele.Case (6, 5) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (6, 4) : TERRAIN_LIBRE
+openNodes.size() = 4 closedNodes.size() = 1
+main.modele.Case (6, 6) : TERRAIN_LIBRE   3600.0
+main.modele.Case (6, 4) : TERRAIN_LIBRE   2700.0
+main.modele.Case (5, 5) : HABITAT   3600.0
+main.modele.Case (7, 5) : TERRAIN_LIBRE   2700.0
+MinNode : main.modele.Case (6, 4) : TERRAIN_LIBRE
+openNodes.size() = 5 closedNodes.size() = 2
+main.modele.Case (6, 6) : TERRAIN_LIBRE   3600.0
+main.modele.Case (5, 5) : HABITAT   3600.0
+main.modele.Case (7, 5) : TERRAIN_LIBRE   2700.0
+main.modele.Case (5, 4) : TERRAIN_LIBRE   3600.0
+main.modele.Case (7, 4) : TERRAIN_LIBRE   2700.0
+MinNode : main.modele.Case (7, 5) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (7, 4) : TERRAIN_LIBRE
+openNodes.size() = 5 closedNodes.size() = 3
+main.modele.Case (6, 6) : TERRAIN_LIBRE   3600.0
+main.modele.Case (5, 5) : HABITAT   3600.0
+main.modele.Case (5, 4) : TERRAIN_LIBRE   3600.0
+main.modele.Case (7, 4) : TERRAIN_LIBRE   2700.0
+main.modele.Case (7, 6) : TERRAIN_LIBRE   3600.0
+MinNode : main.modele.Case (7, 4) : TERRAIN_LIBRE
+openNodes.size() = 4 closedNodes.size() = 4
+main.modele.Case (6, 6) : TERRAIN_LIBRE   3600.0
+main.modele.Case (5, 5) : HABITAT   3600.0
+main.modele.Case (5, 4) : TERRAIN_LIBRE   3600.0
+main.modele.Case (7, 6) : TERRAIN_LIBRE   3600.0
+MinNode : main.modele.Case (6, 6) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (6, 5) : TERRAIN_LIBRE
+openNodes.size() = 5 closedNodes.size() = 5
+main.modele.Case (5, 5) : HABITAT   3600.0
+main.modele.Case (5, 4) : TERRAIN_LIBRE   3600.0
+main.modele.Case (7, 6) : TERRAIN_LIBRE   3600.0
+main.modele.Case (6, 7) : TERRAIN_LIBRE   4500.0
+main.modele.Case (5, 6) : HABITAT   4500.0
+MinNode : main.modele.Case (5, 5) : HABITAT
+VoisinGauchemain.modele.Case (5, 4) : TERRAIN_LIBRE
+openNodes.size() = 4 closedNodes.size() = 6
+main.modele.Case (5, 4) : TERRAIN_LIBRE   3600.0
+main.modele.Case (7, 6) : TERRAIN_LIBRE   3600.0
+main.modele.Case (6, 7) : TERRAIN_LIBRE   4500.0
+main.modele.Case (5, 6) : HABITAT   4500.0
+MinNode : main.modele.Case (5, 4) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (5, 3) : TERRAIN_LIBRE
+openNodes.size() = 5 closedNodes.size() = 7
+main.modele.Case (7, 6) : TERRAIN_LIBRE   3600.0
+main.modele.Case (6, 7) : TERRAIN_LIBRE   4500.0
+main.modele.Case (5, 6) : HABITAT   4500.0
+main.modele.Case (5, 3) : TERRAIN_LIBRE   3600.0
+main.modele.Case (4, 4) : TERRAIN_LIBRE   4500.0
+MinNode : main.modele.Case (7, 6) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (7, 5) : TERRAIN_LIBRE
+openNodes.size() = 5 closedNodes.size() = 8
+main.modele.Case (6, 7) : TERRAIN_LIBRE   4500.0
+main.modele.Case (5, 6) : HABITAT   4500.0
+main.modele.Case (5, 3) : TERRAIN_LIBRE   3600.0
+main.modele.Case (4, 4) : TERRAIN_LIBRE   4500.0
+main.modele.Case (7, 7) : TERRAIN_LIBRE   4500.0
+MinNode : main.modele.Case (5, 3) : TERRAIN_LIBRE
+openNodes.size() = 5 closedNodes.size() = 9
+main.modele.Case (6, 7) : TERRAIN_LIBRE   4500.0
+main.modele.Case (5, 6) : HABITAT   4500.0
+main.modele.Case (4, 4) : TERRAIN_LIBRE   4500.0
+main.modele.Case (7, 7) : TERRAIN_LIBRE   4500.0
+main.modele.Case (4, 3) : TERRAIN_LIBRE   4500.0
+MinNode : main.modele.Case (6, 7) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (6, 6) : TERRAIN_LIBRE
+openNodes.size() = 5 closedNodes.size() = 10
+main.modele.Case (5, 6) : HABITAT   4500.0
+main.modele.Case (4, 4) : TERRAIN_LIBRE   4500.0
+main.modele.Case (7, 7) : TERRAIN_LIBRE   4500.0
+main.modele.Case (4, 3) : TERRAIN_LIBRE   4500.0
+main.modele.Case (5, 7) : TERRAIN_LIBRE   5400.0
+MinNode : main.modele.Case (5, 6) : HABITAT
+VoisinGauchemain.modele.Case (5, 5) : HABITAT
+openNodes.size() = 4 closedNodes.size() = 11
+main.modele.Case (4, 4) : TERRAIN_LIBRE   4500.0
+main.modele.Case (7, 7) : TERRAIN_LIBRE   4500.0
+main.modele.Case (4, 3) : TERRAIN_LIBRE   4500.0
+main.modele.Case (5, 7) : TERRAIN_LIBRE   5400.0
+MinNode : main.modele.Case (4, 4) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (4, 3) : TERRAIN_LIBRE
+openNodes.size() = 4 closedNodes.size() = 12
+main.modele.Case (7, 7) : TERRAIN_LIBRE   4500.0
+main.modele.Case (4, 3) : TERRAIN_LIBRE   4500.0
+main.modele.Case (5, 7) : TERRAIN_LIBRE   5400.0
+main.modele.Case (3, 4) : TERRAIN_LIBRE   5400.0
+MinNode : main.modele.Case (7, 7) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (7, 6) : TERRAIN_LIBRE
+openNodes.size() = 3 closedNodes.size() = 13
+main.modele.Case (4, 3) : TERRAIN_LIBRE   4500.0
+main.modele.Case (5, 7) : TERRAIN_LIBRE   5400.0
+main.modele.Case (3, 4) : TERRAIN_LIBRE   5400.0
+MinNode : main.modele.Case (4, 3) : TERRAIN_LIBRE
+openNodes.size() = 2 closedNodes.size() = 14
+main.modele.Case (5, 7) : TERRAIN_LIBRE   5400.0
+main.modele.Case (3, 4) : TERRAIN_LIBRE   5400.0
+MinNode : main.modele.Case (5, 7) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (5, 6) : HABITAT
+openNodes.size() = 2 closedNodes.size() = 15
+main.modele.Case (3, 4) : TERRAIN_LIBRE   5400.0
+main.modele.Case (4, 7) : TERRAIN_LIBRE   6300.0
+MinNode : main.modele.Case (3, 4) : TERRAIN_LIBRE
+openNodes.size() = 2 closedNodes.size() = 16
+main.modele.Case (4, 7) : TERRAIN_LIBRE   6300.0
+main.modele.Case (2, 4) : TERRAIN_LIBRE   6300.0
+MinNode : main.modele.Case (4, 7) : TERRAIN_LIBRE
+openNodes.size() = 2 closedNodes.size() = 17
+main.modele.Case (2, 4) : TERRAIN_LIBRE   6300.0
+main.modele.Case (3, 7) : TERRAIN_LIBRE   7200.0
+MinNode : main.modele.Case (2, 4) : TERRAIN_LIBRE
+openNodes.size() = 1 closedNodes.size() = 18
+main.modele.Case (3, 7) : TERRAIN_LIBRE   7200.0
+MinNode : main.modele.Case (3, 7) : TERRAIN_LIBRE
+openNodes.size() = 1 closedNodes.size() = 19
+main.modele.Case (2, 7) : TERRAIN_LIBRE   8100.0
+MinNode : main.modele.Case (2, 7) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (2, 6) : TERRAIN_LIBRE
+openNodes.size() = 2 closedNodes.size() = 20
+main.modele.Case (2, 6) : TERRAIN_LIBRE   8100.0
+main.modele.Case (1, 7) : TERRAIN_LIBRE   9000.0
+MinNode : main.modele.Case (2, 6) : TERRAIN_LIBRE
+openNodes.size() = 1 closedNodes.size() = 21
+main.modele.Case (1, 7) : TERRAIN_LIBRE   9000.0
+MinNode : main.modele.Case (1, 7) : TERRAIN_LIBRE
+openNodes.size() = 1 closedNodes.size() = 22
+main.modele.Case (0, 7) : TERRAIN_LIBRE   9900.0
+MinNode : main.modele.Case (0, 7) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (0, 6) : TERRAIN_LIBRE
+openNodes.size() = 1 closedNodes.size() = 23
+main.modele.Case (0, 6) : TERRAIN_LIBRE   9900.0
+MinNode : main.modele.Case (0, 6) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (0, 5) : TERRAIN_LIBRE
+openNodes.size() = 1 closedNodes.size() = 24
+main.modele.Case (0, 5) : TERRAIN_LIBRE   9900.0
+MinNode : main.modele.Case (0, 5) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (0, 4) : TERRAIN_LIBRE
+openNodes.size() = 2 closedNodes.size() = 25
+main.modele.Case (0, 4) : TERRAIN_LIBRE   9900.0
+main.modele.Case (1, 5) : TERRAIN_LIBRE   9900.0
+MinNode : main.modele.Case (0, 4) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (0, 3) : TERRAIN_LIBRE
+openNodes.size() = 2 closedNodes.size() = 26
+main.modele.Case (1, 5) : TERRAIN_LIBRE   9900.0
+main.modele.Case (0, 3) : TERRAIN_LIBRE   9900.0
+MinNode : main.modele.Case (1, 5) : TERRAIN_LIBRE
+openNodes.size() = 1 closedNodes.size() = 27
+main.modele.Case (0, 3) : TERRAIN_LIBRE   9900.0
+MinNode : main.modele.Case (0, 3) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (0, 2) : TERRAIN_LIBRE
+openNodes.size() = 2 closedNodes.size() = 28
+main.modele.Case (0, 2) : TERRAIN_LIBRE   9900.0
+main.modele.Case (1, 3) : TERRAIN_LIBRE   9900.0
+MinNode : main.modele.Case (0, 2) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (0, 1) : TERRAIN_LIBRE
+openNodes.size() = 3 closedNodes.size() = 29
+main.modele.Case (1, 3) : TERRAIN_LIBRE   9900.0
+main.modele.Case (0, 1) : TERRAIN_LIBRE   9900.0
+main.modele.Case (1, 2) : TERRAIN_LIBRE   9900.0
+MinNode : main.modele.Case (1, 3) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (1, 2) : TERRAIN_LIBRE
+openNodes.size() = 2 closedNodes.size() = 30
+main.modele.Case (0, 1) : TERRAIN_LIBRE   9900.0
+main.modele.Case (1, 2) : TERRAIN_LIBRE   9900.0
+MinNode : main.modele.Case (0, 1) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (0, 0) : TERRAIN_LIBRE
+openNodes.size() = 3 closedNodes.size() = 31
+main.modele.Case (1, 2) : TERRAIN_LIBRE   9900.0
+main.modele.Case (0, 0) : TERRAIN_LIBRE   9900.0
+main.modele.Case (1, 1) : TERRAIN_LIBRE   9900.0
+MinNode : main.modele.Case (1, 2) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (1, 1) : TERRAIN_LIBRE
+openNodes.size() = 2 closedNodes.size() = 32
+main.modele.Case (0, 0) : TERRAIN_LIBRE   9900.0
+main.modele.Case (1, 1) : TERRAIN_LIBRE   9900.0
+MinNode : main.modele.Case (0, 0) : TERRAIN_LIBRE
+openNodes.size() = 2 closedNodes.size() = 33
+main.modele.Case (1, 1) : TERRAIN_LIBRE   9900.0
+main.modele.Case (1, 0) : TERRAIN_LIBRE   9900.0
+MinNode : main.modele.Case (1, 1) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (1, 0) : TERRAIN_LIBRE
+openNodes.size() = 2 closedNodes.size() = 34
+main.modele.Case (1, 0) : TERRAIN_LIBRE   9900.0
+main.modele.Case (2, 1) : TERRAIN_LIBRE   9900.0
+MinNode : main.modele.Case (1, 0) : TERRAIN_LIBRE
+openNodes.size() = 2 closedNodes.size() = 35
+main.modele.Case (2, 1) : TERRAIN_LIBRE   9900.0
+main.modele.Case (2, 0) : TERRAIN_LIBRE   9900.0
+MinNode : main.modele.Case (2, 1) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (2, 0) : TERRAIN_LIBRE
+openNodes.size() = 2 closedNodes.size() = 36
+main.modele.Case (2, 0) : TERRAIN_LIBRE   9900.0
+main.modele.Case (3, 1) : TERRAIN_LIBRE   9900.0
+MinNode : main.modele.Case (2, 0) : TERRAIN_LIBRE
+openNodes.size() = 2 closedNodes.size() = 37
+main.modele.Case (3, 1) : TERRAIN_LIBRE   9900.0
+main.modele.Case (3, 0) : TERRAIN_LIBRE   9900.0
+MinNode : main.modele.Case (3, 1) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (3, 0) : TERRAIN_LIBRE
+openNodes.size() = 2 closedNodes.size() = 38
+main.modele.Case (3, 0) : TERRAIN_LIBRE   9900.0
+main.modele.Case (4, 1) : TERRAIN_LIBRE   9900.0
+MinNode : main.modele.Case (3, 0) : TERRAIN_LIBRE
+openNodes.size() = 2 closedNodes.size() = 39
+main.modele.Case (4, 1) : TERRAIN_LIBRE   9900.0
+main.modele.Case (4, 0) : TERRAIN_LIBRE   9900.0
+MinNode : main.modele.Case (4, 1) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (4, 0) : TERRAIN_LIBRE
+openNodes.size() = 2 closedNodes.size() = 40
+main.modele.Case (4, 0) : TERRAIN_LIBRE   9900.0
+main.modele.Case (5, 1) : TERRAIN_LIBRE   9900.0
+MinNode : main.modele.Case (4, 0) : TERRAIN_LIBRE
+openNodes.size() = 2 closedNodes.size() = 41
+main.modele.Case (5, 1) : TERRAIN_LIBRE   9900.0
+main.modele.Case (5, 0) : TERRAIN_LIBRE   9900.0
+MinNode : main.modele.Case (5, 1) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (5, 0) : TERRAIN_LIBRE
+openNodes.size() = 2 closedNodes.size() = 42
+main.modele.Case (5, 0) : TERRAIN_LIBRE   9900.0
+main.modele.Case (6, 1) : TERRAIN_LIBRE   9900.0
+MinNode : main.modele.Case (5, 0) : TERRAIN_LIBRE
+openNodes.size() = 2 closedNodes.size() = 43
+main.modele.Case (6, 1) : TERRAIN_LIBRE   9900.0
+main.modele.Case (6, 0) : TERRAIN_LIBRE   9900.0
+MinNode : main.modele.Case (6, 1) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (6, 0) : TERRAIN_LIBRE
+openNodes.size() = 2 closedNodes.size() = 44
+main.modele.Case (6, 0) : TERRAIN_LIBRE   9900.0
+main.modele.Case (7, 1) : HABITAT   9900.0
+MinNode : main.modele.Case (6, 0) : TERRAIN_LIBRE
+openNodes.size() = 2 closedNodes.size() = 45
+main.modele.Case (7, 1) : HABITAT   9900.0
+main.modele.Case (7, 0) : TERRAIN_LIBRE   9900.0
+MinNode : main.modele.Case (7, 1) : HABITAT
+VoisinGauchemain.modele.Case (7, 0) : TERRAIN_LIBRE
+openNodes.size() = 2 closedNodes.size() = 46
+main.modele.Case (7, 0) : TERRAIN_LIBRE   9900.0
+main.modele.Case (7, 2) : HABITAT   10800.0
+MinNode : main.modele.Case (7, 0) : TERRAIN_LIBRE
+openNodes.size() = 1 closedNodes.size() = 0
+main.modele.Case (4, 7) : TERRAIN_LIBRE   3600.0
+MinNode : main.modele.Case (4, 7) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (4, 6) : FORET
+openNodes.size() = 3 closedNodes.size() = 1
+main.modele.Case (4, 6) : FORET   3600.0
+main.modele.Case (3, 7) : TERRAIN_LIBRE   4320.0
+main.modele.Case (5, 7) : TERRAIN_LIBRE   3600.0
+MinNode : main.modele.Case (4, 6) : FORET
+VoisinGauchemain.modele.Case (4, 5) : FORET
+openNodes.size() = 5 closedNodes.size() = 2
+main.modele.Case (3, 7) : TERRAIN_LIBRE   4320.0
+main.modele.Case (5, 7) : TERRAIN_LIBRE   3600.0
+main.modele.Case (4, 5) : FORET   3600.0
+main.modele.Case (3, 6) : FORET   4320.0
+main.modele.Case (5, 6) : HABITAT   3600.0
+MinNode : main.modele.Case (5, 7) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (5, 6) : HABITAT
+openNodes.size() = 5 closedNodes.size() = 3
+main.modele.Case (3, 7) : TERRAIN_LIBRE   4320.0
+main.modele.Case (4, 5) : FORET   3600.0
+main.modele.Case (3, 6) : FORET   4320.0
+main.modele.Case (5, 6) : HABITAT   3600.0
+main.modele.Case (6, 7) : TERRAIN_LIBRE   3600.0
+MinNode : main.modele.Case (4, 5) : FORET
+VoisinGauchemain.modele.Case (4, 4) : TERRAIN_LIBRE
+openNodes.size() = 7 closedNodes.size() = 4
+main.modele.Case (3, 7) : TERRAIN_LIBRE   4320.0
+main.modele.Case (3, 6) : FORET   4320.0
+main.modele.Case (5, 6) : HABITAT   3600.0
+main.modele.Case (6, 7) : TERRAIN_LIBRE   3600.0
+main.modele.Case (4, 4) : TERRAIN_LIBRE   3600.0
+main.modele.Case (3, 5) : FORET   4320.0
+main.modele.Case (5, 5) : HABITAT   3600.0
+MinNode : main.modele.Case (5, 6) : HABITAT
+VoisinGauchemain.modele.Case (5, 5) : HABITAT
+openNodes.size() = 7 closedNodes.size() = 5
+main.modele.Case (3, 7) : TERRAIN_LIBRE   4320.0
+main.modele.Case (3, 6) : FORET   4320.0
+main.modele.Case (6, 7) : TERRAIN_LIBRE   3600.0
+main.modele.Case (4, 4) : TERRAIN_LIBRE   3600.0
+main.modele.Case (3, 5) : FORET   4320.0
+main.modele.Case (5, 5) : HABITAT   3600.0
+main.modele.Case (6, 6) : TERRAIN_LIBRE   3600.0
+MinNode : main.modele.Case (6, 7) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (6, 6) : TERRAIN_LIBRE
+openNodes.size() = 7 closedNodes.size() = 6
+main.modele.Case (3, 7) : TERRAIN_LIBRE   4320.0
+main.modele.Case (3, 6) : FORET   4320.0
+main.modele.Case (4, 4) : TERRAIN_LIBRE   3600.0
+main.modele.Case (3, 5) : FORET   4320.0
+main.modele.Case (5, 5) : HABITAT   3600.0
+main.modele.Case (6, 6) : TERRAIN_LIBRE   3600.0
+main.modele.Case (7, 7) : TERRAIN_LIBRE   3600.0
+MinNode : main.modele.Case (4, 4) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (4, 3) : TERRAIN_LIBRE
+openNodes.size() = 9 closedNodes.size() = 7
+main.modele.Case (3, 7) : TERRAIN_LIBRE   4320.0
+main.modele.Case (3, 6) : FORET   4320.0
+main.modele.Case (3, 5) : FORET   4320.0
+main.modele.Case (5, 5) : HABITAT   3600.0
+main.modele.Case (6, 6) : TERRAIN_LIBRE   3600.0
+main.modele.Case (7, 7) : TERRAIN_LIBRE   3600.0
+main.modele.Case (4, 3) : TERRAIN_LIBRE   3600.0
+main.modele.Case (3, 4) : TERRAIN_LIBRE   4320.0
+main.modele.Case (5, 4) : TERRAIN_LIBRE   3600.0
+MinNode : main.modele.Case (5, 5) : HABITAT
+VoisinGauchemain.modele.Case (5, 4) : TERRAIN_LIBRE
+openNodes.size() = 9 closedNodes.size() = 8
+main.modele.Case (3, 7) : TERRAIN_LIBRE   4320.0
+main.modele.Case (3, 6) : FORET   4320.0
+main.modele.Case (3, 5) : FORET   4320.0
+main.modele.Case (6, 6) : TERRAIN_LIBRE   3600.0
+main.modele.Case (7, 7) : TERRAIN_LIBRE   3600.0
+main.modele.Case (4, 3) : TERRAIN_LIBRE   3600.0
+main.modele.Case (3, 4) : TERRAIN_LIBRE   4320.0
+main.modele.Case (5, 4) : TERRAIN_LIBRE   3600.0
+main.modele.Case (6, 5) : TERRAIN_LIBRE   3600.0
+MinNode : main.modele.Case (6, 6) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (6, 5) : TERRAIN_LIBRE
+openNodes.size() = 9 closedNodes.size() = 9
+main.modele.Case (3, 7) : TERRAIN_LIBRE   4320.0
+main.modele.Case (3, 6) : FORET   4320.0
+main.modele.Case (3, 5) : FORET   4320.0
+main.modele.Case (7, 7) : TERRAIN_LIBRE   3600.0
+main.modele.Case (4, 3) : TERRAIN_LIBRE   3600.0
+main.modele.Case (3, 4) : TERRAIN_LIBRE   4320.0
+main.modele.Case (5, 4) : TERRAIN_LIBRE   3600.0
+main.modele.Case (6, 5) : TERRAIN_LIBRE   3600.0
+main.modele.Case (7, 6) : TERRAIN_LIBRE   3600.0
+MinNode : main.modele.Case (7, 7) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (7, 6) : TERRAIN_LIBRE
+openNodes.size() = 8 closedNodes.size() = 10
+main.modele.Case (3, 7) : TERRAIN_LIBRE   4320.0
+main.modele.Case (3, 6) : FORET   4320.0
+main.modele.Case (3, 5) : FORET   4320.0
+main.modele.Case (4, 3) : TERRAIN_LIBRE   3600.0
+main.modele.Case (3, 4) : TERRAIN_LIBRE   4320.0
+main.modele.Case (5, 4) : TERRAIN_LIBRE   3600.0
+main.modele.Case (6, 5) : TERRAIN_LIBRE   3600.0
+main.modele.Case (7, 6) : TERRAIN_LIBRE   3600.0
+MinNode : main.modele.Case (4, 3) : TERRAIN_LIBRE
+openNodes.size() = 8 closedNodes.size() = 11
+main.modele.Case (3, 7) : TERRAIN_LIBRE   4320.0
+main.modele.Case (3, 6) : FORET   4320.0
+main.modele.Case (3, 5) : FORET   4320.0
+main.modele.Case (3, 4) : TERRAIN_LIBRE   4320.0
+main.modele.Case (5, 4) : TERRAIN_LIBRE   3600.0
+main.modele.Case (6, 5) : TERRAIN_LIBRE   3600.0
+main.modele.Case (7, 6) : TERRAIN_LIBRE   3600.0
+main.modele.Case (5, 3) : TERRAIN_LIBRE   3600.0
+MinNode : main.modele.Case (5, 4) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (5, 3) : TERRAIN_LIBRE
+openNodes.size() = 8 closedNodes.size() = 12
+main.modele.Case (3, 7) : TERRAIN_LIBRE   4320.0
+main.modele.Case (3, 6) : FORET   4320.0
+main.modele.Case (3, 5) : FORET   4320.0
+main.modele.Case (3, 4) : TERRAIN_LIBRE   4320.0
+main.modele.Case (6, 5) : TERRAIN_LIBRE   3600.0
+main.modele.Case (7, 6) : TERRAIN_LIBRE   3600.0
+main.modele.Case (5, 3) : TERRAIN_LIBRE   3600.0
+main.modele.Case (6, 4) : TERRAIN_LIBRE   3600.0
+MinNode : main.modele.Case (6, 5) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (6, 4) : TERRAIN_LIBRE
+openNodes.size() = 8 closedNodes.size() = 13
+main.modele.Case (3, 7) : TERRAIN_LIBRE   4320.0
+main.modele.Case (3, 6) : FORET   4320.0
+main.modele.Case (3, 5) : FORET   4320.0
+main.modele.Case (3, 4) : TERRAIN_LIBRE   4320.0
+main.modele.Case (7, 6) : TERRAIN_LIBRE   3600.0
+main.modele.Case (5, 3) : TERRAIN_LIBRE   3600.0
+main.modele.Case (6, 4) : TERRAIN_LIBRE   3600.0
+main.modele.Case (7, 5) : TERRAIN_LIBRE   3600.0
+MinNode : main.modele.Case (7, 6) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (7, 5) : TERRAIN_LIBRE
+openNodes.size() = 7 closedNodes.size() = 14
+main.modele.Case (3, 7) : TERRAIN_LIBRE   4320.0
+main.modele.Case (3, 6) : FORET   4320.0
+main.modele.Case (3, 5) : FORET   4320.0
+main.modele.Case (3, 4) : TERRAIN_LIBRE   4320.0
+main.modele.Case (5, 3) : TERRAIN_LIBRE   3600.0
+main.modele.Case (6, 4) : TERRAIN_LIBRE   3600.0
+main.modele.Case (7, 5) : TERRAIN_LIBRE   3600.0
+MinNode : main.modele.Case (5, 3) : TERRAIN_LIBRE
+openNodes.size() = 6 closedNodes.size() = 15
+main.modele.Case (3, 7) : TERRAIN_LIBRE   4320.0
+main.modele.Case (3, 6) : FORET   4320.0
+main.modele.Case (3, 5) : FORET   4320.0
+main.modele.Case (3, 4) : TERRAIN_LIBRE   4320.0
+main.modele.Case (6, 4) : TERRAIN_LIBRE   3600.0
+main.modele.Case (7, 5) : TERRAIN_LIBRE   3600.0
+MinNode : main.modele.Case (6, 4) : TERRAIN_LIBRE
+openNodes.size() = 6 closedNodes.size() = 16
+main.modele.Case (3, 7) : TERRAIN_LIBRE   4320.0
+main.modele.Case (3, 6) : FORET   4320.0
+main.modele.Case (3, 5) : FORET   4320.0
+main.modele.Case (3, 4) : TERRAIN_LIBRE   4320.0
+main.modele.Case (7, 5) : TERRAIN_LIBRE   3600.0
+main.modele.Case (7, 4) : TERRAIN_LIBRE   3600.0
+MinNode : main.modele.Case (7, 5) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (7, 4) : TERRAIN_LIBRE
+openNodes.size() = 5 closedNodes.size() = 17
+main.modele.Case (3, 7) : TERRAIN_LIBRE   4320.0
+main.modele.Case (3, 6) : FORET   4320.0
+main.modele.Case (3, 5) : FORET   4320.0
+main.modele.Case (3, 4) : TERRAIN_LIBRE   4320.0
+main.modele.Case (7, 4) : TERRAIN_LIBRE   3600.0
+MinNode : main.modele.Case (7, 4) : TERRAIN_LIBRE
+openNodes.size() = 4 closedNodes.size() = 18
+main.modele.Case (3, 7) : TERRAIN_LIBRE   4320.0
+main.modele.Case (3, 6) : FORET   4320.0
+main.modele.Case (3, 5) : FORET   4320.0
+main.modele.Case (3, 4) : TERRAIN_LIBRE   4320.0
+MinNode : main.modele.Case (3, 7) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (3, 6) : FORET
+openNodes.size() = 4 closedNodes.size() = 19
+main.modele.Case (3, 6) : FORET   4320.0
+main.modele.Case (3, 5) : FORET   4320.0
+main.modele.Case (3, 4) : TERRAIN_LIBRE   4320.0
+main.modele.Case (2, 7) : TERRAIN_LIBRE   5040.0
+MinNode : main.modele.Case (3, 6) : FORET
+VoisinGauchemain.modele.Case (3, 5) : FORET
+openNodes.size() = 4 closedNodes.size() = 20
+main.modele.Case (3, 5) : FORET   4320.0
+main.modele.Case (3, 4) : TERRAIN_LIBRE   4320.0
+main.modele.Case (2, 7) : TERRAIN_LIBRE   5040.0
+main.modele.Case (2, 6) : TERRAIN_LIBRE   5040.0
+MinNode : main.modele.Case (3, 5) : FORET
+VoisinGauchemain.modele.Case (3, 4) : TERRAIN_LIBRE
+openNodes.size() = 4 closedNodes.size() = 21
+main.modele.Case (3, 4) : TERRAIN_LIBRE   4320.0
+main.modele.Case (2, 7) : TERRAIN_LIBRE   5040.0
+main.modele.Case (2, 6) : TERRAIN_LIBRE   5040.0
+main.modele.Case (2, 5) : FORET   5040.0
+MinNode : main.modele.Case (3, 4) : TERRAIN_LIBRE
+openNodes.size() = 4 closedNodes.size() = 22
+main.modele.Case (2, 7) : TERRAIN_LIBRE   5040.0
+main.modele.Case (2, 6) : TERRAIN_LIBRE   5040.0
+main.modele.Case (2, 5) : FORET   5040.0
+main.modele.Case (2, 4) : TERRAIN_LIBRE   5040.0
+MinNode : main.modele.Case (2, 7) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (2, 6) : TERRAIN_LIBRE
+openNodes.size() = 4 closedNodes.size() = 23
+main.modele.Case (2, 6) : TERRAIN_LIBRE   5040.0
+main.modele.Case (2, 5) : FORET   5040.0
+main.modele.Case (2, 4) : TERRAIN_LIBRE   5040.0
+main.modele.Case (1, 7) : TERRAIN_LIBRE   5760.0
+MinNode : main.modele.Case (2, 6) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (2, 5) : FORET
+openNodes.size() = 4 closedNodes.size() = 24
+main.modele.Case (2, 5) : FORET   5040.0
+main.modele.Case (2, 4) : TERRAIN_LIBRE   5040.0
+main.modele.Case (1, 7) : TERRAIN_LIBRE   5760.0
+main.modele.Case (1, 6) : ROCHE   5760.0
+MinNode : main.modele.Case (2, 5) : FORET
+VoisinGauchemain.modele.Case (2, 4) : TERRAIN_LIBRE
+openNodes.size() = 4 closedNodes.size() = 25
+main.modele.Case (2, 4) : TERRAIN_LIBRE   5040.0
+main.modele.Case (1, 7) : TERRAIN_LIBRE   5760.0
+main.modele.Case (1, 6) : ROCHE   5760.0
+main.modele.Case (1, 5) : TERRAIN_LIBRE   5760.0
+MinNode : main.modele.Case (2, 4) : TERRAIN_LIBRE
+openNodes.size() = 4 closedNodes.size() = 26
+main.modele.Case (1, 7) : TERRAIN_LIBRE   5760.0
+main.modele.Case (1, 6) : ROCHE   5760.0
+main.modele.Case (1, 5) : TERRAIN_LIBRE   5760.0
+main.modele.Case (1, 4) : ROCHE   5760.0
+MinNode : main.modele.Case (1, 7) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (1, 6) : ROCHE
+openNodes.size() = 4 closedNodes.size() = 27
+main.modele.Case (1, 6) : ROCHE   5760.0
+main.modele.Case (1, 5) : TERRAIN_LIBRE   5760.0
+main.modele.Case (1, 4) : ROCHE   5760.0
+main.modele.Case (0, 7) : TERRAIN_LIBRE   6480.0
+MinNode : main.modele.Case (1, 6) : ROCHE
+VoisinGauchemain.modele.Case (1, 5) : TERRAIN_LIBRE
+openNodes.size() = 4 closedNodes.size() = 28
+main.modele.Case (1, 5) : TERRAIN_LIBRE   5760.0
+main.modele.Case (1, 4) : ROCHE   5760.0
+main.modele.Case (0, 7) : TERRAIN_LIBRE   6480.0
+main.modele.Case (0, 6) : TERRAIN_LIBRE   9720.0
+MinNode : main.modele.Case (1, 5) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (1, 4) : ROCHE
+openNodes.size() = 4 closedNodes.size() = 29
+main.modele.Case (1, 4) : ROCHE   5760.0
+main.modele.Case (0, 7) : TERRAIN_LIBRE   6480.0
+main.modele.Case (0, 6) : TERRAIN_LIBRE   9720.0
+main.modele.Case (0, 5) : TERRAIN_LIBRE   6480.0
+MinNode : main.modele.Case (1, 4) : ROCHE
+VoisinGauchemain.modele.Case (1, 3) : TERRAIN_LIBRE
+openNodes.size() = 5 closedNodes.size() = 30
+main.modele.Case (0, 7) : TERRAIN_LIBRE   6480.0
+main.modele.Case (0, 6) : TERRAIN_LIBRE   9720.0
+main.modele.Case (0, 5) : TERRAIN_LIBRE   6480.0
+main.modele.Case (1, 3) : TERRAIN_LIBRE   9000.0
+main.modele.Case (0, 4) : TERRAIN_LIBRE   9720.0
+MinNode : main.modele.Case (0, 7) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (0, 6) : TERRAIN_LIBRE
+openNodes.size() = 4 closedNodes.size() = 31
+main.modele.Case (0, 6) : TERRAIN_LIBRE   6480.0
+main.modele.Case (0, 5) : TERRAIN_LIBRE   6480.0
+main.modele.Case (1, 3) : TERRAIN_LIBRE   9000.0
+main.modele.Case (0, 4) : TERRAIN_LIBRE   9720.0
+MinNode : main.modele.Case (0, 6) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (0, 5) : TERRAIN_LIBRE
+openNodes.size() = 3 closedNodes.size() = 32
+main.modele.Case (0, 5) : TERRAIN_LIBRE   6480.0
+main.modele.Case (1, 3) : TERRAIN_LIBRE   9000.0
+main.modele.Case (0, 4) : TERRAIN_LIBRE   9720.0
+MinNode : main.modele.Case (0, 5) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (0, 4) : TERRAIN_LIBRE
+openNodes.size() = 2 closedNodes.size() = 33
+main.modele.Case (1, 3) : TERRAIN_LIBRE   9000.0
+main.modele.Case (0, 4) : TERRAIN_LIBRE   6480.0
+MinNode : main.modele.Case (0, 4) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (0, 3) : TERRAIN_LIBRE
+openNodes.size() = 2 closedNodes.size() = 34
+main.modele.Case (1, 3) : TERRAIN_LIBRE   9000.0
+main.modele.Case (0, 3) : TERRAIN_LIBRE   6480.0
+MinNode : main.modele.Case (0, 3) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (0, 2) : TERRAIN_LIBRE
+openNodes.size() = 2 closedNodes.size() = 35
+main.modele.Case (1, 3) : TERRAIN_LIBRE   6480.0
+main.modele.Case (0, 2) : TERRAIN_LIBRE   6480.0
+MinNode : main.modele.Case (1, 3) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (1, 2) : TERRAIN_LIBRE
+openNodes.size() = 2 closedNodes.size() = 36
+main.modele.Case (0, 2) : TERRAIN_LIBRE   6480.0
+main.modele.Case (1, 2) : TERRAIN_LIBRE   6480.0
+MinNode : main.modele.Case (0, 2) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (0, 1) : TERRAIN_LIBRE
+openNodes.size() = 2 closedNodes.size() = 37
+main.modele.Case (1, 2) : TERRAIN_LIBRE   6480.0
+main.modele.Case (0, 1) : TERRAIN_LIBRE   6480.0
+MinNode : main.modele.Case (1, 2) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (1, 1) : TERRAIN_LIBRE
+openNodes.size() = 2 closedNodes.size() = 38
+main.modele.Case (0, 1) : TERRAIN_LIBRE   6480.0
+main.modele.Case (1, 1) : TERRAIN_LIBRE   6480.0
+MinNode : main.modele.Case (0, 1) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (0, 0) : TERRAIN_LIBRE
+openNodes.size() = 2 closedNodes.size() = 39
+main.modele.Case (1, 1) : TERRAIN_LIBRE   6480.0
+main.modele.Case (0, 0) : TERRAIN_LIBRE   6480.0
+MinNode : main.modele.Case (1, 1) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (1, 0) : TERRAIN_LIBRE
+openNodes.size() = 3 closedNodes.size() = 40
+main.modele.Case (0, 0) : TERRAIN_LIBRE   6480.0
+main.modele.Case (1, 0) : TERRAIN_LIBRE   6480.0
+main.modele.Case (2, 1) : TERRAIN_LIBRE   6480.0
+MinNode : main.modele.Case (0, 0) : TERRAIN_LIBRE
+openNodes.size() = 2 closedNodes.size() = 41
+main.modele.Case (1, 0) : TERRAIN_LIBRE   6480.0
+main.modele.Case (2, 1) : TERRAIN_LIBRE   6480.0
+MinNode : main.modele.Case (1, 0) : TERRAIN_LIBRE
+openNodes.size() = 2 closedNodes.size() = 42
+main.modele.Case (2, 1) : TERRAIN_LIBRE   6480.0
+main.modele.Case (2, 0) : TERRAIN_LIBRE   6480.0
+MinNode : main.modele.Case (2, 1) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (2, 0) : TERRAIN_LIBRE
+openNodes.size() = 2 closedNodes.size() = 43
+main.modele.Case (2, 0) : TERRAIN_LIBRE   6480.0
+main.modele.Case (3, 1) : TERRAIN_LIBRE   6480.0
+MinNode : main.modele.Case (2, 0) : TERRAIN_LIBRE
+openNodes.size() = 2 closedNodes.size() = 44
+main.modele.Case (3, 1) : TERRAIN_LIBRE   6480.0
+main.modele.Case (3, 0) : TERRAIN_LIBRE   6480.0
+MinNode : main.modele.Case (3, 1) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (3, 0) : TERRAIN_LIBRE
+openNodes.size() = 2 closedNodes.size() = 45
+main.modele.Case (3, 0) : TERRAIN_LIBRE   6480.0
+main.modele.Case (4, 1) : TERRAIN_LIBRE   6480.0
+MinNode : main.modele.Case (3, 0) : TERRAIN_LIBRE
+openNodes.size() = 2 closedNodes.size() = 46
+main.modele.Case (4, 1) : TERRAIN_LIBRE   6480.0
+main.modele.Case (4, 0) : TERRAIN_LIBRE   6480.0
+MinNode : main.modele.Case (4, 1) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (4, 0) : TERRAIN_LIBRE
+openNodes.size() = 2 closedNodes.size() = 47
+main.modele.Case (4, 0) : TERRAIN_LIBRE   6480.0
+main.modele.Case (5, 1) : TERRAIN_LIBRE   6480.0
+MinNode : main.modele.Case (4, 0) : TERRAIN_LIBRE
+openNodes.size() = 2 closedNodes.size() = 48
+main.modele.Case (5, 1) : TERRAIN_LIBRE   6480.0
+main.modele.Case (5, 0) : TERRAIN_LIBRE   6480.0
+MinNode : main.modele.Case (5, 1) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (5, 0) : TERRAIN_LIBRE
+openNodes.size() = 2 closedNodes.size() = 49
+main.modele.Case (5, 0) : TERRAIN_LIBRE   6480.0
+main.modele.Case (6, 1) : TERRAIN_LIBRE   6480.0
+MinNode : main.modele.Case (5, 0) : TERRAIN_LIBRE
+openNodes.size() = 2 closedNodes.size() = 50
+main.modele.Case (6, 1) : TERRAIN_LIBRE   6480.0
+main.modele.Case (6, 0) : TERRAIN_LIBRE   6480.0
+MinNode : main.modele.Case (6, 1) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (6, 0) : TERRAIN_LIBRE
+openNodes.size() = 2 closedNodes.size() = 51
+main.modele.Case (6, 0) : TERRAIN_LIBRE   6480.0
+main.modele.Case (7, 1) : HABITAT   6480.0
+MinNode : main.modele.Case (6, 0) : TERRAIN_LIBRE
+openNodes.size() = 2 closedNodes.size() = 52
+main.modele.Case (7, 1) : HABITAT   6480.0
+main.modele.Case (7, 0) : TERRAIN_LIBRE   6480.0
+MinNode : main.modele.Case (7, 1) : HABITAT
+VoisinGauchemain.modele.Case (7, 0) : TERRAIN_LIBRE
+openNodes.size() = 2 closedNodes.size() = 53
+main.modele.Case (7, 0) : TERRAIN_LIBRE   6480.0
+main.modele.Case (7, 2) : HABITAT   7200.0
+MinNode : main.modele.Case (7, 0) : TERRAIN_LIBRE
+openNodes.size() = 1 closedNodes.size() = 0
+main.modele.Case (3, 3) : EAU   1440.0
+MinNode : main.modele.Case (3, 3) : EAU
+VoisinGauchemain.modele.Case (3, 2) : EAU
+openNodes.size() = 4 closedNodes.size() = 1
+main.modele.Case (3, 4) : TERRAIN_LIBRE   1920.0
+main.modele.Case (3, 2) : EAU   1440.0
+main.modele.Case (2, 3) : EAU   1920.0
+main.modele.Case (4, 3) : TERRAIN_LIBRE   1440.0
+MinNode : main.modele.Case (3, 2) : EAU
+VoisinGauchemain.modele.Case (3, 1) : TERRAIN_LIBRE
+openNodes.size() = 6 closedNodes.size() = 2
+main.modele.Case (3, 4) : TERRAIN_LIBRE   1920.0
+main.modele.Case (2, 3) : EAU   1920.0
+main.modele.Case (4, 3) : TERRAIN_LIBRE   1440.0
+main.modele.Case (3, 1) : TERRAIN_LIBRE   1440.0
+main.modele.Case (2, 2) : EAU   1920.0
+main.modele.Case (4, 2) : EAU   1440.0
+MinNode : main.modele.Case (4, 3) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (4, 2) : EAU
+openNodes.size() = 7 closedNodes.size() = 3
+main.modele.Case (3, 4) : TERRAIN_LIBRE   1920.0
+main.modele.Case (2, 3) : EAU   1920.0
+main.modele.Case (3, 1) : TERRAIN_LIBRE   1440.0
+main.modele.Case (2, 2) : EAU   1920.0
+main.modele.Case (4, 2) : EAU   1440.0
+main.modele.Case (4, 4) : TERRAIN_LIBRE   1920.0
+main.modele.Case (5, 3) : TERRAIN_LIBRE   1440.0
+MinNode : main.modele.Case (3, 1) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (3, 0) : TERRAIN_LIBRE
+openNodes.size() = 9 closedNodes.size() = 4
+main.modele.Case (3, 4) : TERRAIN_LIBRE   1920.0
+main.modele.Case (2, 3) : EAU   1920.0
+main.modele.Case (2, 2) : EAU   1920.0
+main.modele.Case (4, 2) : EAU   1440.0
+main.modele.Case (4, 4) : TERRAIN_LIBRE   1920.0
+main.modele.Case (5, 3) : TERRAIN_LIBRE   1440.0
+main.modele.Case (3, 0) : TERRAIN_LIBRE   1920.0
+main.modele.Case (2, 1) : TERRAIN_LIBRE   1920.0
+main.modele.Case (4, 1) : TERRAIN_LIBRE   1440.0
+MinNode : main.modele.Case (4, 2) : EAU
+VoisinGauchemain.modele.Case (4, 1) : TERRAIN_LIBRE
+openNodes.size() = 9 closedNodes.size() = 5
+main.modele.Case (3, 4) : TERRAIN_LIBRE   1920.0
+main.modele.Case (2, 3) : EAU   1920.0
+main.modele.Case (2, 2) : EAU   1920.0
+main.modele.Case (4, 4) : TERRAIN_LIBRE   1920.0
+main.modele.Case (5, 3) : TERRAIN_LIBRE   1440.0
+main.modele.Case (3, 0) : TERRAIN_LIBRE   1920.0
+main.modele.Case (2, 1) : TERRAIN_LIBRE   1920.0
+main.modele.Case (4, 1) : TERRAIN_LIBRE   1440.0
+main.modele.Case (5, 2) : EAU   1440.0
+MinNode : main.modele.Case (5, 3) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (5, 2) : EAU
+openNodes.size() = 10 closedNodes.size() = 6
+main.modele.Case (3, 4) : TERRAIN_LIBRE   1920.0
+main.modele.Case (2, 3) : EAU   1920.0
+main.modele.Case (2, 2) : EAU   1920.0
+main.modele.Case (4, 4) : TERRAIN_LIBRE   1920.0
+main.modele.Case (3, 0) : TERRAIN_LIBRE   1920.0
+main.modele.Case (2, 1) : TERRAIN_LIBRE   1920.0
+main.modele.Case (4, 1) : TERRAIN_LIBRE   1440.0
+main.modele.Case (5, 2) : EAU   1440.0
+main.modele.Case (5, 4) : TERRAIN_LIBRE   1920.0
+main.modele.Case (6, 3) : EAU   1440.0
+MinNode : main.modele.Case (4, 1) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (4, 0) : TERRAIN_LIBRE
+openNodes.size() = 11 closedNodes.size() = 7
+main.modele.Case (3, 4) : TERRAIN_LIBRE   1920.0
+main.modele.Case (2, 3) : EAU   1920.0
+main.modele.Case (2, 2) : EAU   1920.0
+main.modele.Case (4, 4) : TERRAIN_LIBRE   1920.0
+main.modele.Case (3, 0) : TERRAIN_LIBRE   1920.0
+main.modele.Case (2, 1) : TERRAIN_LIBRE   1920.0
+main.modele.Case (5, 2) : EAU   1440.0
+main.modele.Case (5, 4) : TERRAIN_LIBRE   1920.0
+main.modele.Case (6, 3) : EAU   1440.0
+main.modele.Case (4, 0) : TERRAIN_LIBRE   1920.0
+main.modele.Case (5, 1) : TERRAIN_LIBRE   1440.0
+MinNode : main.modele.Case (5, 2) : EAU
+VoisinGauchemain.modele.Case (5, 1) : TERRAIN_LIBRE
+openNodes.size() = 11 closedNodes.size() = 8
+main.modele.Case (3, 4) : TERRAIN_LIBRE   1920.0
+main.modele.Case (2, 3) : EAU   1920.0
+main.modele.Case (2, 2) : EAU   1920.0
+main.modele.Case (4, 4) : TERRAIN_LIBRE   1920.0
+main.modele.Case (3, 0) : TERRAIN_LIBRE   1920.0
+main.modele.Case (2, 1) : TERRAIN_LIBRE   1920.0
+main.modele.Case (5, 4) : TERRAIN_LIBRE   1920.0
+main.modele.Case (6, 3) : EAU   1440.0
+main.modele.Case (4, 0) : TERRAIN_LIBRE   1920.0
+main.modele.Case (5, 1) : TERRAIN_LIBRE   1440.0
+main.modele.Case (6, 2) : EAU   1440.0
+MinNode : main.modele.Case (6, 3) : EAU
+VoisinGauchemain.modele.Case (6, 2) : EAU
+openNodes.size() = 12 closedNodes.size() = 9
+main.modele.Case (3, 4) : TERRAIN_LIBRE   1920.0
+main.modele.Case (2, 3) : EAU   1920.0
+main.modele.Case (2, 2) : EAU   1920.0
+main.modele.Case (4, 4) : TERRAIN_LIBRE   1920.0
+main.modele.Case (3, 0) : TERRAIN_LIBRE   1920.0
+main.modele.Case (2, 1) : TERRAIN_LIBRE   1920.0
+main.modele.Case (5, 4) : TERRAIN_LIBRE   1920.0
+main.modele.Case (4, 0) : TERRAIN_LIBRE   1920.0
+main.modele.Case (5, 1) : TERRAIN_LIBRE   1440.0
+main.modele.Case (6, 2) : EAU   1440.0
+main.modele.Case (6, 4) : TERRAIN_LIBRE   1920.0
+main.modele.Case (7, 3) : EAU   1440.0
+MinNode : main.modele.Case (5, 1) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (5, 0) : TERRAIN_LIBRE
+openNodes.size() = 13 closedNodes.size() = 10
+main.modele.Case (3, 4) : TERRAIN_LIBRE   1920.0
+main.modele.Case (2, 3) : EAU   1920.0
+main.modele.Case (2, 2) : EAU   1920.0
+main.modele.Case (4, 4) : TERRAIN_LIBRE   1920.0
+main.modele.Case (3, 0) : TERRAIN_LIBRE   1920.0
+main.modele.Case (2, 1) : TERRAIN_LIBRE   1920.0
+main.modele.Case (5, 4) : TERRAIN_LIBRE   1920.0
+main.modele.Case (4, 0) : TERRAIN_LIBRE   1920.0
+main.modele.Case (6, 2) : EAU   1440.0
+main.modele.Case (6, 4) : TERRAIN_LIBRE   1920.0
+main.modele.Case (7, 3) : EAU   1440.0
+main.modele.Case (5, 0) : TERRAIN_LIBRE   1920.0
+main.modele.Case (6, 1) : TERRAIN_LIBRE   1440.0
+MinNode : main.modele.Case (6, 2) : EAU
+VoisinGauchemain.modele.Case (6, 1) : TERRAIN_LIBRE
+openNodes.size() = 13 closedNodes.size() = 11
+main.modele.Case (3, 4) : TERRAIN_LIBRE   1920.0
+main.modele.Case (2, 3) : EAU   1920.0
+main.modele.Case (2, 2) : EAU   1920.0
+main.modele.Case (4, 4) : TERRAIN_LIBRE   1920.0
+main.modele.Case (3, 0) : TERRAIN_LIBRE   1920.0
+main.modele.Case (2, 1) : TERRAIN_LIBRE   1920.0
+main.modele.Case (5, 4) : TERRAIN_LIBRE   1920.0
+main.modele.Case (4, 0) : TERRAIN_LIBRE   1920.0
+main.modele.Case (6, 4) : TERRAIN_LIBRE   1920.0
+main.modele.Case (7, 3) : EAU   1440.0
+main.modele.Case (5, 0) : TERRAIN_LIBRE   1920.0
+main.modele.Case (6, 1) : TERRAIN_LIBRE   1440.0
+main.modele.Case (7, 2) : HABITAT   1440.0
+MinNode : main.modele.Case (7, 3) : EAU
+VoisinGauchemain.modele.Case (7, 2) : HABITAT
+openNodes.size() = 13 closedNodes.size() = 12
+main.modele.Case (3, 4) : TERRAIN_LIBRE   1920.0
+main.modele.Case (2, 3) : EAU   1920.0
+main.modele.Case (2, 2) : EAU   1920.0
+main.modele.Case (4, 4) : TERRAIN_LIBRE   1920.0
+main.modele.Case (3, 0) : TERRAIN_LIBRE   1920.0
+main.modele.Case (2, 1) : TERRAIN_LIBRE   1920.0
+main.modele.Case (5, 4) : TERRAIN_LIBRE   1920.0
+main.modele.Case (4, 0) : TERRAIN_LIBRE   1920.0
+main.modele.Case (6, 4) : TERRAIN_LIBRE   1920.0
+main.modele.Case (5, 0) : TERRAIN_LIBRE   1920.0
+main.modele.Case (6, 1) : TERRAIN_LIBRE   1440.0
+main.modele.Case (7, 2) : HABITAT   1440.0
+main.modele.Case (7, 4) : TERRAIN_LIBRE   1920.0
+MinNode : main.modele.Case (6, 1) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (6, 0) : TERRAIN_LIBRE
+openNodes.size() = 14 closedNodes.size() = 13
+main.modele.Case (3, 4) : TERRAIN_LIBRE   1920.0
+main.modele.Case (2, 3) : EAU   1920.0
+main.modele.Case (2, 2) : EAU   1920.0
+main.modele.Case (4, 4) : TERRAIN_LIBRE   1920.0
+main.modele.Case (3, 0) : TERRAIN_LIBRE   1920.0
+main.modele.Case (2, 1) : TERRAIN_LIBRE   1920.0
+main.modele.Case (5, 4) : TERRAIN_LIBRE   1920.0
+main.modele.Case (4, 0) : TERRAIN_LIBRE   1920.0
+main.modele.Case (6, 4) : TERRAIN_LIBRE   1920.0
+main.modele.Case (5, 0) : TERRAIN_LIBRE   1920.0
+main.modele.Case (7, 2) : HABITAT   1440.0
+main.modele.Case (7, 4) : TERRAIN_LIBRE   1920.0
+main.modele.Case (6, 0) : TERRAIN_LIBRE   1920.0
+main.modele.Case (7, 1) : HABITAT   1440.0
+MinNode : main.modele.Case (7, 2) : HABITAT
+VoisinGauchemain.modele.Case (7, 1) : HABITAT
+openNodes.size() = 13 closedNodes.size() = 14
+main.modele.Case (3, 4) : TERRAIN_LIBRE   1920.0
+main.modele.Case (2, 3) : EAU   1920.0
+main.modele.Case (2, 2) : EAU   1920.0
+main.modele.Case (4, 4) : TERRAIN_LIBRE   1920.0
+main.modele.Case (3, 0) : TERRAIN_LIBRE   1920.0
+main.modele.Case (2, 1) : TERRAIN_LIBRE   1920.0
+main.modele.Case (5, 4) : TERRAIN_LIBRE   1920.0
+main.modele.Case (4, 0) : TERRAIN_LIBRE   1920.0
+main.modele.Case (6, 4) : TERRAIN_LIBRE   1920.0
+main.modele.Case (5, 0) : TERRAIN_LIBRE   1920.0
+main.modele.Case (7, 4) : TERRAIN_LIBRE   1920.0
+main.modele.Case (6, 0) : TERRAIN_LIBRE   1920.0
+main.modele.Case (7, 1) : HABITAT   1440.0
+MinNode : main.modele.Case (7, 1) : HABITAT
+openNodes.size() = 1 closedNodes.size() = 0
+main.modele.Case (6, 5) : TERRAIN_LIBRE   2250.0
+MinNode : main.modele.Case (6, 5) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (6, 4) : TERRAIN_LIBRE
+openNodes.size() = 4 closedNodes.size() = 1
+main.modele.Case (6, 6) : TERRAIN_LIBRE   3150.0
+main.modele.Case (6, 4) : TERRAIN_LIBRE   2250.0
+main.modele.Case (5, 5) : HABITAT   3150.0
+main.modele.Case (7, 5) : TERRAIN_LIBRE   2250.0
+MinNode : main.modele.Case (6, 4) : TERRAIN_LIBRE
+openNodes.size() = 5 closedNodes.size() = 2
+main.modele.Case (6, 6) : TERRAIN_LIBRE   3150.0
+main.modele.Case (5, 5) : HABITAT   3150.0
+main.modele.Case (7, 5) : TERRAIN_LIBRE   2250.0
+main.modele.Case (5, 4) : TERRAIN_LIBRE   3150.0
+main.modele.Case (7, 4) : TERRAIN_LIBRE   2250.0
+MinNode : main.modele.Case (7, 5) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (7, 4) : TERRAIN_LIBRE
+openNodes.size() = 5 closedNodes.size() = 3
+main.modele.Case (6, 6) : TERRAIN_LIBRE   3150.0
+main.modele.Case (5, 5) : HABITAT   3150.0
+main.modele.Case (5, 4) : TERRAIN_LIBRE   3150.0
+main.modele.Case (7, 4) : TERRAIN_LIBRE   2250.0
+main.modele.Case (7, 6) : TERRAIN_LIBRE   3150.0
+MinNode : main.modele.Case (7, 4) : TERRAIN_LIBRE
+openNodes.size() = 4 closedNodes.size() = 4
+main.modele.Case (6, 6) : TERRAIN_LIBRE   3150.0
+main.modele.Case (5, 5) : HABITAT   3150.0
+main.modele.Case (5, 4) : TERRAIN_LIBRE   3150.0
+main.modele.Case (7, 6) : TERRAIN_LIBRE   3150.0
+MinNode : main.modele.Case (6, 6) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (6, 5) : TERRAIN_LIBRE
+openNodes.size() = 5 closedNodes.size() = 5
+main.modele.Case (5, 5) : HABITAT   3150.0
+main.modele.Case (5, 4) : TERRAIN_LIBRE   3150.0
+main.modele.Case (7, 6) : TERRAIN_LIBRE   3150.0
+main.modele.Case (6, 7) : TERRAIN_LIBRE   4050.0
+main.modele.Case (5, 6) : HABITAT   4050.0
+MinNode : main.modele.Case (5, 5) : HABITAT
+VoisinGauchemain.modele.Case (5, 4) : TERRAIN_LIBRE
+openNodes.size() = 4 closedNodes.size() = 6
+main.modele.Case (5, 4) : TERRAIN_LIBRE   3150.0
+main.modele.Case (7, 6) : TERRAIN_LIBRE   3150.0
+main.modele.Case (6, 7) : TERRAIN_LIBRE   4050.0
+main.modele.Case (5, 6) : HABITAT   4050.0
+MinNode : main.modele.Case (5, 4) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (5, 3) : TERRAIN_LIBRE
+openNodes.size() = 5 closedNodes.size() = 7
+main.modele.Case (7, 6) : TERRAIN_LIBRE   3150.0
+main.modele.Case (6, 7) : TERRAIN_LIBRE   4050.0
+main.modele.Case (5, 6) : HABITAT   4050.0
+main.modele.Case (5, 3) : TERRAIN_LIBRE   3150.0
+main.modele.Case (4, 4) : TERRAIN_LIBRE   4050.0
+MinNode : main.modele.Case (7, 6) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (7, 5) : TERRAIN_LIBRE
+openNodes.size() = 5 closedNodes.size() = 8
+main.modele.Case (6, 7) : TERRAIN_LIBRE   4050.0
+main.modele.Case (5, 6) : HABITAT   4050.0
+main.modele.Case (5, 3) : TERRAIN_LIBRE   3150.0
+main.modele.Case (4, 4) : TERRAIN_LIBRE   4050.0
+main.modele.Case (7, 7) : TERRAIN_LIBRE   4050.0
+MinNode : main.modele.Case (5, 3) : TERRAIN_LIBRE
+openNodes.size() = 5 closedNodes.size() = 9
+main.modele.Case (6, 7) : TERRAIN_LIBRE   4050.0
+main.modele.Case (5, 6) : HABITAT   4050.0
+main.modele.Case (4, 4) : TERRAIN_LIBRE   4050.0
+main.modele.Case (7, 7) : TERRAIN_LIBRE   4050.0
+main.modele.Case (4, 3) : TERRAIN_LIBRE   4050.0
+MinNode : main.modele.Case (6, 7) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (6, 6) : TERRAIN_LIBRE
+openNodes.size() = 5 closedNodes.size() = 10
+main.modele.Case (5, 6) : HABITAT   4050.0
+main.modele.Case (4, 4) : TERRAIN_LIBRE   4050.0
+main.modele.Case (7, 7) : TERRAIN_LIBRE   4050.0
+main.modele.Case (4, 3) : TERRAIN_LIBRE   4050.0
+main.modele.Case (5, 7) : TERRAIN_LIBRE   4950.0
+MinNode : main.modele.Case (5, 6) : HABITAT
+VoisinGauchemain.modele.Case (5, 5) : HABITAT
+openNodes.size() = 4 closedNodes.size() = 11
+main.modele.Case (4, 4) : TERRAIN_LIBRE   4050.0
+main.modele.Case (7, 7) : TERRAIN_LIBRE   4050.0
+main.modele.Case (4, 3) : TERRAIN_LIBRE   4050.0
+main.modele.Case (5, 7) : TERRAIN_LIBRE   4950.0
+MinNode : main.modele.Case (4, 4) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (4, 3) : TERRAIN_LIBRE
+openNodes.size() = 4 closedNodes.size() = 12
+main.modele.Case (7, 7) : TERRAIN_LIBRE   4050.0
+main.modele.Case (4, 3) : TERRAIN_LIBRE   4050.0
+main.modele.Case (5, 7) : TERRAIN_LIBRE   4950.0
+main.modele.Case (3, 4) : TERRAIN_LIBRE   4950.0
+MinNode : main.modele.Case (7, 7) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (7, 6) : TERRAIN_LIBRE
+openNodes.size() = 3 closedNodes.size() = 13
+main.modele.Case (4, 3) : TERRAIN_LIBRE   4050.0
+main.modele.Case (5, 7) : TERRAIN_LIBRE   4950.0
+main.modele.Case (3, 4) : TERRAIN_LIBRE   4950.0
+MinNode : main.modele.Case (4, 3) : TERRAIN_LIBRE
+openNodes.size() = 2 closedNodes.size() = 14
+main.modele.Case (5, 7) : TERRAIN_LIBRE   4950.0
+main.modele.Case (3, 4) : TERRAIN_LIBRE   4950.0
+MinNode : main.modele.Case (5, 7) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (5, 6) : HABITAT
+openNodes.size() = 2 closedNodes.size() = 15
+main.modele.Case (3, 4) : TERRAIN_LIBRE   4950.0
+main.modele.Case (4, 7) : TERRAIN_LIBRE   5850.0
+MinNode : main.modele.Case (3, 4) : TERRAIN_LIBRE
+openNodes.size() = 2 closedNodes.size() = 16
+main.modele.Case (4, 7) : TERRAIN_LIBRE   5850.0
+main.modele.Case (2, 4) : TERRAIN_LIBRE   5850.0
+MinNode : main.modele.Case (4, 7) : TERRAIN_LIBRE
+openNodes.size() = 2 closedNodes.size() = 17
+main.modele.Case (2, 4) : TERRAIN_LIBRE   5850.0
+main.modele.Case (3, 7) : TERRAIN_LIBRE   6750.0
+MinNode : main.modele.Case (2, 4) : TERRAIN_LIBRE
+openNodes.size() = 1 closedNodes.size() = 18
+main.modele.Case (3, 7) : TERRAIN_LIBRE   6750.0
+MinNode : main.modele.Case (3, 7) : TERRAIN_LIBRE
+openNodes.size() = 1 closedNodes.size() = 19
+main.modele.Case (2, 7) : TERRAIN_LIBRE   7650.0
+MinNode : main.modele.Case (2, 7) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (2, 6) : TERRAIN_LIBRE
+openNodes.size() = 2 closedNodes.size() = 20
+main.modele.Case (2, 6) : TERRAIN_LIBRE   7650.0
+main.modele.Case (1, 7) : TERRAIN_LIBRE   8550.0
+MinNode : main.modele.Case (2, 6) : TERRAIN_LIBRE
+openNodes.size() = 1 closedNodes.size() = 21
+main.modele.Case (1, 7) : TERRAIN_LIBRE   8550.0
+MinNode : main.modele.Case (1, 7) : TERRAIN_LIBRE
+openNodes.size() = 1 closedNodes.size() = 22
+main.modele.Case (0, 7) : TERRAIN_LIBRE   9450.0
+MinNode : main.modele.Case (0, 7) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (0, 6) : TERRAIN_LIBRE
+openNodes.size() = 1 closedNodes.size() = 23
+main.modele.Case (0, 6) : TERRAIN_LIBRE   9450.0
+MinNode : main.modele.Case (0, 6) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (0, 5) : TERRAIN_LIBRE
+openNodes.size() = 1 closedNodes.size() = 24
+main.modele.Case (0, 5) : TERRAIN_LIBRE   9450.0
+MinNode : main.modele.Case (0, 5) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (0, 4) : TERRAIN_LIBRE
+openNodes.size() = 2 closedNodes.size() = 25
+main.modele.Case (0, 4) : TERRAIN_LIBRE   9450.0
+main.modele.Case (1, 5) : TERRAIN_LIBRE   9450.0
+MinNode : main.modele.Case (0, 4) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (0, 3) : TERRAIN_LIBRE
+openNodes.size() = 2 closedNodes.size() = 26
+main.modele.Case (1, 5) : TERRAIN_LIBRE   9450.0
+main.modele.Case (0, 3) : TERRAIN_LIBRE   9450.0
+MinNode : main.modele.Case (1, 5) : TERRAIN_LIBRE
+openNodes.size() = 1 closedNodes.size() = 27
+main.modele.Case (0, 3) : TERRAIN_LIBRE   9450.0
+MinNode : main.modele.Case (0, 3) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (0, 2) : TERRAIN_LIBRE
+openNodes.size() = 2 closedNodes.size() = 28
+main.modele.Case (0, 2) : TERRAIN_LIBRE   9450.0
+main.modele.Case (1, 3) : TERRAIN_LIBRE   9450.0
+MinNode : main.modele.Case (0, 2) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (0, 1) : TERRAIN_LIBRE
+openNodes.size() = 3 closedNodes.size() = 29
+main.modele.Case (1, 3) : TERRAIN_LIBRE   9450.0
+main.modele.Case (0, 1) : TERRAIN_LIBRE   9450.0
+main.modele.Case (1, 2) : TERRAIN_LIBRE   9450.0
+MinNode : main.modele.Case (1, 3) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (1, 2) : TERRAIN_LIBRE
+openNodes.size() = 2 closedNodes.size() = 30
+main.modele.Case (0, 1) : TERRAIN_LIBRE   9450.0
+main.modele.Case (1, 2) : TERRAIN_LIBRE   9450.0
+MinNode : main.modele.Case (0, 1) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (0, 0) : TERRAIN_LIBRE
+openNodes.size() = 3 closedNodes.size() = 31
+main.modele.Case (1, 2) : TERRAIN_LIBRE   9450.0
+main.modele.Case (0, 0) : TERRAIN_LIBRE   10350.0
+main.modele.Case (1, 1) : TERRAIN_LIBRE   9450.0
+MinNode : main.modele.Case (1, 2) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (1, 1) : TERRAIN_LIBRE
+openNodes.size() = 2 closedNodes.size() = 32
+main.modele.Case (0, 0) : TERRAIN_LIBRE   10350.0
+main.modele.Case (1, 1) : TERRAIN_LIBRE   9450.0
+MinNode : main.modele.Case (1, 1) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (1, 0) : TERRAIN_LIBRE
+openNodes.size() = 3 closedNodes.size() = 33
+main.modele.Case (0, 0) : TERRAIN_LIBRE   10350.0
+main.modele.Case (1, 0) : TERRAIN_LIBRE   10350.0
+main.modele.Case (2, 1) : TERRAIN_LIBRE   9450.0
+MinNode : main.modele.Case (2, 1) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (2, 0) : TERRAIN_LIBRE
+openNodes.size() = 4 closedNodes.size() = 34
+main.modele.Case (0, 0) : TERRAIN_LIBRE   10350.0
+main.modele.Case (1, 0) : TERRAIN_LIBRE   10350.0
+main.modele.Case (2, 0) : TERRAIN_LIBRE   10350.0
+main.modele.Case (3, 1) : TERRAIN_LIBRE   9450.0
+MinNode : main.modele.Case (3, 1) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (3, 0) : TERRAIN_LIBRE
+openNodes.size() = 5 closedNodes.size() = 35
+main.modele.Case (0, 0) : TERRAIN_LIBRE   10350.0
+main.modele.Case (1, 0) : TERRAIN_LIBRE   10350.0
+main.modele.Case (2, 0) : TERRAIN_LIBRE   10350.0
+main.modele.Case (3, 0) : TERRAIN_LIBRE   10350.0
+main.modele.Case (4, 1) : TERRAIN_LIBRE   9450.0
+MinNode : main.modele.Case (4, 1) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (4, 0) : TERRAIN_LIBRE
+openNodes.size() = 6 closedNodes.size() = 36
+main.modele.Case (0, 0) : TERRAIN_LIBRE   10350.0
+main.modele.Case (1, 0) : TERRAIN_LIBRE   10350.0
+main.modele.Case (2, 0) : TERRAIN_LIBRE   10350.0
+main.modele.Case (3, 0) : TERRAIN_LIBRE   10350.0
+main.modele.Case (4, 0) : TERRAIN_LIBRE   10350.0
+main.modele.Case (5, 1) : TERRAIN_LIBRE   9450.0
+MinNode : main.modele.Case (5, 1) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (5, 0) : TERRAIN_LIBRE
+openNodes.size() = 7 closedNodes.size() = 37
+main.modele.Case (0, 0) : TERRAIN_LIBRE   10350.0
+main.modele.Case (1, 0) : TERRAIN_LIBRE   10350.0
+main.modele.Case (2, 0) : TERRAIN_LIBRE   10350.0
+main.modele.Case (3, 0) : TERRAIN_LIBRE   10350.0
+main.modele.Case (4, 0) : TERRAIN_LIBRE   10350.0
+main.modele.Case (5, 0) : TERRAIN_LIBRE   10350.0
+main.modele.Case (6, 1) : TERRAIN_LIBRE   9450.0
+MinNode : main.modele.Case (6, 1) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (6, 0) : TERRAIN_LIBRE
+openNodes.size() = 8 closedNodes.size() = 38
+main.modele.Case (0, 0) : TERRAIN_LIBRE   10350.0
+main.modele.Case (1, 0) : TERRAIN_LIBRE   10350.0
+main.modele.Case (2, 0) : TERRAIN_LIBRE   10350.0
+main.modele.Case (3, 0) : TERRAIN_LIBRE   10350.0
+main.modele.Case (4, 0) : TERRAIN_LIBRE   10350.0
+main.modele.Case (5, 0) : TERRAIN_LIBRE   10350.0
+main.modele.Case (6, 0) : TERRAIN_LIBRE   10350.0
+main.modele.Case (7, 1) : HABITAT   9450.0
+MinNode : main.modele.Case (7, 1) : HABITAT
+openNodes.size() = 1 closedNodes.size() = 0
+main.modele.Case (4, 7) : TERRAIN_LIBRE   3240.0
+MinNode : main.modele.Case (4, 7) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (4, 6) : FORET
+openNodes.size() = 3 closedNodes.size() = 1
+main.modele.Case (4, 6) : FORET   3240.0
+main.modele.Case (3, 7) : TERRAIN_LIBRE   3960.0
+main.modele.Case (5, 7) : TERRAIN_LIBRE   3240.0
+MinNode : main.modele.Case (4, 6) : FORET
+VoisinGauchemain.modele.Case (4, 5) : FORET
+openNodes.size() = 5 closedNodes.size() = 2
+main.modele.Case (3, 7) : TERRAIN_LIBRE   3960.0
+main.modele.Case (5, 7) : TERRAIN_LIBRE   3240.0
+main.modele.Case (4, 5) : FORET   3240.0
+main.modele.Case (3, 6) : FORET   3960.0
+main.modele.Case (5, 6) : HABITAT   3240.0
+MinNode : main.modele.Case (5, 7) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (5, 6) : HABITAT
+openNodes.size() = 5 closedNodes.size() = 3
+main.modele.Case (3, 7) : TERRAIN_LIBRE   3960.0
+main.modele.Case (4, 5) : FORET   3240.0
+main.modele.Case (3, 6) : FORET   3960.0
+main.modele.Case (5, 6) : HABITAT   3240.0
+main.modele.Case (6, 7) : TERRAIN_LIBRE   3240.0
+MinNode : main.modele.Case (4, 5) : FORET
+VoisinGauchemain.modele.Case (4, 4) : TERRAIN_LIBRE
+openNodes.size() = 7 closedNodes.size() = 4
+main.modele.Case (3, 7) : TERRAIN_LIBRE   3960.0
+main.modele.Case (3, 6) : FORET   3960.0
+main.modele.Case (5, 6) : HABITAT   3240.0
+main.modele.Case (6, 7) : TERRAIN_LIBRE   3240.0
+main.modele.Case (4, 4) : TERRAIN_LIBRE   3240.0
+main.modele.Case (3, 5) : FORET   3960.0
+main.modele.Case (5, 5) : HABITAT   3240.0
+MinNode : main.modele.Case (5, 6) : HABITAT
+VoisinGauchemain.modele.Case (5, 5) : HABITAT
+openNodes.size() = 7 closedNodes.size() = 5
+main.modele.Case (3, 7) : TERRAIN_LIBRE   3960.0
+main.modele.Case (3, 6) : FORET   3960.0
+main.modele.Case (6, 7) : TERRAIN_LIBRE   3240.0
+main.modele.Case (4, 4) : TERRAIN_LIBRE   3240.0
+main.modele.Case (3, 5) : FORET   3960.0
+main.modele.Case (5, 5) : HABITAT   3240.0
+main.modele.Case (6, 6) : TERRAIN_LIBRE   3240.0
+MinNode : main.modele.Case (6, 7) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (6, 6) : TERRAIN_LIBRE
+openNodes.size() = 7 closedNodes.size() = 6
+main.modele.Case (3, 7) : TERRAIN_LIBRE   3960.0
+main.modele.Case (3, 6) : FORET   3960.0
+main.modele.Case (4, 4) : TERRAIN_LIBRE   3240.0
+main.modele.Case (3, 5) : FORET   3960.0
+main.modele.Case (5, 5) : HABITAT   3240.0
+main.modele.Case (6, 6) : TERRAIN_LIBRE   3240.0
+main.modele.Case (7, 7) : TERRAIN_LIBRE   3240.0
+MinNode : main.modele.Case (4, 4) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (4, 3) : TERRAIN_LIBRE
+openNodes.size() = 9 closedNodes.size() = 7
+main.modele.Case (3, 7) : TERRAIN_LIBRE   3960.0
+main.modele.Case (3, 6) : FORET   3960.0
+main.modele.Case (3, 5) : FORET   3960.0
+main.modele.Case (5, 5) : HABITAT   3240.0
+main.modele.Case (6, 6) : TERRAIN_LIBRE   3240.0
+main.modele.Case (7, 7) : TERRAIN_LIBRE   3240.0
+main.modele.Case (4, 3) : TERRAIN_LIBRE   3240.0
+main.modele.Case (3, 4) : TERRAIN_LIBRE   3960.0
+main.modele.Case (5, 4) : TERRAIN_LIBRE   3240.0
+MinNode : main.modele.Case (5, 5) : HABITAT
+VoisinGauchemain.modele.Case (5, 4) : TERRAIN_LIBRE
+openNodes.size() = 9 closedNodes.size() = 8
+main.modele.Case (3, 7) : TERRAIN_LIBRE   3960.0
+main.modele.Case (3, 6) : FORET   3960.0
+main.modele.Case (3, 5) : FORET   3960.0
+main.modele.Case (6, 6) : TERRAIN_LIBRE   3240.0
+main.modele.Case (7, 7) : TERRAIN_LIBRE   3240.0
+main.modele.Case (4, 3) : TERRAIN_LIBRE   3240.0
+main.modele.Case (3, 4) : TERRAIN_LIBRE   3960.0
+main.modele.Case (5, 4) : TERRAIN_LIBRE   3240.0
+main.modele.Case (6, 5) : TERRAIN_LIBRE   3240.0
+MinNode : main.modele.Case (6, 6) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (6, 5) : TERRAIN_LIBRE
+openNodes.size() = 9 closedNodes.size() = 9
+main.modele.Case (3, 7) : TERRAIN_LIBRE   3960.0
+main.modele.Case (3, 6) : FORET   3960.0
+main.modele.Case (3, 5) : FORET   3960.0
+main.modele.Case (7, 7) : TERRAIN_LIBRE   3240.0
+main.modele.Case (4, 3) : TERRAIN_LIBRE   3240.0
+main.modele.Case (3, 4) : TERRAIN_LIBRE   3960.0
+main.modele.Case (5, 4) : TERRAIN_LIBRE   3240.0
+main.modele.Case (6, 5) : TERRAIN_LIBRE   3240.0
+main.modele.Case (7, 6) : TERRAIN_LIBRE   3240.0
+MinNode : main.modele.Case (7, 7) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (7, 6) : TERRAIN_LIBRE
+openNodes.size() = 8 closedNodes.size() = 10
+main.modele.Case (3, 7) : TERRAIN_LIBRE   3960.0
+main.modele.Case (3, 6) : FORET   3960.0
+main.modele.Case (3, 5) : FORET   3960.0
+main.modele.Case (4, 3) : TERRAIN_LIBRE   3240.0
+main.modele.Case (3, 4) : TERRAIN_LIBRE   3960.0
+main.modele.Case (5, 4) : TERRAIN_LIBRE   3240.0
+main.modele.Case (6, 5) : TERRAIN_LIBRE   3240.0
+main.modele.Case (7, 6) : TERRAIN_LIBRE   3240.0
+MinNode : main.modele.Case (4, 3) : TERRAIN_LIBRE
+openNodes.size() = 8 closedNodes.size() = 11
+main.modele.Case (3, 7) : TERRAIN_LIBRE   3960.0
+main.modele.Case (3, 6) : FORET   3960.0
+main.modele.Case (3, 5) : FORET   3960.0
+main.modele.Case (3, 4) : TERRAIN_LIBRE   3960.0
+main.modele.Case (5, 4) : TERRAIN_LIBRE   3240.0
+main.modele.Case (6, 5) : TERRAIN_LIBRE   3240.0
+main.modele.Case (7, 6) : TERRAIN_LIBRE   3240.0
+main.modele.Case (5, 3) : TERRAIN_LIBRE   3240.0
+MinNode : main.modele.Case (5, 4) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (5, 3) : TERRAIN_LIBRE
+openNodes.size() = 8 closedNodes.size() = 12
+main.modele.Case (3, 7) : TERRAIN_LIBRE   3960.0
+main.modele.Case (3, 6) : FORET   3960.0
+main.modele.Case (3, 5) : FORET   3960.0
+main.modele.Case (3, 4) : TERRAIN_LIBRE   3960.0
+main.modele.Case (6, 5) : TERRAIN_LIBRE   3240.0
+main.modele.Case (7, 6) : TERRAIN_LIBRE   3240.0
+main.modele.Case (5, 3) : TERRAIN_LIBRE   3240.0
+main.modele.Case (6, 4) : TERRAIN_LIBRE   3240.0
+MinNode : main.modele.Case (6, 5) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (6, 4) : TERRAIN_LIBRE
+openNodes.size() = 8 closedNodes.size() = 13
+main.modele.Case (3, 7) : TERRAIN_LIBRE   3960.0
+main.modele.Case (3, 6) : FORET   3960.0
+main.modele.Case (3, 5) : FORET   3960.0
+main.modele.Case (3, 4) : TERRAIN_LIBRE   3960.0
+main.modele.Case (7, 6) : TERRAIN_LIBRE   3240.0
+main.modele.Case (5, 3) : TERRAIN_LIBRE   3240.0
+main.modele.Case (6, 4) : TERRAIN_LIBRE   3240.0
+main.modele.Case (7, 5) : TERRAIN_LIBRE   3240.0
+MinNode : main.modele.Case (7, 6) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (7, 5) : TERRAIN_LIBRE
+openNodes.size() = 7 closedNodes.size() = 14
+main.modele.Case (3, 7) : TERRAIN_LIBRE   3960.0
+main.modele.Case (3, 6) : FORET   3960.0
+main.modele.Case (3, 5) : FORET   3960.0
+main.modele.Case (3, 4) : TERRAIN_LIBRE   3960.0
+main.modele.Case (5, 3) : TERRAIN_LIBRE   3240.0
+main.modele.Case (6, 4) : TERRAIN_LIBRE   3240.0
+main.modele.Case (7, 5) : TERRAIN_LIBRE   3240.0
+MinNode : main.modele.Case (5, 3) : TERRAIN_LIBRE
+openNodes.size() = 6 closedNodes.size() = 15
+main.modele.Case (3, 7) : TERRAIN_LIBRE   3960.0
+main.modele.Case (3, 6) : FORET   3960.0
+main.modele.Case (3, 5) : FORET   3960.0
+main.modele.Case (3, 4) : TERRAIN_LIBRE   3960.0
+main.modele.Case (6, 4) : TERRAIN_LIBRE   3240.0
+main.modele.Case (7, 5) : TERRAIN_LIBRE   3240.0
+MinNode : main.modele.Case (6, 4) : TERRAIN_LIBRE
+openNodes.size() = 6 closedNodes.size() = 16
+main.modele.Case (3, 7) : TERRAIN_LIBRE   3960.0
+main.modele.Case (3, 6) : FORET   3960.0
+main.modele.Case (3, 5) : FORET   3960.0
+main.modele.Case (3, 4) : TERRAIN_LIBRE   3960.0
+main.modele.Case (7, 5) : TERRAIN_LIBRE   3240.0
+main.modele.Case (7, 4) : TERRAIN_LIBRE   3240.0
+MinNode : main.modele.Case (7, 5) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (7, 4) : TERRAIN_LIBRE
+openNodes.size() = 5 closedNodes.size() = 17
+main.modele.Case (3, 7) : TERRAIN_LIBRE   3960.0
+main.modele.Case (3, 6) : FORET   3960.0
+main.modele.Case (3, 5) : FORET   3960.0
+main.modele.Case (3, 4) : TERRAIN_LIBRE   3960.0
+main.modele.Case (7, 4) : TERRAIN_LIBRE   3240.0
+MinNode : main.modele.Case (7, 4) : TERRAIN_LIBRE
+openNodes.size() = 4 closedNodes.size() = 18
+main.modele.Case (3, 7) : TERRAIN_LIBRE   3960.0
+main.modele.Case (3, 6) : FORET   3960.0
+main.modele.Case (3, 5) : FORET   3960.0
+main.modele.Case (3, 4) : TERRAIN_LIBRE   3960.0
+MinNode : main.modele.Case (3, 7) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (3, 6) : FORET
+openNodes.size() = 4 closedNodes.size() = 19
+main.modele.Case (3, 6) : FORET   3960.0
+main.modele.Case (3, 5) : FORET   3960.0
+main.modele.Case (3, 4) : TERRAIN_LIBRE   3960.0
+main.modele.Case (2, 7) : TERRAIN_LIBRE   4680.0
+MinNode : main.modele.Case (3, 6) : FORET
+VoisinGauchemain.modele.Case (3, 5) : FORET
+openNodes.size() = 4 closedNodes.size() = 20
+main.modele.Case (3, 5) : FORET   3960.0
+main.modele.Case (3, 4) : TERRAIN_LIBRE   3960.0
+main.modele.Case (2, 7) : TERRAIN_LIBRE   4680.0
+main.modele.Case (2, 6) : TERRAIN_LIBRE   4680.0
+MinNode : main.modele.Case (3, 5) : FORET
+VoisinGauchemain.modele.Case (3, 4) : TERRAIN_LIBRE
+openNodes.size() = 4 closedNodes.size() = 21
+main.modele.Case (3, 4) : TERRAIN_LIBRE   3960.0
+main.modele.Case (2, 7) : TERRAIN_LIBRE   4680.0
+main.modele.Case (2, 6) : TERRAIN_LIBRE   4680.0
+main.modele.Case (2, 5) : FORET   4680.0
+MinNode : main.modele.Case (3, 4) : TERRAIN_LIBRE
+openNodes.size() = 4 closedNodes.size() = 22
+main.modele.Case (2, 7) : TERRAIN_LIBRE   4680.0
+main.modele.Case (2, 6) : TERRAIN_LIBRE   4680.0
+main.modele.Case (2, 5) : FORET   4680.0
+main.modele.Case (2, 4) : TERRAIN_LIBRE   4680.0
+MinNode : main.modele.Case (2, 7) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (2, 6) : TERRAIN_LIBRE
+openNodes.size() = 4 closedNodes.size() = 23
+main.modele.Case (2, 6) : TERRAIN_LIBRE   4680.0
+main.modele.Case (2, 5) : FORET   4680.0
+main.modele.Case (2, 4) : TERRAIN_LIBRE   4680.0
+main.modele.Case (1, 7) : TERRAIN_LIBRE   5400.0
+MinNode : main.modele.Case (2, 6) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (2, 5) : FORET
+openNodes.size() = 4 closedNodes.size() = 24
+main.modele.Case (2, 5) : FORET   4680.0
+main.modele.Case (2, 4) : TERRAIN_LIBRE   4680.0
+main.modele.Case (1, 7) : TERRAIN_LIBRE   5400.0
+main.modele.Case (1, 6) : ROCHE   5400.0
+MinNode : main.modele.Case (2, 5) : FORET
+VoisinGauchemain.modele.Case (2, 4) : TERRAIN_LIBRE
+openNodes.size() = 4 closedNodes.size() = 25
+main.modele.Case (2, 4) : TERRAIN_LIBRE   4680.0
+main.modele.Case (1, 7) : TERRAIN_LIBRE   5400.0
+main.modele.Case (1, 6) : ROCHE   5400.0
+main.modele.Case (1, 5) : TERRAIN_LIBRE   5400.0
+MinNode : main.modele.Case (2, 4) : TERRAIN_LIBRE
+openNodes.size() = 4 closedNodes.size() = 26
+main.modele.Case (1, 7) : TERRAIN_LIBRE   5400.0
+main.modele.Case (1, 6) : ROCHE   5400.0
+main.modele.Case (1, 5) : TERRAIN_LIBRE   5400.0
+main.modele.Case (1, 4) : ROCHE   5400.0
+MinNode : main.modele.Case (1, 7) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (1, 6) : ROCHE
+openNodes.size() = 4 closedNodes.size() = 27
+main.modele.Case (1, 6) : ROCHE   5400.0
+main.modele.Case (1, 5) : TERRAIN_LIBRE   5400.0
+main.modele.Case (1, 4) : ROCHE   5400.0
+main.modele.Case (0, 7) : TERRAIN_LIBRE   6120.0
+MinNode : main.modele.Case (1, 6) : ROCHE
+VoisinGauchemain.modele.Case (1, 5) : TERRAIN_LIBRE
+openNodes.size() = 4 closedNodes.size() = 28
+main.modele.Case (1, 5) : TERRAIN_LIBRE   5400.0
+main.modele.Case (1, 4) : ROCHE   5400.0
+main.modele.Case (0, 7) : TERRAIN_LIBRE   6120.0
+main.modele.Case (0, 6) : TERRAIN_LIBRE   9360.0
+MinNode : main.modele.Case (1, 5) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (1, 4) : ROCHE
+openNodes.size() = 4 closedNodes.size() = 29
+main.modele.Case (1, 4) : ROCHE   5400.0
+main.modele.Case (0, 7) : TERRAIN_LIBRE   6120.0
+main.modele.Case (0, 6) : TERRAIN_LIBRE   9360.0
+main.modele.Case (0, 5) : TERRAIN_LIBRE   6120.0
+MinNode : main.modele.Case (1, 4) : ROCHE
+VoisinGauchemain.modele.Case (1, 3) : TERRAIN_LIBRE
+openNodes.size() = 5 closedNodes.size() = 30
+main.modele.Case (0, 7) : TERRAIN_LIBRE   6120.0
+main.modele.Case (0, 6) : TERRAIN_LIBRE   9360.0
+main.modele.Case (0, 5) : TERRAIN_LIBRE   6120.0
+main.modele.Case (1, 3) : TERRAIN_LIBRE   8640.0
+main.modele.Case (0, 4) : TERRAIN_LIBRE   9360.0
+MinNode : main.modele.Case (0, 7) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (0, 6) : TERRAIN_LIBRE
+openNodes.size() = 4 closedNodes.size() = 31
+main.modele.Case (0, 6) : TERRAIN_LIBRE   6120.0
+main.modele.Case (0, 5) : TERRAIN_LIBRE   6120.0
+main.modele.Case (1, 3) : TERRAIN_LIBRE   8640.0
+main.modele.Case (0, 4) : TERRAIN_LIBRE   9360.0
+MinNode : main.modele.Case (0, 6) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (0, 5) : TERRAIN_LIBRE
+openNodes.size() = 3 closedNodes.size() = 32
+main.modele.Case (0, 5) : TERRAIN_LIBRE   6120.0
+main.modele.Case (1, 3) : TERRAIN_LIBRE   8640.0
+main.modele.Case (0, 4) : TERRAIN_LIBRE   9360.0
+MinNode : main.modele.Case (0, 5) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (0, 4) : TERRAIN_LIBRE
+openNodes.size() = 2 closedNodes.size() = 33
+main.modele.Case (1, 3) : TERRAIN_LIBRE   8640.0
+main.modele.Case (0, 4) : TERRAIN_LIBRE   6120.0
+MinNode : main.modele.Case (0, 4) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (0, 3) : TERRAIN_LIBRE
+openNodes.size() = 2 closedNodes.size() = 34
+main.modele.Case (1, 3) : TERRAIN_LIBRE   8640.0
+main.modele.Case (0, 3) : TERRAIN_LIBRE   6120.0
+MinNode : main.modele.Case (0, 3) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (0, 2) : TERRAIN_LIBRE
+openNodes.size() = 2 closedNodes.size() = 35
+main.modele.Case (1, 3) : TERRAIN_LIBRE   6120.0
+main.modele.Case (0, 2) : TERRAIN_LIBRE   6120.0
+MinNode : main.modele.Case (1, 3) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (1, 2) : TERRAIN_LIBRE
+openNodes.size() = 2 closedNodes.size() = 36
+main.modele.Case (0, 2) : TERRAIN_LIBRE   6120.0
+main.modele.Case (1, 2) : TERRAIN_LIBRE   6120.0
+MinNode : main.modele.Case (0, 2) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (0, 1) : TERRAIN_LIBRE
+openNodes.size() = 2 closedNodes.size() = 37
+main.modele.Case (1, 2) : TERRAIN_LIBRE   6120.0
+main.modele.Case (0, 1) : TERRAIN_LIBRE   6120.0
+MinNode : main.modele.Case (1, 2) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (1, 1) : TERRAIN_LIBRE
+openNodes.size() = 2 closedNodes.size() = 38
+main.modele.Case (0, 1) : TERRAIN_LIBRE   6120.0
+main.modele.Case (1, 1) : TERRAIN_LIBRE   6120.0
+MinNode : main.modele.Case (0, 1) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (0, 0) : TERRAIN_LIBRE
+openNodes.size() = 2 closedNodes.size() = 39
+main.modele.Case (1, 1) : TERRAIN_LIBRE   6120.0
+main.modele.Case (0, 0) : TERRAIN_LIBRE   6840.0
+MinNode : main.modele.Case (1, 1) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (1, 0) : TERRAIN_LIBRE
+openNodes.size() = 3 closedNodes.size() = 40
+main.modele.Case (0, 0) : TERRAIN_LIBRE   6840.0
+main.modele.Case (1, 0) : TERRAIN_LIBRE   6840.0
+main.modele.Case (2, 1) : TERRAIN_LIBRE   6120.0
+MinNode : main.modele.Case (2, 1) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (2, 0) : TERRAIN_LIBRE
+openNodes.size() = 4 closedNodes.size() = 41
+main.modele.Case (0, 0) : TERRAIN_LIBRE   6840.0
+main.modele.Case (1, 0) : TERRAIN_LIBRE   6840.0
+main.modele.Case (2, 0) : TERRAIN_LIBRE   6840.0
+main.modele.Case (3, 1) : TERRAIN_LIBRE   6120.0
+MinNode : main.modele.Case (3, 1) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (3, 0) : TERRAIN_LIBRE
+openNodes.size() = 5 closedNodes.size() = 42
+main.modele.Case (0, 0) : TERRAIN_LIBRE   6840.0
+main.modele.Case (1, 0) : TERRAIN_LIBRE   6840.0
+main.modele.Case (2, 0) : TERRAIN_LIBRE   6840.0
+main.modele.Case (3, 0) : TERRAIN_LIBRE   6840.0
+main.modele.Case (4, 1) : TERRAIN_LIBRE   6120.0
+MinNode : main.modele.Case (4, 1) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (4, 0) : TERRAIN_LIBRE
+openNodes.size() = 6 closedNodes.size() = 43
+main.modele.Case (0, 0) : TERRAIN_LIBRE   6840.0
+main.modele.Case (1, 0) : TERRAIN_LIBRE   6840.0
+main.modele.Case (2, 0) : TERRAIN_LIBRE   6840.0
+main.modele.Case (3, 0) : TERRAIN_LIBRE   6840.0
+main.modele.Case (4, 0) : TERRAIN_LIBRE   6840.0
+main.modele.Case (5, 1) : TERRAIN_LIBRE   6120.0
+MinNode : main.modele.Case (5, 1) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (5, 0) : TERRAIN_LIBRE
+openNodes.size() = 7 closedNodes.size() = 44
+main.modele.Case (0, 0) : TERRAIN_LIBRE   6840.0
+main.modele.Case (1, 0) : TERRAIN_LIBRE   6840.0
+main.modele.Case (2, 0) : TERRAIN_LIBRE   6840.0
+main.modele.Case (3, 0) : TERRAIN_LIBRE   6840.0
+main.modele.Case (4, 0) : TERRAIN_LIBRE   6840.0
+main.modele.Case (5, 0) : TERRAIN_LIBRE   6840.0
+main.modele.Case (6, 1) : TERRAIN_LIBRE   6120.0
+MinNode : main.modele.Case (6, 1) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (6, 0) : TERRAIN_LIBRE
+openNodes.size() = 8 closedNodes.size() = 45
+main.modele.Case (0, 0) : TERRAIN_LIBRE   6840.0
+main.modele.Case (1, 0) : TERRAIN_LIBRE   6840.0
+main.modele.Case (2, 0) : TERRAIN_LIBRE   6840.0
+main.modele.Case (3, 0) : TERRAIN_LIBRE   6840.0
+main.modele.Case (4, 0) : TERRAIN_LIBRE   6840.0
+main.modele.Case (5, 0) : TERRAIN_LIBRE   6840.0
+main.modele.Case (6, 0) : TERRAIN_LIBRE   6840.0
+main.modele.Case (7, 1) : HABITAT   6120.0
+MinNode : main.modele.Case (7, 1) : HABITAT
+openNodes.size() = 1 closedNodes.size() = 0
+main.modele.Case (3, 3) : EAU   1440.0
+MinNode : main.modele.Case (3, 3) : EAU
+VoisinGauchemain.modele.Case (3, 2) : EAU
+openNodes.size() = 4 closedNodes.size() = 1
+main.modele.Case (3, 4) : TERRAIN_LIBRE   1920.0
+main.modele.Case (3, 2) : EAU   1440.0
+main.modele.Case (2, 3) : EAU   1920.0
+main.modele.Case (4, 3) : TERRAIN_LIBRE   1440.0
+MinNode : main.modele.Case (3, 2) : EAU
+VoisinGauchemain.modele.Case (3, 1) : TERRAIN_LIBRE
+openNodes.size() = 6 closedNodes.size() = 2
+main.modele.Case (3, 4) : TERRAIN_LIBRE   1920.0
+main.modele.Case (2, 3) : EAU   1920.0
+main.modele.Case (4, 3) : TERRAIN_LIBRE   1440.0
+main.modele.Case (3, 1) : TERRAIN_LIBRE   1440.0
+main.modele.Case (2, 2) : EAU   1920.0
+main.modele.Case (4, 2) : EAU   1440.0
+MinNode : main.modele.Case (4, 3) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (4, 2) : EAU
+openNodes.size() = 7 closedNodes.size() = 3
+main.modele.Case (3, 4) : TERRAIN_LIBRE   1920.0
+main.modele.Case (2, 3) : EAU   1920.0
+main.modele.Case (3, 1) : TERRAIN_LIBRE   1440.0
+main.modele.Case (2, 2) : EAU   1920.0
+main.modele.Case (4, 2) : EAU   1440.0
+main.modele.Case (4, 4) : TERRAIN_LIBRE   1920.0
+main.modele.Case (5, 3) : TERRAIN_LIBRE   1440.0
+MinNode : main.modele.Case (3, 1) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (3, 0) : TERRAIN_LIBRE
+openNodes.size() = 9 closedNodes.size() = 4
+main.modele.Case (3, 4) : TERRAIN_LIBRE   1920.0
+main.modele.Case (2, 3) : EAU   1920.0
+main.modele.Case (2, 2) : EAU   1920.0
+main.modele.Case (4, 2) : EAU   1440.0
+main.modele.Case (4, 4) : TERRAIN_LIBRE   1920.0
+main.modele.Case (5, 3) : TERRAIN_LIBRE   1440.0
+main.modele.Case (3, 0) : TERRAIN_LIBRE   1440.0
+main.modele.Case (2, 1) : TERRAIN_LIBRE   1920.0
+main.modele.Case (4, 1) : TERRAIN_LIBRE   1440.0
+MinNode : main.modele.Case (4, 2) : EAU
+VoisinGauchemain.modele.Case (4, 1) : TERRAIN_LIBRE
+openNodes.size() = 9 closedNodes.size() = 5
+main.modele.Case (3, 4) : TERRAIN_LIBRE   1920.0
+main.modele.Case (2, 3) : EAU   1920.0
+main.modele.Case (2, 2) : EAU   1920.0
+main.modele.Case (4, 4) : TERRAIN_LIBRE   1920.0
+main.modele.Case (5, 3) : TERRAIN_LIBRE   1440.0
+main.modele.Case (3, 0) : TERRAIN_LIBRE   1440.0
+main.modele.Case (2, 1) : TERRAIN_LIBRE   1920.0
+main.modele.Case (4, 1) : TERRAIN_LIBRE   1440.0
+main.modele.Case (5, 2) : EAU   1440.0
+MinNode : main.modele.Case (5, 3) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (5, 2) : EAU
+openNodes.size() = 10 closedNodes.size() = 6
+main.modele.Case (3, 4) : TERRAIN_LIBRE   1920.0
+main.modele.Case (2, 3) : EAU   1920.0
+main.modele.Case (2, 2) : EAU   1920.0
+main.modele.Case (4, 4) : TERRAIN_LIBRE   1920.0
+main.modele.Case (3, 0) : TERRAIN_LIBRE   1440.0
+main.modele.Case (2, 1) : TERRAIN_LIBRE   1920.0
+main.modele.Case (4, 1) : TERRAIN_LIBRE   1440.0
+main.modele.Case (5, 2) : EAU   1440.0
+main.modele.Case (5, 4) : TERRAIN_LIBRE   1920.0
+main.modele.Case (6, 3) : EAU   1440.0
+MinNode : main.modele.Case (3, 0) : TERRAIN_LIBRE
+openNodes.size() = 11 closedNodes.size() = 7
+main.modele.Case (3, 4) : TERRAIN_LIBRE   1920.0
+main.modele.Case (2, 3) : EAU   1920.0
+main.modele.Case (2, 2) : EAU   1920.0
+main.modele.Case (4, 4) : TERRAIN_LIBRE   1920.0
+main.modele.Case (2, 1) : TERRAIN_LIBRE   1920.0
+main.modele.Case (4, 1) : TERRAIN_LIBRE   1440.0
+main.modele.Case (5, 2) : EAU   1440.0
+main.modele.Case (5, 4) : TERRAIN_LIBRE   1920.0
+main.modele.Case (6, 3) : EAU   1440.0
+main.modele.Case (2, 0) : TERRAIN_LIBRE   1920.0
+main.modele.Case (4, 0) : TERRAIN_LIBRE   1440.0
+MinNode : main.modele.Case (4, 1) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (4, 0) : TERRAIN_LIBRE
+openNodes.size() = 11 closedNodes.size() = 8
+main.modele.Case (3, 4) : TERRAIN_LIBRE   1920.0
+main.modele.Case (2, 3) : EAU   1920.0
+main.modele.Case (2, 2) : EAU   1920.0
+main.modele.Case (4, 4) : TERRAIN_LIBRE   1920.0
+main.modele.Case (2, 1) : TERRAIN_LIBRE   1920.0
+main.modele.Case (5, 2) : EAU   1440.0
+main.modele.Case (5, 4) : TERRAIN_LIBRE   1920.0
+main.modele.Case (6, 3) : EAU   1440.0
+main.modele.Case (2, 0) : TERRAIN_LIBRE   1920.0
+main.modele.Case (4, 0) : TERRAIN_LIBRE   1440.0
+main.modele.Case (5, 1) : TERRAIN_LIBRE   1440.0
+MinNode : main.modele.Case (5, 2) : EAU
+VoisinGauchemain.modele.Case (5, 1) : TERRAIN_LIBRE
+openNodes.size() = 11 closedNodes.size() = 9
+main.modele.Case (3, 4) : TERRAIN_LIBRE   1920.0
+main.modele.Case (2, 3) : EAU   1920.0
+main.modele.Case (2, 2) : EAU   1920.0
+main.modele.Case (4, 4) : TERRAIN_LIBRE   1920.0
+main.modele.Case (2, 1) : TERRAIN_LIBRE   1920.0
+main.modele.Case (5, 4) : TERRAIN_LIBRE   1920.0
+main.modele.Case (6, 3) : EAU   1440.0
+main.modele.Case (2, 0) : TERRAIN_LIBRE   1920.0
+main.modele.Case (4, 0) : TERRAIN_LIBRE   1440.0
+main.modele.Case (5, 1) : TERRAIN_LIBRE   1440.0
+main.modele.Case (6, 2) : EAU   1440.0
+MinNode : main.modele.Case (6, 3) : EAU
+VoisinGauchemain.modele.Case (6, 2) : EAU
+openNodes.size() = 12 closedNodes.size() = 10
+main.modele.Case (3, 4) : TERRAIN_LIBRE   1920.0
+main.modele.Case (2, 3) : EAU   1920.0
+main.modele.Case (2, 2) : EAU   1920.0
+main.modele.Case (4, 4) : TERRAIN_LIBRE   1920.0
+main.modele.Case (2, 1) : TERRAIN_LIBRE   1920.0
+main.modele.Case (5, 4) : TERRAIN_LIBRE   1920.0
+main.modele.Case (2, 0) : TERRAIN_LIBRE   1920.0
+main.modele.Case (4, 0) : TERRAIN_LIBRE   1440.0
+main.modele.Case (5, 1) : TERRAIN_LIBRE   1440.0
+main.modele.Case (6, 2) : EAU   1440.0
+main.modele.Case (6, 4) : TERRAIN_LIBRE   1920.0
+main.modele.Case (7, 3) : EAU   1920.0
+MinNode : main.modele.Case (4, 0) : TERRAIN_LIBRE
+openNodes.size() = 12 closedNodes.size() = 11
+main.modele.Case (3, 4) : TERRAIN_LIBRE   1920.0
+main.modele.Case (2, 3) : EAU   1920.0
+main.modele.Case (2, 2) : EAU   1920.0
+main.modele.Case (4, 4) : TERRAIN_LIBRE   1920.0
+main.modele.Case (2, 1) : TERRAIN_LIBRE   1920.0
+main.modele.Case (5, 4) : TERRAIN_LIBRE   1920.0
+main.modele.Case (2, 0) : TERRAIN_LIBRE   1920.0
+main.modele.Case (5, 1) : TERRAIN_LIBRE   1440.0
+main.modele.Case (6, 2) : EAU   1440.0
+main.modele.Case (6, 4) : TERRAIN_LIBRE   1920.0
+main.modele.Case (7, 3) : EAU   1920.0
+main.modele.Case (5, 0) : TERRAIN_LIBRE   1440.0
+MinNode : main.modele.Case (5, 1) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (5, 0) : TERRAIN_LIBRE
+openNodes.size() = 12 closedNodes.size() = 12
+main.modele.Case (3, 4) : TERRAIN_LIBRE   1920.0
+main.modele.Case (2, 3) : EAU   1920.0
+main.modele.Case (2, 2) : EAU   1920.0
+main.modele.Case (4, 4) : TERRAIN_LIBRE   1920.0
+main.modele.Case (2, 1) : TERRAIN_LIBRE   1920.0
+main.modele.Case (5, 4) : TERRAIN_LIBRE   1920.0
+main.modele.Case (2, 0) : TERRAIN_LIBRE   1920.0
+main.modele.Case (6, 2) : EAU   1440.0
+main.modele.Case (6, 4) : TERRAIN_LIBRE   1920.0
+main.modele.Case (7, 3) : EAU   1920.0
+main.modele.Case (5, 0) : TERRAIN_LIBRE   1440.0
+main.modele.Case (6, 1) : TERRAIN_LIBRE   1440.0
+MinNode : main.modele.Case (6, 2) : EAU
+VoisinGauchemain.modele.Case (6, 1) : TERRAIN_LIBRE
+openNodes.size() = 12 closedNodes.size() = 13
+main.modele.Case (3, 4) : TERRAIN_LIBRE   1920.0
+main.modele.Case (2, 3) : EAU   1920.0
+main.modele.Case (2, 2) : EAU   1920.0
+main.modele.Case (4, 4) : TERRAIN_LIBRE   1920.0
+main.modele.Case (2, 1) : TERRAIN_LIBRE   1920.0
+main.modele.Case (5, 4) : TERRAIN_LIBRE   1920.0
+main.modele.Case (2, 0) : TERRAIN_LIBRE   1920.0
+main.modele.Case (6, 4) : TERRAIN_LIBRE   1920.0
+main.modele.Case (7, 3) : EAU   1920.0
+main.modele.Case (5, 0) : TERRAIN_LIBRE   1440.0
+main.modele.Case (6, 1) : TERRAIN_LIBRE   1440.0
+main.modele.Case (7, 2) : HABITAT   1920.0
+MinNode : main.modele.Case (5, 0) : TERRAIN_LIBRE
+openNodes.size() = 12 closedNodes.size() = 14
+main.modele.Case (3, 4) : TERRAIN_LIBRE   1920.0
+main.modele.Case (2, 3) : EAU   1920.0
+main.modele.Case (2, 2) : EAU   1920.0
+main.modele.Case (4, 4) : TERRAIN_LIBRE   1920.0
+main.modele.Case (2, 1) : TERRAIN_LIBRE   1920.0
+main.modele.Case (5, 4) : TERRAIN_LIBRE   1920.0
+main.modele.Case (2, 0) : TERRAIN_LIBRE   1920.0
+main.modele.Case (6, 4) : TERRAIN_LIBRE   1920.0
+main.modele.Case (7, 3) : EAU   1920.0
+main.modele.Case (6, 1) : TERRAIN_LIBRE   1440.0
+main.modele.Case (7, 2) : HABITAT   1920.0
+main.modele.Case (6, 0) : TERRAIN_LIBRE   1440.0
+MinNode : main.modele.Case (6, 1) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (6, 0) : TERRAIN_LIBRE
+openNodes.size() = 12 closedNodes.size() = 15
+main.modele.Case (3, 4) : TERRAIN_LIBRE   1920.0
+main.modele.Case (2, 3) : EAU   1920.0
+main.modele.Case (2, 2) : EAU   1920.0
+main.modele.Case (4, 4) : TERRAIN_LIBRE   1920.0
+main.modele.Case (2, 1) : TERRAIN_LIBRE   1920.0
+main.modele.Case (5, 4) : TERRAIN_LIBRE   1920.0
+main.modele.Case (2, 0) : TERRAIN_LIBRE   1920.0
+main.modele.Case (6, 4) : TERRAIN_LIBRE   1920.0
+main.modele.Case (7, 3) : EAU   1920.0
+main.modele.Case (7, 2) : HABITAT   1920.0
+main.modele.Case (6, 0) : TERRAIN_LIBRE   1440.0
+main.modele.Case (7, 1) : HABITAT   1920.0
+MinNode : main.modele.Case (6, 0) : TERRAIN_LIBRE
+openNodes.size() = 1 closedNodes.size() = 0
+main.modele.Case (6, 5) : TERRAIN_LIBRE   2250.0
+MinNode : main.modele.Case (6, 5) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (6, 4) : TERRAIN_LIBRE
+openNodes.size() = 4 closedNodes.size() = 1
+main.modele.Case (6, 6) : TERRAIN_LIBRE   3150.0
+main.modele.Case (6, 4) : TERRAIN_LIBRE   2250.0
+main.modele.Case (5, 5) : HABITAT   3150.0
+main.modele.Case (7, 5) : TERRAIN_LIBRE   3150.0
+MinNode : main.modele.Case (6, 4) : TERRAIN_LIBRE
+openNodes.size() = 5 closedNodes.size() = 2
+main.modele.Case (6, 6) : TERRAIN_LIBRE   3150.0
+main.modele.Case (5, 5) : HABITAT   3150.0
+main.modele.Case (7, 5) : TERRAIN_LIBRE   3150.0
+main.modele.Case (5, 4) : TERRAIN_LIBRE   3150.0
+main.modele.Case (7, 4) : TERRAIN_LIBRE   3150.0
+MinNode : main.modele.Case (6, 6) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (6, 5) : TERRAIN_LIBRE
+openNodes.size() = 7 closedNodes.size() = 3
+main.modele.Case (5, 5) : HABITAT   3150.0
+main.modele.Case (7, 5) : TERRAIN_LIBRE   3150.0
+main.modele.Case (5, 4) : TERRAIN_LIBRE   3150.0
+main.modele.Case (7, 4) : TERRAIN_LIBRE   3150.0
+main.modele.Case (6, 7) : TERRAIN_LIBRE   4050.0
+main.modele.Case (5, 6) : HABITAT   4050.0
+main.modele.Case (7, 6) : TERRAIN_LIBRE   4050.0
+MinNode : main.modele.Case (5, 5) : HABITAT
+VoisinGauchemain.modele.Case (5, 4) : TERRAIN_LIBRE
+openNodes.size() = 6 closedNodes.size() = 4
+main.modele.Case (7, 5) : TERRAIN_LIBRE   3150.0
+main.modele.Case (5, 4) : TERRAIN_LIBRE   3150.0
+main.modele.Case (7, 4) : TERRAIN_LIBRE   3150.0
+main.modele.Case (6, 7) : TERRAIN_LIBRE   4050.0
+main.modele.Case (5, 6) : HABITAT   4050.0
+main.modele.Case (7, 6) : TERRAIN_LIBRE   4050.0
+MinNode : main.modele.Case (7, 5) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (7, 4) : TERRAIN_LIBRE
+openNodes.size() = 5 closedNodes.size() = 5
+main.modele.Case (5, 4) : TERRAIN_LIBRE   3150.0
+main.modele.Case (7, 4) : TERRAIN_LIBRE   3150.0
+main.modele.Case (6, 7) : TERRAIN_LIBRE   4050.0
+main.modele.Case (5, 6) : HABITAT   4050.0
+main.modele.Case (7, 6) : TERRAIN_LIBRE   4050.0
+MinNode : main.modele.Case (5, 4) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (5, 3) : TERRAIN_LIBRE
+openNodes.size() = 6 closedNodes.size() = 6
+main.modele.Case (7, 4) : TERRAIN_LIBRE   3150.0
+main.modele.Case (6, 7) : TERRAIN_LIBRE   4050.0
+main.modele.Case (5, 6) : HABITAT   4050.0
+main.modele.Case (7, 6) : TERRAIN_LIBRE   4050.0
+main.modele.Case (5, 3) : TERRAIN_LIBRE   3150.0
+main.modele.Case (4, 4) : TERRAIN_LIBRE   4050.0
+MinNode : main.modele.Case (7, 4) : TERRAIN_LIBRE
+openNodes.size() = 5 closedNodes.size() = 7
+main.modele.Case (6, 7) : TERRAIN_LIBRE   4050.0
+main.modele.Case (5, 6) : HABITAT   4050.0
+main.modele.Case (7, 6) : TERRAIN_LIBRE   4050.0
+main.modele.Case (5, 3) : TERRAIN_LIBRE   3150.0
+main.modele.Case (4, 4) : TERRAIN_LIBRE   4050.0
+MinNode : main.modele.Case (5, 3) : TERRAIN_LIBRE
+openNodes.size() = 5 closedNodes.size() = 8
+main.modele.Case (6, 7) : TERRAIN_LIBRE   4050.0
+main.modele.Case (5, 6) : HABITAT   4050.0
+main.modele.Case (7, 6) : TERRAIN_LIBRE   4050.0
+main.modele.Case (4, 4) : TERRAIN_LIBRE   4050.0
+main.modele.Case (4, 3) : TERRAIN_LIBRE   4050.0
+MinNode : main.modele.Case (6, 7) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (6, 6) : TERRAIN_LIBRE
+openNodes.size() = 6 closedNodes.size() = 9
+main.modele.Case (5, 6) : HABITAT   4050.0
+main.modele.Case (7, 6) : TERRAIN_LIBRE   4050.0
+main.modele.Case (4, 4) : TERRAIN_LIBRE   4050.0
+main.modele.Case (4, 3) : TERRAIN_LIBRE   4050.0
+main.modele.Case (5, 7) : TERRAIN_LIBRE   4950.0
+main.modele.Case (7, 7) : TERRAIN_LIBRE   4950.0
+MinNode : main.modele.Case (5, 6) : HABITAT
+VoisinGauchemain.modele.Case (5, 5) : HABITAT
+openNodes.size() = 5 closedNodes.size() = 10
+main.modele.Case (7, 6) : TERRAIN_LIBRE   4050.0
+main.modele.Case (4, 4) : TERRAIN_LIBRE   4050.0
+main.modele.Case (4, 3) : TERRAIN_LIBRE   4050.0
+main.modele.Case (5, 7) : TERRAIN_LIBRE   4950.0
+main.modele.Case (7, 7) : TERRAIN_LIBRE   4950.0
+MinNode : main.modele.Case (7, 6) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (7, 5) : TERRAIN_LIBRE
+openNodes.size() = 4 closedNodes.size() = 11
+main.modele.Case (4, 4) : TERRAIN_LIBRE   4050.0
+main.modele.Case (4, 3) : TERRAIN_LIBRE   4050.0
+main.modele.Case (5, 7) : TERRAIN_LIBRE   4950.0
+main.modele.Case (7, 7) : TERRAIN_LIBRE   4950.0
+MinNode : main.modele.Case (4, 4) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (4, 3) : TERRAIN_LIBRE
+openNodes.size() = 4 closedNodes.size() = 12
+main.modele.Case (4, 3) : TERRAIN_LIBRE   4050.0
+main.modele.Case (5, 7) : TERRAIN_LIBRE   4950.0
+main.modele.Case (7, 7) : TERRAIN_LIBRE   4950.0
+main.modele.Case (3, 4) : TERRAIN_LIBRE   4950.0
+MinNode : main.modele.Case (4, 3) : TERRAIN_LIBRE
+openNodes.size() = 3 closedNodes.size() = 13
+main.modele.Case (5, 7) : TERRAIN_LIBRE   4950.0
+main.modele.Case (7, 7) : TERRAIN_LIBRE   4950.0
+main.modele.Case (3, 4) : TERRAIN_LIBRE   4950.0
+MinNode : main.modele.Case (5, 7) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (5, 6) : HABITAT
+openNodes.size() = 3 closedNodes.size() = 14
+main.modele.Case (7, 7) : TERRAIN_LIBRE   4950.0
+main.modele.Case (3, 4) : TERRAIN_LIBRE   4950.0
+main.modele.Case (4, 7) : TERRAIN_LIBRE   5850.0
+MinNode : main.modele.Case (7, 7) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (7, 6) : TERRAIN_LIBRE
+openNodes.size() = 2 closedNodes.size() = 15
+main.modele.Case (3, 4) : TERRAIN_LIBRE   4950.0
+main.modele.Case (4, 7) : TERRAIN_LIBRE   5850.0
+MinNode : main.modele.Case (3, 4) : TERRAIN_LIBRE
+openNodes.size() = 2 closedNodes.size() = 16
+main.modele.Case (4, 7) : TERRAIN_LIBRE   5850.0
+main.modele.Case (2, 4) : TERRAIN_LIBRE   5850.0
+MinNode : main.modele.Case (4, 7) : TERRAIN_LIBRE
+openNodes.size() = 2 closedNodes.size() = 17
+main.modele.Case (2, 4) : TERRAIN_LIBRE   5850.0
+main.modele.Case (3, 7) : TERRAIN_LIBRE   6750.0
+MinNode : main.modele.Case (2, 4) : TERRAIN_LIBRE
+openNodes.size() = 1 closedNodes.size() = 18
+main.modele.Case (3, 7) : TERRAIN_LIBRE   6750.0
+MinNode : main.modele.Case (3, 7) : TERRAIN_LIBRE
+openNodes.size() = 1 closedNodes.size() = 19
+main.modele.Case (2, 7) : TERRAIN_LIBRE   7650.0
+MinNode : main.modele.Case (2, 7) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (2, 6) : TERRAIN_LIBRE
+openNodes.size() = 2 closedNodes.size() = 20
+main.modele.Case (2, 6) : TERRAIN_LIBRE   7650.0
+main.modele.Case (1, 7) : TERRAIN_LIBRE   8550.0
+MinNode : main.modele.Case (2, 6) : TERRAIN_LIBRE
+openNodes.size() = 1 closedNodes.size() = 21
+main.modele.Case (1, 7) : TERRAIN_LIBRE   8550.0
+MinNode : main.modele.Case (1, 7) : TERRAIN_LIBRE
+openNodes.size() = 1 closedNodes.size() = 22
+main.modele.Case (0, 7) : TERRAIN_LIBRE   9450.0
+MinNode : main.modele.Case (0, 7) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (0, 6) : TERRAIN_LIBRE
+openNodes.size() = 1 closedNodes.size() = 23
+main.modele.Case (0, 6) : TERRAIN_LIBRE   9450.0
+MinNode : main.modele.Case (0, 6) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (0, 5) : TERRAIN_LIBRE
+openNodes.size() = 1 closedNodes.size() = 24
+main.modele.Case (0, 5) : TERRAIN_LIBRE   9450.0
+MinNode : main.modele.Case (0, 5) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (0, 4) : TERRAIN_LIBRE
+openNodes.size() = 2 closedNodes.size() = 25
+main.modele.Case (0, 4) : TERRAIN_LIBRE   9450.0
+main.modele.Case (1, 5) : TERRAIN_LIBRE   9450.0
+MinNode : main.modele.Case (0, 4) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (0, 3) : TERRAIN_LIBRE
+openNodes.size() = 2 closedNodes.size() = 26
+main.modele.Case (1, 5) : TERRAIN_LIBRE   9450.0
+main.modele.Case (0, 3) : TERRAIN_LIBRE   9450.0
+MinNode : main.modele.Case (1, 5) : TERRAIN_LIBRE
+openNodes.size() = 1 closedNodes.size() = 27
+main.modele.Case (0, 3) : TERRAIN_LIBRE   9450.0
+MinNode : main.modele.Case (0, 3) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (0, 2) : TERRAIN_LIBRE
+openNodes.size() = 2 closedNodes.size() = 28
+main.modele.Case (0, 2) : TERRAIN_LIBRE   9450.0
+main.modele.Case (1, 3) : TERRAIN_LIBRE   9450.0
+MinNode : main.modele.Case (0, 2) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (0, 1) : TERRAIN_LIBRE
+openNodes.size() = 3 closedNodes.size() = 29
+main.modele.Case (1, 3) : TERRAIN_LIBRE   9450.0
+main.modele.Case (0, 1) : TERRAIN_LIBRE   9450.0
+main.modele.Case (1, 2) : TERRAIN_LIBRE   9450.0
+MinNode : main.modele.Case (1, 3) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (1, 2) : TERRAIN_LIBRE
+openNodes.size() = 2 closedNodes.size() = 30
+main.modele.Case (0, 1) : TERRAIN_LIBRE   9450.0
+main.modele.Case (1, 2) : TERRAIN_LIBRE   9450.0
+MinNode : main.modele.Case (0, 1) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (0, 0) : TERRAIN_LIBRE
+openNodes.size() = 3 closedNodes.size() = 31
+main.modele.Case (1, 2) : TERRAIN_LIBRE   9450.0
+main.modele.Case (0, 0) : TERRAIN_LIBRE   9450.0
+main.modele.Case (1, 1) : TERRAIN_LIBRE   9450.0
+MinNode : main.modele.Case (1, 2) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (1, 1) : TERRAIN_LIBRE
+openNodes.size() = 2 closedNodes.size() = 32
+main.modele.Case (0, 0) : TERRAIN_LIBRE   9450.0
+main.modele.Case (1, 1) : TERRAIN_LIBRE   9450.0
+MinNode : main.modele.Case (0, 0) : TERRAIN_LIBRE
+openNodes.size() = 2 closedNodes.size() = 33
+main.modele.Case (1, 1) : TERRAIN_LIBRE   9450.0
+main.modele.Case (1, 0) : TERRAIN_LIBRE   9450.0
+MinNode : main.modele.Case (1, 1) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (1, 0) : TERRAIN_LIBRE
+openNodes.size() = 2 closedNodes.size() = 34
+main.modele.Case (1, 0) : TERRAIN_LIBRE   9450.0
+main.modele.Case (2, 1) : TERRAIN_LIBRE   9450.0
+MinNode : main.modele.Case (1, 0) : TERRAIN_LIBRE
+openNodes.size() = 2 closedNodes.size() = 35
+main.modele.Case (2, 1) : TERRAIN_LIBRE   9450.0
+main.modele.Case (2, 0) : TERRAIN_LIBRE   9450.0
+MinNode : main.modele.Case (2, 1) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (2, 0) : TERRAIN_LIBRE
+openNodes.size() = 2 closedNodes.size() = 36
+main.modele.Case (2, 0) : TERRAIN_LIBRE   9450.0
+main.modele.Case (3, 1) : TERRAIN_LIBRE   9450.0
+MinNode : main.modele.Case (2, 0) : TERRAIN_LIBRE
+openNodes.size() = 2 closedNodes.size() = 37
+main.modele.Case (3, 1) : TERRAIN_LIBRE   9450.0
+main.modele.Case (3, 0) : TERRAIN_LIBRE   9450.0
+MinNode : main.modele.Case (3, 1) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (3, 0) : TERRAIN_LIBRE
+openNodes.size() = 2 closedNodes.size() = 38
+main.modele.Case (3, 0) : TERRAIN_LIBRE   9450.0
+main.modele.Case (4, 1) : TERRAIN_LIBRE   9450.0
+MinNode : main.modele.Case (3, 0) : TERRAIN_LIBRE
+openNodes.size() = 2 closedNodes.size() = 39
+main.modele.Case (4, 1) : TERRAIN_LIBRE   9450.0
+main.modele.Case (4, 0) : TERRAIN_LIBRE   9450.0
+MinNode : main.modele.Case (4, 1) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (4, 0) : TERRAIN_LIBRE
+openNodes.size() = 2 closedNodes.size() = 40
+main.modele.Case (4, 0) : TERRAIN_LIBRE   9450.0
+main.modele.Case (5, 1) : TERRAIN_LIBRE   9450.0
+MinNode : main.modele.Case (4, 0) : TERRAIN_LIBRE
+openNodes.size() = 2 closedNodes.size() = 41
+main.modele.Case (5, 1) : TERRAIN_LIBRE   9450.0
+main.modele.Case (5, 0) : TERRAIN_LIBRE   9450.0
+MinNode : main.modele.Case (5, 1) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (5, 0) : TERRAIN_LIBRE
+openNodes.size() = 2 closedNodes.size() = 42
+main.modele.Case (5, 0) : TERRAIN_LIBRE   9450.0
+main.modele.Case (6, 1) : TERRAIN_LIBRE   9450.0
+MinNode : main.modele.Case (5, 0) : TERRAIN_LIBRE
+openNodes.size() = 2 closedNodes.size() = 43
+main.modele.Case (6, 1) : TERRAIN_LIBRE   9450.0
+main.modele.Case (6, 0) : TERRAIN_LIBRE   9450.0
+MinNode : main.modele.Case (6, 1) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (6, 0) : TERRAIN_LIBRE
+openNodes.size() = 2 closedNodes.size() = 44
+main.modele.Case (6, 0) : TERRAIN_LIBRE   9450.0
+main.modele.Case (7, 1) : HABITAT   10350.0
+MinNode : main.modele.Case (6, 0) : TERRAIN_LIBRE
+openNodes.size() = 1 closedNodes.size() = 0
+main.modele.Case (4, 7) : TERRAIN_LIBRE   3240.0
+MinNode : main.modele.Case (4, 7) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (4, 6) : FORET
+openNodes.size() = 3 closedNodes.size() = 1
+main.modele.Case (4, 6) : FORET   3240.0
+main.modele.Case (3, 7) : TERRAIN_LIBRE   3960.0
+main.modele.Case (5, 7) : TERRAIN_LIBRE   3240.0
+MinNode : main.modele.Case (4, 6) : FORET
+VoisinGauchemain.modele.Case (4, 5) : FORET
+openNodes.size() = 5 closedNodes.size() = 2
+main.modele.Case (3, 7) : TERRAIN_LIBRE   3960.0
+main.modele.Case (5, 7) : TERRAIN_LIBRE   3240.0
+main.modele.Case (4, 5) : FORET   3240.0
+main.modele.Case (3, 6) : FORET   3960.0
+main.modele.Case (5, 6) : HABITAT   3240.0
+MinNode : main.modele.Case (5, 7) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (5, 6) : HABITAT
+openNodes.size() = 5 closedNodes.size() = 3
+main.modele.Case (3, 7) : TERRAIN_LIBRE   3960.0
+main.modele.Case (4, 5) : FORET   3240.0
+main.modele.Case (3, 6) : FORET   3960.0
+main.modele.Case (5, 6) : HABITAT   3240.0
+main.modele.Case (6, 7) : TERRAIN_LIBRE   3240.0
+MinNode : main.modele.Case (4, 5) : FORET
+VoisinGauchemain.modele.Case (4, 4) : TERRAIN_LIBRE
+openNodes.size() = 7 closedNodes.size() = 4
+main.modele.Case (3, 7) : TERRAIN_LIBRE   3960.0
+main.modele.Case (3, 6) : FORET   3960.0
+main.modele.Case (5, 6) : HABITAT   3240.0
+main.modele.Case (6, 7) : TERRAIN_LIBRE   3240.0
+main.modele.Case (4, 4) : TERRAIN_LIBRE   3240.0
+main.modele.Case (3, 5) : FORET   3960.0
+main.modele.Case (5, 5) : HABITAT   3240.0
+MinNode : main.modele.Case (5, 6) : HABITAT
+VoisinGauchemain.modele.Case (5, 5) : HABITAT
+openNodes.size() = 7 closedNodes.size() = 5
+main.modele.Case (3, 7) : TERRAIN_LIBRE   3960.0
+main.modele.Case (3, 6) : FORET   3960.0
+main.modele.Case (6, 7) : TERRAIN_LIBRE   3240.0
+main.modele.Case (4, 4) : TERRAIN_LIBRE   3240.0
+main.modele.Case (3, 5) : FORET   3960.0
+main.modele.Case (5, 5) : HABITAT   3240.0
+main.modele.Case (6, 6) : TERRAIN_LIBRE   3240.0
+MinNode : main.modele.Case (6, 7) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (6, 6) : TERRAIN_LIBRE
+openNodes.size() = 7 closedNodes.size() = 6
+main.modele.Case (3, 7) : TERRAIN_LIBRE   3960.0
+main.modele.Case (3, 6) : FORET   3960.0
+main.modele.Case (4, 4) : TERRAIN_LIBRE   3240.0
+main.modele.Case (3, 5) : FORET   3960.0
+main.modele.Case (5, 5) : HABITAT   3240.0
+main.modele.Case (6, 6) : TERRAIN_LIBRE   3240.0
+main.modele.Case (7, 7) : TERRAIN_LIBRE   3960.0
+MinNode : main.modele.Case (4, 4) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (4, 3) : TERRAIN_LIBRE
+openNodes.size() = 9 closedNodes.size() = 7
+main.modele.Case (3, 7) : TERRAIN_LIBRE   3960.0
+main.modele.Case (3, 6) : FORET   3960.0
+main.modele.Case (3, 5) : FORET   3960.0
+main.modele.Case (5, 5) : HABITAT   3240.0
+main.modele.Case (6, 6) : TERRAIN_LIBRE   3240.0
+main.modele.Case (7, 7) : TERRAIN_LIBRE   3960.0
+main.modele.Case (4, 3) : TERRAIN_LIBRE   3240.0
+main.modele.Case (3, 4) : TERRAIN_LIBRE   3960.0
+main.modele.Case (5, 4) : TERRAIN_LIBRE   3240.0
+MinNode : main.modele.Case (5, 5) : HABITAT
+VoisinGauchemain.modele.Case (5, 4) : TERRAIN_LIBRE
+openNodes.size() = 9 closedNodes.size() = 8
+main.modele.Case (3, 7) : TERRAIN_LIBRE   3960.0
+main.modele.Case (3, 6) : FORET   3960.0
+main.modele.Case (3, 5) : FORET   3960.0
+main.modele.Case (6, 6) : TERRAIN_LIBRE   3240.0
+main.modele.Case (7, 7) : TERRAIN_LIBRE   3960.0
+main.modele.Case (4, 3) : TERRAIN_LIBRE   3240.0
+main.modele.Case (3, 4) : TERRAIN_LIBRE   3960.0
+main.modele.Case (5, 4) : TERRAIN_LIBRE   3240.0
+main.modele.Case (6, 5) : TERRAIN_LIBRE   3240.0
+MinNode : main.modele.Case (6, 6) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (6, 5) : TERRAIN_LIBRE
+openNodes.size() = 9 closedNodes.size() = 9
+main.modele.Case (3, 7) : TERRAIN_LIBRE   3960.0
+main.modele.Case (3, 6) : FORET   3960.0
+main.modele.Case (3, 5) : FORET   3960.0
+main.modele.Case (7, 7) : TERRAIN_LIBRE   3960.0
+main.modele.Case (4, 3) : TERRAIN_LIBRE   3240.0
+main.modele.Case (3, 4) : TERRAIN_LIBRE   3960.0
+main.modele.Case (5, 4) : TERRAIN_LIBRE   3240.0
+main.modele.Case (6, 5) : TERRAIN_LIBRE   3240.0
+main.modele.Case (7, 6) : TERRAIN_LIBRE   3960.0
+MinNode : main.modele.Case (4, 3) : TERRAIN_LIBRE
+openNodes.size() = 9 closedNodes.size() = 10
+main.modele.Case (3, 7) : TERRAIN_LIBRE   3960.0
+main.modele.Case (3, 6) : FORET   3960.0
+main.modele.Case (3, 5) : FORET   3960.0
+main.modele.Case (7, 7) : TERRAIN_LIBRE   3960.0
+main.modele.Case (3, 4) : TERRAIN_LIBRE   3960.0
+main.modele.Case (5, 4) : TERRAIN_LIBRE   3240.0
+main.modele.Case (6, 5) : TERRAIN_LIBRE   3240.0
+main.modele.Case (7, 6) : TERRAIN_LIBRE   3960.0
+main.modele.Case (5, 3) : TERRAIN_LIBRE   3240.0
+MinNode : main.modele.Case (5, 4) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (5, 3) : TERRAIN_LIBRE
+openNodes.size() = 9 closedNodes.size() = 11
+main.modele.Case (3, 7) : TERRAIN_LIBRE   3960.0
+main.modele.Case (3, 6) : FORET   3960.0
+main.modele.Case (3, 5) : FORET   3960.0
+main.modele.Case (7, 7) : TERRAIN_LIBRE   3960.0
+main.modele.Case (3, 4) : TERRAIN_LIBRE   3960.0
+main.modele.Case (6, 5) : TERRAIN_LIBRE   3240.0
+main.modele.Case (7, 6) : TERRAIN_LIBRE   3960.0
+main.modele.Case (5, 3) : TERRAIN_LIBRE   3240.0
+main.modele.Case (6, 4) : TERRAIN_LIBRE   3240.0
+MinNode : main.modele.Case (6, 5) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (6, 4) : TERRAIN_LIBRE
+openNodes.size() = 9 closedNodes.size() = 12
+main.modele.Case (3, 7) : TERRAIN_LIBRE   3960.0
+main.modele.Case (3, 6) : FORET   3960.0
+main.modele.Case (3, 5) : FORET   3960.0
+main.modele.Case (7, 7) : TERRAIN_LIBRE   3960.0
+main.modele.Case (3, 4) : TERRAIN_LIBRE   3960.0
+main.modele.Case (7, 6) : TERRAIN_LIBRE   3960.0
+main.modele.Case (5, 3) : TERRAIN_LIBRE   3240.0
+main.modele.Case (6, 4) : TERRAIN_LIBRE   3240.0
+main.modele.Case (7, 5) : TERRAIN_LIBRE   3960.0
+MinNode : main.modele.Case (5, 3) : TERRAIN_LIBRE
+openNodes.size() = 8 closedNodes.size() = 13
+main.modele.Case (3, 7) : TERRAIN_LIBRE   3960.0
+main.modele.Case (3, 6) : FORET   3960.0
+main.modele.Case (3, 5) : FORET   3960.0
+main.modele.Case (7, 7) : TERRAIN_LIBRE   3960.0
+main.modele.Case (3, 4) : TERRAIN_LIBRE   3960.0
+main.modele.Case (7, 6) : TERRAIN_LIBRE   3960.0
+main.modele.Case (6, 4) : TERRAIN_LIBRE   3240.0
+main.modele.Case (7, 5) : TERRAIN_LIBRE   3960.0
+MinNode : main.modele.Case (6, 4) : TERRAIN_LIBRE
+openNodes.size() = 8 closedNodes.size() = 14
+main.modele.Case (3, 7) : TERRAIN_LIBRE   3960.0
+main.modele.Case (3, 6) : FORET   3960.0
+main.modele.Case (3, 5) : FORET   3960.0
+main.modele.Case (7, 7) : TERRAIN_LIBRE   3960.0
+main.modele.Case (3, 4) : TERRAIN_LIBRE   3960.0
+main.modele.Case (7, 6) : TERRAIN_LIBRE   3960.0
+main.modele.Case (7, 5) : TERRAIN_LIBRE   3960.0
+main.modele.Case (7, 4) : TERRAIN_LIBRE   3960.0
+MinNode : main.modele.Case (3, 7) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (3, 6) : FORET
+openNodes.size() = 8 closedNodes.size() = 15
+main.modele.Case (3, 6) : FORET   3960.0
+main.modele.Case (3, 5) : FORET   3960.0
+main.modele.Case (7, 7) : TERRAIN_LIBRE   3960.0
+main.modele.Case (3, 4) : TERRAIN_LIBRE   3960.0
+main.modele.Case (7, 6) : TERRAIN_LIBRE   3960.0
+main.modele.Case (7, 5) : TERRAIN_LIBRE   3960.0
+main.modele.Case (7, 4) : TERRAIN_LIBRE   3960.0
+main.modele.Case (2, 7) : TERRAIN_LIBRE   4680.0
+MinNode : main.modele.Case (3, 6) : FORET
+VoisinGauchemain.modele.Case (3, 5) : FORET
+openNodes.size() = 8 closedNodes.size() = 16
+main.modele.Case (3, 5) : FORET   3960.0
+main.modele.Case (7, 7) : TERRAIN_LIBRE   3960.0
+main.modele.Case (3, 4) : TERRAIN_LIBRE   3960.0
+main.modele.Case (7, 6) : TERRAIN_LIBRE   3960.0
+main.modele.Case (7, 5) : TERRAIN_LIBRE   3960.0
+main.modele.Case (7, 4) : TERRAIN_LIBRE   3960.0
+main.modele.Case (2, 7) : TERRAIN_LIBRE   4680.0
+main.modele.Case (2, 6) : TERRAIN_LIBRE   4680.0
+MinNode : main.modele.Case (3, 5) : FORET
+VoisinGauchemain.modele.Case (3, 4) : TERRAIN_LIBRE
+openNodes.size() = 8 closedNodes.size() = 17
+main.modele.Case (7, 7) : TERRAIN_LIBRE   3960.0
+main.modele.Case (3, 4) : TERRAIN_LIBRE   3960.0
+main.modele.Case (7, 6) : TERRAIN_LIBRE   3960.0
+main.modele.Case (7, 5) : TERRAIN_LIBRE   3960.0
+main.modele.Case (7, 4) : TERRAIN_LIBRE   3960.0
+main.modele.Case (2, 7) : TERRAIN_LIBRE   4680.0
+main.modele.Case (2, 6) : TERRAIN_LIBRE   4680.0
+main.modele.Case (2, 5) : FORET   4680.0
+MinNode : main.modele.Case (7, 7) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (7, 6) : TERRAIN_LIBRE
+openNodes.size() = 7 closedNodes.size() = 18
+main.modele.Case (3, 4) : TERRAIN_LIBRE   3960.0
+main.modele.Case (7, 6) : TERRAIN_LIBRE   3960.0
+main.modele.Case (7, 5) : TERRAIN_LIBRE   3960.0
+main.modele.Case (7, 4) : TERRAIN_LIBRE   3960.0
+main.modele.Case (2, 7) : TERRAIN_LIBRE   4680.0
+main.modele.Case (2, 6) : TERRAIN_LIBRE   4680.0
+main.modele.Case (2, 5) : FORET   4680.0
+MinNode : main.modele.Case (3, 4) : TERRAIN_LIBRE
+openNodes.size() = 7 closedNodes.size() = 19
+main.modele.Case (7, 6) : TERRAIN_LIBRE   3960.0
+main.modele.Case (7, 5) : TERRAIN_LIBRE   3960.0
+main.modele.Case (7, 4) : TERRAIN_LIBRE   3960.0
+main.modele.Case (2, 7) : TERRAIN_LIBRE   4680.0
+main.modele.Case (2, 6) : TERRAIN_LIBRE   4680.0
+main.modele.Case (2, 5) : FORET   4680.0
+main.modele.Case (2, 4) : TERRAIN_LIBRE   4680.0
+MinNode : main.modele.Case (7, 6) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (7, 5) : TERRAIN_LIBRE
+openNodes.size() = 6 closedNodes.size() = 20
+main.modele.Case (7, 5) : TERRAIN_LIBRE   3960.0
+main.modele.Case (7, 4) : TERRAIN_LIBRE   3960.0
+main.modele.Case (2, 7) : TERRAIN_LIBRE   4680.0
+main.modele.Case (2, 6) : TERRAIN_LIBRE   4680.0
+main.modele.Case (2, 5) : FORET   4680.0
+main.modele.Case (2, 4) : TERRAIN_LIBRE   4680.0
+MinNode : main.modele.Case (7, 5) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (7, 4) : TERRAIN_LIBRE
+openNodes.size() = 5 closedNodes.size() = 21
+main.modele.Case (7, 4) : TERRAIN_LIBRE   3960.0
+main.modele.Case (2, 7) : TERRAIN_LIBRE   4680.0
+main.modele.Case (2, 6) : TERRAIN_LIBRE   4680.0
+main.modele.Case (2, 5) : FORET   4680.0
+main.modele.Case (2, 4) : TERRAIN_LIBRE   4680.0
+MinNode : main.modele.Case (7, 4) : TERRAIN_LIBRE
+openNodes.size() = 4 closedNodes.size() = 22
+main.modele.Case (2, 7) : TERRAIN_LIBRE   4680.0
+main.modele.Case (2, 6) : TERRAIN_LIBRE   4680.0
+main.modele.Case (2, 5) : FORET   4680.0
+main.modele.Case (2, 4) : TERRAIN_LIBRE   4680.0
+MinNode : main.modele.Case (2, 7) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (2, 6) : TERRAIN_LIBRE
+openNodes.size() = 4 closedNodes.size() = 23
+main.modele.Case (2, 6) : TERRAIN_LIBRE   4680.0
+main.modele.Case (2, 5) : FORET   4680.0
+main.modele.Case (2, 4) : TERRAIN_LIBRE   4680.0
+main.modele.Case (1, 7) : TERRAIN_LIBRE   5400.0
+MinNode : main.modele.Case (2, 6) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (2, 5) : FORET
+openNodes.size() = 4 closedNodes.size() = 24
+main.modele.Case (2, 5) : FORET   4680.0
+main.modele.Case (2, 4) : TERRAIN_LIBRE   4680.0
+main.modele.Case (1, 7) : TERRAIN_LIBRE   5400.0
+main.modele.Case (1, 6) : ROCHE   5400.0
+MinNode : main.modele.Case (2, 5) : FORET
+VoisinGauchemain.modele.Case (2, 4) : TERRAIN_LIBRE
+openNodes.size() = 4 closedNodes.size() = 25
+main.modele.Case (2, 4) : TERRAIN_LIBRE   4680.0
+main.modele.Case (1, 7) : TERRAIN_LIBRE   5400.0
+main.modele.Case (1, 6) : ROCHE   5400.0
+main.modele.Case (1, 5) : TERRAIN_LIBRE   5400.0
+MinNode : main.modele.Case (2, 4) : TERRAIN_LIBRE
+openNodes.size() = 4 closedNodes.size() = 26
+main.modele.Case (1, 7) : TERRAIN_LIBRE   5400.0
+main.modele.Case (1, 6) : ROCHE   5400.0
+main.modele.Case (1, 5) : TERRAIN_LIBRE   5400.0
+main.modele.Case (1, 4) : ROCHE   5400.0
+MinNode : main.modele.Case (1, 7) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (1, 6) : ROCHE
+openNodes.size() = 4 closedNodes.size() = 27
+main.modele.Case (1, 6) : ROCHE   5400.0
+main.modele.Case (1, 5) : TERRAIN_LIBRE   5400.0
+main.modele.Case (1, 4) : ROCHE   5400.0
+main.modele.Case (0, 7) : TERRAIN_LIBRE   6120.0
+MinNode : main.modele.Case (1, 6) : ROCHE
+VoisinGauchemain.modele.Case (1, 5) : TERRAIN_LIBRE
+openNodes.size() = 4 closedNodes.size() = 28
+main.modele.Case (1, 5) : TERRAIN_LIBRE   5400.0
+main.modele.Case (1, 4) : ROCHE   5400.0
+main.modele.Case (0, 7) : TERRAIN_LIBRE   6120.0
+main.modele.Case (0, 6) : TERRAIN_LIBRE   9360.0
+MinNode : main.modele.Case (1, 5) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (1, 4) : ROCHE
+openNodes.size() = 4 closedNodes.size() = 29
+main.modele.Case (1, 4) : ROCHE   5400.0
+main.modele.Case (0, 7) : TERRAIN_LIBRE   6120.0
+main.modele.Case (0, 6) : TERRAIN_LIBRE   9360.0
+main.modele.Case (0, 5) : TERRAIN_LIBRE   6120.0
+MinNode : main.modele.Case (1, 4) : ROCHE
+VoisinGauchemain.modele.Case (1, 3) : TERRAIN_LIBRE
+openNodes.size() = 5 closedNodes.size() = 30
+main.modele.Case (0, 7) : TERRAIN_LIBRE   6120.0
+main.modele.Case (0, 6) : TERRAIN_LIBRE   9360.0
+main.modele.Case (0, 5) : TERRAIN_LIBRE   6120.0
+main.modele.Case (1, 3) : TERRAIN_LIBRE   8640.0
+main.modele.Case (0, 4) : TERRAIN_LIBRE   9360.0
+MinNode : main.modele.Case (0, 7) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (0, 6) : TERRAIN_LIBRE
+openNodes.size() = 4 closedNodes.size() = 31
+main.modele.Case (0, 6) : TERRAIN_LIBRE   6120.0
+main.modele.Case (0, 5) : TERRAIN_LIBRE   6120.0
+main.modele.Case (1, 3) : TERRAIN_LIBRE   8640.0
+main.modele.Case (0, 4) : TERRAIN_LIBRE   9360.0
+MinNode : main.modele.Case (0, 6) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (0, 5) : TERRAIN_LIBRE
+openNodes.size() = 3 closedNodes.size() = 32
+main.modele.Case (0, 5) : TERRAIN_LIBRE   6120.0
+main.modele.Case (1, 3) : TERRAIN_LIBRE   8640.0
+main.modele.Case (0, 4) : TERRAIN_LIBRE   9360.0
+MinNode : main.modele.Case (0, 5) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (0, 4) : TERRAIN_LIBRE
+openNodes.size() = 2 closedNodes.size() = 33
+main.modele.Case (1, 3) : TERRAIN_LIBRE   8640.0
+main.modele.Case (0, 4) : TERRAIN_LIBRE   6120.0
+MinNode : main.modele.Case (0, 4) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (0, 3) : TERRAIN_LIBRE
+openNodes.size() = 2 closedNodes.size() = 34
+main.modele.Case (1, 3) : TERRAIN_LIBRE   8640.0
+main.modele.Case (0, 3) : TERRAIN_LIBRE   6120.0
+MinNode : main.modele.Case (0, 3) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (0, 2) : TERRAIN_LIBRE
+openNodes.size() = 2 closedNodes.size() = 35
+main.modele.Case (1, 3) : TERRAIN_LIBRE   6120.0
+main.modele.Case (0, 2) : TERRAIN_LIBRE   6120.0
+MinNode : main.modele.Case (1, 3) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (1, 2) : TERRAIN_LIBRE
+openNodes.size() = 2 closedNodes.size() = 36
+main.modele.Case (0, 2) : TERRAIN_LIBRE   6120.0
+main.modele.Case (1, 2) : TERRAIN_LIBRE   6120.0
+MinNode : main.modele.Case (0, 2) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (0, 1) : TERRAIN_LIBRE
+openNodes.size() = 2 closedNodes.size() = 37
+main.modele.Case (1, 2) : TERRAIN_LIBRE   6120.0
+main.modele.Case (0, 1) : TERRAIN_LIBRE   6120.0
+MinNode : main.modele.Case (1, 2) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (1, 1) : TERRAIN_LIBRE
+openNodes.size() = 2 closedNodes.size() = 38
+main.modele.Case (0, 1) : TERRAIN_LIBRE   6120.0
+main.modele.Case (1, 1) : TERRAIN_LIBRE   6120.0
+MinNode : main.modele.Case (0, 1) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (0, 0) : TERRAIN_LIBRE
+openNodes.size() = 2 closedNodes.size() = 39
+main.modele.Case (1, 1) : TERRAIN_LIBRE   6120.0
+main.modele.Case (0, 0) : TERRAIN_LIBRE   6120.0
+MinNode : main.modele.Case (1, 1) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (1, 0) : TERRAIN_LIBRE
+openNodes.size() = 3 closedNodes.size() = 40
+main.modele.Case (0, 0) : TERRAIN_LIBRE   6120.0
+main.modele.Case (1, 0) : TERRAIN_LIBRE   6120.0
+main.modele.Case (2, 1) : TERRAIN_LIBRE   6120.0
+MinNode : main.modele.Case (0, 0) : TERRAIN_LIBRE
+openNodes.size() = 2 closedNodes.size() = 41
+main.modele.Case (1, 0) : TERRAIN_LIBRE   6120.0
+main.modele.Case (2, 1) : TERRAIN_LIBRE   6120.0
+MinNode : main.modele.Case (1, 0) : TERRAIN_LIBRE
+openNodes.size() = 2 closedNodes.size() = 42
+main.modele.Case (2, 1) : TERRAIN_LIBRE   6120.0
+main.modele.Case (2, 0) : TERRAIN_LIBRE   6120.0
+MinNode : main.modele.Case (2, 1) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (2, 0) : TERRAIN_LIBRE
+openNodes.size() = 2 closedNodes.size() = 43
+main.modele.Case (2, 0) : TERRAIN_LIBRE   6120.0
+main.modele.Case (3, 1) : TERRAIN_LIBRE   6120.0
+MinNode : main.modele.Case (2, 0) : TERRAIN_LIBRE
+openNodes.size() = 2 closedNodes.size() = 44
+main.modele.Case (3, 1) : TERRAIN_LIBRE   6120.0
+main.modele.Case (3, 0) : TERRAIN_LIBRE   6120.0
+MinNode : main.modele.Case (3, 1) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (3, 0) : TERRAIN_LIBRE
+openNodes.size() = 2 closedNodes.size() = 45
+main.modele.Case (3, 0) : TERRAIN_LIBRE   6120.0
+main.modele.Case (4, 1) : TERRAIN_LIBRE   6120.0
+MinNode : main.modele.Case (3, 0) : TERRAIN_LIBRE
+openNodes.size() = 2 closedNodes.size() = 46
+main.modele.Case (4, 1) : TERRAIN_LIBRE   6120.0
+main.modele.Case (4, 0) : TERRAIN_LIBRE   6120.0
+MinNode : main.modele.Case (4, 1) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (4, 0) : TERRAIN_LIBRE
+openNodes.size() = 2 closedNodes.size() = 47
+main.modele.Case (4, 0) : TERRAIN_LIBRE   6120.0
+main.modele.Case (5, 1) : TERRAIN_LIBRE   6120.0
+MinNode : main.modele.Case (4, 0) : TERRAIN_LIBRE
+openNodes.size() = 2 closedNodes.size() = 48
+main.modele.Case (5, 1) : TERRAIN_LIBRE   6120.0
+main.modele.Case (5, 0) : TERRAIN_LIBRE   6120.0
+MinNode : main.modele.Case (5, 1) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (5, 0) : TERRAIN_LIBRE
+openNodes.size() = 2 closedNodes.size() = 49
+main.modele.Case (5, 0) : TERRAIN_LIBRE   6120.0
+main.modele.Case (6, 1) : TERRAIN_LIBRE   6120.0
+MinNode : main.modele.Case (5, 0) : TERRAIN_LIBRE
+openNodes.size() = 2 closedNodes.size() = 50
+main.modele.Case (6, 1) : TERRAIN_LIBRE   6120.0
+main.modele.Case (6, 0) : TERRAIN_LIBRE   6120.0
+MinNode : main.modele.Case (6, 1) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (6, 0) : TERRAIN_LIBRE
+openNodes.size() = 2 closedNodes.size() = 51
+main.modele.Case (6, 0) : TERRAIN_LIBRE   6120.0
+main.modele.Case (7, 1) : HABITAT   6840.0
+MinNode : main.modele.Case (6, 0) : TERRAIN_LIBRE
+openNodes.size() = 1 closedNodes.size() = 0
+main.modele.Case (3, 3) : EAU   1200.0
+MinNode : main.modele.Case (3, 3) : EAU
+VoisinGauchemain.modele.Case (3, 2) : EAU
+openNodes.size() = 4 closedNodes.size() = 1
+main.modele.Case (3, 4) : TERRAIN_LIBRE   1680.0
+main.modele.Case (3, 2) : EAU   1200.0
+main.modele.Case (2, 3) : EAU   1680.0
+main.modele.Case (4, 3) : TERRAIN_LIBRE   1200.0
+MinNode : main.modele.Case (3, 2) : EAU
+VoisinGauchemain.modele.Case (3, 1) : TERRAIN_LIBRE
+openNodes.size() = 6 closedNodes.size() = 2
+main.modele.Case (3, 4) : TERRAIN_LIBRE   1680.0
+main.modele.Case (2, 3) : EAU   1680.0
+main.modele.Case (4, 3) : TERRAIN_LIBRE   1200.0
+main.modele.Case (3, 1) : TERRAIN_LIBRE   1200.0
+main.modele.Case (2, 2) : EAU   1680.0
+main.modele.Case (4, 2) : EAU   1200.0
+MinNode : main.modele.Case (4, 3) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (4, 2) : EAU
+openNodes.size() = 7 closedNodes.size() = 3
+main.modele.Case (3, 4) : TERRAIN_LIBRE   1680.0
+main.modele.Case (2, 3) : EAU   1680.0
+main.modele.Case (3, 1) : TERRAIN_LIBRE   1200.0
+main.modele.Case (2, 2) : EAU   1680.0
+main.modele.Case (4, 2) : EAU   1200.0
+main.modele.Case (4, 4) : TERRAIN_LIBRE   1680.0
+main.modele.Case (5, 3) : TERRAIN_LIBRE   1200.0
+MinNode : main.modele.Case (3, 1) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (3, 0) : TERRAIN_LIBRE
+openNodes.size() = 9 closedNodes.size() = 4
+main.modele.Case (3, 4) : TERRAIN_LIBRE   1680.0
+main.modele.Case (2, 3) : EAU   1680.0
+main.modele.Case (2, 2) : EAU   1680.0
+main.modele.Case (4, 2) : EAU   1200.0
+main.modele.Case (4, 4) : TERRAIN_LIBRE   1680.0
+main.modele.Case (5, 3) : TERRAIN_LIBRE   1200.0
+main.modele.Case (3, 0) : TERRAIN_LIBRE   1680.0
+main.modele.Case (2, 1) : TERRAIN_LIBRE   1680.0
+main.modele.Case (4, 1) : TERRAIN_LIBRE   1200.0
+MinNode : main.modele.Case (4, 2) : EAU
+VoisinGauchemain.modele.Case (4, 1) : TERRAIN_LIBRE
+openNodes.size() = 9 closedNodes.size() = 5
+main.modele.Case (3, 4) : TERRAIN_LIBRE   1680.0
+main.modele.Case (2, 3) : EAU   1680.0
+main.modele.Case (2, 2) : EAU   1680.0
+main.modele.Case (4, 4) : TERRAIN_LIBRE   1680.0
+main.modele.Case (5, 3) : TERRAIN_LIBRE   1200.0
+main.modele.Case (3, 0) : TERRAIN_LIBRE   1680.0
+main.modele.Case (2, 1) : TERRAIN_LIBRE   1680.0
+main.modele.Case (4, 1) : TERRAIN_LIBRE   1200.0
+main.modele.Case (5, 2) : EAU   1200.0
+MinNode : main.modele.Case (5, 3) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (5, 2) : EAU
+openNodes.size() = 10 closedNodes.size() = 6
+main.modele.Case (3, 4) : TERRAIN_LIBRE   1680.0
+main.modele.Case (2, 3) : EAU   1680.0
+main.modele.Case (2, 2) : EAU   1680.0
+main.modele.Case (4, 4) : TERRAIN_LIBRE   1680.0
+main.modele.Case (3, 0) : TERRAIN_LIBRE   1680.0
+main.modele.Case (2, 1) : TERRAIN_LIBRE   1680.0
+main.modele.Case (4, 1) : TERRAIN_LIBRE   1200.0
+main.modele.Case (5, 2) : EAU   1200.0
+main.modele.Case (5, 4) : TERRAIN_LIBRE   1680.0
+main.modele.Case (6, 3) : EAU   1200.0
+MinNode : main.modele.Case (4, 1) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (4, 0) : TERRAIN_LIBRE
+openNodes.size() = 11 closedNodes.size() = 7
+main.modele.Case (3, 4) : TERRAIN_LIBRE   1680.0
+main.modele.Case (2, 3) : EAU   1680.0
+main.modele.Case (2, 2) : EAU   1680.0
+main.modele.Case (4, 4) : TERRAIN_LIBRE   1680.0
+main.modele.Case (3, 0) : TERRAIN_LIBRE   1680.0
+main.modele.Case (2, 1) : TERRAIN_LIBRE   1680.0
+main.modele.Case (5, 2) : EAU   1200.0
+main.modele.Case (5, 4) : TERRAIN_LIBRE   1680.0
+main.modele.Case (6, 3) : EAU   1200.0
+main.modele.Case (4, 0) : TERRAIN_LIBRE   1680.0
+main.modele.Case (5, 1) : TERRAIN_LIBRE   1200.0
+MinNode : main.modele.Case (5, 2) : EAU
+VoisinGauchemain.modele.Case (5, 1) : TERRAIN_LIBRE
+openNodes.size() = 11 closedNodes.size() = 8
+main.modele.Case (3, 4) : TERRAIN_LIBRE   1680.0
+main.modele.Case (2, 3) : EAU   1680.0
+main.modele.Case (2, 2) : EAU   1680.0
+main.modele.Case (4, 4) : TERRAIN_LIBRE   1680.0
+main.modele.Case (3, 0) : TERRAIN_LIBRE   1680.0
+main.modele.Case (2, 1) : TERRAIN_LIBRE   1680.0
+main.modele.Case (5, 4) : TERRAIN_LIBRE   1680.0
+main.modele.Case (6, 3) : EAU   1200.0
+main.modele.Case (4, 0) : TERRAIN_LIBRE   1680.0
+main.modele.Case (5, 1) : TERRAIN_LIBRE   1200.0
+main.modele.Case (6, 2) : EAU   1200.0
+MinNode : main.modele.Case (6, 3) : EAU
+VoisinGauchemain.modele.Case (6, 2) : EAU
+openNodes.size() = 12 closedNodes.size() = 9
+main.modele.Case (3, 4) : TERRAIN_LIBRE   1680.0
+main.modele.Case (2, 3) : EAU   1680.0
+main.modele.Case (2, 2) : EAU   1680.0
+main.modele.Case (4, 4) : TERRAIN_LIBRE   1680.0
+main.modele.Case (3, 0) : TERRAIN_LIBRE   1680.0
+main.modele.Case (2, 1) : TERRAIN_LIBRE   1680.0
+main.modele.Case (5, 4) : TERRAIN_LIBRE   1680.0
+main.modele.Case (4, 0) : TERRAIN_LIBRE   1680.0
+main.modele.Case (5, 1) : TERRAIN_LIBRE   1200.0
+main.modele.Case (6, 2) : EAU   1200.0
+main.modele.Case (6, 4) : TERRAIN_LIBRE   1680.0
+main.modele.Case (7, 3) : EAU   1680.0
+MinNode : main.modele.Case (5, 1) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (5, 0) : TERRAIN_LIBRE
+openNodes.size() = 13 closedNodes.size() = 10
+main.modele.Case (3, 4) : TERRAIN_LIBRE   1680.0
+main.modele.Case (2, 3) : EAU   1680.0
+main.modele.Case (2, 2) : EAU   1680.0
+main.modele.Case (4, 4) : TERRAIN_LIBRE   1680.0
+main.modele.Case (3, 0) : TERRAIN_LIBRE   1680.0
+main.modele.Case (2, 1) : TERRAIN_LIBRE   1680.0
+main.modele.Case (5, 4) : TERRAIN_LIBRE   1680.0
+main.modele.Case (4, 0) : TERRAIN_LIBRE   1680.0
+main.modele.Case (6, 2) : EAU   1200.0
+main.modele.Case (6, 4) : TERRAIN_LIBRE   1680.0
+main.modele.Case (7, 3) : EAU   1680.0
+main.modele.Case (5, 0) : TERRAIN_LIBRE   1680.0
+main.modele.Case (6, 1) : TERRAIN_LIBRE   1200.0
+MinNode : main.modele.Case (6, 2) : EAU
+VoisinGauchemain.modele.Case (6, 1) : TERRAIN_LIBRE
+openNodes.size() = 13 closedNodes.size() = 11
+main.modele.Case (3, 4) : TERRAIN_LIBRE   1680.0
+main.modele.Case (2, 3) : EAU   1680.0
+main.modele.Case (2, 2) : EAU   1680.0
+main.modele.Case (4, 4) : TERRAIN_LIBRE   1680.0
+main.modele.Case (3, 0) : TERRAIN_LIBRE   1680.0
+main.modele.Case (2, 1) : TERRAIN_LIBRE   1680.0
+main.modele.Case (5, 4) : TERRAIN_LIBRE   1680.0
+main.modele.Case (4, 0) : TERRAIN_LIBRE   1680.0
+main.modele.Case (6, 4) : TERRAIN_LIBRE   1680.0
+main.modele.Case (7, 3) : EAU   1680.0
+main.modele.Case (5, 0) : TERRAIN_LIBRE   1680.0
+main.modele.Case (6, 1) : TERRAIN_LIBRE   1200.0
+main.modele.Case (7, 2) : HABITAT   1680.0
+MinNode : main.modele.Case (6, 1) : TERRAIN_LIBRE
+openNodes.size() = 1 closedNodes.size() = 0
+main.modele.Case (6, 5) : TERRAIN_LIBRE   1800.0
+MinNode : main.modele.Case (6, 5) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (6, 4) : TERRAIN_LIBRE
+openNodes.size() = 4 closedNodes.size() = 1
+main.modele.Case (6, 6) : TERRAIN_LIBRE   2700.0
+main.modele.Case (6, 4) : TERRAIN_LIBRE   1800.0
+main.modele.Case (5, 5) : HABITAT   2700.0
+main.modele.Case (7, 5) : TERRAIN_LIBRE   2700.0
+MinNode : main.modele.Case (6, 4) : TERRAIN_LIBRE
+openNodes.size() = 5 closedNodes.size() = 2
+main.modele.Case (6, 6) : TERRAIN_LIBRE   2700.0
+main.modele.Case (5, 5) : HABITAT   2700.0
+main.modele.Case (7, 5) : TERRAIN_LIBRE   2700.0
+main.modele.Case (5, 4) : TERRAIN_LIBRE   2700.0
+main.modele.Case (7, 4) : TERRAIN_LIBRE   2700.0
+MinNode : main.modele.Case (6, 6) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (6, 5) : TERRAIN_LIBRE
+openNodes.size() = 7 closedNodes.size() = 3
+main.modele.Case (5, 5) : HABITAT   2700.0
+main.modele.Case (7, 5) : TERRAIN_LIBRE   2700.0
+main.modele.Case (5, 4) : TERRAIN_LIBRE   2700.0
+main.modele.Case (7, 4) : TERRAIN_LIBRE   2700.0
+main.modele.Case (6, 7) : TERRAIN_LIBRE   3600.0
+main.modele.Case (5, 6) : HABITAT   3600.0
+main.modele.Case (7, 6) : TERRAIN_LIBRE   3600.0
+MinNode : main.modele.Case (5, 5) : HABITAT
+VoisinGauchemain.modele.Case (5, 4) : TERRAIN_LIBRE
+openNodes.size() = 6 closedNodes.size() = 4
+main.modele.Case (7, 5) : TERRAIN_LIBRE   2700.0
+main.modele.Case (5, 4) : TERRAIN_LIBRE   2700.0
+main.modele.Case (7, 4) : TERRAIN_LIBRE   2700.0
+main.modele.Case (6, 7) : TERRAIN_LIBRE   3600.0
+main.modele.Case (5, 6) : HABITAT   3600.0
+main.modele.Case (7, 6) : TERRAIN_LIBRE   3600.0
+MinNode : main.modele.Case (7, 5) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (7, 4) : TERRAIN_LIBRE
+openNodes.size() = 5 closedNodes.size() = 5
+main.modele.Case (5, 4) : TERRAIN_LIBRE   2700.0
+main.modele.Case (7, 4) : TERRAIN_LIBRE   2700.0
+main.modele.Case (6, 7) : TERRAIN_LIBRE   3600.0
+main.modele.Case (5, 6) : HABITAT   3600.0
+main.modele.Case (7, 6) : TERRAIN_LIBRE   3600.0
+MinNode : main.modele.Case (5, 4) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (5, 3) : TERRAIN_LIBRE
+openNodes.size() = 6 closedNodes.size() = 6
+main.modele.Case (7, 4) : TERRAIN_LIBRE   2700.0
+main.modele.Case (6, 7) : TERRAIN_LIBRE   3600.0
+main.modele.Case (5, 6) : HABITAT   3600.0
+main.modele.Case (7, 6) : TERRAIN_LIBRE   3600.0
+main.modele.Case (5, 3) : TERRAIN_LIBRE   2700.0
+main.modele.Case (4, 4) : TERRAIN_LIBRE   3600.0
+MinNode : main.modele.Case (7, 4) : TERRAIN_LIBRE
+openNodes.size() = 5 closedNodes.size() = 7
+main.modele.Case (6, 7) : TERRAIN_LIBRE   3600.0
+main.modele.Case (5, 6) : HABITAT   3600.0
+main.modele.Case (7, 6) : TERRAIN_LIBRE   3600.0
+main.modele.Case (5, 3) : TERRAIN_LIBRE   2700.0
+main.modele.Case (4, 4) : TERRAIN_LIBRE   3600.0
+MinNode : main.modele.Case (5, 3) : TERRAIN_LIBRE
+openNodes.size() = 5 closedNodes.size() = 8
+main.modele.Case (6, 7) : TERRAIN_LIBRE   3600.0
+main.modele.Case (5, 6) : HABITAT   3600.0
+main.modele.Case (7, 6) : TERRAIN_LIBRE   3600.0
+main.modele.Case (4, 4) : TERRAIN_LIBRE   3600.0
+main.modele.Case (4, 3) : TERRAIN_LIBRE   3600.0
+MinNode : main.modele.Case (6, 7) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (6, 6) : TERRAIN_LIBRE
+openNodes.size() = 6 closedNodes.size() = 9
+main.modele.Case (5, 6) : HABITAT   3600.0
+main.modele.Case (7, 6) : TERRAIN_LIBRE   3600.0
+main.modele.Case (4, 4) : TERRAIN_LIBRE   3600.0
+main.modele.Case (4, 3) : TERRAIN_LIBRE   3600.0
+main.modele.Case (5, 7) : TERRAIN_LIBRE   4500.0
+main.modele.Case (7, 7) : TERRAIN_LIBRE   4500.0
+MinNode : main.modele.Case (5, 6) : HABITAT
+VoisinGauchemain.modele.Case (5, 5) : HABITAT
+openNodes.size() = 5 closedNodes.size() = 10
+main.modele.Case (7, 6) : TERRAIN_LIBRE   3600.0
+main.modele.Case (4, 4) : TERRAIN_LIBRE   3600.0
+main.modele.Case (4, 3) : TERRAIN_LIBRE   3600.0
+main.modele.Case (5, 7) : TERRAIN_LIBRE   4500.0
+main.modele.Case (7, 7) : TERRAIN_LIBRE   4500.0
+MinNode : main.modele.Case (7, 6) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (7, 5) : TERRAIN_LIBRE
+openNodes.size() = 4 closedNodes.size() = 11
+main.modele.Case (4, 4) : TERRAIN_LIBRE   3600.0
+main.modele.Case (4, 3) : TERRAIN_LIBRE   3600.0
+main.modele.Case (5, 7) : TERRAIN_LIBRE   4500.0
+main.modele.Case (7, 7) : TERRAIN_LIBRE   4500.0
+MinNode : main.modele.Case (4, 4) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (4, 3) : TERRAIN_LIBRE
+openNodes.size() = 4 closedNodes.size() = 12
+main.modele.Case (4, 3) : TERRAIN_LIBRE   3600.0
+main.modele.Case (5, 7) : TERRAIN_LIBRE   4500.0
+main.modele.Case (7, 7) : TERRAIN_LIBRE   4500.0
+main.modele.Case (3, 4) : TERRAIN_LIBRE   4500.0
+MinNode : main.modele.Case (4, 3) : TERRAIN_LIBRE
+openNodes.size() = 3 closedNodes.size() = 13
+main.modele.Case (5, 7) : TERRAIN_LIBRE   4500.0
+main.modele.Case (7, 7) : TERRAIN_LIBRE   4500.0
+main.modele.Case (3, 4) : TERRAIN_LIBRE   4500.0
+MinNode : main.modele.Case (5, 7) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (5, 6) : HABITAT
+openNodes.size() = 3 closedNodes.size() = 14
+main.modele.Case (7, 7) : TERRAIN_LIBRE   4500.0
+main.modele.Case (3, 4) : TERRAIN_LIBRE   4500.0
+main.modele.Case (4, 7) : TERRAIN_LIBRE   5400.0
+MinNode : main.modele.Case (7, 7) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (7, 6) : TERRAIN_LIBRE
+openNodes.size() = 2 closedNodes.size() = 15
+main.modele.Case (3, 4) : TERRAIN_LIBRE   4500.0
+main.modele.Case (4, 7) : TERRAIN_LIBRE   5400.0
+MinNode : main.modele.Case (3, 4) : TERRAIN_LIBRE
+openNodes.size() = 2 closedNodes.size() = 16
+main.modele.Case (4, 7) : TERRAIN_LIBRE   5400.0
+main.modele.Case (2, 4) : TERRAIN_LIBRE   5400.0
+MinNode : main.modele.Case (4, 7) : TERRAIN_LIBRE
+openNodes.size() = 2 closedNodes.size() = 17
+main.modele.Case (2, 4) : TERRAIN_LIBRE   5400.0
+main.modele.Case (3, 7) : TERRAIN_LIBRE   6300.0
+MinNode : main.modele.Case (2, 4) : TERRAIN_LIBRE
+openNodes.size() = 1 closedNodes.size() = 18
+main.modele.Case (3, 7) : TERRAIN_LIBRE   6300.0
+MinNode : main.modele.Case (3, 7) : TERRAIN_LIBRE
+openNodes.size() = 1 closedNodes.size() = 19
+main.modele.Case (2, 7) : TERRAIN_LIBRE   7200.0
+MinNode : main.modele.Case (2, 7) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (2, 6) : TERRAIN_LIBRE
+openNodes.size() = 2 closedNodes.size() = 20
+main.modele.Case (2, 6) : TERRAIN_LIBRE   7200.0
+main.modele.Case (1, 7) : TERRAIN_LIBRE   8100.0
+MinNode : main.modele.Case (2, 6) : TERRAIN_LIBRE
+openNodes.size() = 1 closedNodes.size() = 21
+main.modele.Case (1, 7) : TERRAIN_LIBRE   8100.0
+MinNode : main.modele.Case (1, 7) : TERRAIN_LIBRE
+openNodes.size() = 1 closedNodes.size() = 22
+main.modele.Case (0, 7) : TERRAIN_LIBRE   9000.0
+MinNode : main.modele.Case (0, 7) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (0, 6) : TERRAIN_LIBRE
+openNodes.size() = 1 closedNodes.size() = 23
+main.modele.Case (0, 6) : TERRAIN_LIBRE   9000.0
+MinNode : main.modele.Case (0, 6) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (0, 5) : TERRAIN_LIBRE
+openNodes.size() = 1 closedNodes.size() = 24
+main.modele.Case (0, 5) : TERRAIN_LIBRE   9000.0
+MinNode : main.modele.Case (0, 5) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (0, 4) : TERRAIN_LIBRE
+openNodes.size() = 2 closedNodes.size() = 25
+main.modele.Case (0, 4) : TERRAIN_LIBRE   9000.0
+main.modele.Case (1, 5) : TERRAIN_LIBRE   9000.0
+MinNode : main.modele.Case (0, 4) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (0, 3) : TERRAIN_LIBRE
+openNodes.size() = 2 closedNodes.size() = 26
+main.modele.Case (1, 5) : TERRAIN_LIBRE   9000.0
+main.modele.Case (0, 3) : TERRAIN_LIBRE   9000.0
+MinNode : main.modele.Case (1, 5) : TERRAIN_LIBRE
+openNodes.size() = 1 closedNodes.size() = 27
+main.modele.Case (0, 3) : TERRAIN_LIBRE   9000.0
+MinNode : main.modele.Case (0, 3) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (0, 2) : TERRAIN_LIBRE
+openNodes.size() = 2 closedNodes.size() = 28
+main.modele.Case (0, 2) : TERRAIN_LIBRE   9000.0
+main.modele.Case (1, 3) : TERRAIN_LIBRE   9000.0
+MinNode : main.modele.Case (0, 2) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (0, 1) : TERRAIN_LIBRE
+openNodes.size() = 3 closedNodes.size() = 29
+main.modele.Case (1, 3) : TERRAIN_LIBRE   9000.0
+main.modele.Case (0, 1) : TERRAIN_LIBRE   9000.0
+main.modele.Case (1, 2) : TERRAIN_LIBRE   9000.0
+MinNode : main.modele.Case (1, 3) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (1, 2) : TERRAIN_LIBRE
+openNodes.size() = 2 closedNodes.size() = 30
+main.modele.Case (0, 1) : TERRAIN_LIBRE   9000.0
+main.modele.Case (1, 2) : TERRAIN_LIBRE   9000.0
+MinNode : main.modele.Case (0, 1) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (0, 0) : TERRAIN_LIBRE
+openNodes.size() = 3 closedNodes.size() = 31
+main.modele.Case (1, 2) : TERRAIN_LIBRE   9000.0
+main.modele.Case (0, 0) : TERRAIN_LIBRE   9900.0
+main.modele.Case (1, 1) : TERRAIN_LIBRE   9000.0
+MinNode : main.modele.Case (1, 2) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (1, 1) : TERRAIN_LIBRE
+openNodes.size() = 2 closedNodes.size() = 32
+main.modele.Case (0, 0) : TERRAIN_LIBRE   9900.0
+main.modele.Case (1, 1) : TERRAIN_LIBRE   9000.0
+MinNode : main.modele.Case (1, 1) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (1, 0) : TERRAIN_LIBRE
+openNodes.size() = 3 closedNodes.size() = 33
+main.modele.Case (0, 0) : TERRAIN_LIBRE   9900.0
+main.modele.Case (1, 0) : TERRAIN_LIBRE   9900.0
+main.modele.Case (2, 1) : TERRAIN_LIBRE   9000.0
+MinNode : main.modele.Case (2, 1) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (2, 0) : TERRAIN_LIBRE
+openNodes.size() = 4 closedNodes.size() = 34
+main.modele.Case (0, 0) : TERRAIN_LIBRE   9900.0
+main.modele.Case (1, 0) : TERRAIN_LIBRE   9900.0
+main.modele.Case (2, 0) : TERRAIN_LIBRE   9900.0
+main.modele.Case (3, 1) : TERRAIN_LIBRE   9000.0
+MinNode : main.modele.Case (3, 1) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (3, 0) : TERRAIN_LIBRE
+openNodes.size() = 5 closedNodes.size() = 35
+main.modele.Case (0, 0) : TERRAIN_LIBRE   9900.0
+main.modele.Case (1, 0) : TERRAIN_LIBRE   9900.0
+main.modele.Case (2, 0) : TERRAIN_LIBRE   9900.0
+main.modele.Case (3, 0) : TERRAIN_LIBRE   9900.0
+main.modele.Case (4, 1) : TERRAIN_LIBRE   9000.0
+MinNode : main.modele.Case (4, 1) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (4, 0) : TERRAIN_LIBRE
+openNodes.size() = 6 closedNodes.size() = 36
+main.modele.Case (0, 0) : TERRAIN_LIBRE   9900.0
+main.modele.Case (1, 0) : TERRAIN_LIBRE   9900.0
+main.modele.Case (2, 0) : TERRAIN_LIBRE   9900.0
+main.modele.Case (3, 0) : TERRAIN_LIBRE   9900.0
+main.modele.Case (4, 0) : TERRAIN_LIBRE   9900.0
+main.modele.Case (5, 1) : TERRAIN_LIBRE   9000.0
+MinNode : main.modele.Case (5, 1) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (5, 0) : TERRAIN_LIBRE
+openNodes.size() = 7 closedNodes.size() = 37
+main.modele.Case (0, 0) : TERRAIN_LIBRE   9900.0
+main.modele.Case (1, 0) : TERRAIN_LIBRE   9900.0
+main.modele.Case (2, 0) : TERRAIN_LIBRE   9900.0
+main.modele.Case (3, 0) : TERRAIN_LIBRE   9900.0
+main.modele.Case (4, 0) : TERRAIN_LIBRE   9900.0
+main.modele.Case (5, 0) : TERRAIN_LIBRE   9900.0
+main.modele.Case (6, 1) : TERRAIN_LIBRE   9000.0
+MinNode : main.modele.Case (6, 1) : TERRAIN_LIBRE
+openNodes.size() = 1 closedNodes.size() = 0
+main.modele.Case (4, 7) : TERRAIN_LIBRE   2880.0
+MinNode : main.modele.Case (4, 7) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (4, 6) : FORET
+openNodes.size() = 3 closedNodes.size() = 1
+main.modele.Case (4, 6) : FORET   2880.0
+main.modele.Case (3, 7) : TERRAIN_LIBRE   3600.0
+main.modele.Case (5, 7) : TERRAIN_LIBRE   2880.0
+MinNode : main.modele.Case (4, 6) : FORET
+VoisinGauchemain.modele.Case (4, 5) : FORET
+openNodes.size() = 5 closedNodes.size() = 2
+main.modele.Case (3, 7) : TERRAIN_LIBRE   3600.0
+main.modele.Case (5, 7) : TERRAIN_LIBRE   2880.0
+main.modele.Case (4, 5) : FORET   2880.0
+main.modele.Case (3, 6) : FORET   3600.0
+main.modele.Case (5, 6) : HABITAT   2880.0
+MinNode : main.modele.Case (5, 7) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (5, 6) : HABITAT
+openNodes.size() = 5 closedNodes.size() = 3
+main.modele.Case (3, 7) : TERRAIN_LIBRE   3600.0
+main.modele.Case (4, 5) : FORET   2880.0
+main.modele.Case (3, 6) : FORET   3600.0
+main.modele.Case (5, 6) : HABITAT   2880.0
+main.modele.Case (6, 7) : TERRAIN_LIBRE   2880.0
+MinNode : main.modele.Case (4, 5) : FORET
+VoisinGauchemain.modele.Case (4, 4) : TERRAIN_LIBRE
+openNodes.size() = 7 closedNodes.size() = 4
+main.modele.Case (3, 7) : TERRAIN_LIBRE   3600.0
+main.modele.Case (3, 6) : FORET   3600.0
+main.modele.Case (5, 6) : HABITAT   2880.0
+main.modele.Case (6, 7) : TERRAIN_LIBRE   2880.0
+main.modele.Case (4, 4) : TERRAIN_LIBRE   2880.0
+main.modele.Case (3, 5) : FORET   3600.0
+main.modele.Case (5, 5) : HABITAT   2880.0
+MinNode : main.modele.Case (5, 6) : HABITAT
+VoisinGauchemain.modele.Case (5, 5) : HABITAT
+openNodes.size() = 7 closedNodes.size() = 5
+main.modele.Case (3, 7) : TERRAIN_LIBRE   3600.0
+main.modele.Case (3, 6) : FORET   3600.0
+main.modele.Case (6, 7) : TERRAIN_LIBRE   2880.0
+main.modele.Case (4, 4) : TERRAIN_LIBRE   2880.0
+main.modele.Case (3, 5) : FORET   3600.0
+main.modele.Case (5, 5) : HABITAT   2880.0
+main.modele.Case (6, 6) : TERRAIN_LIBRE   2880.0
+MinNode : main.modele.Case (6, 7) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (6, 6) : TERRAIN_LIBRE
+openNodes.size() = 7 closedNodes.size() = 6
+main.modele.Case (3, 7) : TERRAIN_LIBRE   3600.0
+main.modele.Case (3, 6) : FORET   3600.0
+main.modele.Case (4, 4) : TERRAIN_LIBRE   2880.0
+main.modele.Case (3, 5) : FORET   3600.0
+main.modele.Case (5, 5) : HABITAT   2880.0
+main.modele.Case (6, 6) : TERRAIN_LIBRE   2880.0
+main.modele.Case (7, 7) : TERRAIN_LIBRE   3600.0
+MinNode : main.modele.Case (4, 4) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (4, 3) : TERRAIN_LIBRE
+openNodes.size() = 9 closedNodes.size() = 7
+main.modele.Case (3, 7) : TERRAIN_LIBRE   3600.0
+main.modele.Case (3, 6) : FORET   3600.0
+main.modele.Case (3, 5) : FORET   3600.0
+main.modele.Case (5, 5) : HABITAT   2880.0
+main.modele.Case (6, 6) : TERRAIN_LIBRE   2880.0
+main.modele.Case (7, 7) : TERRAIN_LIBRE   3600.0
+main.modele.Case (4, 3) : TERRAIN_LIBRE   2880.0
+main.modele.Case (3, 4) : TERRAIN_LIBRE   3600.0
+main.modele.Case (5, 4) : TERRAIN_LIBRE   2880.0
+MinNode : main.modele.Case (5, 5) : HABITAT
+VoisinGauchemain.modele.Case (5, 4) : TERRAIN_LIBRE
+openNodes.size() = 9 closedNodes.size() = 8
+main.modele.Case (3, 7) : TERRAIN_LIBRE   3600.0
+main.modele.Case (3, 6) : FORET   3600.0
+main.modele.Case (3, 5) : FORET   3600.0
+main.modele.Case (6, 6) : TERRAIN_LIBRE   2880.0
+main.modele.Case (7, 7) : TERRAIN_LIBRE   3600.0
+main.modele.Case (4, 3) : TERRAIN_LIBRE   2880.0
+main.modele.Case (3, 4) : TERRAIN_LIBRE   3600.0
+main.modele.Case (5, 4) : TERRAIN_LIBRE   2880.0
+main.modele.Case (6, 5) : TERRAIN_LIBRE   2880.0
+MinNode : main.modele.Case (6, 6) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (6, 5) : TERRAIN_LIBRE
+openNodes.size() = 9 closedNodes.size() = 9
+main.modele.Case (3, 7) : TERRAIN_LIBRE   3600.0
+main.modele.Case (3, 6) : FORET   3600.0
+main.modele.Case (3, 5) : FORET   3600.0
+main.modele.Case (7, 7) : TERRAIN_LIBRE   3600.0
+main.modele.Case (4, 3) : TERRAIN_LIBRE   2880.0
+main.modele.Case (3, 4) : TERRAIN_LIBRE   3600.0
+main.modele.Case (5, 4) : TERRAIN_LIBRE   2880.0
+main.modele.Case (6, 5) : TERRAIN_LIBRE   2880.0
+main.modele.Case (7, 6) : TERRAIN_LIBRE   3600.0
+MinNode : main.modele.Case (4, 3) : TERRAIN_LIBRE
+openNodes.size() = 9 closedNodes.size() = 10
+main.modele.Case (3, 7) : TERRAIN_LIBRE   3600.0
+main.modele.Case (3, 6) : FORET   3600.0
+main.modele.Case (3, 5) : FORET   3600.0
+main.modele.Case (7, 7) : TERRAIN_LIBRE   3600.0
+main.modele.Case (3, 4) : TERRAIN_LIBRE   3600.0
+main.modele.Case (5, 4) : TERRAIN_LIBRE   2880.0
+main.modele.Case (6, 5) : TERRAIN_LIBRE   2880.0
+main.modele.Case (7, 6) : TERRAIN_LIBRE   3600.0
+main.modele.Case (5, 3) : TERRAIN_LIBRE   2880.0
+MinNode : main.modele.Case (5, 4) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (5, 3) : TERRAIN_LIBRE
+openNodes.size() = 9 closedNodes.size() = 11
+main.modele.Case (3, 7) : TERRAIN_LIBRE   3600.0
+main.modele.Case (3, 6) : FORET   3600.0
+main.modele.Case (3, 5) : FORET   3600.0
+main.modele.Case (7, 7) : TERRAIN_LIBRE   3600.0
+main.modele.Case (3, 4) : TERRAIN_LIBRE   3600.0
+main.modele.Case (6, 5) : TERRAIN_LIBRE   2880.0
+main.modele.Case (7, 6) : TERRAIN_LIBRE   3600.0
+main.modele.Case (5, 3) : TERRAIN_LIBRE   2880.0
+main.modele.Case (6, 4) : TERRAIN_LIBRE   2880.0
+MinNode : main.modele.Case (6, 5) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (6, 4) : TERRAIN_LIBRE
+openNodes.size() = 9 closedNodes.size() = 12
+main.modele.Case (3, 7) : TERRAIN_LIBRE   3600.0
+main.modele.Case (3, 6) : FORET   3600.0
+main.modele.Case (3, 5) : FORET   3600.0
+main.modele.Case (7, 7) : TERRAIN_LIBRE   3600.0
+main.modele.Case (3, 4) : TERRAIN_LIBRE   3600.0
+main.modele.Case (7, 6) : TERRAIN_LIBRE   3600.0
+main.modele.Case (5, 3) : TERRAIN_LIBRE   2880.0
+main.modele.Case (6, 4) : TERRAIN_LIBRE   2880.0
+main.modele.Case (7, 5) : TERRAIN_LIBRE   3600.0
+MinNode : main.modele.Case (5, 3) : TERRAIN_LIBRE
+openNodes.size() = 8 closedNodes.size() = 13
+main.modele.Case (3, 7) : TERRAIN_LIBRE   3600.0
+main.modele.Case (3, 6) : FORET   3600.0
+main.modele.Case (3, 5) : FORET   3600.0
+main.modele.Case (7, 7) : TERRAIN_LIBRE   3600.0
+main.modele.Case (3, 4) : TERRAIN_LIBRE   3600.0
+main.modele.Case (7, 6) : TERRAIN_LIBRE   3600.0
+main.modele.Case (6, 4) : TERRAIN_LIBRE   2880.0
+main.modele.Case (7, 5) : TERRAIN_LIBRE   3600.0
+MinNode : main.modele.Case (6, 4) : TERRAIN_LIBRE
+openNodes.size() = 8 closedNodes.size() = 14
+main.modele.Case (3, 7) : TERRAIN_LIBRE   3600.0
+main.modele.Case (3, 6) : FORET   3600.0
+main.modele.Case (3, 5) : FORET   3600.0
+main.modele.Case (7, 7) : TERRAIN_LIBRE   3600.0
+main.modele.Case (3, 4) : TERRAIN_LIBRE   3600.0
+main.modele.Case (7, 6) : TERRAIN_LIBRE   3600.0
+main.modele.Case (7, 5) : TERRAIN_LIBRE   3600.0
+main.modele.Case (7, 4) : TERRAIN_LIBRE   3600.0
+MinNode : main.modele.Case (3, 7) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (3, 6) : FORET
+openNodes.size() = 8 closedNodes.size() = 15
+main.modele.Case (3, 6) : FORET   3600.0
+main.modele.Case (3, 5) : FORET   3600.0
+main.modele.Case (7, 7) : TERRAIN_LIBRE   3600.0
+main.modele.Case (3, 4) : TERRAIN_LIBRE   3600.0
+main.modele.Case (7, 6) : TERRAIN_LIBRE   3600.0
+main.modele.Case (7, 5) : TERRAIN_LIBRE   3600.0
+main.modele.Case (7, 4) : TERRAIN_LIBRE   3600.0
+main.modele.Case (2, 7) : TERRAIN_LIBRE   4320.0
+MinNode : main.modele.Case (3, 6) : FORET
+VoisinGauchemain.modele.Case (3, 5) : FORET
+openNodes.size() = 8 closedNodes.size() = 16
+main.modele.Case (3, 5) : FORET   3600.0
+main.modele.Case (7, 7) : TERRAIN_LIBRE   3600.0
+main.modele.Case (3, 4) : TERRAIN_LIBRE   3600.0
+main.modele.Case (7, 6) : TERRAIN_LIBRE   3600.0
+main.modele.Case (7, 5) : TERRAIN_LIBRE   3600.0
+main.modele.Case (7, 4) : TERRAIN_LIBRE   3600.0
+main.modele.Case (2, 7) : TERRAIN_LIBRE   4320.0
+main.modele.Case (2, 6) : TERRAIN_LIBRE   4320.0
+MinNode : main.modele.Case (3, 5) : FORET
+VoisinGauchemain.modele.Case (3, 4) : TERRAIN_LIBRE
+openNodes.size() = 8 closedNodes.size() = 17
+main.modele.Case (7, 7) : TERRAIN_LIBRE   3600.0
+main.modele.Case (3, 4) : TERRAIN_LIBRE   3600.0
+main.modele.Case (7, 6) : TERRAIN_LIBRE   3600.0
+main.modele.Case (7, 5) : TERRAIN_LIBRE   3600.0
+main.modele.Case (7, 4) : TERRAIN_LIBRE   3600.0
+main.modele.Case (2, 7) : TERRAIN_LIBRE   4320.0
+main.modele.Case (2, 6) : TERRAIN_LIBRE   4320.0
+main.modele.Case (2, 5) : FORET   4320.0
+MinNode : main.modele.Case (7, 7) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (7, 6) : TERRAIN_LIBRE
+openNodes.size() = 7 closedNodes.size() = 18
+main.modele.Case (3, 4) : TERRAIN_LIBRE   3600.0
+main.modele.Case (7, 6) : TERRAIN_LIBRE   3600.0
+main.modele.Case (7, 5) : TERRAIN_LIBRE   3600.0
+main.modele.Case (7, 4) : TERRAIN_LIBRE   3600.0
+main.modele.Case (2, 7) : TERRAIN_LIBRE   4320.0
+main.modele.Case (2, 6) : TERRAIN_LIBRE   4320.0
+main.modele.Case (2, 5) : FORET   4320.0
+MinNode : main.modele.Case (3, 4) : TERRAIN_LIBRE
+openNodes.size() = 7 closedNodes.size() = 19
+main.modele.Case (7, 6) : TERRAIN_LIBRE   3600.0
+main.modele.Case (7, 5) : TERRAIN_LIBRE   3600.0
+main.modele.Case (7, 4) : TERRAIN_LIBRE   3600.0
+main.modele.Case (2, 7) : TERRAIN_LIBRE   4320.0
+main.modele.Case (2, 6) : TERRAIN_LIBRE   4320.0
+main.modele.Case (2, 5) : FORET   4320.0
+main.modele.Case (2, 4) : TERRAIN_LIBRE   4320.0
+MinNode : main.modele.Case (7, 6) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (7, 5) : TERRAIN_LIBRE
+openNodes.size() = 6 closedNodes.size() = 20
+main.modele.Case (7, 5) : TERRAIN_LIBRE   3600.0
+main.modele.Case (7, 4) : TERRAIN_LIBRE   3600.0
+main.modele.Case (2, 7) : TERRAIN_LIBRE   4320.0
+main.modele.Case (2, 6) : TERRAIN_LIBRE   4320.0
+main.modele.Case (2, 5) : FORET   4320.0
+main.modele.Case (2, 4) : TERRAIN_LIBRE   4320.0
+MinNode : main.modele.Case (7, 5) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (7, 4) : TERRAIN_LIBRE
+openNodes.size() = 5 closedNodes.size() = 21
+main.modele.Case (7, 4) : TERRAIN_LIBRE   3600.0
+main.modele.Case (2, 7) : TERRAIN_LIBRE   4320.0
+main.modele.Case (2, 6) : TERRAIN_LIBRE   4320.0
+main.modele.Case (2, 5) : FORET   4320.0
+main.modele.Case (2, 4) : TERRAIN_LIBRE   4320.0
+MinNode : main.modele.Case (7, 4) : TERRAIN_LIBRE
+openNodes.size() = 4 closedNodes.size() = 22
+main.modele.Case (2, 7) : TERRAIN_LIBRE   4320.0
+main.modele.Case (2, 6) : TERRAIN_LIBRE   4320.0
+main.modele.Case (2, 5) : FORET   4320.0
+main.modele.Case (2, 4) : TERRAIN_LIBRE   4320.0
+MinNode : main.modele.Case (2, 7) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (2, 6) : TERRAIN_LIBRE
+openNodes.size() = 4 closedNodes.size() = 23
+main.modele.Case (2, 6) : TERRAIN_LIBRE   4320.0
+main.modele.Case (2, 5) : FORET   4320.0
+main.modele.Case (2, 4) : TERRAIN_LIBRE   4320.0
+main.modele.Case (1, 7) : TERRAIN_LIBRE   5040.0
+MinNode : main.modele.Case (2, 6) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (2, 5) : FORET
+openNodes.size() = 4 closedNodes.size() = 24
+main.modele.Case (2, 5) : FORET   4320.0
+main.modele.Case (2, 4) : TERRAIN_LIBRE   4320.0
+main.modele.Case (1, 7) : TERRAIN_LIBRE   5040.0
+main.modele.Case (1, 6) : ROCHE   5040.0
+MinNode : main.modele.Case (2, 5) : FORET
+VoisinGauchemain.modele.Case (2, 4) : TERRAIN_LIBRE
+openNodes.size() = 4 closedNodes.size() = 25
+main.modele.Case (2, 4) : TERRAIN_LIBRE   4320.0
+main.modele.Case (1, 7) : TERRAIN_LIBRE   5040.0
+main.modele.Case (1, 6) : ROCHE   5040.0
+main.modele.Case (1, 5) : TERRAIN_LIBRE   5040.0
+MinNode : main.modele.Case (2, 4) : TERRAIN_LIBRE
+openNodes.size() = 4 closedNodes.size() = 26
+main.modele.Case (1, 7) : TERRAIN_LIBRE   5040.0
+main.modele.Case (1, 6) : ROCHE   5040.0
+main.modele.Case (1, 5) : TERRAIN_LIBRE   5040.0
+main.modele.Case (1, 4) : ROCHE   5040.0
+MinNode : main.modele.Case (1, 7) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (1, 6) : ROCHE
+openNodes.size() = 4 closedNodes.size() = 27
+main.modele.Case (1, 6) : ROCHE   5040.0
+main.modele.Case (1, 5) : TERRAIN_LIBRE   5040.0
+main.modele.Case (1, 4) : ROCHE   5040.0
+main.modele.Case (0, 7) : TERRAIN_LIBRE   5760.0
+MinNode : main.modele.Case (1, 6) : ROCHE
+VoisinGauchemain.modele.Case (1, 5) : TERRAIN_LIBRE
+openNodes.size() = 4 closedNodes.size() = 28
+main.modele.Case (1, 5) : TERRAIN_LIBRE   5040.0
+main.modele.Case (1, 4) : ROCHE   5040.0
+main.modele.Case (0, 7) : TERRAIN_LIBRE   5760.0
+main.modele.Case (0, 6) : TERRAIN_LIBRE   9000.0
+MinNode : main.modele.Case (1, 5) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (1, 4) : ROCHE
+openNodes.size() = 4 closedNodes.size() = 29
+main.modele.Case (1, 4) : ROCHE   5040.0
+main.modele.Case (0, 7) : TERRAIN_LIBRE   5760.0
+main.modele.Case (0, 6) : TERRAIN_LIBRE   9000.0
+main.modele.Case (0, 5) : TERRAIN_LIBRE   5760.0
+MinNode : main.modele.Case (1, 4) : ROCHE
+VoisinGauchemain.modele.Case (1, 3) : TERRAIN_LIBRE
+openNodes.size() = 5 closedNodes.size() = 30
+main.modele.Case (0, 7) : TERRAIN_LIBRE   5760.0
+main.modele.Case (0, 6) : TERRAIN_LIBRE   9000.0
+main.modele.Case (0, 5) : TERRAIN_LIBRE   5760.0
+main.modele.Case (1, 3) : TERRAIN_LIBRE   8280.0
+main.modele.Case (0, 4) : TERRAIN_LIBRE   9000.0
+MinNode : main.modele.Case (0, 7) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (0, 6) : TERRAIN_LIBRE
+openNodes.size() = 4 closedNodes.size() = 31
+main.modele.Case (0, 6) : TERRAIN_LIBRE   5760.0
+main.modele.Case (0, 5) : TERRAIN_LIBRE   5760.0
+main.modele.Case (1, 3) : TERRAIN_LIBRE   8280.0
+main.modele.Case (0, 4) : TERRAIN_LIBRE   9000.0
+MinNode : main.modele.Case (0, 6) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (0, 5) : TERRAIN_LIBRE
+openNodes.size() = 3 closedNodes.size() = 32
+main.modele.Case (0, 5) : TERRAIN_LIBRE   5760.0
+main.modele.Case (1, 3) : TERRAIN_LIBRE   8280.0
+main.modele.Case (0, 4) : TERRAIN_LIBRE   9000.0
+MinNode : main.modele.Case (0, 5) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (0, 4) : TERRAIN_LIBRE
+openNodes.size() = 2 closedNodes.size() = 33
+main.modele.Case (1, 3) : TERRAIN_LIBRE   8280.0
+main.modele.Case (0, 4) : TERRAIN_LIBRE   5760.0
+MinNode : main.modele.Case (0, 4) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (0, 3) : TERRAIN_LIBRE
+openNodes.size() = 2 closedNodes.size() = 34
+main.modele.Case (1, 3) : TERRAIN_LIBRE   8280.0
+main.modele.Case (0, 3) : TERRAIN_LIBRE   5760.0
+MinNode : main.modele.Case (0, 3) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (0, 2) : TERRAIN_LIBRE
+openNodes.size() = 2 closedNodes.size() = 35
+main.modele.Case (1, 3) : TERRAIN_LIBRE   5760.0
+main.modele.Case (0, 2) : TERRAIN_LIBRE   5760.0
+MinNode : main.modele.Case (1, 3) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (1, 2) : TERRAIN_LIBRE
+openNodes.size() = 2 closedNodes.size() = 36
+main.modele.Case (0, 2) : TERRAIN_LIBRE   5760.0
+main.modele.Case (1, 2) : TERRAIN_LIBRE   5760.0
+MinNode : main.modele.Case (0, 2) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (0, 1) : TERRAIN_LIBRE
+openNodes.size() = 2 closedNodes.size() = 37
+main.modele.Case (1, 2) : TERRAIN_LIBRE   5760.0
+main.modele.Case (0, 1) : TERRAIN_LIBRE   5760.0
+MinNode : main.modele.Case (1, 2) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (1, 1) : TERRAIN_LIBRE
+openNodes.size() = 2 closedNodes.size() = 38
+main.modele.Case (0, 1) : TERRAIN_LIBRE   5760.0
+main.modele.Case (1, 1) : TERRAIN_LIBRE   5760.0
+MinNode : main.modele.Case (0, 1) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (0, 0) : TERRAIN_LIBRE
+openNodes.size() = 2 closedNodes.size() = 39
+main.modele.Case (1, 1) : TERRAIN_LIBRE   5760.0
+main.modele.Case (0, 0) : TERRAIN_LIBRE   6480.0
+MinNode : main.modele.Case (1, 1) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (1, 0) : TERRAIN_LIBRE
+openNodes.size() = 3 closedNodes.size() = 40
+main.modele.Case (0, 0) : TERRAIN_LIBRE   6480.0
+main.modele.Case (1, 0) : TERRAIN_LIBRE   6480.0
+main.modele.Case (2, 1) : TERRAIN_LIBRE   5760.0
+MinNode : main.modele.Case (2, 1) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (2, 0) : TERRAIN_LIBRE
+openNodes.size() = 4 closedNodes.size() = 41
+main.modele.Case (0, 0) : TERRAIN_LIBRE   6480.0
+main.modele.Case (1, 0) : TERRAIN_LIBRE   6480.0
+main.modele.Case (2, 0) : TERRAIN_LIBRE   6480.0
+main.modele.Case (3, 1) : TERRAIN_LIBRE   5760.0
+MinNode : main.modele.Case (3, 1) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (3, 0) : TERRAIN_LIBRE
+openNodes.size() = 5 closedNodes.size() = 42
+main.modele.Case (0, 0) : TERRAIN_LIBRE   6480.0
+main.modele.Case (1, 0) : TERRAIN_LIBRE   6480.0
+main.modele.Case (2, 0) : TERRAIN_LIBRE   6480.0
+main.modele.Case (3, 0) : TERRAIN_LIBRE   6480.0
+main.modele.Case (4, 1) : TERRAIN_LIBRE   5760.0
+MinNode : main.modele.Case (4, 1) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (4, 0) : TERRAIN_LIBRE
+openNodes.size() = 6 closedNodes.size() = 43
+main.modele.Case (0, 0) : TERRAIN_LIBRE   6480.0
+main.modele.Case (1, 0) : TERRAIN_LIBRE   6480.0
+main.modele.Case (2, 0) : TERRAIN_LIBRE   6480.0
+main.modele.Case (3, 0) : TERRAIN_LIBRE   6480.0
+main.modele.Case (4, 0) : TERRAIN_LIBRE   6480.0
+main.modele.Case (5, 1) : TERRAIN_LIBRE   5760.0
+MinNode : main.modele.Case (5, 1) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (5, 0) : TERRAIN_LIBRE
+openNodes.size() = 7 closedNodes.size() = 44
+main.modele.Case (0, 0) : TERRAIN_LIBRE   6480.0
+main.modele.Case (1, 0) : TERRAIN_LIBRE   6480.0
+main.modele.Case (2, 0) : TERRAIN_LIBRE   6480.0
+main.modele.Case (3, 0) : TERRAIN_LIBRE   6480.0
+main.modele.Case (4, 0) : TERRAIN_LIBRE   6480.0
+main.modele.Case (5, 0) : TERRAIN_LIBRE   6480.0
+main.modele.Case (6, 1) : TERRAIN_LIBRE   5760.0
+MinNode : main.modele.Case (6, 1) : TERRAIN_LIBRE
+openNodes.size() = 1 closedNodes.size() = 0
+main.modele.Case (3, 3) : EAU   960.0
+MinNode : main.modele.Case (3, 3) : EAU
+VoisinGauchemain.modele.Case (3, 2) : EAU
+openNodes.size() = 4 closedNodes.size() = 1
+main.modele.Case (3, 4) : TERRAIN_LIBRE   960.0
+main.modele.Case (3, 2) : EAU   1440.0
+main.modele.Case (2, 3) : EAU   1440.0
+main.modele.Case (4, 3) : TERRAIN_LIBRE   960.0
+MinNode : main.modele.Case (3, 4) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (3, 3) : EAU
+openNodes.size() = 6 closedNodes.size() = 2
+main.modele.Case (3, 2) : EAU   1440.0
+main.modele.Case (2, 3) : EAU   1440.0
+main.modele.Case (4, 3) : TERRAIN_LIBRE   960.0
+main.modele.Case (3, 5) : FORET   960.0
+main.modele.Case (2, 4) : TERRAIN_LIBRE   1440.0
+main.modele.Case (4, 4) : TERRAIN_LIBRE   960.0
+MinNode : main.modele.Case (4, 3) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (4, 2) : EAU
+openNodes.size() = 7 closedNodes.size() = 3
+main.modele.Case (3, 2) : EAU   1440.0
+main.modele.Case (2, 3) : EAU   1440.0
+main.modele.Case (3, 5) : FORET   960.0
+main.modele.Case (2, 4) : TERRAIN_LIBRE   1440.0
+main.modele.Case (4, 4) : TERRAIN_LIBRE   960.0
+main.modele.Case (4, 2) : EAU   1440.0
+main.modele.Case (5, 3) : TERRAIN_LIBRE   960.0
+MinNode : main.modele.Case (3, 5) : FORET
+VoisinGauchemain.modele.Case (3, 4) : TERRAIN_LIBRE
+openNodes.size() = 9 closedNodes.size() = 4
+main.modele.Case (3, 2) : EAU   1440.0
+main.modele.Case (2, 3) : EAU   1440.0
+main.modele.Case (2, 4) : TERRAIN_LIBRE   1440.0
+main.modele.Case (4, 4) : TERRAIN_LIBRE   960.0
+main.modele.Case (4, 2) : EAU   1440.0
+main.modele.Case (5, 3) : TERRAIN_LIBRE   960.0
+main.modele.Case (3, 6) : FORET   1440.0
+main.modele.Case (2, 5) : FORET   1440.0
+main.modele.Case (4, 5) : FORET   960.0
+MinNode : main.modele.Case (4, 4) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (4, 3) : TERRAIN_LIBRE
+openNodes.size() = 9 closedNodes.size() = 5
+main.modele.Case (3, 2) : EAU   1440.0
+main.modele.Case (2, 3) : EAU   1440.0
+main.modele.Case (2, 4) : TERRAIN_LIBRE   1440.0
+main.modele.Case (4, 2) : EAU   1440.0
+main.modele.Case (5, 3) : TERRAIN_LIBRE   960.0
+main.modele.Case (3, 6) : FORET   1440.0
+main.modele.Case (2, 5) : FORET   1440.0
+main.modele.Case (4, 5) : FORET   960.0
+main.modele.Case (5, 4) : TERRAIN_LIBRE   960.0
+MinNode : main.modele.Case (5, 3) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (5, 2) : EAU
+openNodes.size() = 10 closedNodes.size() = 6
+main.modele.Case (3, 2) : EAU   1440.0
+main.modele.Case (2, 3) : EAU   1440.0
+main.modele.Case (2, 4) : TERRAIN_LIBRE   1440.0
+main.modele.Case (4, 2) : EAU   1440.0
+main.modele.Case (3, 6) : FORET   1440.0
+main.modele.Case (2, 5) : FORET   1440.0
+main.modele.Case (4, 5) : FORET   960.0
+main.modele.Case (5, 4) : TERRAIN_LIBRE   960.0
+main.modele.Case (5, 2) : EAU   1440.0
+main.modele.Case (6, 3) : EAU   1440.0
+MinNode : main.modele.Case (4, 5) : FORET
+VoisinGauchemain.modele.Case (4, 4) : TERRAIN_LIBRE
+openNodes.size() = 11 closedNodes.size() = 7
+main.modele.Case (3, 2) : EAU   1440.0
+main.modele.Case (2, 3) : EAU   1440.0
+main.modele.Case (2, 4) : TERRAIN_LIBRE   1440.0
+main.modele.Case (4, 2) : EAU   1440.0
+main.modele.Case (3, 6) : FORET   1440.0
+main.modele.Case (2, 5) : FORET   1440.0
+main.modele.Case (5, 4) : TERRAIN_LIBRE   960.0
+main.modele.Case (5, 2) : EAU   1440.0
+main.modele.Case (6, 3) : EAU   1440.0
+main.modele.Case (4, 6) : FORET   1440.0
+main.modele.Case (5, 5) : HABITAT   960.0
+MinNode : main.modele.Case (5, 4) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (5, 3) : TERRAIN_LIBRE
+openNodes.size() = 11 closedNodes.size() = 8
+main.modele.Case (3, 2) : EAU   1440.0
+main.modele.Case (2, 3) : EAU   1440.0
+main.modele.Case (2, 4) : TERRAIN_LIBRE   1440.0
+main.modele.Case (4, 2) : EAU   1440.0
+main.modele.Case (3, 6) : FORET   1440.0
+main.modele.Case (2, 5) : FORET   1440.0
+main.modele.Case (5, 2) : EAU   1440.0
+main.modele.Case (6, 3) : EAU   1440.0
+main.modele.Case (4, 6) : FORET   1440.0
+main.modele.Case (5, 5) : HABITAT   960.0
+main.modele.Case (6, 4) : TERRAIN_LIBRE   1440.0
+MinNode : main.modele.Case (5, 5) : HABITAT
+openNodes.size() = 1 closedNodes.size() = 0
+main.modele.Case (6, 5) : TERRAIN_LIBRE   450.0
+MinNode : main.modele.Case (6, 5) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (6, 4) : TERRAIN_LIBRE
+openNodes.size() = 4 closedNodes.size() = 1
+main.modele.Case (6, 6) : TERRAIN_LIBRE   1350.0
+main.modele.Case (6, 4) : TERRAIN_LIBRE   1350.0
+main.modele.Case (5, 5) : HABITAT   450.0
+main.modele.Case (7, 5) : TERRAIN_LIBRE   1350.0
+MinNode : main.modele.Case (5, 5) : HABITAT
+openNodes.size() = 1 closedNodes.size() = 0
+main.modele.Case (4, 7) : TERRAIN_LIBRE   1080.0
+MinNode : main.modele.Case (4, 7) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (4, 6) : FORET
+openNodes.size() = 3 closedNodes.size() = 1
+main.modele.Case (4, 6) : FORET   1080.0
+main.modele.Case (3, 7) : TERRAIN_LIBRE   1800.0
+main.modele.Case (5, 7) : TERRAIN_LIBRE   1080.0
+MinNode : main.modele.Case (4, 6) : FORET
+VoisinGauchemain.modele.Case (4, 5) : FORET
+openNodes.size() = 5 closedNodes.size() = 2
+main.modele.Case (3, 7) : TERRAIN_LIBRE   1800.0
+main.modele.Case (5, 7) : TERRAIN_LIBRE   1080.0
+main.modele.Case (4, 5) : FORET   1080.0
+main.modele.Case (3, 6) : FORET   1800.0
+main.modele.Case (5, 6) : HABITAT   1080.0
+MinNode : main.modele.Case (5, 7) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (5, 6) : HABITAT
+openNodes.size() = 5 closedNodes.size() = 3
+main.modele.Case (3, 7) : TERRAIN_LIBRE   1800.0
+main.modele.Case (4, 5) : FORET   1080.0
+main.modele.Case (3, 6) : FORET   1800.0
+main.modele.Case (5, 6) : HABITAT   1080.0
+main.modele.Case (6, 7) : TERRAIN_LIBRE   1800.0
+MinNode : main.modele.Case (4, 5) : FORET
+VoisinGauchemain.modele.Case (4, 4) : TERRAIN_LIBRE
+openNodes.size() = 7 closedNodes.size() = 4
+main.modele.Case (3, 7) : TERRAIN_LIBRE   1800.0
+main.modele.Case (3, 6) : FORET   1800.0
+main.modele.Case (5, 6) : HABITAT   1080.0
+main.modele.Case (6, 7) : TERRAIN_LIBRE   1800.0
+main.modele.Case (4, 4) : TERRAIN_LIBRE   1800.0
+main.modele.Case (3, 5) : FORET   1800.0
+main.modele.Case (5, 5) : HABITAT   1080.0
+MinNode : main.modele.Case (5, 6) : HABITAT
+VoisinGauchemain.modele.Case (5, 5) : HABITAT
+openNodes.size() = 7 closedNodes.size() = 5
+main.modele.Case (3, 7) : TERRAIN_LIBRE   1800.0
+main.modele.Case (3, 6) : FORET   1800.0
+main.modele.Case (6, 7) : TERRAIN_LIBRE   1800.0
+main.modele.Case (4, 4) : TERRAIN_LIBRE   1800.0
+main.modele.Case (3, 5) : FORET   1800.0
+main.modele.Case (5, 5) : HABITAT   1080.0
+main.modele.Case (6, 6) : TERRAIN_LIBRE   1800.0
+MinNode : main.modele.Case (5, 5) : HABITAT
+openNodes.size() = 1 closedNodes.size() = 0
+main.modele.Case (3, 3) : EAU   1920.0
+MinNode : main.modele.Case (3, 3) : EAU
+VoisinGauchemain.modele.Case (3, 2) : EAU
+openNodes.size() = 4 closedNodes.size() = 1
+main.modele.Case (3, 4) : TERRAIN_LIBRE   1920.0
+main.modele.Case (3, 2) : EAU   2400.0
+main.modele.Case (2, 3) : EAU   2400.0
+main.modele.Case (4, 3) : TERRAIN_LIBRE   1920.0
+MinNode : main.modele.Case (3, 4) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (3, 3) : EAU
+openNodes.size() = 6 closedNodes.size() = 2
+main.modele.Case (3, 2) : EAU   2400.0
+main.modele.Case (2, 3) : EAU   2400.0
+main.modele.Case (4, 3) : TERRAIN_LIBRE   1920.0
+main.modele.Case (3, 5) : FORET   1920.0
+main.modele.Case (2, 4) : TERRAIN_LIBRE   2400.0
+main.modele.Case (4, 4) : TERRAIN_LIBRE   1920.0
+MinNode : main.modele.Case (4, 3) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (4, 2) : EAU
+openNodes.size() = 7 closedNodes.size() = 3
+main.modele.Case (3, 2) : EAU   2400.0
+main.modele.Case (2, 3) : EAU   2400.0
+main.modele.Case (3, 5) : FORET   1920.0
+main.modele.Case (2, 4) : TERRAIN_LIBRE   2400.0
+main.modele.Case (4, 4) : TERRAIN_LIBRE   1920.0
+main.modele.Case (4, 2) : EAU   2400.0
+main.modele.Case (5, 3) : TERRAIN_LIBRE   1920.0
+MinNode : main.modele.Case (3, 5) : FORET
+VoisinGauchemain.modele.Case (3, 4) : TERRAIN_LIBRE
+openNodes.size() = 9 closedNodes.size() = 4
+main.modele.Case (3, 2) : EAU   2400.0
+main.modele.Case (2, 3) : EAU   2400.0
+main.modele.Case (2, 4) : TERRAIN_LIBRE   2400.0
+main.modele.Case (4, 4) : TERRAIN_LIBRE   1920.0
+main.modele.Case (4, 2) : EAU   2400.0
+main.modele.Case (5, 3) : TERRAIN_LIBRE   1920.0
+main.modele.Case (3, 6) : FORET   1920.0
+main.modele.Case (2, 5) : FORET   2400.0
+main.modele.Case (4, 5) : FORET   1920.0
+MinNode : main.modele.Case (4, 4) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (4, 3) : TERRAIN_LIBRE
+openNodes.size() = 9 closedNodes.size() = 5
+main.modele.Case (3, 2) : EAU   2400.0
+main.modele.Case (2, 3) : EAU   2400.0
+main.modele.Case (2, 4) : TERRAIN_LIBRE   2400.0
+main.modele.Case (4, 2) : EAU   2400.0
+main.modele.Case (5, 3) : TERRAIN_LIBRE   1920.0
+main.modele.Case (3, 6) : FORET   1920.0
+main.modele.Case (2, 5) : FORET   2400.0
+main.modele.Case (4, 5) : FORET   1920.0
+main.modele.Case (5, 4) : TERRAIN_LIBRE   1920.0
+MinNode : main.modele.Case (5, 3) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (5, 2) : EAU
+openNodes.size() = 10 closedNodes.size() = 6
+main.modele.Case (3, 2) : EAU   2400.0
+main.modele.Case (2, 3) : EAU   2400.0
+main.modele.Case (2, 4) : TERRAIN_LIBRE   2400.0
+main.modele.Case (4, 2) : EAU   2400.0
+main.modele.Case (3, 6) : FORET   1920.0
+main.modele.Case (2, 5) : FORET   2400.0
+main.modele.Case (4, 5) : FORET   1920.0
+main.modele.Case (5, 4) : TERRAIN_LIBRE   1920.0
+main.modele.Case (5, 2) : EAU   2400.0
+main.modele.Case (6, 3) : EAU   1920.0
+MinNode : main.modele.Case (3, 6) : FORET
+VoisinGauchemain.modele.Case (3, 5) : FORET
+openNodes.size() = 12 closedNodes.size() = 7
+main.modele.Case (3, 2) : EAU   2400.0
+main.modele.Case (2, 3) : EAU   2400.0
+main.modele.Case (2, 4) : TERRAIN_LIBRE   2400.0
+main.modele.Case (4, 2) : EAU   2400.0
+main.modele.Case (2, 5) : FORET   2400.0
+main.modele.Case (4, 5) : FORET   1920.0
+main.modele.Case (5, 4) : TERRAIN_LIBRE   1920.0
+main.modele.Case (5, 2) : EAU   2400.0
+main.modele.Case (6, 3) : EAU   1920.0
+main.modele.Case (3, 7) : TERRAIN_LIBRE   1920.0
+main.modele.Case (2, 6) : TERRAIN_LIBRE   2400.0
+main.modele.Case (4, 6) : FORET   1920.0
+MinNode : main.modele.Case (4, 5) : FORET
+VoisinGauchemain.modele.Case (4, 4) : TERRAIN_LIBRE
+openNodes.size() = 12 closedNodes.size() = 8
+main.modele.Case (3, 2) : EAU   2400.0
+main.modele.Case (2, 3) : EAU   2400.0
+main.modele.Case (2, 4) : TERRAIN_LIBRE   2400.0
+main.modele.Case (4, 2) : EAU   2400.0
+main.modele.Case (2, 5) : FORET   2400.0
+main.modele.Case (5, 4) : TERRAIN_LIBRE   1920.0
+main.modele.Case (5, 2) : EAU   2400.0
+main.modele.Case (6, 3) : EAU   1920.0
+main.modele.Case (3, 7) : TERRAIN_LIBRE   1920.0
+main.modele.Case (2, 6) : TERRAIN_LIBRE   2400.0
+main.modele.Case (4, 6) : FORET   1920.0
+main.modele.Case (5, 5) : HABITAT   1920.0
+MinNode : main.modele.Case (5, 4) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (5, 3) : TERRAIN_LIBRE
+openNodes.size() = 12 closedNodes.size() = 9
+main.modele.Case (3, 2) : EAU   2400.0
+main.modele.Case (2, 3) : EAU   2400.0
+main.modele.Case (2, 4) : TERRAIN_LIBRE   2400.0
+main.modele.Case (4, 2) : EAU   2400.0
+main.modele.Case (2, 5) : FORET   2400.0
+main.modele.Case (5, 2) : EAU   2400.0
+main.modele.Case (6, 3) : EAU   1920.0
+main.modele.Case (3, 7) : TERRAIN_LIBRE   1920.0
+main.modele.Case (2, 6) : TERRAIN_LIBRE   2400.0
+main.modele.Case (4, 6) : FORET   1920.0
+main.modele.Case (5, 5) : HABITAT   1920.0
+main.modele.Case (6, 4) : TERRAIN_LIBRE   1920.0
+MinNode : main.modele.Case (6, 3) : EAU
+VoisinGauchemain.modele.Case (6, 2) : EAU
+openNodes.size() = 13 closedNodes.size() = 10
+main.modele.Case (3, 2) : EAU   2400.0
+main.modele.Case (2, 3) : EAU   2400.0
+main.modele.Case (2, 4) : TERRAIN_LIBRE   2400.0
+main.modele.Case (4, 2) : EAU   2400.0
+main.modele.Case (2, 5) : FORET   2400.0
+main.modele.Case (5, 2) : EAU   2400.0
+main.modele.Case (3, 7) : TERRAIN_LIBRE   1920.0
+main.modele.Case (2, 6) : TERRAIN_LIBRE   2400.0
+main.modele.Case (4, 6) : FORET   1920.0
+main.modele.Case (5, 5) : HABITAT   1920.0
+main.modele.Case (6, 4) : TERRAIN_LIBRE   1920.0
+main.modele.Case (6, 2) : EAU   2400.0
+main.modele.Case (7, 3) : EAU   1920.0
+MinNode : main.modele.Case (3, 7) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (3, 6) : FORET
+openNodes.size() = 14 closedNodes.size() = 11
+main.modele.Case (3, 2) : EAU   2400.0
+main.modele.Case (2, 3) : EAU   2400.0
+main.modele.Case (2, 4) : TERRAIN_LIBRE   2400.0
+main.modele.Case (4, 2) : EAU   2400.0
+main.modele.Case (2, 5) : FORET   2400.0
+main.modele.Case (5, 2) : EAU   2400.0
+main.modele.Case (2, 6) : TERRAIN_LIBRE   2400.0
+main.modele.Case (4, 6) : FORET   1920.0
+main.modele.Case (5, 5) : HABITAT   1920.0
+main.modele.Case (6, 4) : TERRAIN_LIBRE   1920.0
+main.modele.Case (6, 2) : EAU   2400.0
+main.modele.Case (7, 3) : EAU   1920.0
+main.modele.Case (2, 7) : TERRAIN_LIBRE   2400.0
+main.modele.Case (4, 7) : TERRAIN_LIBRE   1920.0
+MinNode : main.modele.Case (4, 6) : FORET
+VoisinGauchemain.modele.Case (4, 5) : FORET
+openNodes.size() = 14 closedNodes.size() = 12
+main.modele.Case (3, 2) : EAU   2400.0
+main.modele.Case (2, 3) : EAU   2400.0
+main.modele.Case (2, 4) : TERRAIN_LIBRE   2400.0
+main.modele.Case (4, 2) : EAU   2400.0
+main.modele.Case (2, 5) : FORET   2400.0
+main.modele.Case (5, 2) : EAU   2400.0
+main.modele.Case (2, 6) : TERRAIN_LIBRE   2400.0
+main.modele.Case (5, 5) : HABITAT   1920.0
+main.modele.Case (6, 4) : TERRAIN_LIBRE   1920.0
+main.modele.Case (6, 2) : EAU   2400.0
+main.modele.Case (7, 3) : EAU   1920.0
+main.modele.Case (2, 7) : TERRAIN_LIBRE   2400.0
+main.modele.Case (4, 7) : TERRAIN_LIBRE   1920.0
+main.modele.Case (5, 6) : HABITAT   1920.0
+MinNode : main.modele.Case (5, 5) : HABITAT
+VoisinGauchemain.modele.Case (5, 4) : TERRAIN_LIBRE
+openNodes.size() = 14 closedNodes.size() = 13
+main.modele.Case (3, 2) : EAU   2400.0
+main.modele.Case (2, 3) : EAU   2400.0
+main.modele.Case (2, 4) : TERRAIN_LIBRE   2400.0
+main.modele.Case (4, 2) : EAU   2400.0
+main.modele.Case (2, 5) : FORET   2400.0
+main.modele.Case (5, 2) : EAU   2400.0
+main.modele.Case (2, 6) : TERRAIN_LIBRE   2400.0
+main.modele.Case (6, 4) : TERRAIN_LIBRE   1920.0
+main.modele.Case (6, 2) : EAU   2400.0
+main.modele.Case (7, 3) : EAU   1920.0
+main.modele.Case (2, 7) : TERRAIN_LIBRE   2400.0
+main.modele.Case (4, 7) : TERRAIN_LIBRE   1920.0
+main.modele.Case (5, 6) : HABITAT   1920.0
+main.modele.Case (6, 5) : TERRAIN_LIBRE   1920.0
+MinNode : main.modele.Case (6, 4) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (6, 3) : EAU
+openNodes.size() = 14 closedNodes.size() = 14
+main.modele.Case (3, 2) : EAU   2400.0
+main.modele.Case (2, 3) : EAU   2400.0
+main.modele.Case (2, 4) : TERRAIN_LIBRE   2400.0
+main.modele.Case (4, 2) : EAU   2400.0
+main.modele.Case (2, 5) : FORET   2400.0
+main.modele.Case (5, 2) : EAU   2400.0
+main.modele.Case (2, 6) : TERRAIN_LIBRE   2400.0
+main.modele.Case (6, 2) : EAU   2400.0
+main.modele.Case (7, 3) : EAU   1920.0
+main.modele.Case (2, 7) : TERRAIN_LIBRE   2400.0
+main.modele.Case (4, 7) : TERRAIN_LIBRE   1920.0
+main.modele.Case (5, 6) : HABITAT   1920.0
+main.modele.Case (6, 5) : TERRAIN_LIBRE   1920.0
+main.modele.Case (7, 4) : TERRAIN_LIBRE   1920.0
+MinNode : main.modele.Case (7, 3) : EAU
+VoisinGauchemain.modele.Case (7, 2) : HABITAT
+openNodes.size() = 14 closedNodes.size() = 15
+main.modele.Case (3, 2) : EAU   2400.0
+main.modele.Case (2, 3) : EAU   2400.0
+main.modele.Case (2, 4) : TERRAIN_LIBRE   2400.0
+main.modele.Case (4, 2) : EAU   2400.0
+main.modele.Case (2, 5) : FORET   2400.0
+main.modele.Case (5, 2) : EAU   2400.0
+main.modele.Case (2, 6) : TERRAIN_LIBRE   2400.0
+main.modele.Case (6, 2) : EAU   2400.0
+main.modele.Case (2, 7) : TERRAIN_LIBRE   2400.0
+main.modele.Case (4, 7) : TERRAIN_LIBRE   1920.0
+main.modele.Case (5, 6) : HABITAT   1920.0
+main.modele.Case (6, 5) : TERRAIN_LIBRE   1920.0
+main.modele.Case (7, 4) : TERRAIN_LIBRE   1920.0
+main.modele.Case (7, 2) : HABITAT   2400.0
+MinNode : main.modele.Case (4, 7) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (4, 6) : FORET
+openNodes.size() = 14 closedNodes.size() = 16
+main.modele.Case (3, 2) : EAU   2400.0
+main.modele.Case (2, 3) : EAU   2400.0
+main.modele.Case (2, 4) : TERRAIN_LIBRE   2400.0
+main.modele.Case (4, 2) : EAU   2400.0
+main.modele.Case (2, 5) : FORET   2400.0
+main.modele.Case (5, 2) : EAU   2400.0
+main.modele.Case (2, 6) : TERRAIN_LIBRE   2400.0
+main.modele.Case (6, 2) : EAU   2400.0
+main.modele.Case (2, 7) : TERRAIN_LIBRE   2400.0
+main.modele.Case (5, 6) : HABITAT   1920.0
+main.modele.Case (6, 5) : TERRAIN_LIBRE   1920.0
+main.modele.Case (7, 4) : TERRAIN_LIBRE   1920.0
+main.modele.Case (7, 2) : HABITAT   2400.0
+main.modele.Case (5, 7) : TERRAIN_LIBRE   1920.0
+MinNode : main.modele.Case (5, 6) : HABITAT
+VoisinGauchemain.modele.Case (5, 5) : HABITAT
+openNodes.size() = 14 closedNodes.size() = 17
+main.modele.Case (3, 2) : EAU   2400.0
+main.modele.Case (2, 3) : EAU   2400.0
+main.modele.Case (2, 4) : TERRAIN_LIBRE   2400.0
+main.modele.Case (4, 2) : EAU   2400.0
+main.modele.Case (2, 5) : FORET   2400.0
+main.modele.Case (5, 2) : EAU   2400.0
+main.modele.Case (2, 6) : TERRAIN_LIBRE   2400.0
+main.modele.Case (6, 2) : EAU   2400.0
+main.modele.Case (2, 7) : TERRAIN_LIBRE   2400.0
+main.modele.Case (6, 5) : TERRAIN_LIBRE   1920.0
+main.modele.Case (7, 4) : TERRAIN_LIBRE   1920.0
+main.modele.Case (7, 2) : HABITAT   2400.0
+main.modele.Case (5, 7) : TERRAIN_LIBRE   1920.0
+main.modele.Case (6, 6) : TERRAIN_LIBRE   1920.0
+MinNode : main.modele.Case (6, 5) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (6, 4) : TERRAIN_LIBRE
+openNodes.size() = 14 closedNodes.size() = 18
+main.modele.Case (3, 2) : EAU   2400.0
+main.modele.Case (2, 3) : EAU   2400.0
+main.modele.Case (2, 4) : TERRAIN_LIBRE   2400.0
+main.modele.Case (4, 2) : EAU   2400.0
+main.modele.Case (2, 5) : FORET   2400.0
+main.modele.Case (5, 2) : EAU   2400.0
+main.modele.Case (2, 6) : TERRAIN_LIBRE   2400.0
+main.modele.Case (6, 2) : EAU   2400.0
+main.modele.Case (2, 7) : TERRAIN_LIBRE   2400.0
+main.modele.Case (7, 4) : TERRAIN_LIBRE   1920.0
+main.modele.Case (7, 2) : HABITAT   2400.0
+main.modele.Case (5, 7) : TERRAIN_LIBRE   1920.0
+main.modele.Case (6, 6) : TERRAIN_LIBRE   1920.0
+main.modele.Case (7, 5) : TERRAIN_LIBRE   1920.0
+MinNode : main.modele.Case (7, 4) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (7, 3) : EAU
+openNodes.size() = 13 closedNodes.size() = 19
+main.modele.Case (3, 2) : EAU   2400.0
+main.modele.Case (2, 3) : EAU   2400.0
+main.modele.Case (2, 4) : TERRAIN_LIBRE   2400.0
+main.modele.Case (4, 2) : EAU   2400.0
+main.modele.Case (2, 5) : FORET   2400.0
+main.modele.Case (5, 2) : EAU   2400.0
+main.modele.Case (2, 6) : TERRAIN_LIBRE   2400.0
+main.modele.Case (6, 2) : EAU   2400.0
+main.modele.Case (2, 7) : TERRAIN_LIBRE   2400.0
+main.modele.Case (7, 2) : HABITAT   2400.0
+main.modele.Case (5, 7) : TERRAIN_LIBRE   1920.0
+main.modele.Case (6, 6) : TERRAIN_LIBRE   1920.0
+main.modele.Case (7, 5) : TERRAIN_LIBRE   1920.0
+MinNode : main.modele.Case (5, 7) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (5, 6) : HABITAT
+openNodes.size() = 13 closedNodes.size() = 20
+main.modele.Case (3, 2) : EAU   2400.0
+main.modele.Case (2, 3) : EAU   2400.0
+main.modele.Case (2, 4) : TERRAIN_LIBRE   2400.0
+main.modele.Case (4, 2) : EAU   2400.0
+main.modele.Case (2, 5) : FORET   2400.0
+main.modele.Case (5, 2) : EAU   2400.0
+main.modele.Case (2, 6) : TERRAIN_LIBRE   2400.0
+main.modele.Case (6, 2) : EAU   2400.0
+main.modele.Case (2, 7) : TERRAIN_LIBRE   2400.0
+main.modele.Case (7, 2) : HABITAT   2400.0
+main.modele.Case (6, 6) : TERRAIN_LIBRE   1920.0
+main.modele.Case (7, 5) : TERRAIN_LIBRE   1920.0
+main.modele.Case (6, 7) : TERRAIN_LIBRE   1920.0
+MinNode : main.modele.Case (6, 6) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (6, 5) : TERRAIN_LIBRE
+openNodes.size() = 13 closedNodes.size() = 21
+main.modele.Case (3, 2) : EAU   2400.0
+main.modele.Case (2, 3) : EAU   2400.0
+main.modele.Case (2, 4) : TERRAIN_LIBRE   2400.0
+main.modele.Case (4, 2) : EAU   2400.0
+main.modele.Case (2, 5) : FORET   2400.0
+main.modele.Case (5, 2) : EAU   2400.0
+main.modele.Case (2, 6) : TERRAIN_LIBRE   2400.0
+main.modele.Case (6, 2) : EAU   2400.0
+main.modele.Case (2, 7) : TERRAIN_LIBRE   2400.0
+main.modele.Case (7, 2) : HABITAT   2400.0
+main.modele.Case (7, 5) : TERRAIN_LIBRE   1920.0
+main.modele.Case (6, 7) : TERRAIN_LIBRE   1920.0
+main.modele.Case (7, 6) : TERRAIN_LIBRE   1920.0
+MinNode : main.modele.Case (7, 5) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (7, 4) : TERRAIN_LIBRE
+openNodes.size() = 12 closedNodes.size() = 22
+main.modele.Case (3, 2) : EAU   2400.0
+main.modele.Case (2, 3) : EAU   2400.0
+main.modele.Case (2, 4) : TERRAIN_LIBRE   2400.0
+main.modele.Case (4, 2) : EAU   2400.0
+main.modele.Case (2, 5) : FORET   2400.0
+main.modele.Case (5, 2) : EAU   2400.0
+main.modele.Case (2, 6) : TERRAIN_LIBRE   2400.0
+main.modele.Case (6, 2) : EAU   2400.0
+main.modele.Case (2, 7) : TERRAIN_LIBRE   2400.0
+main.modele.Case (7, 2) : HABITAT   2400.0
+main.modele.Case (6, 7) : TERRAIN_LIBRE   1920.0
+main.modele.Case (7, 6) : TERRAIN_LIBRE   1920.0
+MinNode : main.modele.Case (6, 7) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (6, 6) : TERRAIN_LIBRE
+openNodes.size() = 12 closedNodes.size() = 23
+main.modele.Case (3, 2) : EAU   2400.0
+main.modele.Case (2, 3) : EAU   2400.0
+main.modele.Case (2, 4) : TERRAIN_LIBRE   2400.0
+main.modele.Case (4, 2) : EAU   2400.0
+main.modele.Case (2, 5) : FORET   2400.0
+main.modele.Case (5, 2) : EAU   2400.0
+main.modele.Case (2, 6) : TERRAIN_LIBRE   2400.0
+main.modele.Case (6, 2) : EAU   2400.0
+main.modele.Case (2, 7) : TERRAIN_LIBRE   2400.0
+main.modele.Case (7, 2) : HABITAT   2400.0
+main.modele.Case (7, 6) : TERRAIN_LIBRE   1920.0
+main.modele.Case (7, 7) : TERRAIN_LIBRE   1920.0
+MinNode : main.modele.Case (7, 6) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (7, 5) : TERRAIN_LIBRE
+openNodes.size() = 11 closedNodes.size() = 24
+main.modele.Case (3, 2) : EAU   2400.0
+main.modele.Case (2, 3) : EAU   2400.0
+main.modele.Case (2, 4) : TERRAIN_LIBRE   2400.0
+main.modele.Case (4, 2) : EAU   2400.0
+main.modele.Case (2, 5) : FORET   2400.0
+main.modele.Case (5, 2) : EAU   2400.0
+main.modele.Case (2, 6) : TERRAIN_LIBRE   2400.0
+main.modele.Case (6, 2) : EAU   2400.0
+main.modele.Case (2, 7) : TERRAIN_LIBRE   2400.0
+main.modele.Case (7, 2) : HABITAT   2400.0
+main.modele.Case (7, 7) : TERRAIN_LIBRE   1920.0
+MinNode : main.modele.Case (7, 7) : TERRAIN_LIBRE
+openNodes.size() = 1 closedNodes.size() = 0
+main.modele.Case (6, 5) : TERRAIN_LIBRE   1350.0
+MinNode : main.modele.Case (6, 5) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (6, 4) : TERRAIN_LIBRE
+openNodes.size() = 4 closedNodes.size() = 1
+main.modele.Case (6, 6) : TERRAIN_LIBRE   1350.0
+main.modele.Case (6, 4) : TERRAIN_LIBRE   2250.0
+main.modele.Case (5, 5) : HABITAT   2250.0
+main.modele.Case (7, 5) : TERRAIN_LIBRE   1350.0
+MinNode : main.modele.Case (6, 6) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (6, 5) : TERRAIN_LIBRE
+openNodes.size() = 6 closedNodes.size() = 2
+main.modele.Case (6, 4) : TERRAIN_LIBRE   2250.0
+main.modele.Case (5, 5) : HABITAT   2250.0
+main.modele.Case (7, 5) : TERRAIN_LIBRE   1350.0
+main.modele.Case (6, 7) : TERRAIN_LIBRE   1350.0
+main.modele.Case (5, 6) : HABITAT   2250.0
+main.modele.Case (7, 6) : TERRAIN_LIBRE   1350.0
+MinNode : main.modele.Case (7, 5) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (7, 4) : TERRAIN_LIBRE
+openNodes.size() = 6 closedNodes.size() = 3
+main.modele.Case (6, 4) : TERRAIN_LIBRE   2250.0
+main.modele.Case (5, 5) : HABITAT   2250.0
+main.modele.Case (6, 7) : TERRAIN_LIBRE   1350.0
+main.modele.Case (5, 6) : HABITAT   2250.0
+main.modele.Case (7, 6) : TERRAIN_LIBRE   1350.0
+main.modele.Case (7, 4) : TERRAIN_LIBRE   2250.0
+MinNode : main.modele.Case (6, 7) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (6, 6) : TERRAIN_LIBRE
+openNodes.size() = 7 closedNodes.size() = 4
+main.modele.Case (6, 4) : TERRAIN_LIBRE   2250.0
+main.modele.Case (5, 5) : HABITAT   2250.0
+main.modele.Case (5, 6) : HABITAT   2250.0
+main.modele.Case (7, 6) : TERRAIN_LIBRE   1350.0
+main.modele.Case (7, 4) : TERRAIN_LIBRE   2250.0
+main.modele.Case (5, 7) : TERRAIN_LIBRE   2250.0
+main.modele.Case (7, 7) : TERRAIN_LIBRE   1350.0
+MinNode : main.modele.Case (7, 6) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (7, 5) : TERRAIN_LIBRE
+openNodes.size() = 6 closedNodes.size() = 5
+main.modele.Case (6, 4) : TERRAIN_LIBRE   2250.0
+main.modele.Case (5, 5) : HABITAT   2250.0
+main.modele.Case (5, 6) : HABITAT   2250.0
+main.modele.Case (7, 4) : TERRAIN_LIBRE   2250.0
+main.modele.Case (5, 7) : TERRAIN_LIBRE   2250.0
+main.modele.Case (7, 7) : TERRAIN_LIBRE   1350.0
+MinNode : main.modele.Case (7, 7) : TERRAIN_LIBRE
+openNodes.size() = 1 closedNodes.size() = 0
+main.modele.Case (4, 7) : TERRAIN_LIBRE   1080.0
+MinNode : main.modele.Case (4, 7) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (4, 6) : FORET
+openNodes.size() = 3 closedNodes.size() = 1
+main.modele.Case (4, 6) : FORET   1800.0
+main.modele.Case (3, 7) : TERRAIN_LIBRE   1800.0
+main.modele.Case (5, 7) : TERRAIN_LIBRE   1080.0
+MinNode : main.modele.Case (5, 7) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (5, 6) : HABITAT
+openNodes.size() = 4 closedNodes.size() = 2
+main.modele.Case (4, 6) : FORET   1800.0
+main.modele.Case (3, 7) : TERRAIN_LIBRE   1800.0
+main.modele.Case (5, 6) : HABITAT   1800.0
+main.modele.Case (6, 7) : TERRAIN_LIBRE   1080.0
+MinNode : main.modele.Case (6, 7) : TERRAIN_LIBRE
+VoisinGauchemain.modele.Case (6, 6) : TERRAIN_LIBRE
+openNodes.size() = 5 closedNodes.size() = 3
+main.modele.Case (4, 6) : FORET   1800.0
+main.modele.Case (3, 7) : TERRAIN_LIBRE   1800.0
+main.modele.Case (5, 6) : HABITAT   1800.0
+main.modele.Case (6, 6) : TERRAIN_LIBRE   1800.0
+main.modele.Case (7, 7) : TERRAIN_LIBRE   1080.0
+MinNode : main.modele.Case (7, 7) : TERRAIN_LIBRE

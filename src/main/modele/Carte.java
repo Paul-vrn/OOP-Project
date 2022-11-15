@@ -11,8 +11,9 @@ public class Carte {
 
     /**
      * Constructeur de la classe Carte.
-     * @param nblignes nombre de lignes de la carte
-     * @param nbColonnes nombre de colonnes de la carte
+     *
+     * @param nblignes    nombre de lignes de la carte
+     * @param nbColonnes  nombre de colonnes de la carte
      * @param tailleCases taille des cases de la carte
      */
     public Carte(int nblignes, int nbColonnes, int tailleCases) {
@@ -29,9 +30,10 @@ public class Carte {
 
     /**
      * Constructeur de la classe Carte.
-     * @param ligne ligne de la case
+     *
+     * @param ligne   ligne de la case
      * @param colonne colonne de la case
-     * @param nature nature de la case
+     * @param nature  nature de la case
      */
     public void setNature(int ligne, int colonne, NatureTerrain nature) {
         this.cases[ligne][colonne].setNature(nature);
@@ -39,6 +41,7 @@ public class Carte {
 
     /**
      * Retourne la taille des cases de la carte.
+     *
      * @return taille des cases de la carte
      */
     public int getTailleCases() {
@@ -47,6 +50,7 @@ public class Carte {
 
     /**
      * Retourne le nombre de lignes de la carte.
+     *
      * @return nombre de lignes de la carte
      */
     public int getNbLignes() {
@@ -55,6 +59,7 @@ public class Carte {
 
     /**
      * Retourne le nombre de colonnes de la carte.
+     *
      * @return nombre de colonnes de la carte
      */
     public int getNbColonnes() {
@@ -63,6 +68,7 @@ public class Carte {
 
     /**
      * Retourne les cases de la carte.
+     *
      * @return matrice de cases de la carte
      */
     public Case[][] getCases() {
@@ -71,7 +77,8 @@ public class Carte {
 
     /**
      * Retourne la case à la ligne et colonne passées en paramètres.
-     * @param ligne ligne de la case
+     *
+     * @param ligne   ligne de la case
      * @param colonne colonne de la case
      * @return case à la ligne et colonne passées en paramètres
      */

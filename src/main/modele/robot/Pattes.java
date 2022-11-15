@@ -12,7 +12,7 @@ public class Pattes extends Robot {
 
     /**
      * Constructeur de la classe Robot à Pattes
-     * 
+     *
      * @param position La position du robot
      */
     public Pattes(int i, Case position) {
@@ -23,8 +23,8 @@ public class Pattes extends Robot {
         this.reservoir = -1; // infini
         // 30 minutes
         this.tempsRemplissage = 30 * 60;
-        this.QuantiteEauParIntervention = 10;
-        this.TempsIntervention = 1;
+        this.quantiteEauParIntervention = 10;
+        this.tempsIntervention = 1;
         this.evenements = new ArrayList<>();
     }
 
@@ -69,7 +69,7 @@ public class Pattes extends Robot {
     }
 
     @Override
-    public boolean IsEmpty() {
+    public boolean isEmpty() {
         return false;
     }
 }

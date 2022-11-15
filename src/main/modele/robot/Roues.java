@@ -15,8 +15,8 @@ public class Roues extends Robot {
         this.reservoir = 5000;
         // 30 minutes
         this.tempsRemplissage = 10 * 60;
-        this.QuantiteEauParIntervention = 100;
-        this.TempsIntervention = 5;
+        this.quantiteEauParIntervention = 100;
+        this.tempsIntervention = 5;
         this.evenements = new ArrayList<>();
     }
 

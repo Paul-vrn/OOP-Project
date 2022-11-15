@@ -7,14 +7,12 @@ import java.util.ArrayList;
 
 /**
  * Classe représentant un robot à chenilles.
- *
- *
  */
 public class Chenilles extends Robot {
 
     /**
      * Constructeur de la classe Chenilles.
-     * 
+     *
      * @param position
      */
     public Chenilles(int id, Case position) {
@@ -25,14 +23,14 @@ public class Chenilles extends Robot {
         this.reservoir = 2000;
         // 30 minutes
         this.tempsRemplissage = 5 * 60;
-        this.QuantiteEauParIntervention = 100;
-        this.TempsIntervention = 8;
+        this.quantiteEauParIntervention = 100;
+        this.tempsIntervention = 8;
         this.evenements = new ArrayList<>();
     }
 
     /**
      * Définit la vitesse du robot à chenilles.
-     * 
+     *
      * @param vitesse La vitesse du robot à chenilles.
      */
     @Override
@@ -50,7 +48,6 @@ public class Chenilles extends Robot {
     }
 
     /**
-     *
      * @param position
      * @return
      */

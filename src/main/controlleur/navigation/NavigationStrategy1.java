@@ -16,11 +16,6 @@ public class NavigationStrategy1 implements NavigationStrategy {
 
     @Override
     public Chemin plusCourtChemin(Robot robot, Incendie incendie, DonneesSimulation donneesSimulation) {
-
-        // TODO : implémenter l'algorithme de Dijkstra pour trouver le chemin le plus
-        // court en prenant en compte :
-        // - les obstacles (mur et eau)
-
         Carte carte = donneesSimulation.getCarte();
         Node[][] nodeMap = new Node[carte.getNbLignes()][carte.getNbColonnes()];
 
@@ -229,7 +224,7 @@ public class NavigationStrategy1 implements NavigationStrategy {
         for (Incendie incendie : donneesSimulation.getIncendies()) {
             if (!incendie.IsEteint() && !incendie.IsHandled()) {
                 for (Robot robot : donneesSimulation.getRobots()) {
-                    if (!robot.IsEmpty() && !robot.isOccupied()) {
+                    if (!robot.isEmpty() && !robot.isOccupied()) {
                         Chemin chemin = plusCourtChemin(robot, incendie, donneesSimulation);
                         chemins.add(chemin);
                     }

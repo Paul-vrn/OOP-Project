@@ -23,7 +23,7 @@ Pour tester la partie modèle de l'application nous avons utilisé le framework 
 Nous avons utilisé l'algorithme de Dijkstra pour calculer le plus court chemin entre deux points.\
 Nous avons utilisé une implémentation de la classe PriorityQueue fournie par la librairie Java Collections Framework.\
 
-## Chef robot (Design Pattern Singleton)
+## Chef robot (Design Pattern Singleton (single-threaded))
 Vu qu'il n'existe qu'un seul chef robot dans l'application nous avons utilisé le design pattern Singleton pour s'assurer qu'il n'y ait qu'une seule instance de la classe ChefRobot.\
 (En apprendre plus sur le design pattern Singleton : https://refactoring.guru/design-patterns/singleton)
 

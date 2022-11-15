@@ -1,6 +1,5 @@
 package main.modele.evenement;
 
-import main.controlleur.navigation.ChefRobot;
 import main.modele.Incendie;
 import main.modele.robot.Robot;
 
@@ -19,13 +18,13 @@ public class EteindreEvent extends Evenement {
                 throw new NoIncendieException("Le robot n'est pas sur la case de l'incendie");
             } else if (incendie.IsEteint()) {
                 throw new NoIncendieException("L'incendie est déjà éteint");
-            } else if (robot.IsEmpty()) {
+            } else if (robot.isEmpty()) {
                 throw new NoIncendieException("Le robot est vide");
             } else if (duration > 0){
                 duration--;
                 // TODO : revoir pour que ça baisse petit à petit
             } else {
-                int EauDeverse = robot.EmptyTank();
+                int EauDeverse = robot.emptyTank();
                 incendie.Eteindre(EauDeverse);
                 robot.nextEvent();
             }
