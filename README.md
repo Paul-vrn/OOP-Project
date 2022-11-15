@@ -5,6 +5,22 @@ Réalisé par Paul Vernin, Marc Félix-Henry et Paul Bonmariage.
 Ensimag 2A POO - TP 2022/23
 ============================
 
+## Installation du jeu
+Pour lancer le jeu, il faut soit :
+- lancer le makefile
+- utilise un formidable IDE tel que Intellij IDEA :)
+
+### Input
+La commande run prend 2 arguments :
+- 1 : le chemin vers la carte à charger
+- 2 : la stratégie à utiliser
+
+### Output
+Tous les ``System.out.println`` sont redirigés vers un fichier ``logs/out.txt``.\
+Tous les ``System.err.println`` sont redirigés vers un fichier ``logs/err.txt``.
+
+# Compte rendu
+
 ## Modèle MVC
 On s'est inspiré du très connu modèle MVC (Model View Controller) pour structurer notre projet. Le modèle MVC est un modèle de conception logiciel qui sépare les données d'une application, la logique métier et la présentation. Il est composé de trois éléments : le modèle, la vue et le contrôleur.\
 Dans notre cas la partie vue était déjà réalisé en grande partie à l'aide de la librairie GUI fournie par les enseignants.\
