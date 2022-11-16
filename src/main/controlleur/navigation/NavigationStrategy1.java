@@ -260,9 +260,7 @@ public class NavigationStrategy1 implements NavigationStrategy {
         while (ChefRobot.getInstance().chemins.peek() != null) {
             Chemin chemin = ChefRobot.getInstance().chemins.poll();
             assert chemin != null;
-            System.out.println(chemin.getDuration() + " | " + chemin.getRobot().getName() +
-                    " | incendie=" + chemin.getIncendie().getPosition().getLigne() +
-                    ":" + chemin.getIncendie().getPosition().getColonne());
+//            System.out.println(chemin.getDuration() + " | " + chemin.getRobot().getName() + " | incendie=" + chemin.getIncendie().getPosition().getLigne() + ":" + chemin.getIncendie().getPosition().getColonne());
             if (!chemin.getRobot().isOccupied() && !chemin.getIncendie().isHandled()) {
                 chemin.getRobot().addEvenements(chemin.getEvents());
                 chemin.getRobot().setOccupied(true);
