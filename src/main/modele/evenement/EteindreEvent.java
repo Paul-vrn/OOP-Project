@@ -48,10 +48,7 @@ public class EteindreEvent extends Evenement {
         }
     }
 
-    /**
-     *
-     * @return
-     */
+
     @Override
     public String toString() {
         return "EteindreEvent (" + incendie.toString() + ") duration=" + duration;

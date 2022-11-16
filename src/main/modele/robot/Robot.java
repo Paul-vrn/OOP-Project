@@ -1,5 +1,6 @@
 package main.modele.robot;
 
+import main.controlleur.navigation.ChefRobot;
 import main.modele.Case;
 import main.modele.Carte;
 import main.modele.evenement.Evenement;
@@ -151,6 +152,9 @@ public abstract class Robot {
     public void nextEvent() {
         if (indexEvenement < evenements.size()) {
             indexEvenement++;
+        } else {
+            this.isOccupied = false;
+            ChefRobot.getInstance().notif = true;
         }
     }
 
