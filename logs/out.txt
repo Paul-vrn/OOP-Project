@@ -1,163 +1,118 @@
 Carte 8x8; taille des cases = 10000
-MoveEventmain.modele.Case (3, 4) : TERRAIN_LIBRE
-Robot Drone : main.modele.Case (3, 3) : EAU
-MoveEventmain.modele.Case (3, 4) : TERRAIN_LIBRE
-Robot Drone : main.modele.Case (3, 3) : EAU
-MoveEventmain.modele.Case (3, 4) : TERRAIN_LIBRE
-Robot Drone : main.modele.Case (3, 3) : EAU
-MoveEventmain.modele.Case (3, 4) : TERRAIN_LIBRE
-Robot Drone : main.modele.Case (3, 3) : EAU
-MoveEventmain.modele.Case (3, 4) : TERRAIN_LIBRE
-Robot Drone : main.modele.Case (3, 3) : EAU
-MoveEventmain.modele.Case (3, 4) : TERRAIN_LIBRE
-Robot Drone : main.modele.Case (3, 3) : EAU
-MoveEventmain.modele.Case (3, 4) : TERRAIN_LIBRE
-Robot Drone : main.modele.Case (3, 3) : EAU
-MoveEventmain.modele.Case (3, 4) : TERRAIN_LIBRE
-Robot Drone : main.modele.Case (3, 3) : EAU
-MoveEventmain.modele.Case (3, 4) : TERRAIN_LIBRE
-Robot Drone : main.modele.Case (3, 3) : EAU
-MoveEventmain.modele.Case (3, 4) : TERRAIN_LIBRE
-Robot Drone : main.modele.Case (3, 3) : EAU
-MoveEventmain.modele.Case (3, 4) : TERRAIN_LIBRE
-Robot Drone : main.modele.Case (3, 3) : EAU
-MoveEventmain.modele.Case (3, 4) : TERRAIN_LIBRE
-Robot Drone : main.modele.Case (3, 3) : EAU
-MoveEventmain.modele.Case (3, 4) : TERRAIN_LIBRE
-Robot Drone : main.modele.Case (3, 3) : EAU
-MoveEventmain.modele.Case (3, 4) : TERRAIN_LIBRE
-Robot Drone : main.modele.Case (3, 3) : EAU
-MoveEventmain.modele.Case (3, 4) : TERRAIN_LIBRE
-Robot Drone : main.modele.Case (3, 3) : EAU
-MoveEventmain.modele.Case (3, 4) : TERRAIN_LIBRE
-Robot Drone : main.modele.Case (3, 3) : EAU
-MoveEventmain.modele.Case (3, 4) : TERRAIN_LIBRE
-Robot Drone : main.modele.Case (3, 3) : EAU
-MoveEventmain.modele.Case (3, 4) : TERRAIN_LIBRE
-Robot Drone : main.modele.Case (3, 3) : EAU
-MoveEventmain.modele.Case (3, 4) : TERRAIN_LIBRE
-Robot Drone : main.modele.Case (3, 3) : EAU
-MoveEventmain.modele.Case (3, 4) : TERRAIN_LIBRE
-Robot Drone : main.modele.Case (3, 3) : EAU
-MoveEventmain.modele.Case (3, 4) : TERRAIN_LIBRE
-Robot Drone : main.modele.Case (3, 3) : EAU
-MoveEventmain.modele.Case (3, 4) : TERRAIN_LIBRE
-Robot Drone : main.modele.Case (3, 3) : EAU
-MoveEventmain.modele.Case (3, 4) : TERRAIN_LIBRE
-Robot Drone : main.modele.Case (3, 3) : EAU
-MoveEventmain.modele.Case (3, 4) : TERRAIN_LIBRE
-Robot Drone : main.modele.Case (3, 3) : EAU
-MoveEventmain.modele.Case (3, 4) : TERRAIN_LIBRE
-Robot Drone : main.modele.Case (3, 3) : EAU
-MoveEventmain.modele.Case (3, 4) : TERRAIN_LIBRE
-Robot Drone : main.modele.Case (3, 3) : EAU
-MoveEventmain.modele.Case (3, 4) : TERRAIN_LIBRE
-Robot Drone : main.modele.Case (3, 3) : EAU
-MoveEventmain.modele.Case (3, 4) : TERRAIN_LIBRE
-Robot Drone : main.modele.Case (3, 3) : EAU
-MoveEventmain.modele.Case (3, 4) : TERRAIN_LIBRE
-Robot Drone : main.modele.Case (3, 3) : EAU
-MoveEventmain.modele.Case (3, 4) : TERRAIN_LIBRE
-Robot Drone : main.modele.Case (3, 3) : EAU
-MoveEventmain.modele.Case (3, 4) : TERRAIN_LIBRE
-Robot Drone : main.modele.Case (3, 3) : EAU
-MoveEventmain.modele.Case (3, 4) : TERRAIN_LIBRE
-Robot Drone : main.modele.Case (3, 3) : EAU
-MoveEventmain.modele.Case (3, 4) : TERRAIN_LIBRE
-Robot Drone : main.modele.Case (3, 3) : EAU
-MoveEventmain.modele.Case (3, 4) : TERRAIN_LIBRE
-Robot Drone : main.modele.Case (3, 3) : EAU
-MoveEventmain.modele.Case (3, 4) : TERRAIN_LIBRE
-Robot Drone : main.modele.Case (3, 3) : EAU
-MoveEventmain.modele.Case (3, 4) : TERRAIN_LIBRE
-Robot Drone : main.modele.Case (3, 3) : EAU
-MoveEventmain.modele.Case (3, 4) : TERRAIN_LIBRE
-Robot Drone : main.modele.Case (3, 3) : EAU
-MoveEventmain.modele.Case (3, 4) : TERRAIN_LIBRE
-Robot Drone : main.modele.Case (3, 3) : EAU
-MoveEventmain.modele.Case (3, 4) : TERRAIN_LIBRE
-Robot Drone : main.modele.Case (3, 3) : EAU
-MoveEventmain.modele.Case (3, 4) : TERRAIN_LIBRE
-Robot Drone : main.modele.Case (3, 3) : EAU
-MoveEventmain.modele.Case (3, 4) : TERRAIN_LIBRE
-Robot Drone : main.modele.Case (3, 3) : EAU
-MoveEventmain.modele.Case (3, 4) : TERRAIN_LIBRE
-Robot Drone : main.modele.Case (3, 3) : EAU
-MoveEventmain.modele.Case (3, 4) : TERRAIN_LIBRE
-Robot Drone : main.modele.Case (3, 3) : EAU
-MoveEventmain.modele.Case (3, 4) : TERRAIN_LIBRE
-Robot Drone : main.modele.Case (3, 3) : EAU
-MoveEventmain.modele.Case (3, 4) : TERRAIN_LIBRE
-Robot Drone : main.modele.Case (3, 3) : EAU
-MoveEventmain.modele.Case (3, 4) : TERRAIN_LIBRE
-Robot Drone : main.modele.Case (3, 3) : EAU
-MoveEventmain.modele.Case (3, 4) : TERRAIN_LIBRE
-Robot Drone : main.modele.Case (3, 3) : EAU
-MoveEventmain.modele.Case (3, 4) : TERRAIN_LIBRE
-Robot Drone : main.modele.Case (3, 3) : EAU
-MoveEventmain.modele.Case (3, 4) : TERRAIN_LIBRE
-Robot Drone : main.modele.Case (3, 3) : EAU
-MoveEventmain.modele.Case (3, 4) : TERRAIN_LIBRE
-Robot Drone : main.modele.Case (3, 3) : EAU
-MoveEventmain.modele.Case (3, 4) : TERRAIN_LIBRE
-Robot Drone : main.modele.Case (3, 3) : EAU
-MoveEventmain.modele.Case (3, 4) : TERRAIN_LIBRE
-Robot Drone : main.modele.Case (3, 3) : EAU
-MoveEventmain.modele.Case (3, 4) : TERRAIN_LIBRE
-Robot Drone : main.modele.Case (3, 3) : EAU
-MoveEventmain.modele.Case (3, 4) : TERRAIN_LIBRE
-Robot Drone : main.modele.Case (3, 3) : EAU
-MoveEventmain.modele.Case (3, 4) : TERRAIN_LIBRE
-Robot Drone : main.modele.Case (3, 3) : EAU
-MoveEventmain.modele.Case (3, 4) : TERRAIN_LIBRE
-Robot Drone : main.modele.Case (3, 3) : EAU
-MoveEventmain.modele.Case (3, 4) : TERRAIN_LIBRE
-Robot Drone : main.modele.Case (3, 3) : EAU
-MoveEventmain.modele.Case (3, 4) : TERRAIN_LIBRE
-Robot Drone : main.modele.Case (3, 3) : EAU
-MoveEventmain.modele.Case (3, 4) : TERRAIN_LIBRE
-Robot Drone : main.modele.Case (3, 3) : EAU
-MoveEventmain.modele.Case (3, 4) : TERRAIN_LIBRE
-Robot Drone : main.modele.Case (3, 3) : EAU
-MoveEventmain.modele.Case (3, 4) : TERRAIN_LIBRE
-Robot Drone : main.modele.Case (3, 3) : EAU
-MoveEventmain.modele.Case (3, 4) : TERRAIN_LIBRE
-Robot Drone : main.modele.Case (3, 3) : EAU
-MoveEventmain.modele.Case (3, 4) : TERRAIN_LIBRE
-Robot Drone : main.modele.Case (3, 3) : EAU
-MoveEventmain.modele.Case (3, 4) : TERRAIN_LIBRE
-Robot Drone : main.modele.Case (3, 3) : EAU
-MoveEventmain.modele.Case (3, 4) : TERRAIN_LIBRE
-Robot Drone : main.modele.Case (3, 3) : EAU
-MoveEventmain.modele.Case (3, 4) : TERRAIN_LIBRE
-Robot Drone : main.modele.Case (3, 3) : EAU
-MoveEventmain.modele.Case (3, 4) : TERRAIN_LIBRE
-Robot Drone : main.modele.Case (3, 3) : EAU
-MoveEventmain.modele.Case (3, 4) : TERRAIN_LIBRE
-Robot Drone : main.modele.Case (3, 3) : EAU
-MoveEventmain.modele.Case (3, 4) : TERRAIN_LIBRE
-Robot Drone : main.modele.Case (3, 3) : EAU
-MoveEventmain.modele.Case (3, 4) : TERRAIN_LIBRE
-Robot Drone : main.modele.Case (3, 3) : EAU
-MoveEventmain.modele.Case (3, 4) : TERRAIN_LIBRE
-Robot Drone : main.modele.Case (3, 3) : EAU
-MoveEventmain.modele.Case (3, 4) : TERRAIN_LIBRE
-Robot Drone : main.modele.Case (3, 3) : EAU
-MoveEventmain.modele.Case (3, 4) : TERRAIN_LIBRE
-Robot Drone : main.modele.Case (3, 3) : EAU
-MoveEventmain.modele.Case (3, 4) : TERRAIN_LIBRE
-Robot Drone : main.modele.Case (3, 3) : EAU
-MoveEventmain.modele.Case (3, 4) : TERRAIN_LIBRE
-Robot Drone : main.modele.Case (3, 3) : EAU
-MoveEventmain.modele.Case (3, 4) : TERRAIN_LIBRE
-Robot Drone : main.modele.Case (3, 3) : EAU
-MoveEventmain.modele.Case (3, 4) : TERRAIN_LIBRE
-Robot Drone : main.modele.Case (3, 3) : EAU
-MoveEventmain.modele.Case (3, 4) : TERRAIN_LIBRE
-Robot Drone : main.modele.Case (3, 3) : EAU
-MoveEventmain.modele.Case (3, 4) : TERRAIN_LIBRE
-Robot Drone : main.modele.Case (3, 3) : EAU
-MoveEventmain.modele.Case (3, 4) : TERRAIN_LIBRE
-Robot Drone : main.modele.Case (3, 3) : EAU
-MoveEventmain.modele.Case (3, 4) : TERRAIN_LIBRE
-Robot Drone : main.modele.Case (3, 3) : EAU
+Event.toString(): MoveEventmain.modele.Case (3, 2) : EAU duration=240
+Event.toString(): MoveEventmain.modele.Case (5, 5) : HABITAT duration=360
+Event.toString(): MoveEventmain.modele.Case (5, 7) : TERRAIN_LIBRE duration=360
+Event.toString(): MoveEventmain.modele.Case (3, 2) : EAU duration=230
+Event.toString(): MoveEventmain.modele.Case (5, 5) : HABITAT duration=350
+Event.toString(): MoveEventmain.modele.Case (5, 7) : TERRAIN_LIBRE duration=350
+Event.toString(): MoveEventmain.modele.Case (3, 2) : EAU duration=220
+Event.toString(): MoveEventmain.modele.Case (5, 5) : HABITAT duration=340
+Event.toString(): MoveEventmain.modele.Case (5, 7) : TERRAIN_LIBRE duration=340
+Event.toString(): MoveEventmain.modele.Case (3, 2) : EAU duration=210
+Event.toString(): MoveEventmain.modele.Case (5, 5) : HABITAT duration=330
+Event.toString(): MoveEventmain.modele.Case (5, 7) : TERRAIN_LIBRE duration=330
+Event.toString(): MoveEventmain.modele.Case (3, 2) : EAU duration=200
+Event.toString(): MoveEventmain.modele.Case (5, 5) : HABITAT duration=320
+Event.toString(): MoveEventmain.modele.Case (5, 7) : TERRAIN_LIBRE duration=320
+Event.toString(): MoveEventmain.modele.Case (3, 2) : EAU duration=190
+Event.toString(): MoveEventmain.modele.Case (5, 5) : HABITAT duration=310
+Event.toString(): MoveEventmain.modele.Case (5, 7) : TERRAIN_LIBRE duration=310
+Event.toString(): MoveEventmain.modele.Case (3, 2) : EAU duration=180
+Event.toString(): MoveEventmain.modele.Case (5, 5) : HABITAT duration=300
+Event.toString(): MoveEventmain.modele.Case (5, 7) : TERRAIN_LIBRE duration=300
+Event.toString(): MoveEventmain.modele.Case (3, 2) : EAU duration=170
+Event.toString(): MoveEventmain.modele.Case (5, 5) : HABITAT duration=290
+Event.toString(): MoveEventmain.modele.Case (5, 7) : TERRAIN_LIBRE duration=290
+Event.toString(): MoveEventmain.modele.Case (3, 2) : EAU duration=160
+Event.toString(): MoveEventmain.modele.Case (5, 5) : HABITAT duration=280
+Event.toString(): MoveEventmain.modele.Case (5, 7) : TERRAIN_LIBRE duration=280
+Event.toString(): MoveEventmain.modele.Case (3, 2) : EAU duration=150
+Event.toString(): MoveEventmain.modele.Case (5, 5) : HABITAT duration=270
+Event.toString(): MoveEventmain.modele.Case (5, 7) : TERRAIN_LIBRE duration=270
+Event.toString(): MoveEventmain.modele.Case (3, 2) : EAU duration=140
+Event.toString(): MoveEventmain.modele.Case (5, 5) : HABITAT duration=260
+Event.toString(): MoveEventmain.modele.Case (5, 7) : TERRAIN_LIBRE duration=260
+Event.toString(): MoveEventmain.modele.Case (3, 2) : EAU duration=130
+Event.toString(): MoveEventmain.modele.Case (5, 5) : HABITAT duration=250
+Event.toString(): MoveEventmain.modele.Case (5, 7) : TERRAIN_LIBRE duration=250
+Event.toString(): MoveEventmain.modele.Case (3, 2) : EAU duration=120
+Event.toString(): MoveEventmain.modele.Case (5, 5) : HABITAT duration=240
+Event.toString(): MoveEventmain.modele.Case (5, 7) : TERRAIN_LIBRE duration=240
+Event.toString(): MoveEventmain.modele.Case (3, 2) : EAU duration=110
+Event.toString(): MoveEventmain.modele.Case (5, 5) : HABITAT duration=230
+Event.toString(): MoveEventmain.modele.Case (5, 7) : TERRAIN_LIBRE duration=230
+Event.toString(): MoveEventmain.modele.Case (3, 2) : EAU duration=100
+Event.toString(): MoveEventmain.modele.Case (5, 5) : HABITAT duration=220
+Event.toString(): MoveEventmain.modele.Case (5, 7) : TERRAIN_LIBRE duration=220
+Event.toString(): MoveEventmain.modele.Case (3, 2) : EAU duration=90
+Event.toString(): MoveEventmain.modele.Case (5, 5) : HABITAT duration=210
+Event.toString(): MoveEventmain.modele.Case (5, 7) : TERRAIN_LIBRE duration=210
+Event.toString(): MoveEventmain.modele.Case (3, 2) : EAU duration=80
+Event.toString(): MoveEventmain.modele.Case (5, 5) : HABITAT duration=200
+Event.toString(): MoveEventmain.modele.Case (5, 7) : TERRAIN_LIBRE duration=200
+Event.toString(): MoveEventmain.modele.Case (3, 2) : EAU duration=70
+Event.toString(): MoveEventmain.modele.Case (5, 5) : HABITAT duration=190
+Event.toString(): MoveEventmain.modele.Case (5, 7) : TERRAIN_LIBRE duration=190
+Event.toString(): MoveEventmain.modele.Case (3, 2) : EAU duration=60
+Event.toString(): MoveEventmain.modele.Case (5, 5) : HABITAT duration=180
+Event.toString(): MoveEventmain.modele.Case (5, 7) : TERRAIN_LIBRE duration=180
+Event.toString(): MoveEventmain.modele.Case (3, 2) : EAU duration=50
+Event.toString(): MoveEventmain.modele.Case (5, 5) : HABITAT duration=170
+Event.toString(): MoveEventmain.modele.Case (5, 7) : TERRAIN_LIBRE duration=170
+Event.toString(): MoveEventmain.modele.Case (3, 2) : EAU duration=40
+Event.toString(): MoveEventmain.modele.Case (5, 5) : HABITAT duration=160
+Event.toString(): MoveEventmain.modele.Case (5, 7) : TERRAIN_LIBRE duration=160
+Event.toString(): MoveEventmain.modele.Case (3, 2) : EAU duration=30
+Event.toString(): MoveEventmain.modele.Case (5, 5) : HABITAT duration=150
+Event.toString(): MoveEventmain.modele.Case (5, 7) : TERRAIN_LIBRE duration=150
+Event.toString(): MoveEventmain.modele.Case (3, 2) : EAU duration=20
+Event.toString(): MoveEventmain.modele.Case (5, 5) : HABITAT duration=140
+Event.toString(): MoveEventmain.modele.Case (5, 7) : TERRAIN_LIBRE duration=140
+Event.toString(): MoveEventmain.modele.Case (3, 2) : EAU duration=10
+Event.toString(): MoveEventmain.modele.Case (5, 5) : HABITAT duration=130
+Event.toString(): MoveEventmain.modele.Case (5, 7) : TERRAIN_LIBRE duration=130
+Event.toString(): MoveEventmain.modele.Case (3, 2) : EAU duration=0
+Event.toString(): MoveEventmain.modele.Case (5, 5) : HABITAT duration=120
+Event.toString(): MoveEventmain.modele.Case (5, 7) : TERRAIN_LIBRE duration=120
+Event.toString(): MoveEventmain.modele.Case (3, 1) : TERRAIN_LIBRE duration=240
+Event.toString(): MoveEventmain.modele.Case (5, 5) : HABITAT duration=110
+Event.toString(): MoveEventmain.modele.Case (5, 7) : TERRAIN_LIBRE duration=110
+Event.toString(): MoveEventmain.modele.Case (3, 1) : TERRAIN_LIBRE duration=230
+Event.toString(): MoveEventmain.modele.Case (5, 5) : HABITAT duration=100
+Event.toString(): MoveEventmain.modele.Case (5, 7) : TERRAIN_LIBRE duration=100
+Event.toString(): MoveEventmain.modele.Case (3, 1) : TERRAIN_LIBRE duration=220
+Event.toString(): MoveEventmain.modele.Case (5, 5) : HABITAT duration=90
+Event.toString(): MoveEventmain.modele.Case (5, 7) : TERRAIN_LIBRE duration=90
+Event.toString(): MoveEventmain.modele.Case (3, 1) : TERRAIN_LIBRE duration=210
+Event.toString(): MoveEventmain.modele.Case (5, 5) : HABITAT duration=80
+Event.toString(): MoveEventmain.modele.Case (5, 7) : TERRAIN_LIBRE duration=80
+Event.toString(): MoveEventmain.modele.Case (3, 1) : TERRAIN_LIBRE duration=200
+Event.toString(): MoveEventmain.modele.Case (5, 5) : HABITAT duration=70
+Event.toString(): MoveEventmain.modele.Case (5, 7) : TERRAIN_LIBRE duration=70
+Event.toString(): MoveEventmain.modele.Case (3, 1) : TERRAIN_LIBRE duration=190
+Event.toString(): MoveEventmain.modele.Case (5, 5) : HABITAT duration=60
+Event.toString(): MoveEventmain.modele.Case (5, 7) : TERRAIN_LIBRE duration=60
+Event.toString(): MoveEventmain.modele.Case (3, 1) : TERRAIN_LIBRE duration=180
+Event.toString(): MoveEventmain.modele.Case (5, 5) : HABITAT duration=50
+Event.toString(): MoveEventmain.modele.Case (5, 7) : TERRAIN_LIBRE duration=50
+Event.toString(): MoveEventmain.modele.Case (3, 1) : TERRAIN_LIBRE duration=170
+Event.toString(): MoveEventmain.modele.Case (5, 5) : HABITAT duration=40
+Event.toString(): MoveEventmain.modele.Case (5, 7) : TERRAIN_LIBRE duration=40
+Event.toString(): MoveEventmain.modele.Case (3, 1) : TERRAIN_LIBRE duration=160
+Event.toString(): MoveEventmain.modele.Case (5, 5) : HABITAT duration=30
+Event.toString(): MoveEventmain.modele.Case (5, 7) : TERRAIN_LIBRE duration=30
+Event.toString(): MoveEventmain.modele.Case (3, 1) : TERRAIN_LIBRE duration=150
+Event.toString(): MoveEventmain.modele.Case (5, 5) : HABITAT duration=20
+Event.toString(): MoveEventmain.modele.Case (5, 7) : TERRAIN_LIBRE duration=20
+Event.toString(): MoveEventmain.modele.Case (3, 1) : TERRAIN_LIBRE duration=140
+Event.toString(): MoveEventmain.modele.Case (5, 5) : HABITAT duration=10
+Event.toString(): MoveEventmain.modele.Case (5, 7) : TERRAIN_LIBRE duration=10
+Event.toString(): MoveEventmain.modele.Case (3, 1) : TERRAIN_LIBRE duration=130
+Event.toString(): MoveEventmain.modele.Case (5, 5) : HABITAT duration=0
+Event.toString(): MoveEventmain.modele.Case (5, 7) : TERRAIN_LIBRE duration=0
+Event.toString(): MoveEventmain.modele.Case (3, 1) : TERRAIN_LIBRE duration=120
+Event.toString(): MoveEventmain.modele.Case (6, 7) : TERRAIN_LIBRE duration=360
+Event.toString(): MoveEventmain.modele.Case (3, 1) : TERRAIN_LIBRE duration=110
+Event.toString(): MoveEventmain.modele.Case (6, 7) : TERRAIN_LIBRE duration=350
+Event.toString(): MoveEventmain.modele.Case (3, 1) : TERRAIN_LIBRE duration=100
+Event.toString(): MoveEventmain.modele.Case (6, 7) : TERRAIN_LIBRE duration=340

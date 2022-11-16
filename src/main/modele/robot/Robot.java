@@ -118,7 +118,7 @@ public abstract class Robot {
     public abstract boolean canRobotBeOnCase(Case targetPosition);
 
     public String toString() {
-        return "Robot " + this.type + " en " + this.position + " avec " + this.reservoir + "L";
+        return "Robot " + this.type + " en " + this.position + " avec " + this.reservoir + "L, occupé="+this.isOccupied;
     }
 
     public int emptyTank() {
@@ -157,7 +157,7 @@ public abstract class Robot {
     }
     public void execute() {
         if (indexEvenement < evenements.size()) {
-            System.out.println("Event.toString():"+evenements.get(indexEvenement).toString());
+            System.out.println("Event.toString(): "+evenements.get(indexEvenement).toString());
             evenements.get(indexEvenement).execute();
         }
     }

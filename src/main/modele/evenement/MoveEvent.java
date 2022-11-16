@@ -14,7 +14,8 @@ public class MoveEvent extends Evenement {
 
     public void execute() {
         if (duration > 0) {
-            duration--;
+            duration = duration - 10;
+            // TODO : changer la duration en fonction de la carte et du temps
         } else {
             try {
                 if (robot.canMoveTo(caseCible)) {
@@ -31,7 +32,7 @@ public class MoveEvent extends Evenement {
 
     @Override
     public String toString() {
-        return "MoveEvent" + caseCible.toString();
+        return "MoveEvent" + caseCible.toString() + " duration=" + duration;
     }
 
 }

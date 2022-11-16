@@ -24,7 +24,6 @@ public class Simulateur implements Simulable {
     private DonneesSimulation donneesSimulation;
     private int tempsEcoule;
     private String map;
-    private ChefRobot chefRobot;
 
     public Simulateur(String[] args) {
         this.gui = new GUISimulator(800, 600, Color.BLACK);
@@ -40,19 +39,19 @@ public class Simulateur implements Simulable {
             System.exit(1);
         }
 
-        this.chefRobot = ChefRobot.getInstance(); // création du singleton chef robot
+        ChefRobot.getInstance(); // création du singleton chef robot
         switch (args.length > 1 && args[1] != null ? args[1] : "1") {
-            case "1" -> chefRobot.setStrategy(new NavigationStrategy1());
-            case "2" -> chefRobot.setStrategy(new NavigationStrategy2());
+            case "1" -> ChefRobot.getInstance().setStrategy(new NavigationStrategy1());
+            case "2" -> ChefRobot.getInstance().setStrategy(new NavigationStrategy2());
             default -> {
-                chefRobot.setStrategy(new NavigationStrategy1());
+                ChefRobot.getInstance().setStrategy(new NavigationStrategy1());
                 System.out.println("Stratégie non reconnue, stratégie 1 par défaut");
             }
         }
 
 
         this.tempsEcoule = 0;
-        chefRobot.initDistribution(donneesSimulation);
+        ChefRobot.getInstance().initDistribution(donneesSimulation);
         draw();
     }
 
@@ -80,13 +79,17 @@ public class Simulateur implements Simulable {
         // dessine les incendies
         List<Incendie> incendies = donneesSimulation.getIncendies();
         for (Incendie incendie : incendies) {
-            if (!incendie.IsEteint()) {
+            if (!incendie.isEteint()) {
+                int width = caseWidth * (incendie.getEauNecessaire()/incendie.getEauNecessaireStart());
+                int height = caseHeight * (incendie.getEauNecessaire()/incendie.getEauNecessaireStart());
+                int insertWidth = (caseWidth - width) / 2;
+                int insertHeight = (caseHeight - height) / 2;
                 gui.addGraphicalElement(new ImageElement(
-                        incendie.getPosition().getLigne() * caseWidth,
-                        incendie.getPosition().getColonne() * caseHeight,
+                        incendie.getPosition().getLigne() * caseWidth + insertWidth,
+                        incendie.getPosition().getColonne() * caseHeight + insertHeight,
                         incendie.getImage(),
-                        caseWidth,
-                        caseHeight,
+                        width,
+                        height,
                         null));
             }
         }
@@ -113,14 +116,13 @@ public class Simulateur implements Simulable {
      */
     @Override
     public void next() {
-        if (chefRobot.notif) {
-            chefRobot.updateChemins(this.donneesSimulation);
-            chefRobot.notif = false;
+        if (ChefRobot.getInstance().notif) {
+            ChefRobot.getInstance().updateChemins(this.donneesSimulation);
+            ChefRobot.getInstance().notif = false;
         }
         for (Robot robot : donneesSimulation.getRobots()) {
             if (robot.isOccupied()) {
                 // TODO : faire l'event current du robot
-                System.out.println("Robot " + robot.getName() + " : " + robot.getPosition());
                 robot.execute();
             }
         }
@@ -135,7 +137,7 @@ public class Simulateur implements Simulable {
     public void restart() {
         try {
             donneesSimulation = LecteurDonnees.getData(map);
-            chefRobot.reset();
+            ChefRobot.getInstance().reset();
             draw();
         } catch (FileNotFoundException | DataFormatException e) {
             throw new RuntimeException(e);

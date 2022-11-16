@@ -16,7 +16,7 @@ public class EteindreEvent extends Evenement {
         try {
             if (robot.getPosition() != incendie.getPosition()) {
                 throw new NoIncendieException("Le robot n'est pas sur la case de l'incendie");
-            } else if (incendie.IsEteint()) {
+            } else if (incendie.isEteint()) {
                 throw new NoIncendieException("L'incendie est déjà éteint");
             } else if (robot.isEmpty()) {
                 throw new NoIncendieException("Le robot est vide");
@@ -25,11 +25,14 @@ public class EteindreEvent extends Evenement {
                 // TODO : revoir pour que ça baisse petit à petit
             } else {
                 int EauDeverse = robot.emptyTank();
-                incendie.Eteindre(EauDeverse);
+                incendie.eteindre(EauDeverse);
                 robot.nextEvent();
             }
         } catch (NoIncendieException e) {
             System.err.println(e.getMessage());
         }
+    }
+    public String toString() {
+        return "EteindreEvent (" + incendie.toString() + ") duration=" + duration;
     }
 }
