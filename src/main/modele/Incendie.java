@@ -48,12 +48,7 @@ public class Incendie {
      * @param quantiteEau la quantité d'eau utilisée pour éteindre l'incendie
      */
     public void eteindre(int quantiteEau) {
-        int res = this.eauNecessaire - quantiteEau;
-        if (res <= 0) {
-            this.eauNecessaire = 0;
-        } else {
-            this.eauNecessaire = res;
-        }
+        this.eauNecessaire = Math.max(this.eauNecessaire - quantiteEau, 0);
     }
 
     /**
