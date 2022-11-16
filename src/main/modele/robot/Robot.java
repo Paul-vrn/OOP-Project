@@ -20,7 +20,7 @@ public abstract class Robot {
     protected int baseVitesse;
     protected int tempsRemplissage;
 
-    protected int debitVidage;
+    protected double debitVidage;
 
     protected List<Evenement> evenements;
     protected int indexEvenement;
@@ -73,7 +73,7 @@ public abstract class Robot {
         return this.baseVitesse;
     }
 
-    public int getDebitVidage() {
+    public double getDebitVidage() {
         return this.debitVidage;
     }
 
@@ -165,7 +165,7 @@ public abstract class Robot {
         if (indexEvenement < evenements.size()) {
             indexEvenement++;
         } else {
-            System.out.println("No more events for this robot " + this.getName() +" "+ this.getPosition());
+            System.out.println("No more events for this robot " + this.getName() + " " + this.getPosition());
             this.isOccupied = false;
             ChefRobot.getInstance().notif = true;
         }

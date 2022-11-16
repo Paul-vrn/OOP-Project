@@ -46,7 +46,9 @@ public class Simulateur implements Simulable {
         }
 
         ChefRobot.getInstance(); // création du singleton chef robot
-        ChefRobot.getInstance().n = (int) (0.005 * donneesSimulation.getCarte().getTailleCases());
+        ChefRobot.getInstance().n = (donneesSimulation.getCarte().getTailleCases() / 20)
+                * (50 / donneesSimulation.getCarte().getNbColonnes());
+
         switch (args.length > 1 && args[1] != null ? args[1] : "1") {
             case "1" -> ChefRobot.getInstance().setStrategy(new NavigationStrategy1());
             case "2" -> ChefRobot.getInstance().setStrategy(new NavigationStrategy2());
@@ -85,8 +87,10 @@ public class Simulateur implements Simulable {
         List<Incendie> incendies = donneesSimulation.getIncendies();
         for (Incendie incendie : incendies) {
             if (!incendie.isEteint()) {
-                int width = (int) ((float)caseWidth * (float)incendie.getEauNecessaire() / (float)incendie.getEauNecessaireStart());
-                int height = (int) ((float)caseHeight * (float)incendie.getEauNecessaire() / (float)incendie.getEauNecessaireStart());
+                int width = (int) ((float) caseWidth * (float) incendie.getEauNecessaire()
+                        / (float) incendie.getEauNecessaireStart());
+                int height = (int) ((float) caseHeight * (float) incendie.getEauNecessaire()
+                        / (float) incendie.getEauNecessaireStart());
                 int insertWidth = ((caseWidth - width) / 2);
                 int insertHeight = ((caseHeight - height) / 2);
                 gui.addGraphicalElement(new ImageElement(

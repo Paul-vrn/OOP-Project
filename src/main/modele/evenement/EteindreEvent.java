@@ -43,10 +43,13 @@ public class EteindreEvent extends Evenement {
         int n = ChefRobot.getInstance().n;
         if (duration >= n) {
             duration = duration - n;
-            incendie.eteindre(n * robot.getDebitVidage());
-            robot.emptyTank(n * robot.getDebitVidage());
+            incendie.eteindre((int) Math.ceil(n * robot.getDebitVidage()));
+            robot.emptyTank((int) Math.ceil(n * robot.getDebitVidage()));
         } else {
-            incendie.eteindre(duration * robot.getDebitVidage());
+            incendie.eteindre(
+                    (int) Math.ceil(duration * robot.getDebitVidage()));
+            robot.emptyTank((int) Math.ceil(duration * robot.getDebitVidage()));
+            System.out.println("Un incendie de éteint " + incendie.isEteint());
             robot.nextEvent();
         }
     }
