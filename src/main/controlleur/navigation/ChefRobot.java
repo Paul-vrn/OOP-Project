@@ -12,7 +12,7 @@ public final class ChefRobot {
 
     public NavigationStrategy strategy; // stratégie de navigation
     public boolean notif; // notification de fin de simulation
-    public Queue<Chemin> chemins; // liste ordonnée des chemins à parcourir
+    public PriorityQueue<Chemin> chemins; // liste ordonnée des chemins à parcourir
     public int n; // le nombre de pas par seconde
 
     /**
@@ -23,7 +23,7 @@ public final class ChefRobot {
     private ChefRobot(NavigationStrategy strategy) {
         this.strategy = strategy;
         this.notif = false;
-        this.chemins = new PriorityQueue<>(Chemin.Comparators.DURATION);
+        this.chemins = new PriorityQueue<>(Comparator.comparingInt(Chemin::getDuration));
     }
 
     /**
@@ -53,8 +53,8 @@ public final class ChefRobot {
      * @param donneesSimulation données de la simulation
      */
     public void initDistribution(DonneesSimulation donneesSimulation) {
-        strategy.fillChemins(chemins, donneesSimulation);
-        strategy.distribution(chemins);
+        strategy.fillChemins(donneesSimulation);
+        strategy.distribution();
         notif = false;
     }
 
@@ -71,8 +71,8 @@ public final class ChefRobot {
                             !chemin.getEnd().equals(chemin.getIncendie().getPosition()) ||
                             chemin.getRobot().isEmpty() || chemin.getIncendie().isEteint()
             );
-            strategy.fillChemins(chemins, donneesSimulation);
-            strategy.distribution(chemins);
+            strategy.fillChemins(donneesSimulation);
+            strategy.distribution();
             notif = false;
         }
     }

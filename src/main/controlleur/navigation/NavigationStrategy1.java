@@ -214,16 +214,21 @@ public class NavigationStrategy1 implements NavigationStrategy {
      * Va reremplir les chemins avec les robots non assignés et les incendies non
      * éteints
      *
-     * @param chemins           les chemins à remplir
      * @param donneesSimulation les données de la simulation
      */
-    public void fillChemins(Queue<Chemin> chemins, DonneesSimulation donneesSimulation) {
+    public void fillChemins(DonneesSimulation donneesSimulation) {
         for (Incendie incendie : donneesSimulation.getIncendies()) {
             if (!incendie.isEteint() && !incendie.isHandled()) {
                 for (Robot robot : donneesSimulation.getRobots()) {
                     if (!robot.isEmpty() && !robot.isOccupied()) {
                         Chemin chemin = plusCourtChemin(robot, incendie, donneesSimulation);
-                        chemins.add(chemin);
+                        if (chemin != null) {
+                            ChefRobot.getInstance().chemins.add(chemin);
+                        } else {
+                            System.out.println("Le chemin entre le robot " + robot.getName() +" ("+ robot.getPosition().getLigne()
+                                    + ":" + robot.getPosition().getColonne()+") et l'incendie ("
+                                    + incendie.getPosition().getLigne() + ":" + incendie.getPosition().getColonne() + ") n'a pas pu être trouvé");
+                        }
                     }
                 }
             }
@@ -236,15 +241,18 @@ public class NavigationStrategy1 implements NavigationStrategy {
      * on redistribue les chemins restants aux robots non occupés et aux incendies
      * non éteints
      */
-    public void distribution(Queue<Chemin> chemins) {
-        Iterator<Chemin> iterator = chemins.iterator();
-        while (iterator.hasNext()) {
-            Chemin chemin = iterator.next();
+    public void distribution() {
+        while (ChefRobot.getInstance().chemins.peek() != null){
+            Chemin chemin = ChefRobot.getInstance().chemins.poll();
+            assert chemin != null;
+            System.out.println(chemin.getDuration() + " | " + chemin.getRobot().getName() +
+                    " | incendie=" + chemin.getIncendie().getPosition().getLigne() +
+                    ":" + chemin.getIncendie().getPosition().getColonne()
+            );
             if (!chemin.getRobot().isOccupied() && !chemin.getIncendie().isHandled()) {
                 chemin.getRobot().addEvenements(chemin.getEvents());
                 chemin.getRobot().setOccupied(true);
                 chemin.getIncendie().setHandle(true);
-                iterator.remove();
             }
         }
     }

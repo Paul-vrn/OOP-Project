@@ -26,6 +26,6 @@ public interface NavigationStrategy {
      * @param donneesSimulation
      * @return
      */
-    void fillChemins(Queue<Chemin> chemins, DonneesSimulation donneesSimulation);
-    void distribution(Queue<Chemin> chemins);
+    void fillChemins(DonneesSimulation donneesSimulation);
+    void distribution();
 }

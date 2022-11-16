@@ -66,17 +66,17 @@ public class Simulateur implements Simulable {
     private void draw() {
         gui.reset();
         Carte carte = donneesSimulation.getCarte();
-        int caseWidth = gui.getPanelWidth() / carte.getNbColonnes();
-        int caseHeight = gui.getPanelHeight() / carte.getNbLignes();
+        int caseWidth = gui.getPanelHeight() / carte.getNbLignes();
+        int caseHeight = gui.getPanelWidth() / carte.getNbColonnes();
         // dessine la carte
         for (int i = 0; i < carte.getNbLignes(); i++) {
             for (int j = 0; j < carte.getNbColonnes(); j++) {
                 gui.addGraphicalElement(new ImageElement(
-                        i * caseWidth,
                         j * caseHeight,
+                        i * caseWidth,
                         carte.getCase(i, j).getNature().getImage(),
-                        caseWidth,
                         caseHeight,
+                        caseWidth,
                         null));
             }
         }
@@ -89,11 +89,11 @@ public class Simulateur implements Simulable {
                 int insertWidth = (caseWidth - width) / 2;
                 int insertHeight = (caseHeight - height) / 2;
                 gui.addGraphicalElement(new ImageElement(
-                        incendie.getPosition().getLigne() * caseWidth + insertWidth,
                         incendie.getPosition().getColonne() * caseHeight + insertHeight,
+                        incendie.getPosition().getLigne() * caseWidth + insertWidth,
                         incendie.getImage(),
-                        width,
                         height,
+                        width,
                         null));
             }
         }
@@ -101,15 +101,15 @@ public class Simulateur implements Simulable {
         List<Robot> robots = donneesSimulation.getRobots();
         for (Robot robot : robots) {
             gui.addGraphicalElement(new ImageElement(
-                    robot.getPosition().getLigne() * caseWidth,
                     robot.getPosition().getColonne() * caseHeight,
+                    robot.getPosition().getLigne() * caseWidth,
                     robot.getImage(),
-                    caseWidth,
                     caseHeight,
+                    caseWidth,
                     null));
             gui.addGraphicalElement(new Text(
-                    robot.getPosition().getLigne() * caseWidth + caseWidth / 2,
-                    robot.getPosition().getColonne() * caseHeight + (int) (caseHeight / 1.2),
+                    robot.getPosition().getColonne() * caseHeight + caseWidth / 2,
+                    robot.getPosition().getLigne() * caseWidth + (int) (caseHeight / 1.2),
                     Color.WHITE,
                     robot.getName()));
         }

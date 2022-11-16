@@ -35,16 +35,6 @@ public class Chemin {
     }
 
     /**
-     * Compateur de la classe Chemin
-     */
-    public static class Comparators {
-        /**
-         * Comparateur de chemin par durée
-         */
-        public static final java.util.Comparator<Chemin> DURATION = (o1, o2) -> o1.duration - o2.duration;
-    }
-
-    /**
      * Getter de la case de départ
      * @return la case de départ
      */
@@ -124,6 +114,14 @@ public class Chemin {
         this.end = end;
     }
 
+    public int getDuration() {
+        return duration;
+    }
+
+    public void setDuration(int duration) {
+        this.duration = duration;
+    }
+
     /**
      * Print pour tester
      */
@@ -134,5 +132,16 @@ public class Chemin {
         for (Evenement event : this.events) {
             System.out.println(event);
         }
+    }
+    @Override
+    public String toString() {
+        return "Chemin{" +
+                "start=" + start +
+                ", end=" + end +
+                ", robot=" + robot +
+                ", incendie=" + incendie +
+                ", duration=" + duration +
+                ", events=" + events +
+                '}';
     }
 }

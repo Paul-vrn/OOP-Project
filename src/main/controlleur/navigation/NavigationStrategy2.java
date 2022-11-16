@@ -26,11 +26,11 @@ public class NavigationStrategy2 implements NavigationStrategy {
     }
 
     @Override
-    public void fillChemins(Queue<Chemin> chemins, DonneesSimulation donneesSimulation){
+    public void fillChemins(DonneesSimulation donneesSimulation){
     }
 
     @Override
-    public void distribution(Queue<Chemin> chemins) {
+    public void distribution() {
 
     }
 }
