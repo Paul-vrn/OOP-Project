@@ -23,6 +23,7 @@ public class Drone extends Robot {
         this.tempsRemplissage = 30 * 60;
         this.quantiteEauParIntervention = 10000;
         this.tempsIntervention = 30;
+        this.debitVidage = 333;
         this.evenements = new ArrayList<>();
     }
 

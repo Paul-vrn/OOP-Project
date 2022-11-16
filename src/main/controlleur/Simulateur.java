@@ -28,6 +28,7 @@ public class Simulateur implements Simulable {
 
     /**
      * Constructeur de la classe Simulateur
+     * 
      * @param args les arguments de la ligne de commande
      */
     public Simulateur(String[] args) {
@@ -45,7 +46,7 @@ public class Simulateur implements Simulable {
         }
 
         ChefRobot.getInstance(); // création du singleton chef robot
-        ChefRobot.getInstance().n = (int) Math.round(donneesSimulation.getCarte().getTailleCases() / 27.8);
+        ChefRobot.getInstance().n = 50;
         switch (args.length > 1 && args[1] != null ? args[1] : "1") {
             case "1" -> ChefRobot.getInstance().setStrategy(new NavigationStrategy1());
             case "2" -> ChefRobot.getInstance().setStrategy(new NavigationStrategy2());

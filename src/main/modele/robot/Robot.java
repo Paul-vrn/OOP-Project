@@ -20,6 +20,8 @@ public abstract class Robot {
     protected int baseVitesse;
     protected int tempsRemplissage;
 
+    protected int debitVidage;
+
     protected List<Evenement> evenements;
     protected int indexEvenement;
 
@@ -71,6 +73,10 @@ public abstract class Robot {
         return this.baseVitesse;
     }
 
+    public int getDebitVidage() {
+        return this.debitVidage;
+    }
+
     public int getTempsDeplacement(Carte carte, Case position) {
         return (int) Math.round(carte.getTailleCases() / (getVitesse(position) / 3.6));
     }
@@ -120,9 +126,15 @@ public abstract class Robot {
                 + this.isOccupied;
     }
 
-    public int emptyTank() {
-        this.reservoir = this.reservoir - this.quantiteEauParIntervention;
-        return this.quantiteEauParIntervention;
+    public int emptyTank(int n) {
+        if (n > this.reservoir) {
+            int tmp = this.reservoir;
+            this.reservoir = 0;
+            return tmp;
+        } else {
+            this.reservoir -= n;
+            return n;
+        }
     }
 
     public boolean isEmpty() {

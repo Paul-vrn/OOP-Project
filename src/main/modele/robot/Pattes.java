@@ -19,16 +19,19 @@ public class Pattes extends Robot {
         setPosition(position);
         this.type = RobotType.PATTES;
         this.baseVitesse = 100;
-        this.reservoir = -1; // infini
+        this.reservoir = Integer.MAX_VALUE; // infini
         // 30 minutes
         this.tempsRemplissage = 30 * 60;
         this.quantiteEauParIntervention = 10;
+        this.debitVidage = 10;
+
         this.tempsIntervention = 1;
         this.evenements = new ArrayList<>();
     }
 
     /**
      * Getter
+     * 
      * @param position
      * @return
      */

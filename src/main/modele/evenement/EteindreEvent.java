@@ -13,13 +13,26 @@ public class EteindreEvent extends Evenement {
 
     /**
      * Constructeur de l'évènement d'extinction d'un incendie
+     * 
      * @param dateStart date de début de l'évènement
-     * @param duration durée de l'évènement
-     * @param robot robot qui va éteindre l'incendie
-     * @param incendie incendie à éteindre
+     * @param duration  durée de l'évènement
+     * @param robot     robot qui va éteindre l'incendie
+     * @param incendie  incendie à éteindre
      */
     public EteindreEvent(int dateStart, int duration, Robot robot, Incendie incendie) {
         super(dateStart, duration, robot);
+        this.incendie = incendie;
+    }
+
+    public EteindreEvent(int dateStart, Robot robot, Incendie incendie) {
+        super(dateStart, 0, robot);
+        int volume;
+        if (incendie.getEauNecessaire() > robot.getReservoir()) {
+            volume = robot.getReservoir();
+        } else {
+            volume = incendie.getEauNecessaire();
+        }
+        this.duration = (int) Math.ceil((double) volume / (double) robot.getDebitVidage());
         this.incendie = incendie;
     }
 
@@ -28,27 +41,20 @@ public class EteindreEvent extends Evenement {
      */
     public void execute() {
         int n = ChefRobot.getInstance().n;
-        try {
-            if (robot.getPosition() != incendie.getPosition()) {
-                throw new NoIncendieException("Le robot n'est pas sur la case de l'incendie");
-            } else if (incendie.isEteint()) {
-                throw new NoIncendieException("L'incendie est déjà éteint");
-            } else if (robot.isEmpty()) {
-                throw new NoIncendieException("Le robot est vide");
-            } else if (duration >= n) {
-                duration = duration - n;
-                // TODO : revoir pour que ça baisse petit à petit
-            } else {
-                int eauDeverse = robot.emptyTank();
-                incendie.eteindre(eauDeverse);
-                robot.nextEvent();
-            }
-        } catch (NoIncendieException e) {
-            System.err.println(e.getMessage());
+        if (duration >= n) {
+            duration = duration - n;
+            incendie.eteindre(n * robot.getDebitVidage());
+            robot.emptyTank(n * robot.getDebitVidage());
+        } else {
+            incendie.eteindre(duration * robot.getDebitVidage());
+            robot.nextEvent();
         }
     }
 
-
+    /**
+     *
+     * @return
+     */
     @Override
     public String toString() {
         return "EteindreEvent (" + incendie.toString() + ") duration=" + duration;

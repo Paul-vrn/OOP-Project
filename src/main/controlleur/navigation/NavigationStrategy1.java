@@ -2,6 +2,7 @@ package main.controlleur.navigation;
 
 import main.controlleur.DonneesSimulation;
 import main.modele.Incendie;
+import main.modele.evenement.EteindreEvent;
 import main.modele.evenement.Evenement;
 import main.modele.evenement.MoveEvent;
 import main.modele.robot.Robot;
@@ -16,8 +17,9 @@ public class NavigationStrategy1 implements NavigationStrategy {
 
     /**
      * calcule le plus court chemin entre un robot et un incendie
-     * @param robot le robot
-     * @param incendie l'incendie
+     * 
+     * @param robot             le robot
+     * @param incendie          l'incendie
      * @param donneesSimulation les données de la simulation
      * @return le chemin
      */
@@ -40,18 +42,26 @@ public class NavigationStrategy1 implements NavigationStrategy {
         Node minNode = currentNode;
         currentNode.setgScore(0);
         currentNode.setfScore(
-                (double) currentNode.hCalculator(incendie) * carte.getTailleCases() / (robot.getBaseVitesse() / 3.6));// On met le noeud de départ à 0
+                (double) currentNode.hCalculator(incendie) * carte.getTailleCases() / (robot.getBaseVitesse() / 3.6));// On
+                                                                                                                      // met
+                                                                                                                      // le
+                                                                                                                      // noeud
+                                                                                                                      // de
+                                                                                                                      // départ
+                                                                                                                      // à
+                                                                                                                      // 0
         while (!openNodes.isEmpty()) {
-            //System.out.println("openNodes.size() = " + openNodes.size() + " closedNodes.size() = " + closedNodes.size());
+            // System.out.println("openNodes.size() = " + openNodes.size() + "
+            // closedNodes.size() = " + closedNodes.size());
             // currentNode becomes the node in openNodes with the smalles fScore
             minNode = openNodes.get(0);
             for (Node node : openNodes) {
-                //System.out.println(node.getPosition() + "   " + node.getfScore());
+                // System.out.println(node.getPosition() + " " + node.getfScore());
                 if (node.getfScore() < minNode.getfScore()) {
                     minNode = node;
                 }
             }
-            //System.out.println("MinNode : " + minNode.getPosition());
+            // System.out.println("MinNode : " + minNode.getPosition());
             // currentNode = openNodes.get(0);
             // for (int i = 0; i < openNodes.size(); i++) {
             // if (currentNode.getfScore() < openNodes.get(i).getfScore()) {
@@ -76,6 +86,9 @@ public class NavigationStrategy1 implements NavigationStrategy {
                     events.add(new MoveEvent(0, (int) tempDuration, robot, nodeChemin.get(i).getPosition()));
                     tempDuration = carte.getTailleCases() / (robot.getVitesse(nodeChemin.get(i).getPosition()) / 3.6);
                 }
+                // TODO ajouter les évènements pour éteindre l'incendie et peut être pour le
+                // remplir
+                events.add(new EteindreEvent(0, robot, incendie));
 
                 return new Chemin(robot, incendie,
                         (int) nodeMap[incendie.getPosition().getLigne()][incendie.getPosition().getColonne()]
@@ -124,14 +137,14 @@ public class NavigationStrategy1 implements NavigationStrategy {
                                     .getPosition())) {
                 Node voisinGauche = nodeMap[currentNode.getPosition().getLigne()][currentNode.getPosition().getColonne()
                         - 1];
-                //System.out.println("VoisinGauche" + voisinGauche.getPosition());
+                // System.out.println("VoisinGauche" + voisinGauche.getPosition());
                 if (!closedNodes.contains(voisinGauche) && !openNodes.contains(voisinGauche)) {
                     openNodes.add(voisinGauche);
                     voisinGauche.setParent(currentNode);
                     voisinGauche.setgScore(currentNode.getgScore() + edgeTime);
                     voisinGauche.setfScore(voisinGauche.getgScore()
                             + (((double) voisinGauche.hCalculator(incendie) * carte.getTailleCases())
-                            / (robot.getBaseVitesse() / 3.6)));
+                                    / (robot.getBaseVitesse() / 3.6)));
 
                 } else {
                     if (voisinGauche.getgScore() > currentNode.getgScore() + edgeTime) {
@@ -139,7 +152,7 @@ public class NavigationStrategy1 implements NavigationStrategy {
                         voisinGauche.setgScore(currentNode.getgScore() + edgeTime);
                         voisinGauche.setfScore(voisinGauche.getgScore()
                                 + (((double) voisinGauche.hCalculator(incendie) * carte.getTailleCases())
-                                / (robot.getBaseVitesse() / 3.6)));
+                                        / (robot.getBaseVitesse() / 3.6)));
                         if (closedNodes.contains(voisinGauche)) {
                             closedNodes.remove(voisinGauche);
                             openNodes.add(voisinGauche);
@@ -159,7 +172,7 @@ public class NavigationStrategy1 implements NavigationStrategy {
                     voisinHaut.setgScore(currentNode.getgScore() + edgeTime);
                     voisinHaut.setfScore(voisinHaut.getgScore()
                             + (((double) voisinHaut.hCalculator(incendie) * carte.getTailleCases())
-                            / (robot.getBaseVitesse() / 3.6)));
+                                    / (robot.getBaseVitesse() / 3.6)));
 
                 } else {
                     if (voisinHaut.getgScore() > currentNode.getgScore() + edgeTime) {
@@ -167,7 +180,7 @@ public class NavigationStrategy1 implements NavigationStrategy {
                         voisinHaut.setgScore(currentNode.getgScore() + edgeTime);
                         voisinHaut.setfScore(voisinHaut.getgScore()
                                 + (((double) voisinHaut.hCalculator(incendie) * carte.getTailleCases())
-                                / (robot.getBaseVitesse() / 3.6)));
+                                        / (robot.getBaseVitesse() / 3.6)));
                         if (closedNodes.contains(voisinHaut)) {
                             closedNodes.remove(voisinHaut);
                             openNodes.add(voisinHaut);
@@ -195,7 +208,7 @@ public class NavigationStrategy1 implements NavigationStrategy {
                         voisinBas.setgScore(currentNode.getgScore() + edgeTime);
                         voisinBas.setfScore(voisinBas.getgScore()
                                 + (((double) voisinBas.hCalculator(incendie) * carte.getTailleCases())
-                                / (robot.getBaseVitesse() / 3.6)));
+                                        / (robot.getBaseVitesse() / 3.6)));
                         if (closedNodes.contains(voisinBas)) {
                             closedNodes.remove(voisinBas);
                             openNodes.add(voisinBas);
@@ -225,9 +238,11 @@ public class NavigationStrategy1 implements NavigationStrategy {
                         if (chemin != null) {
                             ChefRobot.getInstance().chemins.add(chemin);
                         } else {
-                            System.out.println("Le chemin entre le robot " + robot.getName() +" ("+ robot.getPosition().getLigne()
-                                    + ":" + robot.getPosition().getColonne()+") et l'incendie ("
-                                    + incendie.getPosition().getLigne() + ":" + incendie.getPosition().getColonne() + ") n'a pas pu être trouvé");
+                            System.out.println("Le chemin entre le robot " + robot.getName() + " ("
+                                    + robot.getPosition().getLigne()
+                                    + ":" + robot.getPosition().getColonne() + ") et l'incendie ("
+                                    + incendie.getPosition().getLigne() + ":" + incendie.getPosition().getColonne()
+                                    + ") n'a pas pu être trouvé");
                         }
                     }
                 }
@@ -242,13 +257,12 @@ public class NavigationStrategy1 implements NavigationStrategy {
      * non éteints
      */
     public void distribution() {
-        while (ChefRobot.getInstance().chemins.peek() != null){
+        while (ChefRobot.getInstance().chemins.peek() != null) {
             Chemin chemin = ChefRobot.getInstance().chemins.poll();
             assert chemin != null;
             System.out.println(chemin.getDuration() + " | " + chemin.getRobot().getName() +
                     " | incendie=" + chemin.getIncendie().getPosition().getLigne() +
-                    ":" + chemin.getIncendie().getPosition().getColonne()
-            );
+                    ":" + chemin.getIncendie().getPosition().getColonne());
             if (!chemin.getRobot().isOccupied() && !chemin.getIncendie().isHandled()) {
                 chemin.getRobot().addEvenements(chemin.getEvents());
                 chemin.getRobot().setOccupied(true);
