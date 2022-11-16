@@ -7,6 +7,7 @@ import main.modele.evenement.Evenement;
 import main.modele.evenement.MoveEvent;
 import main.modele.robot.Robot;
 import main.modele.Carte;
+import main.modele.Case;
 
 import java.util.*;
 
@@ -42,14 +43,15 @@ public class NavigationStrategy1 implements NavigationStrategy {
         Node minNode = currentNode;
         currentNode.setgScore(0);
         currentNode.setfScore(
-                (double) currentNode.hCalculator(incendie) * carte.getTailleCases() / (robot.getBaseVitesse() / 3.6));// On
-                                                                                                                      // met
-                                                                                                                      // le
-                                                                                                                      // noeud
-                                                                                                                      // de
-                                                                                                                      // départ
-                                                                                                                      // à
-                                                                                                                      // 0
+                (double) currentNode.hCalculator(incendie.getPosition()) * carte.getTailleCases()
+                        / (robot.getBaseVitesse() / 3.6));// On
+        // met
+        // le
+        // noeud
+        // de
+        // départ
+        // à
+        // 0
         while (!openNodes.isEmpty()) {
             // System.out.println("openNodes.size() = " + openNodes.size() + "
             // closedNodes.size() = " + closedNodes.size());
@@ -115,14 +117,14 @@ public class NavigationStrategy1 implements NavigationStrategy {
                     // System.out.println("VoisinDroite gscore apres changement = " +
                     // voisinDroite.getgScore());
                     voisinDroite.setfScore(voisinDroite.getgScore()
-                            + (((double) voisinDroite.hCalculator(incendie) * carte.getTailleCases())
+                            + (((double) voisinDroite.hCalculator(incendie.getPosition()) * carte.getTailleCases())
                                     / (robot.getBaseVitesse() / 3.6)));
                 } else {
                     if (voisinDroite.getgScore() > currentNode.getgScore() + edgeTime) {
                         voisinDroite.setParent(currentNode);
                         voisinDroite.setgScore(currentNode.getgScore() + edgeTime);
                         voisinDroite.setfScore(voisinDroite.getgScore()
-                                + (((double) voisinDroite.hCalculator(incendie) * carte.getTailleCases())
+                                + (((double) voisinDroite.hCalculator(incendie.getPosition()) * carte.getTailleCases())
                                         / (robot.getBaseVitesse() / 3.6)));
                         if (closedNodes.contains(voisinDroite)) {
                             closedNodes.remove(voisinDroite);
@@ -143,7 +145,7 @@ public class NavigationStrategy1 implements NavigationStrategy {
                     voisinGauche.setParent(currentNode);
                     voisinGauche.setgScore(currentNode.getgScore() + edgeTime);
                     voisinGauche.setfScore(voisinGauche.getgScore()
-                            + (((double) voisinGauche.hCalculator(incendie) * carte.getTailleCases())
+                            + (((double) voisinGauche.hCalculator(incendie.getPosition()) * carte.getTailleCases())
                                     / (robot.getBaseVitesse() / 3.6)));
 
                 } else {
@@ -151,7 +153,7 @@ public class NavigationStrategy1 implements NavigationStrategy {
                         voisinGauche.setParent(currentNode);
                         voisinGauche.setgScore(currentNode.getgScore() + edgeTime);
                         voisinGauche.setfScore(voisinGauche.getgScore()
-                                + (((double) voisinGauche.hCalculator(incendie) * carte.getTailleCases())
+                                + (((double) voisinGauche.hCalculator(incendie.getPosition()) * carte.getTailleCases())
                                         / (robot.getBaseVitesse() / 3.6)));
                         if (closedNodes.contains(voisinGauche)) {
                             closedNodes.remove(voisinGauche);
@@ -171,7 +173,7 @@ public class NavigationStrategy1 implements NavigationStrategy {
                     voisinHaut.setParent(currentNode);
                     voisinHaut.setgScore(currentNode.getgScore() + edgeTime);
                     voisinHaut.setfScore(voisinHaut.getgScore()
-                            + (((double) voisinHaut.hCalculator(incendie) * carte.getTailleCases())
+                            + (((double) voisinHaut.hCalculator(incendie.getPosition()) * carte.getTailleCases())
                                     / (robot.getBaseVitesse() / 3.6)));
 
                 } else {
@@ -179,7 +181,7 @@ public class NavigationStrategy1 implements NavigationStrategy {
                         voisinHaut.setParent(currentNode);
                         voisinHaut.setgScore(currentNode.getgScore() + edgeTime);
                         voisinHaut.setfScore(voisinHaut.getgScore()
-                                + (((double) voisinHaut.hCalculator(incendie) * carte.getTailleCases())
+                                + (((double) voisinHaut.hCalculator(incendie.getPosition()) * carte.getTailleCases())
                                         / (robot.getBaseVitesse() / 3.6)));
                         if (closedNodes.contains(voisinHaut)) {
                             closedNodes.remove(voisinHaut);
@@ -199,15 +201,16 @@ public class NavigationStrategy1 implements NavigationStrategy {
                     voisinBas.setParent(currentNode);
                     voisinBas.setgScore(currentNode.getgScore() + edgeTime);
                     voisinBas.setfScore(
-                            voisinBas.getgScore() + (((double) voisinBas.hCalculator(incendie) * carte.getTailleCases())
-                                    / (robot.getBaseVitesse() / 3.6)));
+                            voisinBas.getgScore()
+                                    + (((double) voisinBas.hCalculator(incendie.getPosition()) * carte.getTailleCases())
+                                            / (robot.getBaseVitesse() / 3.6)));
 
                 } else {
                     if (voisinBas.getgScore() > currentNode.getgScore() + edgeTime) {
                         voisinBas.setParent(currentNode);
                         voisinBas.setgScore(currentNode.getgScore() + edgeTime);
                         voisinBas.setfScore(voisinBas.getgScore()
-                                + (((double) voisinBas.hCalculator(incendie) * carte.getTailleCases())
+                                + (((double) voisinBas.hCalculator(incendie.getPosition()) * carte.getTailleCases())
                                         / (robot.getBaseVitesse() / 3.6)));
                         if (closedNodes.contains(voisinBas)) {
                             closedNodes.remove(voisinBas);
@@ -222,6 +225,227 @@ public class NavigationStrategy1 implements NavigationStrategy {
         // pas de solution
         return null;
     }
+
+    // TODO fonction pour trouver le plus court chemin entre deux cases et non entre
+    // un robot et un incendie donc besoin de
+    // changer la classe chemin pour qu'elle puisse contenir des cases et non des
+    // incendies et des robots
+    // public Chemin plusCourtChemin(Robot robot, Case caseDepart, Case caseArrivee,
+    // DonneesSimulation donneesSimulation) {
+    // Carte carte = donneesSimulation.getCarte();
+    // Node[][] nodeMap = new Node[carte.getNbLignes()][carte.getNbColonnes()];
+
+    // ArrayList<Node> openNodes = new ArrayList<>();
+    // ArrayList<Node> closedNodes = new ArrayList<>();
+
+    // for (int i = 0; i < carte.getNbLignes(); i++) {
+    // for (int j = 0; j < carte.getNbColonnes(); j++) {
+    // nodeMap[i][j] = new Node(carte.getCase(i, j));
+    // }
+    // }
+    // openNodes.add(nodeMap[caseDepart.getLigne()][caseDepart.getColonne()]);
+
+    // Node currentNode = nodeMap[caseDepart.getLigne()][caseDepart.getColonne()];
+    // Node minNode = currentNode;
+    // currentNode.setgScore(0);
+    // currentNode.setfScore(
+    // (double) currentNode.hCalculator(caseArrivee) * carte.getTailleCases() /
+    // (robot.getBaseVitesse() / 3.6));// On
+    // // met
+    // // le
+    // // noeud
+    // // de
+    // // départ
+    // // à
+    // // 0
+    // while (!openNodes.isEmpty()) {
+    // // System.out.println("openNodes.size() = " + openNodes.size() + "
+    // // closedNodes.size() = " + closedNodes.size());
+    // // currentNode becomes the node in openNodes with the smalles fScore
+    // minNode = openNodes.get(0);
+    // for (Node node : openNodes) {
+    // // System.out.println(node.getPosition() + " " + node.getfScore());
+    // if (node.getfScore() < minNode.getfScore()) {
+    // minNode = node;
+    // }
+    // }
+    // // System.out.println("MinNode : " + minNode.getPosition());
+    // // currentNode = openNodes.get(0);
+    // // for (int i = 0; i < openNodes.size(); i++) {
+    // // if (currentNode.getfScore() < openNodes.get(i).getfScore()) {
+    // // System.out.println(openNodes.get(i).getPosition());
+    // // currentNode = openNodes.get(i);
+    // // }
+    // // }
+    // currentNode = minNode;
+    // // System.out.println("currentNodeZAZA = " + currentNode.getgScore());
+    // if (currentNode.getPosition() == caseArrivee) {
+    // // crée une liste node pour le chemin le plus court
+    // List<Node> nodeChemin = new LinkedList<>();
+    // Node tempNode = nodeMap[caseArrivee.getLigne()][caseArrivee.getColonne()];
+    // while (tempNode.getPosition() != caseDepart) {
+    // nodeChemin.add(0, tempNode);
+    // tempNode = tempNode.getParent();
+    // }
+    // // crée une liste d'evenement pour le chemin le plus court
+    // double tempDuration = carte.getTailleCases() / (robot.getVitesse() / 3.6);
+    // List<Evenement> events = new LinkedList<>();
+    // for (int i = 0; i < nodeChemin.size(); i++) {
+    // events.add(new MoveEvent(0, (int) tempDuration, robot,
+    // nodeChemin.get(i).getPosition()));
+    // tempDuration = carte.getTailleCases() /
+    // (robot.getVitesse(nodeChemin.get(i).getPosition()) / 3.6);
+    // }
+    // // TODO ajouter les évènements pour éteindre l'incendie et peut être pour le
+    // // remplir
+
+    // return new Chemin(robot, null,
+    // (int) nodeMap[caseArrivee.getLigne()][caseArrivee.getColonne()]
+    // .getgScore(),
+    // events);
+    // }
+
+    // double edgeTime = carte.getTailleCases() /
+    // (robot.getVitesse(currentNode.getPosition()) / 3.6);
+    // // System.out.println(edgeTime);
+    // if (currentNode.getPosition().getColonne() + 1 < carte.getNbColonnes() &&
+    // robot
+    // .canRobotBeOnCase(
+    // nodeMap[currentNode.getPosition().getLigne()][currentNode.getPosition().getColonne()
+    // + 1]
+    // .getPosition())) {
+    // Node voisinDroite =
+    // nodeMap[currentNode.getPosition().getLigne()][currentNode.getPosition().getColonne()
+    // + 1];
+
+    // if (!closedNodes.contains(voisinDroite) && !openNodes.contains(voisinDroite))
+    // {
+    // voisinDroite.setParent(currentNode);
+    // openNodes.add(voisinDroite);
+    // // System.out.println("VoisinDroite gscore avant changement = " +
+    // // voisinDroite.getgScore());
+    // // System.out.println("Current gscore = " + currentNode.getgScore());
+    // voisinDroite.setgScore(currentNode.getgScore() + edgeTime);
+    // // System.out.println("VoisinDroite gscore apres changement = " +
+    // // voisinDroite.getgScore());
+    // voisinDroite.setfScore(voisinDroite.getgScore()
+    // + (((double) voisinDroite.hCalculator(caseArrivee) * carte.getTailleCases())
+    // / (robot.getBaseVitesse() / 3.6)));
+    // } else {
+    // if (voisinDroite.getgScore() > currentNode.getgScore() + edgeTime) {
+    // voisinDroite.setParent(currentNode);
+    // voisinDroite.setgScore(currentNode.getgScore() + edgeTime);
+    // voisinDroite.setfScore(voisinDroite.getgScore()
+    // + (((double) voisinDroite.hCalculator(caseArrivee) * carte.getTailleCases())
+    // / (robot.getBaseVitesse() / 3.6)));
+    // if (closedNodes.contains(voisinDroite)) {
+    // closedNodes.remove(voisinDroite);
+    // openNodes.add(voisinDroite);
+    // }
+    // }
+    // }
+    // }
+    // if (currentNode.getPosition().getColonne() - 1 >= 0 && robot
+    // .canRobotBeOnCase(
+    // nodeMap[currentNode.getPosition().getLigne()][currentNode.getPosition().getColonne()
+    // - 1]
+    // .getPosition())) {
+    // Node voisinGauche =
+    // nodeMap[currentNode.getPosition().getLigne()][currentNode.getPosition().getColonne()
+    // - 1];
+    // // System.out.println("VoisinGauche" + voisinGauche.getPosition());
+    // if (!closedNodes.contains(voisinGauche) && !openNodes.contains(voisinGauche))
+    // {
+    // openNodes.add(voisinGauche);
+    // voisinGauche.setParent(currentNode);
+    // voisinGauche.setgScore(currentNode.getgScore() + edgeTime);
+    // voisinGauche.setfScore(voisinGauche.getgScore()
+    // + (((double) voisinGauche.hCalculator(caseArrivee) * carte.getTailleCases())
+    // / (robot.getBaseVitesse() / 3.6)));
+
+    // } else {
+    // if (voisinGauche.getgScore() > currentNode.getgScore() + edgeTime) {
+    // voisinGauche.setParent(currentNode);
+    // voisinGauche.setgScore(currentNode.getgScore() + edgeTime);
+    // voisinGauche.setfScore(voisinGauche.getgScore()
+    // + (((double) voisinGauche.hCalculator(caseArrivee) * carte.getTailleCases())
+    // / (robot.getBaseVitesse() / 3.6)));
+    // if (closedNodes.contains(voisinGauche)) {
+    // closedNodes.remove(voisinGauche);
+    // openNodes.add(voisinGauche);
+    // }
+    // }
+    // }
+    // }
+    // if (currentNode.getPosition().getLigne() - 1 >= 0 && robot
+    // .canRobotBeOnCase(
+    // nodeMap[currentNode.getPosition().getLigne() -
+    // 1][currentNode.getPosition().getColonne()]
+    // .getPosition())) {
+    // Node voisinHaut = nodeMap[currentNode.getPosition().getLigne() -
+    // 1][currentNode.getPosition()
+    // .getColonne()];
+    // if (!closedNodes.contains(voisinHaut) && !openNodes.contains(voisinHaut)) {
+    // openNodes.add(voisinHaut);
+    // voisinHaut.setParent(currentNode);
+    // voisinHaut.setgScore(currentNode.getgScore() + edgeTime);
+    // voisinHaut.setfScore(voisinHaut.getgScore()
+    // + (((double) voisinHaut.hCalculator(caseArrivee) * carte.getTailleCases())
+    // / (robot.getBaseVitesse() / 3.6)));
+
+    // } else {
+    // if (voisinHaut.getgScore() > currentNode.getgScore() + edgeTime) {
+    // voisinHaut.setParent(currentNode);
+    // voisinHaut.setgScore(currentNode.getgScore() + edgeTime);
+    // voisinHaut.setfScore(voisinHaut.getgScore()
+    // + (((double) voisinHaut.hCalculator(caseArrivee) * carte.getTailleCases())
+    // / (robot.getBaseVitesse() / 3.6)));
+    // if (closedNodes.contains(voisinHaut)) {
+    // closedNodes.remove(voisinHaut);
+    // openNodes.add(voisinHaut);
+    // }
+    // }
+    // }
+    // }
+    // if (currentNode.getPosition().getLigne() + 1 < carte.getNbLignes() && robot
+    // .canRobotBeOnCase(
+    // nodeMap[currentNode.getPosition().getLigne() +
+    // 1][currentNode.getPosition().getColonne()]
+    // .getPosition())) {
+    // Node voisinBas = nodeMap[currentNode.getPosition().getLigne() +
+    // 1][currentNode.getPosition()
+    // .getColonne()];
+    // if (!closedNodes.contains(voisinBas) && !openNodes.contains(voisinBas)) {
+    // openNodes.add(voisinBas);
+    // voisinBas.setParent(currentNode);
+    // voisinBas.setgScore(currentNode.getgScore() + edgeTime);
+    // voisinBas.setfScore(
+    // voisinBas.getgScore() + (((double) voisinBas.hCalculator(caseArrivee) *
+    // carte.getTailleCases())
+    // / (robot.getBaseVitesse() / 3.6)));
+
+    // } else {
+    // if (voisinBas.getgScore() > currentNode.getgScore() + edgeTime) {
+    // voisinBas.setParent(currentNode);
+    // voisinBas.setgScore(currentNode.getgScore() + edgeTime);
+    // voisinBas.setfScore(voisinBas.getgScore()
+    // + (((double) voisinBas.hCalculator(caseArrivee) * carte.getTailleCases())
+    // / (robot.getBaseVitesse() / 3.6)));
+    // if (closedNodes.contains(voisinBas)) {
+    // closedNodes.remove(voisinBas);
+    // openNodes.add(voisinBas);
+    // }
+    // }
+    // }
+    // }
+    // openNodes.remove(currentNode);
+    // closedNodes.add(currentNode);
+    // }
+    // // pas de solution
+    // return null;
+    // }
+
+    // public Chemin cheminEauPlusProche(Robot robot, Case)
 
     /**
      * Va reremplir les chemins avec les robots non assignés et les incendies non
