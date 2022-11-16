@@ -8,18 +8,29 @@ import java.util.*;
  * Classe singleton qui gère la distribution des robots aux incendies
  */
 public final class ChefRobot {
-    private static ChefRobot instance;
+    private static ChefRobot instance; // instance unique de la classe
 
     public NavigationStrategy strategy; // stratégie de navigation
-    public boolean notif;
+    public boolean notif; // notification de fin de simulation
     public Queue<Chemin> chemins; // liste ordonnée des chemins à parcourir
+    public int n; // le nombre de pas par seconde
 
+    /**
+     * Constructeur privé pour le singleton
+     *
+     * @param strategy stratégie de navigation
+     */
     private ChefRobot(NavigationStrategy strategy) {
         this.strategy = strategy;
         this.notif = false;
         this.chemins = new PriorityQueue<>(Chemin.Comparators.DURATION);
     }
 
+    /**
+     * Création du singleton
+     *
+     * @return instance du singleton
+     */
     public static ChefRobot getInstance() {
         if (instance == null) {
             instance = new ChefRobot(new NavigationStrategy1());
@@ -27,10 +38,20 @@ public final class ChefRobot {
         return instance;
     }
 
+    /**
+     * Setter de la stratégie de navigation
+     *
+     * @param strategy stratégie de navigation
+     */
     public void setStrategy(NavigationStrategy strategy) {
         this.strategy = strategy;
     }
 
+    /**
+     * Initialise la distribution des robots aux incendies
+     *
+     * @param donneesSimulation données de la simulation
+     */
     public void initDistribution(DonneesSimulation donneesSimulation) {
         strategy.fillChemins(chemins, donneesSimulation);
         strategy.distribution(chemins);
@@ -38,7 +59,9 @@ public final class ChefRobot {
     }
 
     /**
-     * Appel après que notify == true, supprime les chemins qui servent plus à rien.
+     * Met à jour les chemins
+     *
+     * @param donneesSimulation données de la simulation
      */
     public void updateChemins(DonneesSimulation donneesSimulation) {
         if (notif) {

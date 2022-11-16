@@ -13,10 +13,9 @@ public class Chenilles extends Robot {
     /**
      * Constructeur de la classe Chenilles.
      *
-     * @param position
+     * @param position la position du robot
      */
-    public Chenilles(int id, Case position) {
-        super(id);
+    public Chenilles(Case position) {
         setPosition(position);
         this.type = RobotType.CHENILLES;
         this.baseVitesse = 60;

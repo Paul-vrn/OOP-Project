@@ -1,19 +1,33 @@
 package main.modele.evenement;
 
+import main.controlleur.navigation.ChefRobot;
 import main.modele.Incendie;
 import main.modele.robot.Robot;
 
+/**
+ * Evenement de l'extinction d'un incendie
+ */
 public class EteindreEvent extends Evenement {
 
-    private Incendie incendie;
+    private Incendie incendie; // incendie à éteindre
 
+    /**
+     * Constructeur de l'évènement d'extinction d'un incendie
+     * @param dateStart date de début de l'évènement
+     * @param duration durée de l'évènement
+     * @param robot robot qui va éteindre l'incendie
+     * @param incendie incendie à éteindre
+     */
     public EteindreEvent(int dateStart, int duration, Robot robot, Incendie incendie) {
         super(dateStart, duration, robot);
         this.incendie = incendie;
     }
 
-    public void execute(int n) {
-
+    /**
+     * Execute l'évènement
+     */
+    public void execute() {
+        int n = ChefRobot.getInstance().n;
         try {
             if (robot.getPosition() != incendie.getPosition()) {
                 throw new NoIncendieException("Le robot n'est pas sur la case de l'incendie");
@@ -34,6 +48,11 @@ public class EteindreEvent extends Evenement {
         }
     }
 
+    /**
+     *
+     * @return
+     */
+    @Override
     public String toString() {
         return "EteindreEvent (" + incendie.toString() + ") duration=" + duration;
     }

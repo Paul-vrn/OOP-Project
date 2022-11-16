@@ -3,14 +3,12 @@ package main.modele.robot;
 import main.modele.Case;
 import main.modele.Carte;
 import main.modele.evenement.Evenement;
-import main.modele.evenement.MoveEvent;
 
 import java.util.List;
 
 public abstract class Robot {
     // Robots can be Drones or Chenilles or Pattes or Roues
 
-    protected int id;
     protected RobotType type;
     protected Case position;
     protected int reservoir;
@@ -31,8 +29,7 @@ public abstract class Robot {
 
     protected String name = "Robot";
 
-    protected Robot(int id) {
-        this.id = id;
+    protected Robot() {
         this.isOccupied = false;
     }
 
@@ -157,10 +154,10 @@ public abstract class Robot {
         }
     }
 
-    public void execute(int n) {
+    public void execute() {
         if (indexEvenement < evenements.size()) {
             System.out.println("Event.toString():" + evenements.get(indexEvenement).toString());
-            evenements.get(indexEvenement).execute(n);
+            evenements.get(indexEvenement).execute();
         }
     }
 

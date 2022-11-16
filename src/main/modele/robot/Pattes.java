@@ -15,8 +15,7 @@ public class Pattes extends Robot {
      *
      * @param position La position du robot
      */
-    public Pattes(int i, Case position) {
-        super(i);
+    public Pattes(Case position) {
         setPosition(position);
         this.type = RobotType.PATTES;
         this.baseVitesse = 100;
@@ -28,6 +27,11 @@ public class Pattes extends Robot {
         this.evenements = new ArrayList<>();
     }
 
+    /**
+     * Getter
+     * @param position
+     * @return
+     */
     @Override
     public double getVitesse(Case position) {
         if (position.getNature() == NatureTerrain.ROCHE) {

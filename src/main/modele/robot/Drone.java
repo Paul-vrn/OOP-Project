@@ -14,8 +14,7 @@ public class Drone extends Robot {
      *
      * @param position La position du robot
      */
-    public Drone(int i, Case position) {
-        super(i);
+    public Drone(Case position) {
         setPosition(position);
         this.type = RobotType.DRONE;
         this.baseVitesse = 100;
@@ -47,25 +46,52 @@ public class Drone extends Robot {
         }
     }
 
+    /**
+     * Définit la position du robot Drone.
+     *
+     * @param position La position du robot Drone.
+     */
     public void setPosition(Case position) {
         this.position = position;
     }
 
+    /**
+     * Retourne si le robot Drone peut se déplacer sur la case cible.
+     *
+     * @param targetPosition La case cible.
+     * @return Si le robot peut se déplacer sur la case cible.
+     */
     public boolean canMoveTo(Case targetPosition) {
         // vérrifie bien qu'on essaye de bouger à sur une case adjacente
         return (Math.abs(this.position.getLigne() - targetPosition.getLigne())
                 + Math.abs(this.position.getColonne() - targetPosition.getColonne()) == 1);
     }
 
+    /**
+     * Retourne la vitesse du robot Drone sur la case cible.
+     *
+     * @param targetPosition La case cible.
+     * @return La vitesse du robot Drone sur la case cible.
+     */
     public boolean canRobotBeOnCase(Case targetPosition) {
         return true;
     }
 
+    /**
+     * Retourne l'image du robot Drone.
+     *
+     * @return L'image du robot Drone.
+     */
     @Override
     public String getImage() {
         return "images/drone.gif";
     }
 
+    /**
+     * Retourne le nom du robot Drone.
+     *
+     * @return Le nom du robot Drone.
+     */
     @Override
     public String getName() {
         return "Drone";

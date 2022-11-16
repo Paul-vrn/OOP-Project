@@ -1,5 +1,6 @@
 package main.modele.evenement;
 
+import main.controlleur.navigation.ChefRobot;
 import main.modele.Carte;
 import main.modele.NatureTerrain;
 import main.modele.robot.Robot;
@@ -13,7 +14,8 @@ public class RemplirEvent extends Evenement {
         this.carte = carte;
     }
 
-    public void execute(int n) {
+    public void execute() {
+        int n = ChefRobot.getInstance().n;
         if (this.duration >= n) {
             this.duration = duration - n;
         } else {

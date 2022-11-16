@@ -154,7 +154,7 @@ public class LecteurDonnees {
      */
     private NatureTerrain getNatureTerrain(int lig, int col) throws DataFormatException {
         ignorerCommentaires();
-        String chaineNature = new String();
+        String chaineNature;
         // NatureTerrain nature;
         try {
             chaineNature = scanner.next();
@@ -220,7 +220,7 @@ public class LecteurDonnees {
             int nbIncendies = scanner.nextInt();
             ArrayList<Incendie> incendies = new ArrayList<Incendie>();
             for (int i = 0; i < nbIncendies; i++) {
-                incendies.add(getIncendie(i, carte));
+                incendies.add(getIncendie(carte));
             }
             return incendies;
 
@@ -261,7 +261,7 @@ public class LecteurDonnees {
     /**
      * Lit et retourne le i-eme incendie
      */
-    private Incendie getIncendie(int i, Carte carte) throws DataFormatException {
+    private Incendie getIncendie(Carte carte) throws DataFormatException {
         ignorerCommentaires();
         try {
             int lig = scanner.nextInt();
@@ -273,7 +273,7 @@ public class LecteurDonnees {
             }
             verifieLigneTerminee();
 
-            return new Incendie(i, position, eauNecessaire);
+            return new Incendie(position, eauNecessaire);
 
         } catch (NoSuchElementException e) {
             throw new DataFormatException("format d'incendie invalide. "
@@ -308,7 +308,7 @@ public class LecteurDonnees {
             int nbRobots = scanner.nextInt();
             ArrayList<Robot> robots = new ArrayList<Robot>();
             for (int i = 0; i < nbRobots; i++) {
-                robots.add(getRobot(i, carte));
+                robots.add(getRobot(carte));
             }
             return robots;
 
@@ -325,8 +325,6 @@ public class LecteurDonnees {
      */
     private void lireRobot(int i) throws DataFormatException {
         ignorerCommentaires();
-        System.out.print("Robot " + i + ": ");
-
         try {
             int lig = scanner.nextInt();
             int col = scanner.nextInt();
@@ -359,7 +357,7 @@ public class LecteurDonnees {
     /**
      * Lit et retourne le i-eme robot
      */
-    private Robot getRobot(int i, Carte carte) throws DataFormatException {
+    private Robot getRobot(Carte carte) throws DataFormatException {
         ignorerCommentaires();
         try {
             int lig = scanner.nextInt();
@@ -370,16 +368,16 @@ public class LecteurDonnees {
             Robot robot = null;
             switch (typeRobot) {
                 case DRONE:
-                    robot = new Drone(i, position);
+                    robot = new Drone(position);
                     break;
                 case ROUES:
-                    robot = new Roues(i, position);
+                    robot = new Roues(position);
                     break;
                 case PATTES:
-                    robot = new Pattes(i, position);
+                    robot = new Pattes(position);
                     break;
                 case CHENILLES:
-                    robot = new Chenilles(i, position);
+                    robot = new Chenilles(position);
                     break;
                 default:
                     throw new DataFormatException("type de robot invalide. "

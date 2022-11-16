@@ -1,18 +1,33 @@
 package main.modele.evenement;
 
+import main.controlleur.navigation.ChefRobot;
 import main.modele.Case;
 import main.modele.robot.Robot;
 
+/**
+ * Evenement de déplacement d'un robot
+ */
 public class MoveEvent extends Evenement {
 
-    private Case caseCible;
+    private Case caseCible; // case cible du déplacement
 
+    /**
+     * Constructeur de l'évènement de déplacement d'un robot
+     * @param dateStart date de début de l'évènement
+     * @param duration durée de l'évènement
+     * @param robot robot qui va se déplacer
+     * @param caseCible case cible du déplacement
+     */
     public MoveEvent(int dateStart, int duration, Robot robot, Case caseCible) {
         super(dateStart, duration, robot);
         this.caseCible = caseCible;
     }
 
-    public void execute(int n) {
+    /**
+     * Execute l'évènement
+     */
+    public void execute() {
+        int n = ChefRobot.getInstance().n;
         if (duration >= n) {
             duration = duration - n;
         } else {
@@ -29,6 +44,10 @@ public class MoveEvent extends Evenement {
         }
     }
 
+    /**
+     * toString
+     * @return
+     */
     @Override
     public String toString() {
         return "MoveEvent" + caseCible.toString() + " duration=" + duration;

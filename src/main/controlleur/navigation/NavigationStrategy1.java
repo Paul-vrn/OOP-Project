@@ -14,6 +14,13 @@ import java.util.*;
  */
 public class NavigationStrategy1 implements NavigationStrategy {
 
+    /**
+     * calcule le plus court chemin entre un robot et un incendie
+     * @param robot le robot
+     * @param incendie l'incendie
+     * @param donneesSimulation les données de la simulation
+     * @return le chemin
+     */
     @Override
     public Chemin plusCourtChemin(Robot robot, Incendie incendie, DonneesSimulation donneesSimulation) {
         Carte carte = donneesSimulation.getCarte();
@@ -201,15 +208,6 @@ public class NavigationStrategy1 implements NavigationStrategy {
         }
         // pas de solution
         return null;
-    }
-
-    public void initChemins(Queue<Chemin> chemins, DonneesSimulation donneesSimulation) {
-        for (Incendie incendie : donneesSimulation.getIncendies()) {
-            for (Robot robot : donneesSimulation.getRobots()) {
-                Chemin chemin = plusCourtChemin(robot, incendie, donneesSimulation);
-                chemins.add(chemin);
-            }
-        }
     }
 
     /**

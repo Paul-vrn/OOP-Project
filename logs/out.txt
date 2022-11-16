@@ -1,118 +1,3030 @@
-Carte 8x8; taille des cases = 10000
-Event.toString(): MoveEventmain.modele.Case (3, 2) : EAU duration=240
-Event.toString(): MoveEventmain.modele.Case (5, 5) : HABITAT duration=360
-Event.toString(): MoveEventmain.modele.Case (5, 7) : TERRAIN_LIBRE duration=360
-Event.toString(): MoveEventmain.modele.Case (3, 2) : EAU duration=230
-Event.toString(): MoveEventmain.modele.Case (5, 5) : HABITAT duration=350
-Event.toString(): MoveEventmain.modele.Case (5, 7) : TERRAIN_LIBRE duration=350
-Event.toString(): MoveEventmain.modele.Case (3, 2) : EAU duration=220
-Event.toString(): MoveEventmain.modele.Case (5, 5) : HABITAT duration=340
-Event.toString(): MoveEventmain.modele.Case (5, 7) : TERRAIN_LIBRE duration=340
-Event.toString(): MoveEventmain.modele.Case (3, 2) : EAU duration=210
-Event.toString(): MoveEventmain.modele.Case (5, 5) : HABITAT duration=330
-Event.toString(): MoveEventmain.modele.Case (5, 7) : TERRAIN_LIBRE duration=330
-Event.toString(): MoveEventmain.modele.Case (3, 2) : EAU duration=200
-Event.toString(): MoveEventmain.modele.Case (5, 5) : HABITAT duration=320
-Event.toString(): MoveEventmain.modele.Case (5, 7) : TERRAIN_LIBRE duration=320
-Event.toString(): MoveEventmain.modele.Case (3, 2) : EAU duration=190
-Event.toString(): MoveEventmain.modele.Case (5, 5) : HABITAT duration=310
-Event.toString(): MoveEventmain.modele.Case (5, 7) : TERRAIN_LIBRE duration=310
-Event.toString(): MoveEventmain.modele.Case (3, 2) : EAU duration=180
-Event.toString(): MoveEventmain.modele.Case (5, 5) : HABITAT duration=300
-Event.toString(): MoveEventmain.modele.Case (5, 7) : TERRAIN_LIBRE duration=300
-Event.toString(): MoveEventmain.modele.Case (3, 2) : EAU duration=170
-Event.toString(): MoveEventmain.modele.Case (5, 5) : HABITAT duration=290
-Event.toString(): MoveEventmain.modele.Case (5, 7) : TERRAIN_LIBRE duration=290
-Event.toString(): MoveEventmain.modele.Case (3, 2) : EAU duration=160
-Event.toString(): MoveEventmain.modele.Case (5, 5) : HABITAT duration=280
-Event.toString(): MoveEventmain.modele.Case (5, 7) : TERRAIN_LIBRE duration=280
-Event.toString(): MoveEventmain.modele.Case (3, 2) : EAU duration=150
-Event.toString(): MoveEventmain.modele.Case (5, 5) : HABITAT duration=270
-Event.toString(): MoveEventmain.modele.Case (5, 7) : TERRAIN_LIBRE duration=270
-Event.toString(): MoveEventmain.modele.Case (3, 2) : EAU duration=140
-Event.toString(): MoveEventmain.modele.Case (5, 5) : HABITAT duration=260
-Event.toString(): MoveEventmain.modele.Case (5, 7) : TERRAIN_LIBRE duration=260
-Event.toString(): MoveEventmain.modele.Case (3, 2) : EAU duration=130
-Event.toString(): MoveEventmain.modele.Case (5, 5) : HABITAT duration=250
-Event.toString(): MoveEventmain.modele.Case (5, 7) : TERRAIN_LIBRE duration=250
-Event.toString(): MoveEventmain.modele.Case (3, 2) : EAU duration=120
-Event.toString(): MoveEventmain.modele.Case (5, 5) : HABITAT duration=240
-Event.toString(): MoveEventmain.modele.Case (5, 7) : TERRAIN_LIBRE duration=240
-Event.toString(): MoveEventmain.modele.Case (3, 2) : EAU duration=110
-Event.toString(): MoveEventmain.modele.Case (5, 5) : HABITAT duration=230
-Event.toString(): MoveEventmain.modele.Case (5, 7) : TERRAIN_LIBRE duration=230
-Event.toString(): MoveEventmain.modele.Case (3, 2) : EAU duration=100
-Event.toString(): MoveEventmain.modele.Case (5, 5) : HABITAT duration=220
-Event.toString(): MoveEventmain.modele.Case (5, 7) : TERRAIN_LIBRE duration=220
-Event.toString(): MoveEventmain.modele.Case (3, 2) : EAU duration=90
-Event.toString(): MoveEventmain.modele.Case (5, 5) : HABITAT duration=210
-Event.toString(): MoveEventmain.modele.Case (5, 7) : TERRAIN_LIBRE duration=210
-Event.toString(): MoveEventmain.modele.Case (3, 2) : EAU duration=80
-Event.toString(): MoveEventmain.modele.Case (5, 5) : HABITAT duration=200
-Event.toString(): MoveEventmain.modele.Case (5, 7) : TERRAIN_LIBRE duration=200
-Event.toString(): MoveEventmain.modele.Case (3, 2) : EAU duration=70
-Event.toString(): MoveEventmain.modele.Case (5, 5) : HABITAT duration=190
-Event.toString(): MoveEventmain.modele.Case (5, 7) : TERRAIN_LIBRE duration=190
-Event.toString(): MoveEventmain.modele.Case (3, 2) : EAU duration=60
-Event.toString(): MoveEventmain.modele.Case (5, 5) : HABITAT duration=180
-Event.toString(): MoveEventmain.modele.Case (5, 7) : TERRAIN_LIBRE duration=180
-Event.toString(): MoveEventmain.modele.Case (3, 2) : EAU duration=50
-Event.toString(): MoveEventmain.modele.Case (5, 5) : HABITAT duration=170
-Event.toString(): MoveEventmain.modele.Case (5, 7) : TERRAIN_LIBRE duration=170
-Event.toString(): MoveEventmain.modele.Case (3, 2) : EAU duration=40
-Event.toString(): MoveEventmain.modele.Case (5, 5) : HABITAT duration=160
-Event.toString(): MoveEventmain.modele.Case (5, 7) : TERRAIN_LIBRE duration=160
-Event.toString(): MoveEventmain.modele.Case (3, 2) : EAU duration=30
-Event.toString(): MoveEventmain.modele.Case (5, 5) : HABITAT duration=150
-Event.toString(): MoveEventmain.modele.Case (5, 7) : TERRAIN_LIBRE duration=150
-Event.toString(): MoveEventmain.modele.Case (3, 2) : EAU duration=20
-Event.toString(): MoveEventmain.modele.Case (5, 5) : HABITAT duration=140
-Event.toString(): MoveEventmain.modele.Case (5, 7) : TERRAIN_LIBRE duration=140
-Event.toString(): MoveEventmain.modele.Case (3, 2) : EAU duration=10
-Event.toString(): MoveEventmain.modele.Case (5, 5) : HABITAT duration=130
-Event.toString(): MoveEventmain.modele.Case (5, 7) : TERRAIN_LIBRE duration=130
-Event.toString(): MoveEventmain.modele.Case (3, 2) : EAU duration=0
-Event.toString(): MoveEventmain.modele.Case (5, 5) : HABITAT duration=120
-Event.toString(): MoveEventmain.modele.Case (5, 7) : TERRAIN_LIBRE duration=120
-Event.toString(): MoveEventmain.modele.Case (3, 1) : TERRAIN_LIBRE duration=240
-Event.toString(): MoveEventmain.modele.Case (5, 5) : HABITAT duration=110
-Event.toString(): MoveEventmain.modele.Case (5, 7) : TERRAIN_LIBRE duration=110
-Event.toString(): MoveEventmain.modele.Case (3, 1) : TERRAIN_LIBRE duration=230
-Event.toString(): MoveEventmain.modele.Case (5, 5) : HABITAT duration=100
-Event.toString(): MoveEventmain.modele.Case (5, 7) : TERRAIN_LIBRE duration=100
-Event.toString(): MoveEventmain.modele.Case (3, 1) : TERRAIN_LIBRE duration=220
-Event.toString(): MoveEventmain.modele.Case (5, 5) : HABITAT duration=90
-Event.toString(): MoveEventmain.modele.Case (5, 7) : TERRAIN_LIBRE duration=90
-Event.toString(): MoveEventmain.modele.Case (3, 1) : TERRAIN_LIBRE duration=210
-Event.toString(): MoveEventmain.modele.Case (5, 5) : HABITAT duration=80
-Event.toString(): MoveEventmain.modele.Case (5, 7) : TERRAIN_LIBRE duration=80
-Event.toString(): MoveEventmain.modele.Case (3, 1) : TERRAIN_LIBRE duration=200
-Event.toString(): MoveEventmain.modele.Case (5, 5) : HABITAT duration=70
-Event.toString(): MoveEventmain.modele.Case (5, 7) : TERRAIN_LIBRE duration=70
-Event.toString(): MoveEventmain.modele.Case (3, 1) : TERRAIN_LIBRE duration=190
-Event.toString(): MoveEventmain.modele.Case (5, 5) : HABITAT duration=60
-Event.toString(): MoveEventmain.modele.Case (5, 7) : TERRAIN_LIBRE duration=60
-Event.toString(): MoveEventmain.modele.Case (3, 1) : TERRAIN_LIBRE duration=180
-Event.toString(): MoveEventmain.modele.Case (5, 5) : HABITAT duration=50
-Event.toString(): MoveEventmain.modele.Case (5, 7) : TERRAIN_LIBRE duration=50
-Event.toString(): MoveEventmain.modele.Case (3, 1) : TERRAIN_LIBRE duration=170
-Event.toString(): MoveEventmain.modele.Case (5, 5) : HABITAT duration=40
-Event.toString(): MoveEventmain.modele.Case (5, 7) : TERRAIN_LIBRE duration=40
-Event.toString(): MoveEventmain.modele.Case (3, 1) : TERRAIN_LIBRE duration=160
-Event.toString(): MoveEventmain.modele.Case (5, 5) : HABITAT duration=30
-Event.toString(): MoveEventmain.modele.Case (5, 7) : TERRAIN_LIBRE duration=30
-Event.toString(): MoveEventmain.modele.Case (3, 1) : TERRAIN_LIBRE duration=150
-Event.toString(): MoveEventmain.modele.Case (5, 5) : HABITAT duration=20
-Event.toString(): MoveEventmain.modele.Case (5, 7) : TERRAIN_LIBRE duration=20
-Event.toString(): MoveEventmain.modele.Case (3, 1) : TERRAIN_LIBRE duration=140
-Event.toString(): MoveEventmain.modele.Case (5, 5) : HABITAT duration=10
-Event.toString(): MoveEventmain.modele.Case (5, 7) : TERRAIN_LIBRE duration=10
-Event.toString(): MoveEventmain.modele.Case (3, 1) : TERRAIN_LIBRE duration=130
-Event.toString(): MoveEventmain.modele.Case (5, 5) : HABITAT duration=0
-Event.toString(): MoveEventmain.modele.Case (5, 7) : TERRAIN_LIBRE duration=0
-Event.toString(): MoveEventmain.modele.Case (3, 1) : TERRAIN_LIBRE duration=120
-Event.toString(): MoveEventmain.modele.Case (6, 7) : TERRAIN_LIBRE duration=360
-Event.toString(): MoveEventmain.modele.Case (3, 1) : TERRAIN_LIBRE duration=110
-Event.toString(): MoveEventmain.modele.Case (6, 7) : TERRAIN_LIBRE duration=350
-Event.toString(): MoveEventmain.modele.Case (3, 1) : TERRAIN_LIBRE duration=100
-Event.toString(): MoveEventmain.modele.Case (6, 7) : TERRAIN_LIBRE duration=340
+Carte 20x20; taille des cases = 100
+Robot Robot à pattes : main.modele.Case (0, 0) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 1) : ROCHE duration=36
+Robot Drone : main.modele.Case (0, 8) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 7) : ROCHE duration=3
+Robot Drone : main.modele.Case (0, 9) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 8) : ROCHE duration=3
+Robot Drone : main.modele.Case (0, 10) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 11) : ROCHE duration=3
+Robot Robot à pattes : main.modele.Case (0, 19) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 18) : ROCHE duration=36
+Robot Robot à pattes : main.modele.Case (9, 9) : ROCHE
+Event.toString():MoveEventmain.modele.Case (9, 10) : TERRAIN_LIBRE duration=36
+Robot Robot à pattes : main.modele.Case (0, 0) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 1) : ROCHE duration=32
+Robot Drone : main.modele.Case (0, 7) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 6) : ROCHE duration=3
+Robot Drone : main.modele.Case (0, 8) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 7) : ROCHE duration=3
+Robot Drone : main.modele.Case (0, 11) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 12) : ROCHE duration=3
+Robot Robot à pattes : main.modele.Case (0, 19) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 18) : ROCHE duration=32
+Robot Robot à pattes : main.modele.Case (9, 9) : ROCHE
+Event.toString():MoveEventmain.modele.Case (9, 10) : TERRAIN_LIBRE duration=32
+Robot Robot à pattes : main.modele.Case (0, 0) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 1) : ROCHE duration=28
+Robot Drone : main.modele.Case (0, 6) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 5) : ROCHE duration=3
+Robot Drone : main.modele.Case (0, 7) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 6) : ROCHE duration=3
+Robot Drone : main.modele.Case (0, 12) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 13) : ROCHE duration=3
+Robot Robot à pattes : main.modele.Case (0, 19) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 18) : ROCHE duration=28
+Robot Robot à pattes : main.modele.Case (9, 9) : ROCHE
+Event.toString():MoveEventmain.modele.Case (9, 10) : TERRAIN_LIBRE duration=28
+Robot Robot à pattes : main.modele.Case (0, 0) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 1) : ROCHE duration=24
+Robot Drone : main.modele.Case (0, 5) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 4) : ROCHE duration=3
+Robot Drone : main.modele.Case (0, 6) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 5) : ROCHE duration=3
+Robot Drone : main.modele.Case (0, 13) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 14) : ROCHE duration=3
+Robot Robot à pattes : main.modele.Case (0, 19) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 18) : ROCHE duration=24
+Robot Robot à pattes : main.modele.Case (9, 9) : ROCHE
+Event.toString():MoveEventmain.modele.Case (9, 10) : TERRAIN_LIBRE duration=24
+Robot Robot à pattes : main.modele.Case (0, 0) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 1) : ROCHE duration=20
+Robot Drone : main.modele.Case (0, 4) : ROCHE
+Event.toString():MoveEventmain.modele.Case (1, 4) : ROCHE duration=3
+Robot Drone : main.modele.Case (0, 5) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 4) : ROCHE duration=3
+Robot Drone : main.modele.Case (0, 14) : ROCHE
+Event.toString():MoveEventmain.modele.Case (1, 14) : ROCHE duration=3
+Robot Robot à pattes : main.modele.Case (0, 19) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 18) : ROCHE duration=20
+Robot Robot à pattes : main.modele.Case (9, 9) : ROCHE
+Event.toString():MoveEventmain.modele.Case (9, 10) : TERRAIN_LIBRE duration=20
+Robot Robot à pattes : main.modele.Case (0, 0) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 1) : ROCHE duration=16
+Robot Drone : main.modele.Case (1, 4) : ROCHE
+Event.toString():MoveEventmain.modele.Case (2, 4) : ROCHE duration=3
+Robot Drone : main.modele.Case (0, 4) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 3) : ROCHE duration=3
+Robot Drone : main.modele.Case (1, 14) : ROCHE
+Event.toString():MoveEventmain.modele.Case (2, 14) : ROCHE duration=3
+Robot Robot à pattes : main.modele.Case (0, 19) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 18) : ROCHE duration=16
+Robot Robot à pattes : main.modele.Case (9, 9) : ROCHE
+Event.toString():MoveEventmain.modele.Case (9, 10) : TERRAIN_LIBRE duration=16
+Robot Robot à pattes : main.modele.Case (0, 0) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 1) : ROCHE duration=12
+Robot Drone : main.modele.Case (2, 4) : ROCHE
+Event.toString():MoveEventmain.modele.Case (3, 4) : TERRAIN_LIBRE duration=3
+Robot Drone : main.modele.Case (0, 3) : ROCHE
+Event.toString():MoveEventmain.modele.Case (1, 3) : ROCHE duration=3
+Robot Drone : main.modele.Case (2, 14) : ROCHE
+Event.toString():MoveEventmain.modele.Case (3, 14) : TERRAIN_LIBRE duration=3
+Robot Robot à pattes : main.modele.Case (0, 19) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 18) : ROCHE duration=12
+Robot Robot à pattes : main.modele.Case (9, 9) : ROCHE
+Event.toString():MoveEventmain.modele.Case (9, 10) : TERRAIN_LIBRE duration=12
+Robot Robot à pattes : main.modele.Case (0, 0) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 1) : ROCHE duration=8
+Robot Drone : main.modele.Case (3, 4) : TERRAIN_LIBRE
+Event.toString():MoveEventmain.modele.Case (4, 4) : TERRAIN_LIBRE duration=3
+Robot Drone : main.modele.Case (1, 3) : ROCHE
+Event.toString():MoveEventmain.modele.Case (2, 3) : ROCHE duration=3
+Robot Drone : main.modele.Case (3, 14) : TERRAIN_LIBRE
+Event.toString():MoveEventmain.modele.Case (4, 14) : TERRAIN_LIBRE duration=3
+Robot Robot à pattes : main.modele.Case (0, 19) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 18) : ROCHE duration=8
+Robot Robot à pattes : main.modele.Case (9, 9) : ROCHE
+Event.toString():MoveEventmain.modele.Case (9, 10) : TERRAIN_LIBRE duration=8
+Robot Robot à pattes : main.modele.Case (0, 0) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 1) : ROCHE duration=4
+Robot Drone : main.modele.Case (4, 4) : TERRAIN_LIBRE
+Event.toString():MoveEventmain.modele.Case (5, 4) : ROCHE duration=3
+Robot Drone : main.modele.Case (2, 3) : ROCHE
+Event.toString():MoveEventmain.modele.Case (3, 3) : ROCHE duration=3
+Robot Drone : main.modele.Case (4, 14) : TERRAIN_LIBRE
+Event.toString():MoveEventmain.modele.Case (5, 14) : ROCHE duration=3
+Robot Robot à pattes : main.modele.Case (0, 19) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 18) : ROCHE duration=4
+Robot Robot à pattes : main.modele.Case (9, 9) : ROCHE
+Event.toString():MoveEventmain.modele.Case (9, 10) : TERRAIN_LIBRE duration=4
+Robot Robot à pattes : main.modele.Case (0, 0) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 1) : ROCHE duration=0
+Robot Drone : main.modele.Case (5, 4) : ROCHE
+Event.toString():MoveEventmain.modele.Case (6, 4) : ROCHE duration=3
+Robot Drone : main.modele.Case (3, 3) : ROCHE
+Event.toString():MoveEventmain.modele.Case (4, 3) : TERRAIN_LIBRE duration=3
+Robot Drone : main.modele.Case (5, 14) : ROCHE
+Event.toString():MoveEventmain.modele.Case (6, 14) : ROCHE duration=3
+Robot Robot à pattes : main.modele.Case (0, 19) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 18) : ROCHE duration=0
+Robot Robot à pattes : main.modele.Case (9, 9) : ROCHE
+Event.toString():MoveEventmain.modele.Case (9, 10) : TERRAIN_LIBRE duration=0
+Robot Robot à pattes : main.modele.Case (0, 1) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 2) : ROCHE duration=36
+Robot Drone : main.modele.Case (6, 4) : ROCHE
+Event.toString():MoveEventmain.modele.Case (7, 4) : ROCHE duration=3
+Robot Drone : main.modele.Case (4, 3) : TERRAIN_LIBRE
+Event.toString():MoveEventmain.modele.Case (5, 3) : ROCHE duration=3
+Robot Drone : main.modele.Case (6, 14) : ROCHE
+Event.toString():MoveEventmain.modele.Case (7, 14) : ROCHE duration=3
+Robot Robot à pattes : main.modele.Case (0, 18) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 17) : ROCHE duration=36
+Robot Robot à pattes : main.modele.Case (9, 10) : TERRAIN_LIBRE
+Event.toString():MoveEventmain.modele.Case (9, 11) : TERRAIN_LIBRE duration=3
+Robot Robot à pattes : main.modele.Case (0, 1) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 2) : ROCHE duration=32
+Robot Drone : main.modele.Case (7, 4) : ROCHE
+Event.toString():MoveEventmain.modele.Case (8, 4) : ROCHE duration=3
+Robot Drone : main.modele.Case (5, 3) : ROCHE
+Event.toString():MoveEventmain.modele.Case (6, 3) : ROCHE duration=3
+Robot Drone : main.modele.Case (7, 14) : ROCHE
+Event.toString():MoveEventmain.modele.Case (8, 14) : ROCHE duration=3
+Robot Robot à pattes : main.modele.Case (0, 18) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 17) : ROCHE duration=32
+Robot Robot à pattes : main.modele.Case (9, 11) : TERRAIN_LIBRE
+Event.toString():MoveEventmain.modele.Case (9, 12) : TERRAIN_LIBRE duration=3
+Robot Robot à pattes : main.modele.Case (0, 1) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 2) : ROCHE duration=28
+Robot Drone : main.modele.Case (8, 4) : ROCHE
+Event.toString():MoveEventmain.modele.Case (9, 4) : FORET duration=3
+Robot Drone : main.modele.Case (6, 3) : ROCHE
+Event.toString():MoveEventmain.modele.Case (7, 3) : ROCHE duration=3
+Robot Drone : main.modele.Case (8, 14) : ROCHE
+Event.toString():MoveEventmain.modele.Case (9, 14) : FORET duration=3
+Robot Robot à pattes : main.modele.Case (0, 18) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 17) : ROCHE duration=28
+Robot Robot à pattes : main.modele.Case (9, 12) : TERRAIN_LIBRE
+Event.toString():MoveEventmain.modele.Case (9, 13) : ROCHE duration=3
+Robot Robot à pattes : main.modele.Case (0, 1) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 2) : ROCHE duration=24
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (7, 3) : ROCHE
+Event.toString():MoveEventmain.modele.Case (8, 3) : ROCHE duration=3
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (0, 18) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 17) : ROCHE duration=24
+Robot Robot à pattes : main.modele.Case (9, 13) : ROCHE
+Event.toString():MoveEventmain.modele.Case (9, 14) : FORET duration=36
+Robot Robot à pattes : main.modele.Case (0, 1) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 2) : ROCHE duration=20
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (8, 3) : ROCHE
+Event.toString():MoveEventmain.modele.Case (9, 3) : FORET duration=3
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (0, 18) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 17) : ROCHE duration=20
+Robot Robot à pattes : main.modele.Case (9, 13) : ROCHE
+Event.toString():MoveEventmain.modele.Case (9, 14) : FORET duration=32
+Robot Robot à pattes : main.modele.Case (0, 1) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 2) : ROCHE duration=16
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (0, 18) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 17) : ROCHE duration=16
+Robot Robot à pattes : main.modele.Case (9, 13) : ROCHE
+Event.toString():MoveEventmain.modele.Case (9, 14) : FORET duration=28
+Robot Robot à pattes : main.modele.Case (0, 1) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 2) : ROCHE duration=12
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (0, 18) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 17) : ROCHE duration=12
+Robot Robot à pattes : main.modele.Case (9, 13) : ROCHE
+Event.toString():MoveEventmain.modele.Case (9, 14) : FORET duration=24
+Robot Robot à pattes : main.modele.Case (0, 1) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 2) : ROCHE duration=8
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (0, 18) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 17) : ROCHE duration=8
+Robot Robot à pattes : main.modele.Case (9, 13) : ROCHE
+Event.toString():MoveEventmain.modele.Case (9, 14) : FORET duration=20
+Robot Robot à pattes : main.modele.Case (0, 1) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 2) : ROCHE duration=4
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (0, 18) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 17) : ROCHE duration=4
+Robot Robot à pattes : main.modele.Case (9, 13) : ROCHE
+Event.toString():MoveEventmain.modele.Case (9, 14) : FORET duration=16
+Robot Robot à pattes : main.modele.Case (0, 1) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 2) : ROCHE duration=0
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (0, 18) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 17) : ROCHE duration=0
+Robot Robot à pattes : main.modele.Case (9, 13) : ROCHE
+Event.toString():MoveEventmain.modele.Case (9, 14) : FORET duration=12
+Robot Robot à pattes : main.modele.Case (0, 2) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 3) : ROCHE duration=36
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (0, 17) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 16) : ROCHE duration=36
+Robot Robot à pattes : main.modele.Case (9, 13) : ROCHE
+Event.toString():MoveEventmain.modele.Case (9, 14) : FORET duration=8
+Robot Robot à pattes : main.modele.Case (0, 2) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 3) : ROCHE duration=32
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (0, 17) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 16) : ROCHE duration=32
+Robot Robot à pattes : main.modele.Case (9, 13) : ROCHE
+Event.toString():MoveEventmain.modele.Case (9, 14) : FORET duration=4
+Robot Robot à pattes : main.modele.Case (0, 2) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 3) : ROCHE duration=28
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (0, 17) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 16) : ROCHE duration=28
+Robot Robot à pattes : main.modele.Case (9, 13) : ROCHE
+Event.toString():MoveEventmain.modele.Case (9, 14) : FORET duration=0
+Robot Robot à pattes : main.modele.Case (0, 2) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 3) : ROCHE duration=24
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (0, 17) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 16) : ROCHE duration=24
+Robot Robot à pattes : main.modele.Case (9, 14) : FORET
+Event.toString():MoveEventmain.modele.Case (9, 15) : FORET duration=3
+Robot Robot à pattes : main.modele.Case (0, 2) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 3) : ROCHE duration=20
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (0, 17) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 16) : ROCHE duration=20
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Event.toString():MoveEventmain.modele.Case (9, 16) : FORET duration=3
+Robot Robot à pattes : main.modele.Case (0, 2) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 3) : ROCHE duration=16
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (0, 17) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 16) : ROCHE duration=16
+Robot Robot à pattes : main.modele.Case (9, 16) : FORET
+Event.toString():MoveEventmain.modele.Case (9, 17) : FORET duration=3
+Robot Robot à pattes : main.modele.Case (0, 2) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 3) : ROCHE duration=12
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (0, 17) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 16) : ROCHE duration=12
+Robot Robot à pattes : main.modele.Case (9, 17) : FORET
+Event.toString():MoveEventmain.modele.Case (9, 18) : FORET duration=3
+Robot Robot à pattes : main.modele.Case (0, 2) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 3) : ROCHE duration=8
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (0, 17) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 16) : ROCHE duration=8
+Robot Robot à pattes : main.modele.Case (9, 18) : FORET
+Event.toString():MoveEventmain.modele.Case (9, 19) : FORET duration=3
+Robot Robot à pattes : main.modele.Case (0, 2) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 3) : ROCHE duration=4
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (0, 17) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 16) : ROCHE duration=4
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (0, 2) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 3) : ROCHE duration=0
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (0, 17) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 16) : ROCHE duration=0
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (0, 3) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 4) : ROCHE duration=36
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (0, 16) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 15) : ROCHE duration=36
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (0, 3) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 4) : ROCHE duration=32
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (0, 16) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 15) : ROCHE duration=32
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (0, 3) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 4) : ROCHE duration=28
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (0, 16) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 15) : ROCHE duration=28
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (0, 3) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 4) : ROCHE duration=24
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (0, 16) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 15) : ROCHE duration=24
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (0, 3) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 4) : ROCHE duration=20
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (0, 16) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 15) : ROCHE duration=20
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (0, 3) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 4) : ROCHE duration=16
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (0, 16) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 15) : ROCHE duration=16
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (0, 3) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 4) : ROCHE duration=12
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (0, 16) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 15) : ROCHE duration=12
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (0, 3) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 4) : ROCHE duration=8
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (0, 16) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 15) : ROCHE duration=8
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (0, 3) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 4) : ROCHE duration=4
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (0, 16) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 15) : ROCHE duration=4
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (0, 3) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 4) : ROCHE duration=0
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (0, 16) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 15) : ROCHE duration=0
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (0, 4) : ROCHE
+Event.toString():MoveEventmain.modele.Case (1, 4) : ROCHE duration=36
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (0, 15) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 14) : ROCHE duration=36
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (0, 4) : ROCHE
+Event.toString():MoveEventmain.modele.Case (1, 4) : ROCHE duration=32
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (0, 15) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 14) : ROCHE duration=32
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (0, 4) : ROCHE
+Event.toString():MoveEventmain.modele.Case (1, 4) : ROCHE duration=28
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (0, 15) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 14) : ROCHE duration=28
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (0, 4) : ROCHE
+Event.toString():MoveEventmain.modele.Case (1, 4) : ROCHE duration=24
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (0, 15) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 14) : ROCHE duration=24
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (0, 4) : ROCHE
+Event.toString():MoveEventmain.modele.Case (1, 4) : ROCHE duration=20
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (0, 15) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 14) : ROCHE duration=20
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (0, 4) : ROCHE
+Event.toString():MoveEventmain.modele.Case (1, 4) : ROCHE duration=16
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (0, 15) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 14) : ROCHE duration=16
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (0, 4) : ROCHE
+Event.toString():MoveEventmain.modele.Case (1, 4) : ROCHE duration=12
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (0, 15) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 14) : ROCHE duration=12
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (0, 4) : ROCHE
+Event.toString():MoveEventmain.modele.Case (1, 4) : ROCHE duration=8
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (0, 15) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 14) : ROCHE duration=8
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (0, 4) : ROCHE
+Event.toString():MoveEventmain.modele.Case (1, 4) : ROCHE duration=4
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (0, 15) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 14) : ROCHE duration=4
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (0, 4) : ROCHE
+Event.toString():MoveEventmain.modele.Case (1, 4) : ROCHE duration=0
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (0, 15) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 14) : ROCHE duration=0
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (1, 4) : ROCHE
+Event.toString():MoveEventmain.modele.Case (2, 4) : ROCHE duration=36
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (0, 14) : ROCHE
+Event.toString():MoveEventmain.modele.Case (1, 14) : ROCHE duration=36
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (1, 4) : ROCHE
+Event.toString():MoveEventmain.modele.Case (2, 4) : ROCHE duration=32
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (0, 14) : ROCHE
+Event.toString():MoveEventmain.modele.Case (1, 14) : ROCHE duration=32
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (1, 4) : ROCHE
+Event.toString():MoveEventmain.modele.Case (2, 4) : ROCHE duration=28
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (0, 14) : ROCHE
+Event.toString():MoveEventmain.modele.Case (1, 14) : ROCHE duration=28
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (1, 4) : ROCHE
+Event.toString():MoveEventmain.modele.Case (2, 4) : ROCHE duration=24
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (0, 14) : ROCHE
+Event.toString():MoveEventmain.modele.Case (1, 14) : ROCHE duration=24
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (1, 4) : ROCHE
+Event.toString():MoveEventmain.modele.Case (2, 4) : ROCHE duration=20
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (0, 14) : ROCHE
+Event.toString():MoveEventmain.modele.Case (1, 14) : ROCHE duration=20
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (1, 4) : ROCHE
+Event.toString():MoveEventmain.modele.Case (2, 4) : ROCHE duration=16
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (0, 14) : ROCHE
+Event.toString():MoveEventmain.modele.Case (1, 14) : ROCHE duration=16
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (1, 4) : ROCHE
+Event.toString():MoveEventmain.modele.Case (2, 4) : ROCHE duration=12
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (0, 14) : ROCHE
+Event.toString():MoveEventmain.modele.Case (1, 14) : ROCHE duration=12
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (1, 4) : ROCHE
+Event.toString():MoveEventmain.modele.Case (2, 4) : ROCHE duration=8
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (0, 14) : ROCHE
+Event.toString():MoveEventmain.modele.Case (1, 14) : ROCHE duration=8
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (1, 4) : ROCHE
+Event.toString():MoveEventmain.modele.Case (2, 4) : ROCHE duration=4
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (0, 14) : ROCHE
+Event.toString():MoveEventmain.modele.Case (1, 14) : ROCHE duration=4
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (1, 4) : ROCHE
+Event.toString():MoveEventmain.modele.Case (2, 4) : ROCHE duration=0
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (0, 14) : ROCHE
+Event.toString():MoveEventmain.modele.Case (1, 14) : ROCHE duration=0
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (2, 4) : ROCHE
+Event.toString():MoveEventmain.modele.Case (3, 4) : TERRAIN_LIBRE duration=36
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (1, 14) : ROCHE
+Event.toString():MoveEventmain.modele.Case (2, 14) : ROCHE duration=36
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (2, 4) : ROCHE
+Event.toString():MoveEventmain.modele.Case (3, 4) : TERRAIN_LIBRE duration=32
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (1, 14) : ROCHE
+Event.toString():MoveEventmain.modele.Case (2, 14) : ROCHE duration=32
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (2, 4) : ROCHE
+Event.toString():MoveEventmain.modele.Case (3, 4) : TERRAIN_LIBRE duration=28
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (1, 14) : ROCHE
+Event.toString():MoveEventmain.modele.Case (2, 14) : ROCHE duration=28
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (2, 4) : ROCHE
+Event.toString():MoveEventmain.modele.Case (3, 4) : TERRAIN_LIBRE duration=24
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (1, 14) : ROCHE
+Event.toString():MoveEventmain.modele.Case (2, 14) : ROCHE duration=24
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (2, 4) : ROCHE
+Event.toString():MoveEventmain.modele.Case (3, 4) : TERRAIN_LIBRE duration=20
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (1, 14) : ROCHE
+Event.toString():MoveEventmain.modele.Case (2, 14) : ROCHE duration=20
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (2, 4) : ROCHE
+Event.toString():MoveEventmain.modele.Case (3, 4) : TERRAIN_LIBRE duration=16
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (1, 14) : ROCHE
+Event.toString():MoveEventmain.modele.Case (2, 14) : ROCHE duration=16
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (2, 4) : ROCHE
+Event.toString():MoveEventmain.modele.Case (3, 4) : TERRAIN_LIBRE duration=12
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (1, 14) : ROCHE
+Event.toString():MoveEventmain.modele.Case (2, 14) : ROCHE duration=12
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (2, 4) : ROCHE
+Event.toString():MoveEventmain.modele.Case (3, 4) : TERRAIN_LIBRE duration=8
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (1, 14) : ROCHE
+Event.toString():MoveEventmain.modele.Case (2, 14) : ROCHE duration=8
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (2, 4) : ROCHE
+Event.toString():MoveEventmain.modele.Case (3, 4) : TERRAIN_LIBRE duration=4
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (1, 14) : ROCHE
+Event.toString():MoveEventmain.modele.Case (2, 14) : ROCHE duration=4
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (2, 4) : ROCHE
+Event.toString():MoveEventmain.modele.Case (3, 4) : TERRAIN_LIBRE duration=0
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (1, 14) : ROCHE
+Event.toString():MoveEventmain.modele.Case (2, 14) : ROCHE duration=0
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (3, 4) : TERRAIN_LIBRE
+Event.toString():MoveEventmain.modele.Case (4, 4) : TERRAIN_LIBRE duration=3
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (2, 14) : ROCHE
+Event.toString():MoveEventmain.modele.Case (3, 14) : TERRAIN_LIBRE duration=36
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (4, 4) : TERRAIN_LIBRE
+Event.toString():MoveEventmain.modele.Case (4, 5) : ROCHE duration=3
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (2, 14) : ROCHE
+Event.toString():MoveEventmain.modele.Case (3, 14) : TERRAIN_LIBRE duration=32
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (4, 5) : ROCHE
+Event.toString():MoveEventmain.modele.Case (5, 5) : TERRAIN_LIBRE duration=36
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (2, 14) : ROCHE
+Event.toString():MoveEventmain.modele.Case (3, 14) : TERRAIN_LIBRE duration=28
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (4, 5) : ROCHE
+Event.toString():MoveEventmain.modele.Case (5, 5) : TERRAIN_LIBRE duration=32
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (2, 14) : ROCHE
+Event.toString():MoveEventmain.modele.Case (3, 14) : TERRAIN_LIBRE duration=24
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (4, 5) : ROCHE
+Event.toString():MoveEventmain.modele.Case (5, 5) : TERRAIN_LIBRE duration=28
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (2, 14) : ROCHE
+Event.toString():MoveEventmain.modele.Case (3, 14) : TERRAIN_LIBRE duration=20
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (4, 5) : ROCHE
+Event.toString():MoveEventmain.modele.Case (5, 5) : TERRAIN_LIBRE duration=24
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (2, 14) : ROCHE
+Event.toString():MoveEventmain.modele.Case (3, 14) : TERRAIN_LIBRE duration=16
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (4, 5) : ROCHE
+Event.toString():MoveEventmain.modele.Case (5, 5) : TERRAIN_LIBRE duration=20
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (2, 14) : ROCHE
+Event.toString():MoveEventmain.modele.Case (3, 14) : TERRAIN_LIBRE duration=12
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (4, 5) : ROCHE
+Event.toString():MoveEventmain.modele.Case (5, 5) : TERRAIN_LIBRE duration=16
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (2, 14) : ROCHE
+Event.toString():MoveEventmain.modele.Case (3, 14) : TERRAIN_LIBRE duration=8
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (4, 5) : ROCHE
+Event.toString():MoveEventmain.modele.Case (5, 5) : TERRAIN_LIBRE duration=12
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (2, 14) : ROCHE
+Event.toString():MoveEventmain.modele.Case (3, 14) : TERRAIN_LIBRE duration=4
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (4, 5) : ROCHE
+Event.toString():MoveEventmain.modele.Case (5, 5) : TERRAIN_LIBRE duration=8
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (2, 14) : ROCHE
+Event.toString():MoveEventmain.modele.Case (3, 14) : TERRAIN_LIBRE duration=0
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (4, 5) : ROCHE
+Event.toString():MoveEventmain.modele.Case (5, 5) : TERRAIN_LIBRE duration=4
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (3, 14) : TERRAIN_LIBRE
+Event.toString():MoveEventmain.modele.Case (4, 14) : TERRAIN_LIBRE duration=3
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (4, 5) : ROCHE
+Event.toString():MoveEventmain.modele.Case (5, 5) : TERRAIN_LIBRE duration=0
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (4, 14) : TERRAIN_LIBRE
+Event.toString():MoveEventmain.modele.Case (4, 13) : ROCHE duration=3
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (5, 5) : TERRAIN_LIBRE
+Event.toString():MoveEventmain.modele.Case (5, 6) : ROCHE duration=3
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (4, 13) : ROCHE
+Event.toString():MoveEventmain.modele.Case (5, 13) : TERRAIN_LIBRE duration=36
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (5, 6) : ROCHE
+Event.toString():MoveEventmain.modele.Case (5, 7) : TERRAIN_LIBRE duration=36
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (4, 13) : ROCHE
+Event.toString():MoveEventmain.modele.Case (5, 13) : TERRAIN_LIBRE duration=32
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (5, 6) : ROCHE
+Event.toString():MoveEventmain.modele.Case (5, 7) : TERRAIN_LIBRE duration=32
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (4, 13) : ROCHE
+Event.toString():MoveEventmain.modele.Case (5, 13) : TERRAIN_LIBRE duration=28
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (5, 6) : ROCHE
+Event.toString():MoveEventmain.modele.Case (5, 7) : TERRAIN_LIBRE duration=28
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (4, 13) : ROCHE
+Event.toString():MoveEventmain.modele.Case (5, 13) : TERRAIN_LIBRE duration=24
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (5, 6) : ROCHE
+Event.toString():MoveEventmain.modele.Case (5, 7) : TERRAIN_LIBRE duration=24
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (4, 13) : ROCHE
+Event.toString():MoveEventmain.modele.Case (5, 13) : TERRAIN_LIBRE duration=20
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (5, 6) : ROCHE
+Event.toString():MoveEventmain.modele.Case (5, 7) : TERRAIN_LIBRE duration=20
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (4, 13) : ROCHE
+Event.toString():MoveEventmain.modele.Case (5, 13) : TERRAIN_LIBRE duration=16
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (5, 6) : ROCHE
+Event.toString():MoveEventmain.modele.Case (5, 7) : TERRAIN_LIBRE duration=16
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (4, 13) : ROCHE
+Event.toString():MoveEventmain.modele.Case (5, 13) : TERRAIN_LIBRE duration=12
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (5, 6) : ROCHE
+Event.toString():MoveEventmain.modele.Case (5, 7) : TERRAIN_LIBRE duration=12
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (4, 13) : ROCHE
+Event.toString():MoveEventmain.modele.Case (5, 13) : TERRAIN_LIBRE duration=8
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (5, 6) : ROCHE
+Event.toString():MoveEventmain.modele.Case (5, 7) : TERRAIN_LIBRE duration=8
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (4, 13) : ROCHE
+Event.toString():MoveEventmain.modele.Case (5, 13) : TERRAIN_LIBRE duration=4
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (5, 6) : ROCHE
+Event.toString():MoveEventmain.modele.Case (5, 7) : TERRAIN_LIBRE duration=4
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (4, 13) : ROCHE
+Event.toString():MoveEventmain.modele.Case (5, 13) : TERRAIN_LIBRE duration=0
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (5, 6) : ROCHE
+Event.toString():MoveEventmain.modele.Case (5, 7) : TERRAIN_LIBRE duration=0
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (5, 13) : TERRAIN_LIBRE
+Event.toString():MoveEventmain.modele.Case (5, 12) : ROCHE duration=3
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (5, 7) : TERRAIN_LIBRE
+Event.toString():MoveEventmain.modele.Case (5, 8) : TERRAIN_LIBRE duration=3
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (5, 12) : ROCHE
+Event.toString():MoveEventmain.modele.Case (5, 11) : TERRAIN_LIBRE duration=36
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (5, 8) : TERRAIN_LIBRE
+Event.toString():MoveEventmain.modele.Case (5, 9) : TERRAIN_LIBRE duration=3
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (5, 12) : ROCHE
+Event.toString():MoveEventmain.modele.Case (5, 11) : TERRAIN_LIBRE duration=32
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (5, 9) : TERRAIN_LIBRE
+Event.toString():MoveEventmain.modele.Case (5, 10) : TERRAIN_LIBRE duration=3
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (5, 12) : ROCHE
+Event.toString():MoveEventmain.modele.Case (5, 11) : TERRAIN_LIBRE duration=28
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (5, 10) : TERRAIN_LIBRE
+Event.toString():MoveEventmain.modele.Case (5, 11) : TERRAIN_LIBRE duration=3
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (5, 12) : ROCHE
+Event.toString():MoveEventmain.modele.Case (5, 11) : TERRAIN_LIBRE duration=24
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (5, 11) : TERRAIN_LIBRE
+Event.toString():MoveEventmain.modele.Case (6, 11) : TERRAIN_LIBRE duration=3
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (5, 12) : ROCHE
+Event.toString():MoveEventmain.modele.Case (5, 11) : TERRAIN_LIBRE duration=20
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (6, 11) : TERRAIN_LIBRE
+Event.toString():MoveEventmain.modele.Case (6, 12) : TERRAIN_LIBRE duration=3
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (5, 12) : ROCHE
+Event.toString():MoveEventmain.modele.Case (5, 11) : TERRAIN_LIBRE duration=16
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (6, 12) : TERRAIN_LIBRE
+Event.toString():MoveEventmain.modele.Case (7, 12) : TERRAIN_LIBRE duration=3
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (5, 12) : ROCHE
+Event.toString():MoveEventmain.modele.Case (5, 11) : TERRAIN_LIBRE duration=12
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (7, 12) : TERRAIN_LIBRE
+Event.toString():MoveEventmain.modele.Case (8, 12) : TERRAIN_LIBRE duration=3
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (5, 12) : ROCHE
+Event.toString():MoveEventmain.modele.Case (5, 11) : TERRAIN_LIBRE duration=8
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (8, 12) : TERRAIN_LIBRE
+Event.toString():MoveEventmain.modele.Case (9, 12) : TERRAIN_LIBRE duration=3
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (5, 12) : ROCHE
+Event.toString():MoveEventmain.modele.Case (5, 11) : TERRAIN_LIBRE duration=4
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 12) : TERRAIN_LIBRE
+Event.toString():MoveEventmain.modele.Case (9, 13) : ROCHE duration=3
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (5, 12) : ROCHE
+Event.toString():MoveEventmain.modele.Case (5, 11) : TERRAIN_LIBRE duration=0
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 13) : ROCHE
+Event.toString():MoveEventmain.modele.Case (9, 14) : FORET duration=36
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (5, 11) : TERRAIN_LIBRE
+Event.toString():MoveEventmain.modele.Case (5, 10) : TERRAIN_LIBRE duration=3
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 13) : ROCHE
+Event.toString():MoveEventmain.modele.Case (9, 14) : FORET duration=32
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (5, 10) : TERRAIN_LIBRE
+Event.toString():MoveEventmain.modele.Case (5, 9) : TERRAIN_LIBRE duration=3
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 13) : ROCHE
+Event.toString():MoveEventmain.modele.Case (9, 14) : FORET duration=28
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (5, 9) : TERRAIN_LIBRE
+Event.toString():MoveEventmain.modele.Case (6, 9) : TERRAIN_LIBRE duration=3
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 13) : ROCHE
+Event.toString():MoveEventmain.modele.Case (9, 14) : FORET duration=24
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (6, 9) : TERRAIN_LIBRE
+Event.toString():MoveEventmain.modele.Case (7, 9) : TERRAIN_LIBRE duration=3
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 13) : ROCHE
+Event.toString():MoveEventmain.modele.Case (9, 14) : FORET duration=20
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (7, 9) : TERRAIN_LIBRE
+Event.toString():MoveEventmain.modele.Case (8, 9) : TERRAIN_LIBRE duration=3
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 13) : ROCHE
+Event.toString():MoveEventmain.modele.Case (9, 14) : FORET duration=16
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (8, 9) : TERRAIN_LIBRE
+Event.toString():MoveEventmain.modele.Case (8, 8) : TERRAIN_LIBRE duration=3
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 13) : ROCHE
+Event.toString():MoveEventmain.modele.Case (9, 14) : FORET duration=12
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (8, 8) : TERRAIN_LIBRE
+Event.toString():MoveEventmain.modele.Case (9, 8) : TERRAIN_LIBRE duration=3
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 13) : ROCHE
+Event.toString():MoveEventmain.modele.Case (9, 14) : FORET duration=8
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 8) : TERRAIN_LIBRE
+Event.toString():MoveEventmain.modele.Case (9, 7) : TERRAIN_LIBRE duration=3
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 13) : ROCHE
+Event.toString():MoveEventmain.modele.Case (9, 14) : FORET duration=4
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 7) : TERRAIN_LIBRE
+Event.toString():MoveEventmain.modele.Case (9, 6) : TERRAIN_LIBRE duration=3
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 13) : ROCHE
+Event.toString():MoveEventmain.modele.Case (9, 14) : FORET duration=0
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 6) : TERRAIN_LIBRE
+Event.toString():MoveEventmain.modele.Case (9, 5) : ROCHE duration=3
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 14) : FORET
+Event.toString():MoveEventmain.modele.Case (9, 15) : FORET duration=3
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 5) : ROCHE
+Event.toString():MoveEventmain.modele.Case (9, 4) : FORET duration=36
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 5) : ROCHE
+Event.toString():MoveEventmain.modele.Case (9, 4) : FORET duration=32
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 5) : ROCHE
+Event.toString():MoveEventmain.modele.Case (9, 4) : FORET duration=28
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 5) : ROCHE
+Event.toString():MoveEventmain.modele.Case (9, 4) : FORET duration=24
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 5) : ROCHE
+Event.toString():MoveEventmain.modele.Case (9, 4) : FORET duration=20
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 5) : ROCHE
+Event.toString():MoveEventmain.modele.Case (9, 4) : FORET duration=16
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 5) : ROCHE
+Event.toString():MoveEventmain.modele.Case (9, 4) : FORET duration=12
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 5) : ROCHE
+Event.toString():MoveEventmain.modele.Case (9, 4) : FORET duration=8
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 5) : ROCHE
+Event.toString():MoveEventmain.modele.Case (9, 4) : FORET duration=4
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 5) : ROCHE
+Event.toString():MoveEventmain.modele.Case (9, 4) : FORET duration=0
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 4) : FORET
+Event.toString():MoveEventmain.modele.Case (9, 3) : FORET duration=3
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 3) : FORET
+Event.toString():MoveEventmain.modele.Case (9, 2) : FORET duration=3
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Carte 20x20; taille des cases = 100
+Robot Robot à pattes : main.modele.Case (0, 0) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 1) : ROCHE duration=36
+Robot Drone : main.modele.Case (0, 8) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 7) : ROCHE duration=3
+Robot Drone : main.modele.Case (0, 9) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 8) : ROCHE duration=3
+Robot Drone : main.modele.Case (0, 10) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 11) : ROCHE duration=3
+Robot Robot à pattes : main.modele.Case (0, 19) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 18) : ROCHE duration=36
+Robot Robot à pattes : main.modele.Case (9, 9) : ROCHE
+Event.toString():MoveEventmain.modele.Case (9, 10) : TERRAIN_LIBRE duration=36
+Robot Robot à pattes : main.modele.Case (0, 0) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 1) : ROCHE duration=32
+Robot Drone : main.modele.Case (0, 7) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 6) : ROCHE duration=3
+Robot Drone : main.modele.Case (0, 8) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 7) : ROCHE duration=3
+Robot Drone : main.modele.Case (0, 11) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 12) : ROCHE duration=3
+Robot Robot à pattes : main.modele.Case (0, 19) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 18) : ROCHE duration=32
+Robot Robot à pattes : main.modele.Case (9, 9) : ROCHE
+Event.toString():MoveEventmain.modele.Case (9, 10) : TERRAIN_LIBRE duration=32
+Robot Robot à pattes : main.modele.Case (0, 0) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 1) : ROCHE duration=28
+Robot Drone : main.modele.Case (0, 6) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 5) : ROCHE duration=3
+Robot Drone : main.modele.Case (0, 7) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 6) : ROCHE duration=3
+Robot Drone : main.modele.Case (0, 12) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 13) : ROCHE duration=3
+Robot Robot à pattes : main.modele.Case (0, 19) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 18) : ROCHE duration=28
+Robot Robot à pattes : main.modele.Case (9, 9) : ROCHE
+Event.toString():MoveEventmain.modele.Case (9, 10) : TERRAIN_LIBRE duration=28
+Robot Robot à pattes : main.modele.Case (0, 0) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 1) : ROCHE duration=24
+Robot Drone : main.modele.Case (0, 5) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 4) : ROCHE duration=3
+Robot Drone : main.modele.Case (0, 6) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 5) : ROCHE duration=3
+Robot Drone : main.modele.Case (0, 13) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 14) : ROCHE duration=3
+Robot Robot à pattes : main.modele.Case (0, 19) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 18) : ROCHE duration=24
+Robot Robot à pattes : main.modele.Case (9, 9) : ROCHE
+Event.toString():MoveEventmain.modele.Case (9, 10) : TERRAIN_LIBRE duration=24
+Robot Robot à pattes : main.modele.Case (0, 0) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 1) : ROCHE duration=20
+Robot Drone : main.modele.Case (0, 4) : ROCHE
+Event.toString():MoveEventmain.modele.Case (1, 4) : ROCHE duration=3
+Robot Drone : main.modele.Case (0, 5) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 4) : ROCHE duration=3
+Robot Drone : main.modele.Case (0, 14) : ROCHE
+Event.toString():MoveEventmain.modele.Case (1, 14) : ROCHE duration=3
+Robot Robot à pattes : main.modele.Case (0, 19) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 18) : ROCHE duration=20
+Robot Robot à pattes : main.modele.Case (9, 9) : ROCHE
+Event.toString():MoveEventmain.modele.Case (9, 10) : TERRAIN_LIBRE duration=20
+Robot Robot à pattes : main.modele.Case (0, 0) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 1) : ROCHE duration=16
+Robot Drone : main.modele.Case (1, 4) : ROCHE
+Event.toString():MoveEventmain.modele.Case (2, 4) : ROCHE duration=3
+Robot Drone : main.modele.Case (0, 4) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 3) : ROCHE duration=3
+Robot Drone : main.modele.Case (1, 14) : ROCHE
+Event.toString():MoveEventmain.modele.Case (2, 14) : ROCHE duration=3
+Robot Robot à pattes : main.modele.Case (0, 19) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 18) : ROCHE duration=16
+Robot Robot à pattes : main.modele.Case (9, 9) : ROCHE
+Event.toString():MoveEventmain.modele.Case (9, 10) : TERRAIN_LIBRE duration=16
+Robot Robot à pattes : main.modele.Case (0, 0) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 1) : ROCHE duration=12
+Robot Drone : main.modele.Case (2, 4) : ROCHE
+Event.toString():MoveEventmain.modele.Case (3, 4) : TERRAIN_LIBRE duration=3
+Robot Drone : main.modele.Case (0, 3) : ROCHE
+Event.toString():MoveEventmain.modele.Case (1, 3) : ROCHE duration=3
+Robot Drone : main.modele.Case (2, 14) : ROCHE
+Event.toString():MoveEventmain.modele.Case (3, 14) : TERRAIN_LIBRE duration=3
+Robot Robot à pattes : main.modele.Case (0, 19) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 18) : ROCHE duration=12
+Robot Robot à pattes : main.modele.Case (9, 9) : ROCHE
+Event.toString():MoveEventmain.modele.Case (9, 10) : TERRAIN_LIBRE duration=12
+Robot Robot à pattes : main.modele.Case (0, 0) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 1) : ROCHE duration=8
+Robot Drone : main.modele.Case (3, 4) : TERRAIN_LIBRE
+Event.toString():MoveEventmain.modele.Case (4, 4) : TERRAIN_LIBRE duration=3
+Robot Drone : main.modele.Case (1, 3) : ROCHE
+Event.toString():MoveEventmain.modele.Case (2, 3) : ROCHE duration=3
+Robot Drone : main.modele.Case (3, 14) : TERRAIN_LIBRE
+Event.toString():MoveEventmain.modele.Case (4, 14) : TERRAIN_LIBRE duration=3
+Robot Robot à pattes : main.modele.Case (0, 19) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 18) : ROCHE duration=8
+Robot Robot à pattes : main.modele.Case (9, 9) : ROCHE
+Event.toString():MoveEventmain.modele.Case (9, 10) : TERRAIN_LIBRE duration=8
+Robot Robot à pattes : main.modele.Case (0, 0) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 1) : ROCHE duration=4
+Robot Drone : main.modele.Case (4, 4) : TERRAIN_LIBRE
+Event.toString():MoveEventmain.modele.Case (5, 4) : ROCHE duration=3
+Robot Drone : main.modele.Case (2, 3) : ROCHE
+Event.toString():MoveEventmain.modele.Case (3, 3) : ROCHE duration=3
+Robot Drone : main.modele.Case (4, 14) : TERRAIN_LIBRE
+Event.toString():MoveEventmain.modele.Case (5, 14) : ROCHE duration=3
+Robot Robot à pattes : main.modele.Case (0, 19) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 18) : ROCHE duration=4
+Robot Robot à pattes : main.modele.Case (9, 9) : ROCHE
+Event.toString():MoveEventmain.modele.Case (9, 10) : TERRAIN_LIBRE duration=4
+Robot Robot à pattes : main.modele.Case (0, 0) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 1) : ROCHE duration=0
+Robot Drone : main.modele.Case (5, 4) : ROCHE
+Event.toString():MoveEventmain.modele.Case (6, 4) : ROCHE duration=3
+Robot Drone : main.modele.Case (3, 3) : ROCHE
+Event.toString():MoveEventmain.modele.Case (4, 3) : TERRAIN_LIBRE duration=3
+Robot Drone : main.modele.Case (5, 14) : ROCHE
+Event.toString():MoveEventmain.modele.Case (6, 14) : ROCHE duration=3
+Robot Robot à pattes : main.modele.Case (0, 19) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 18) : ROCHE duration=0
+Robot Robot à pattes : main.modele.Case (9, 9) : ROCHE
+Event.toString():MoveEventmain.modele.Case (9, 10) : TERRAIN_LIBRE duration=0
+Robot Robot à pattes : main.modele.Case (0, 1) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 2) : ROCHE duration=36
+Robot Drone : main.modele.Case (6, 4) : ROCHE
+Event.toString():MoveEventmain.modele.Case (7, 4) : ROCHE duration=3
+Robot Drone : main.modele.Case (4, 3) : TERRAIN_LIBRE
+Event.toString():MoveEventmain.modele.Case (5, 3) : ROCHE duration=3
+Robot Drone : main.modele.Case (6, 14) : ROCHE
+Event.toString():MoveEventmain.modele.Case (7, 14) : ROCHE duration=3
+Robot Robot à pattes : main.modele.Case (0, 18) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 17) : ROCHE duration=36
+Robot Robot à pattes : main.modele.Case (9, 10) : TERRAIN_LIBRE
+Event.toString():MoveEventmain.modele.Case (9, 11) : TERRAIN_LIBRE duration=3
+Robot Robot à pattes : main.modele.Case (0, 1) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 2) : ROCHE duration=32
+Robot Drone : main.modele.Case (7, 4) : ROCHE
+Event.toString():MoveEventmain.modele.Case (8, 4) : ROCHE duration=3
+Robot Drone : main.modele.Case (5, 3) : ROCHE
+Event.toString():MoveEventmain.modele.Case (6, 3) : ROCHE duration=3
+Robot Drone : main.modele.Case (7, 14) : ROCHE
+Event.toString():MoveEventmain.modele.Case (8, 14) : ROCHE duration=3
+Robot Robot à pattes : main.modele.Case (0, 18) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 17) : ROCHE duration=32
+Robot Robot à pattes : main.modele.Case (9, 11) : TERRAIN_LIBRE
+Event.toString():MoveEventmain.modele.Case (9, 12) : TERRAIN_LIBRE duration=3
+Robot Robot à pattes : main.modele.Case (0, 1) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 2) : ROCHE duration=28
+Robot Drone : main.modele.Case (8, 4) : ROCHE
+Event.toString():MoveEventmain.modele.Case (9, 4) : FORET duration=3
+Robot Drone : main.modele.Case (6, 3) : ROCHE
+Event.toString():MoveEventmain.modele.Case (7, 3) : ROCHE duration=3
+Robot Drone : main.modele.Case (8, 14) : ROCHE
+Event.toString():MoveEventmain.modele.Case (9, 14) : FORET duration=3
+Robot Robot à pattes : main.modele.Case (0, 18) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 17) : ROCHE duration=28
+Robot Robot à pattes : main.modele.Case (9, 12) : TERRAIN_LIBRE
+Event.toString():MoveEventmain.modele.Case (9, 13) : ROCHE duration=3
+Robot Robot à pattes : main.modele.Case (0, 1) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 2) : ROCHE duration=24
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (7, 3) : ROCHE
+Event.toString():MoveEventmain.modele.Case (8, 3) : ROCHE duration=3
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (0, 18) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 17) : ROCHE duration=24
+Robot Robot à pattes : main.modele.Case (9, 13) : ROCHE
+Event.toString():MoveEventmain.modele.Case (9, 14) : FORET duration=36
+Robot Robot à pattes : main.modele.Case (0, 1) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 2) : ROCHE duration=20
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (8, 3) : ROCHE
+Event.toString():MoveEventmain.modele.Case (9, 3) : FORET duration=3
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (0, 18) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 17) : ROCHE duration=20
+Robot Robot à pattes : main.modele.Case (9, 13) : ROCHE
+Event.toString():MoveEventmain.modele.Case (9, 14) : FORET duration=32
+Robot Robot à pattes : main.modele.Case (0, 1) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 2) : ROCHE duration=16
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (0, 18) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 17) : ROCHE duration=16
+Robot Robot à pattes : main.modele.Case (9, 13) : ROCHE
+Event.toString():MoveEventmain.modele.Case (9, 14) : FORET duration=28
+Robot Robot à pattes : main.modele.Case (0, 1) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 2) : ROCHE duration=12
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (0, 18) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 17) : ROCHE duration=12
+Robot Robot à pattes : main.modele.Case (9, 13) : ROCHE
+Event.toString():MoveEventmain.modele.Case (9, 14) : FORET duration=24
+Robot Robot à pattes : main.modele.Case (0, 1) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 2) : ROCHE duration=8
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (0, 18) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 17) : ROCHE duration=8
+Robot Robot à pattes : main.modele.Case (9, 13) : ROCHE
+Event.toString():MoveEventmain.modele.Case (9, 14) : FORET duration=20
+Robot Robot à pattes : main.modele.Case (0, 1) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 2) : ROCHE duration=4
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (0, 18) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 17) : ROCHE duration=4
+Robot Robot à pattes : main.modele.Case (9, 13) : ROCHE
+Event.toString():MoveEventmain.modele.Case (9, 14) : FORET duration=16
+Robot Robot à pattes : main.modele.Case (0, 1) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 2) : ROCHE duration=0
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (0, 18) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 17) : ROCHE duration=0
+Robot Robot à pattes : main.modele.Case (9, 13) : ROCHE
+Event.toString():MoveEventmain.modele.Case (9, 14) : FORET duration=12
+Robot Robot à pattes : main.modele.Case (0, 2) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 3) : ROCHE duration=36
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (0, 17) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 16) : ROCHE duration=36
+Robot Robot à pattes : main.modele.Case (9, 13) : ROCHE
+Event.toString():MoveEventmain.modele.Case (9, 14) : FORET duration=8
+Robot Robot à pattes : main.modele.Case (0, 2) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 3) : ROCHE duration=32
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (0, 17) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 16) : ROCHE duration=32
+Robot Robot à pattes : main.modele.Case (9, 13) : ROCHE
+Event.toString():MoveEventmain.modele.Case (9, 14) : FORET duration=4
+Robot Robot à pattes : main.modele.Case (0, 2) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 3) : ROCHE duration=28
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (0, 17) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 16) : ROCHE duration=28
+Robot Robot à pattes : main.modele.Case (9, 13) : ROCHE
+Event.toString():MoveEventmain.modele.Case (9, 14) : FORET duration=0
+Robot Robot à pattes : main.modele.Case (0, 2) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 3) : ROCHE duration=24
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (0, 17) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 16) : ROCHE duration=24
+Robot Robot à pattes : main.modele.Case (9, 14) : FORET
+Event.toString():MoveEventmain.modele.Case (9, 15) : FORET duration=3
+Robot Robot à pattes : main.modele.Case (0, 2) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 3) : ROCHE duration=20
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (0, 17) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 16) : ROCHE duration=20
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Event.toString():MoveEventmain.modele.Case (9, 16) : FORET duration=3
+Robot Robot à pattes : main.modele.Case (0, 2) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 3) : ROCHE duration=16
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (0, 17) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 16) : ROCHE duration=16
+Robot Robot à pattes : main.modele.Case (9, 16) : FORET
+Event.toString():MoveEventmain.modele.Case (9, 17) : FORET duration=3
+Robot Robot à pattes : main.modele.Case (0, 2) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 3) : ROCHE duration=12
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (0, 17) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 16) : ROCHE duration=12
+Robot Robot à pattes : main.modele.Case (9, 17) : FORET
+Event.toString():MoveEventmain.modele.Case (9, 18) : FORET duration=3
+Robot Robot à pattes : main.modele.Case (0, 2) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 3) : ROCHE duration=8
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (0, 17) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 16) : ROCHE duration=8
+Robot Robot à pattes : main.modele.Case (9, 18) : FORET
+Event.toString():MoveEventmain.modele.Case (9, 19) : FORET duration=3
+Robot Robot à pattes : main.modele.Case (0, 2) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 3) : ROCHE duration=4
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (0, 17) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 16) : ROCHE duration=4
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (0, 2) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 3) : ROCHE duration=0
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (0, 17) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 16) : ROCHE duration=0
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (0, 3) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 4) : ROCHE duration=36
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (0, 16) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 15) : ROCHE duration=36
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (0, 3) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 4) : ROCHE duration=32
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (0, 16) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 15) : ROCHE duration=32
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (0, 3) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 4) : ROCHE duration=28
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (0, 16) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 15) : ROCHE duration=28
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (0, 3) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 4) : ROCHE duration=24
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (0, 16) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 15) : ROCHE duration=24
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (0, 3) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 4) : ROCHE duration=20
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (0, 16) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 15) : ROCHE duration=20
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (0, 3) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 4) : ROCHE duration=16
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (0, 16) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 15) : ROCHE duration=16
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (0, 3) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 4) : ROCHE duration=12
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (0, 16) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 15) : ROCHE duration=12
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (0, 3) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 4) : ROCHE duration=8
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (0, 16) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 15) : ROCHE duration=8
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (0, 3) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 4) : ROCHE duration=4
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (0, 16) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 15) : ROCHE duration=4
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (0, 3) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 4) : ROCHE duration=0
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (0, 16) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 15) : ROCHE duration=0
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (0, 4) : ROCHE
+Event.toString():MoveEventmain.modele.Case (1, 4) : ROCHE duration=36
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (0, 15) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 14) : ROCHE duration=36
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (0, 4) : ROCHE
+Event.toString():MoveEventmain.modele.Case (1, 4) : ROCHE duration=32
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (0, 15) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 14) : ROCHE duration=32
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (0, 4) : ROCHE
+Event.toString():MoveEventmain.modele.Case (1, 4) : ROCHE duration=28
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (0, 15) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 14) : ROCHE duration=28
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (0, 4) : ROCHE
+Event.toString():MoveEventmain.modele.Case (1, 4) : ROCHE duration=24
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (0, 15) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 14) : ROCHE duration=24
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (0, 4) : ROCHE
+Event.toString():MoveEventmain.modele.Case (1, 4) : ROCHE duration=20
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (0, 15) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 14) : ROCHE duration=20
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (0, 4) : ROCHE
+Event.toString():MoveEventmain.modele.Case (1, 4) : ROCHE duration=16
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (0, 15) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 14) : ROCHE duration=16
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (0, 4) : ROCHE
+Event.toString():MoveEventmain.modele.Case (1, 4) : ROCHE duration=12
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (0, 15) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 14) : ROCHE duration=12
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (0, 4) : ROCHE
+Event.toString():MoveEventmain.modele.Case (1, 4) : ROCHE duration=8
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (0, 15) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 14) : ROCHE duration=8
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (0, 4) : ROCHE
+Event.toString():MoveEventmain.modele.Case (1, 4) : ROCHE duration=4
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (0, 15) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 14) : ROCHE duration=4
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (0, 4) : ROCHE
+Event.toString():MoveEventmain.modele.Case (1, 4) : ROCHE duration=0
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (0, 15) : ROCHE
+Event.toString():MoveEventmain.modele.Case (0, 14) : ROCHE duration=0
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (1, 4) : ROCHE
+Event.toString():MoveEventmain.modele.Case (2, 4) : ROCHE duration=36
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (0, 14) : ROCHE
+Event.toString():MoveEventmain.modele.Case (1, 14) : ROCHE duration=36
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (1, 4) : ROCHE
+Event.toString():MoveEventmain.modele.Case (2, 4) : ROCHE duration=32
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (0, 14) : ROCHE
+Event.toString():MoveEventmain.modele.Case (1, 14) : ROCHE duration=32
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (1, 4) : ROCHE
+Event.toString():MoveEventmain.modele.Case (2, 4) : ROCHE duration=28
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (0, 14) : ROCHE
+Event.toString():MoveEventmain.modele.Case (1, 14) : ROCHE duration=28
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (1, 4) : ROCHE
+Event.toString():MoveEventmain.modele.Case (2, 4) : ROCHE duration=24
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (0, 14) : ROCHE
+Event.toString():MoveEventmain.modele.Case (1, 14) : ROCHE duration=24
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (1, 4) : ROCHE
+Event.toString():MoveEventmain.modele.Case (2, 4) : ROCHE duration=20
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (0, 14) : ROCHE
+Event.toString():MoveEventmain.modele.Case (1, 14) : ROCHE duration=20
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (1, 4) : ROCHE
+Event.toString():MoveEventmain.modele.Case (2, 4) : ROCHE duration=16
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (0, 14) : ROCHE
+Event.toString():MoveEventmain.modele.Case (1, 14) : ROCHE duration=16
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (1, 4) : ROCHE
+Event.toString():MoveEventmain.modele.Case (2, 4) : ROCHE duration=12
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (0, 14) : ROCHE
+Event.toString():MoveEventmain.modele.Case (1, 14) : ROCHE duration=12
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (1, 4) : ROCHE
+Event.toString():MoveEventmain.modele.Case (2, 4) : ROCHE duration=8
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (0, 14) : ROCHE
+Event.toString():MoveEventmain.modele.Case (1, 14) : ROCHE duration=8
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (1, 4) : ROCHE
+Event.toString():MoveEventmain.modele.Case (2, 4) : ROCHE duration=4
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (0, 14) : ROCHE
+Event.toString():MoveEventmain.modele.Case (1, 14) : ROCHE duration=4
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (1, 4) : ROCHE
+Event.toString():MoveEventmain.modele.Case (2, 4) : ROCHE duration=0
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (0, 14) : ROCHE
+Event.toString():MoveEventmain.modele.Case (1, 14) : ROCHE duration=0
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (2, 4) : ROCHE
+Event.toString():MoveEventmain.modele.Case (3, 4) : TERRAIN_LIBRE duration=36
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (1, 14) : ROCHE
+Event.toString():MoveEventmain.modele.Case (2, 14) : ROCHE duration=36
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (2, 4) : ROCHE
+Event.toString():MoveEventmain.modele.Case (3, 4) : TERRAIN_LIBRE duration=32
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (1, 14) : ROCHE
+Event.toString():MoveEventmain.modele.Case (2, 14) : ROCHE duration=32
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (2, 4) : ROCHE
+Event.toString():MoveEventmain.modele.Case (3, 4) : TERRAIN_LIBRE duration=28
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (1, 14) : ROCHE
+Event.toString():MoveEventmain.modele.Case (2, 14) : ROCHE duration=28
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (2, 4) : ROCHE
+Event.toString():MoveEventmain.modele.Case (3, 4) : TERRAIN_LIBRE duration=24
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (1, 14) : ROCHE
+Event.toString():MoveEventmain.modele.Case (2, 14) : ROCHE duration=24
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (2, 4) : ROCHE
+Event.toString():MoveEventmain.modele.Case (3, 4) : TERRAIN_LIBRE duration=20
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (1, 14) : ROCHE
+Event.toString():MoveEventmain.modele.Case (2, 14) : ROCHE duration=20
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (2, 4) : ROCHE
+Event.toString():MoveEventmain.modele.Case (3, 4) : TERRAIN_LIBRE duration=16
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (1, 14) : ROCHE
+Event.toString():MoveEventmain.modele.Case (2, 14) : ROCHE duration=16
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (2, 4) : ROCHE
+Event.toString():MoveEventmain.modele.Case (3, 4) : TERRAIN_LIBRE duration=12
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (1, 14) : ROCHE
+Event.toString():MoveEventmain.modele.Case (2, 14) : ROCHE duration=12
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (2, 4) : ROCHE
+Event.toString():MoveEventmain.modele.Case (3, 4) : TERRAIN_LIBRE duration=8
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (1, 14) : ROCHE
+Event.toString():MoveEventmain.modele.Case (2, 14) : ROCHE duration=8
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (2, 4) : ROCHE
+Event.toString():MoveEventmain.modele.Case (3, 4) : TERRAIN_LIBRE duration=4
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (1, 14) : ROCHE
+Event.toString():MoveEventmain.modele.Case (2, 14) : ROCHE duration=4
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (2, 4) : ROCHE
+Event.toString():MoveEventmain.modele.Case (3, 4) : TERRAIN_LIBRE duration=0
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (1, 14) : ROCHE
+Event.toString():MoveEventmain.modele.Case (2, 14) : ROCHE duration=0
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (3, 4) : TERRAIN_LIBRE
+Event.toString():MoveEventmain.modele.Case (4, 4) : TERRAIN_LIBRE duration=3
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (2, 14) : ROCHE
+Event.toString():MoveEventmain.modele.Case (3, 14) : TERRAIN_LIBRE duration=36
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (4, 4) : TERRAIN_LIBRE
+Event.toString():MoveEventmain.modele.Case (4, 5) : ROCHE duration=3
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (2, 14) : ROCHE
+Event.toString():MoveEventmain.modele.Case (3, 14) : TERRAIN_LIBRE duration=32
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (4, 5) : ROCHE
+Event.toString():MoveEventmain.modele.Case (5, 5) : TERRAIN_LIBRE duration=36
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (2, 14) : ROCHE
+Event.toString():MoveEventmain.modele.Case (3, 14) : TERRAIN_LIBRE duration=28
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (4, 5) : ROCHE
+Event.toString():MoveEventmain.modele.Case (5, 5) : TERRAIN_LIBRE duration=32
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (2, 14) : ROCHE
+Event.toString():MoveEventmain.modele.Case (3, 14) : TERRAIN_LIBRE duration=24
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (4, 5) : ROCHE
+Event.toString():MoveEventmain.modele.Case (5, 5) : TERRAIN_LIBRE duration=28
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (2, 14) : ROCHE
+Event.toString():MoveEventmain.modele.Case (3, 14) : TERRAIN_LIBRE duration=20
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (4, 5) : ROCHE
+Event.toString():MoveEventmain.modele.Case (5, 5) : TERRAIN_LIBRE duration=24
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (2, 14) : ROCHE
+Event.toString():MoveEventmain.modele.Case (3, 14) : TERRAIN_LIBRE duration=16
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (4, 5) : ROCHE
+Event.toString():MoveEventmain.modele.Case (5, 5) : TERRAIN_LIBRE duration=20
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (2, 14) : ROCHE
+Event.toString():MoveEventmain.modele.Case (3, 14) : TERRAIN_LIBRE duration=12
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (4, 5) : ROCHE
+Event.toString():MoveEventmain.modele.Case (5, 5) : TERRAIN_LIBRE duration=16
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (2, 14) : ROCHE
+Event.toString():MoveEventmain.modele.Case (3, 14) : TERRAIN_LIBRE duration=8
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (4, 5) : ROCHE
+Event.toString():MoveEventmain.modele.Case (5, 5) : TERRAIN_LIBRE duration=12
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (2, 14) : ROCHE
+Event.toString():MoveEventmain.modele.Case (3, 14) : TERRAIN_LIBRE duration=4
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (4, 5) : ROCHE
+Event.toString():MoveEventmain.modele.Case (5, 5) : TERRAIN_LIBRE duration=8
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (2, 14) : ROCHE
+Event.toString():MoveEventmain.modele.Case (3, 14) : TERRAIN_LIBRE duration=0
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (4, 5) : ROCHE
+Event.toString():MoveEventmain.modele.Case (5, 5) : TERRAIN_LIBRE duration=4
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (3, 14) : TERRAIN_LIBRE
+Event.toString():MoveEventmain.modele.Case (4, 14) : TERRAIN_LIBRE duration=3
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (4, 5) : ROCHE
+Event.toString():MoveEventmain.modele.Case (5, 5) : TERRAIN_LIBRE duration=0
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (4, 14) : TERRAIN_LIBRE
+Event.toString():MoveEventmain.modele.Case (4, 13) : ROCHE duration=3
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (5, 5) : TERRAIN_LIBRE
+Event.toString():MoveEventmain.modele.Case (5, 6) : ROCHE duration=3
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (4, 13) : ROCHE
+Event.toString():MoveEventmain.modele.Case (5, 13) : TERRAIN_LIBRE duration=36
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (5, 6) : ROCHE
+Event.toString():MoveEventmain.modele.Case (5, 7) : TERRAIN_LIBRE duration=36
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (4, 13) : ROCHE
+Event.toString():MoveEventmain.modele.Case (5, 13) : TERRAIN_LIBRE duration=32
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (5, 6) : ROCHE
+Event.toString():MoveEventmain.modele.Case (5, 7) : TERRAIN_LIBRE duration=32
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (4, 13) : ROCHE
+Event.toString():MoveEventmain.modele.Case (5, 13) : TERRAIN_LIBRE duration=28
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (5, 6) : ROCHE
+Event.toString():MoveEventmain.modele.Case (5, 7) : TERRAIN_LIBRE duration=28
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (4, 13) : ROCHE
+Event.toString():MoveEventmain.modele.Case (5, 13) : TERRAIN_LIBRE duration=24
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (5, 6) : ROCHE
+Event.toString():MoveEventmain.modele.Case (5, 7) : TERRAIN_LIBRE duration=24
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (4, 13) : ROCHE
+Event.toString():MoveEventmain.modele.Case (5, 13) : TERRAIN_LIBRE duration=20
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (5, 6) : ROCHE
+Event.toString():MoveEventmain.modele.Case (5, 7) : TERRAIN_LIBRE duration=20
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (4, 13) : ROCHE
+Event.toString():MoveEventmain.modele.Case (5, 13) : TERRAIN_LIBRE duration=16
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (5, 6) : ROCHE
+Event.toString():MoveEventmain.modele.Case (5, 7) : TERRAIN_LIBRE duration=16
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (4, 13) : ROCHE
+Event.toString():MoveEventmain.modele.Case (5, 13) : TERRAIN_LIBRE duration=12
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (5, 6) : ROCHE
+Event.toString():MoveEventmain.modele.Case (5, 7) : TERRAIN_LIBRE duration=12
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (4, 13) : ROCHE
+Event.toString():MoveEventmain.modele.Case (5, 13) : TERRAIN_LIBRE duration=8
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (5, 6) : ROCHE
+Event.toString():MoveEventmain.modele.Case (5, 7) : TERRAIN_LIBRE duration=8
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (4, 13) : ROCHE
+Event.toString():MoveEventmain.modele.Case (5, 13) : TERRAIN_LIBRE duration=4
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (5, 6) : ROCHE
+Event.toString():MoveEventmain.modele.Case (5, 7) : TERRAIN_LIBRE duration=4
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (4, 13) : ROCHE
+Event.toString():MoveEventmain.modele.Case (5, 13) : TERRAIN_LIBRE duration=0
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (5, 6) : ROCHE
+Event.toString():MoveEventmain.modele.Case (5, 7) : TERRAIN_LIBRE duration=0
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (5, 13) : TERRAIN_LIBRE
+Event.toString():MoveEventmain.modele.Case (5, 12) : ROCHE duration=3
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (5, 7) : TERRAIN_LIBRE
+Event.toString():MoveEventmain.modele.Case (5, 8) : TERRAIN_LIBRE duration=3
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (5, 12) : ROCHE
+Event.toString():MoveEventmain.modele.Case (5, 11) : TERRAIN_LIBRE duration=36
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (5, 8) : TERRAIN_LIBRE
+Event.toString():MoveEventmain.modele.Case (5, 9) : TERRAIN_LIBRE duration=3
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (5, 12) : ROCHE
+Event.toString():MoveEventmain.modele.Case (5, 11) : TERRAIN_LIBRE duration=32
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (5, 9) : TERRAIN_LIBRE
+Event.toString():MoveEventmain.modele.Case (5, 10) : TERRAIN_LIBRE duration=3
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (5, 12) : ROCHE
+Event.toString():MoveEventmain.modele.Case (5, 11) : TERRAIN_LIBRE duration=28
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (5, 10) : TERRAIN_LIBRE
+Event.toString():MoveEventmain.modele.Case (5, 11) : TERRAIN_LIBRE duration=3
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (5, 12) : ROCHE
+Event.toString():MoveEventmain.modele.Case (5, 11) : TERRAIN_LIBRE duration=24
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (5, 11) : TERRAIN_LIBRE
+Event.toString():MoveEventmain.modele.Case (6, 11) : TERRAIN_LIBRE duration=3
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (5, 12) : ROCHE
+Event.toString():MoveEventmain.modele.Case (5, 11) : TERRAIN_LIBRE duration=20
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (6, 11) : TERRAIN_LIBRE
+Event.toString():MoveEventmain.modele.Case (6, 12) : TERRAIN_LIBRE duration=3
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (5, 12) : ROCHE
+Event.toString():MoveEventmain.modele.Case (5, 11) : TERRAIN_LIBRE duration=16
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (6, 12) : TERRAIN_LIBRE
+Event.toString():MoveEventmain.modele.Case (7, 12) : TERRAIN_LIBRE duration=3
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (5, 12) : ROCHE
+Event.toString():MoveEventmain.modele.Case (5, 11) : TERRAIN_LIBRE duration=12
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (7, 12) : TERRAIN_LIBRE
+Event.toString():MoveEventmain.modele.Case (8, 12) : TERRAIN_LIBRE duration=3
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (5, 12) : ROCHE
+Event.toString():MoveEventmain.modele.Case (5, 11) : TERRAIN_LIBRE duration=8
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (8, 12) : TERRAIN_LIBRE
+Event.toString():MoveEventmain.modele.Case (9, 12) : TERRAIN_LIBRE duration=3
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (5, 12) : ROCHE
+Event.toString():MoveEventmain.modele.Case (5, 11) : TERRAIN_LIBRE duration=4
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 12) : TERRAIN_LIBRE
+Event.toString():MoveEventmain.modele.Case (9, 13) : ROCHE duration=3
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (5, 12) : ROCHE
+Event.toString():MoveEventmain.modele.Case (5, 11) : TERRAIN_LIBRE duration=0
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 13) : ROCHE
+Event.toString():MoveEventmain.modele.Case (9, 14) : FORET duration=36
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (5, 11) : TERRAIN_LIBRE
+Event.toString():MoveEventmain.modele.Case (5, 10) : TERRAIN_LIBRE duration=3
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 13) : ROCHE
+Event.toString():MoveEventmain.modele.Case (9, 14) : FORET duration=32
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (5, 10) : TERRAIN_LIBRE
+Event.toString():MoveEventmain.modele.Case (5, 9) : TERRAIN_LIBRE duration=3
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 13) : ROCHE
+Event.toString():MoveEventmain.modele.Case (9, 14) : FORET duration=28
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (5, 9) : TERRAIN_LIBRE
+Event.toString():MoveEventmain.modele.Case (6, 9) : TERRAIN_LIBRE duration=3
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 13) : ROCHE
+Event.toString():MoveEventmain.modele.Case (9, 14) : FORET duration=24
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (6, 9) : TERRAIN_LIBRE
+Event.toString():MoveEventmain.modele.Case (7, 9) : TERRAIN_LIBRE duration=3
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 13) : ROCHE
+Event.toString():MoveEventmain.modele.Case (9, 14) : FORET duration=20
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (7, 9) : TERRAIN_LIBRE
+Event.toString():MoveEventmain.modele.Case (8, 9) : TERRAIN_LIBRE duration=3
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 13) : ROCHE
+Event.toString():MoveEventmain.modele.Case (9, 14) : FORET duration=16
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (8, 9) : TERRAIN_LIBRE
+Event.toString():MoveEventmain.modele.Case (8, 8) : TERRAIN_LIBRE duration=3
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 13) : ROCHE
+Event.toString():MoveEventmain.modele.Case (9, 14) : FORET duration=12
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (8, 8) : TERRAIN_LIBRE
+Event.toString():MoveEventmain.modele.Case (9, 8) : TERRAIN_LIBRE duration=3
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 13) : ROCHE
+Event.toString():MoveEventmain.modele.Case (9, 14) : FORET duration=8
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 8) : TERRAIN_LIBRE
+Event.toString():MoveEventmain.modele.Case (9, 7) : TERRAIN_LIBRE duration=3
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 13) : ROCHE
+Event.toString():MoveEventmain.modele.Case (9, 14) : FORET duration=4
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 7) : TERRAIN_LIBRE
+Event.toString():MoveEventmain.modele.Case (9, 6) : TERRAIN_LIBRE duration=3
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 13) : ROCHE
+Event.toString():MoveEventmain.modele.Case (9, 14) : FORET duration=0
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 6) : TERRAIN_LIBRE
+Event.toString():MoveEventmain.modele.Case (9, 5) : ROCHE duration=3
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 14) : FORET
+Event.toString():MoveEventmain.modele.Case (9, 15) : FORET duration=3
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 5) : ROCHE
+Event.toString():MoveEventmain.modele.Case (9, 4) : FORET duration=36
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 5) : ROCHE
+Event.toString():MoveEventmain.modele.Case (9, 4) : FORET duration=32
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 5) : ROCHE
+Event.toString():MoveEventmain.modele.Case (9, 4) : FORET duration=28
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 5) : ROCHE
+Event.toString():MoveEventmain.modele.Case (9, 4) : FORET duration=24
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 5) : ROCHE
+Event.toString():MoveEventmain.modele.Case (9, 4) : FORET duration=20
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 5) : ROCHE
+Event.toString():MoveEventmain.modele.Case (9, 4) : FORET duration=16
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 5) : ROCHE
+Event.toString():MoveEventmain.modele.Case (9, 4) : FORET duration=12
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 5) : ROCHE
+Event.toString():MoveEventmain.modele.Case (9, 4) : FORET duration=8
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 5) : ROCHE
+Event.toString():MoveEventmain.modele.Case (9, 4) : FORET duration=4
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 5) : ROCHE
+Event.toString():MoveEventmain.modele.Case (9, 4) : FORET duration=0
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 4) : FORET
+Event.toString():MoveEventmain.modele.Case (9, 3) : FORET duration=3
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 3) : FORET
+Event.toString():MoveEventmain.modele.Case (9, 2) : FORET duration=3
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET
+Robot Robot à pattes : main.modele.Case (9, 15) : FORET
+Robot Drone : main.modele.Case (9, 4) : FORET
+Robot Drone : main.modele.Case (9, 3) : FORET
+Robot Drone : main.modele.Case (9, 14) : FORET
+Robot Robot à pattes : main.modele.Case (9, 2) : FORET
+Robot Robot à pattes : main.modele.Case (9, 19) : FORET

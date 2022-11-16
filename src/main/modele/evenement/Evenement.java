@@ -20,7 +20,7 @@ public abstract class Evenement {
         return this.dateStart;
     }
 
-    public abstract void execute(int n);
+    public abstract void execute();
 
     public String toString() {
         return "Evenement (" + this.dateStart + ") : duration=" + this.duration;

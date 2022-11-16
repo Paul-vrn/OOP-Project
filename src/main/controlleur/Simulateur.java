@@ -11,28 +11,31 @@ import main.controlleur.navigation.NavigationStrategy2;
 import main.modele.Carte;
 import main.modele.Incendie;
 import main.modele.robot.Robot;
-
 import java.awt.*;
 import java.io.FileNotFoundException;
 import java.util.List;
 import java.util.zip.DataFormatException;
 
+/**
+ * Classe de gestion de la simulation
+ */
 public class Simulateur implements Simulable {
 
     private GUISimulator gui;
     private DonneesSimulation donneesSimulation;
     private int tempsEcoule;
     private String map;
-    private ChefRobot chefRobot;
-    private int n;
 
+    /**
+     * Constructeur de la classe Simulateur
+     * @param args les arguments de la ligne de commande
+     */
     public Simulateur(String[] args) {
         this.gui = new GUISimulator(800, 600, Color.BLACK);
         gui.setSimulable(this);
         try {
             this.map = args[0];
             donneesSimulation = LecteurDonnees.getData(map);
-            this.n = (int) Math.round(donneesSimulation.getCarte().getTailleCases() / 27.8);
         } catch (DataFormatException | FileNotFoundException e) {
             System.err.println("Erreur lors de la lecture du fichier");
             System.exit(1);
@@ -42,6 +45,7 @@ public class Simulateur implements Simulable {
         }
 
         ChefRobot.getInstance(); // création du singleton chef robot
+        ChefRobot.getInstance().n = (int) Math.round(donneesSimulation.getCarte().getTailleCases() / 27.8);
         switch (args.length > 1 && args[1] != null ? args[1] : "1") {
             case "1" -> ChefRobot.getInstance().setStrategy(new NavigationStrategy1());
             case "2" -> ChefRobot.getInstance().setStrategy(new NavigationStrategy2());
@@ -122,9 +126,7 @@ public class Simulateur implements Simulable {
         }
         for (Robot robot : donneesSimulation.getRobots()) {
             if (robot.isOccupied()) {
-                // TODO : faire l'event current du robot
-                System.out.println("Robot " + robot.getName() + " : " + robot.getPosition());
-                robot.execute(n);
+                robot.execute();
             }
         }
         incrementeTemps();
@@ -139,6 +141,7 @@ public class Simulateur implements Simulable {
         try {
             donneesSimulation = LecteurDonnees.getData(map);
             ChefRobot.getInstance().reset();
+            ChefRobot.getInstance().notif = true;
             draw();
         } catch (FileNotFoundException | DataFormatException e) {
             throw new RuntimeException(e);
@@ -155,10 +158,16 @@ public class Simulateur implements Simulable {
         Simulable.super.selectedItem(s);
     }
 
+    /**
+     * Incrémente le temps écoulé
+     */
     public void incrementeTemps() {
         this.tempsEcoule++;
     }
 
+    /**
+     * Retourne le temps écoulé
+     */
     public void simulationTerminee() {
         System.out.println("Simulation terminée");
         System.exit(0);

@@ -7,8 +7,7 @@ import java.util.ArrayList;
 
 public class Roues extends Robot {
 
-    public Roues(int i, Case position) {
-        super(i);
+    public Roues(Case position) {
         setPosition(position);
         this.type = RobotType.ROUES;
         this.baseVitesse = 80;
