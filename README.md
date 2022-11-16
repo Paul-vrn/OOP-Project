@@ -49,9 +49,10 @@ La classe ChefRobot avait le rôle du Navigateur, c'est lui qui possède la stra
 
 ![diagram strategy](images/diagram strategy.png)\
 (En apprendre plus sur le design pattern Strategy : https://refactoring.guru/design-patterns/strategy)\
-## Gestion des robots par le Chef robot (Observer)
-On voulait éviter de surcharger d'appel aux classes robots et incendies inutiles.\
-C'est-à-dire que dans une implémentation simpliste, le chef robot appellerait toutes les classes robots et incendies pour leur demander "Est ce que vous êtes disponibles ?"\
+
+## Gestion des robots par le Chef robot (Design Pattern Observer)
+On voulait éviter de surcharger d'appels les classes robots et incendies.\
+C'est-à-dire que dans une implémentation simpliste, le chef robot appellerait toutes les classes robots et incendies pour leur demander "Est ce que vous êtes disponibles ?" à chaque fois qu'on appelle `next()`\
 Donc si un robot était occupé pour une suite d'événements qui durerait 300 tours, le chef robot appellerait 300 fois la classe robot pour rien.\
 Pour palier à ce problème nous avons implémenté le design pattern Observer avec quelques modifications pour que cela colle à nos besoins.\
 

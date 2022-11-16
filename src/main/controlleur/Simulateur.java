@@ -120,6 +120,8 @@ public class Simulateur implements Simulable {
         for (Robot robot : donneesSimulation.getRobots()) {
             if (robot.isOccupied()) {
                 // TODO : faire l'event current du robot
+                System.out.println("Robot " + robot.getName() + " : " + robot.getPosition());
+                robot.execute();
             }
         }
         incrementeTemps();

@@ -35,17 +35,16 @@ public class NavigationStrategy1 implements NavigationStrategy {
         currentNode.setfScore(
                 (double) currentNode.hCalculator(incendie) * carte.getTailleCases() / (robot.getBaseVitesse() / 3.6));// On met le noeud de départ à 0
         while (!openNodes.isEmpty()) {
-            System.out
-                    .println("openNodes.size() = " + openNodes.size() + " closedNodes.size() = " + closedNodes.size());
+            //System.out.println("openNodes.size() = " + openNodes.size() + " closedNodes.size() = " + closedNodes.size());
             // currentNode becomes the node in openNodes with the smalles fScore
             minNode = openNodes.get(0);
             for (Node node : openNodes) {
-                System.out.println(node.getPosition() + "   " + node.getfScore());
+                //System.out.println(node.getPosition() + "   " + node.getfScore());
                 if (node.getfScore() < minNode.getfScore()) {
                     minNode = node;
                 }
             }
-            System.out.println("MinNode : " + minNode.getPosition());
+            //System.out.println("MinNode : " + minNode.getPosition());
             // currentNode = openNodes.get(0);
             // for (int i = 0; i < openNodes.size(); i++) {
             // if (currentNode.getfScore() < openNodes.get(i).getfScore()) {
@@ -97,14 +96,14 @@ public class NavigationStrategy1 implements NavigationStrategy {
                     // voisinDroite.getgScore());
                     voisinDroite.setfScore(voisinDroite.getgScore()
                             + (((double) voisinDroite.hCalculator(incendie) * carte.getTailleCases())
-                            / (robot.getBaseVitesse() / 3.6)));
+                                    / (robot.getBaseVitesse() / 3.6)));
                 } else {
                     if (voisinDroite.getgScore() > currentNode.getgScore() + edgeTime) {
                         voisinDroite.setParent(currentNode);
                         voisinDroite.setgScore(currentNode.getgScore() + edgeTime);
                         voisinDroite.setfScore(voisinDroite.getgScore()
                                 + (((double) voisinDroite.hCalculator(incendie) * carte.getTailleCases())
-                                / (robot.getBaseVitesse() / 3.6)));
+                                        / (robot.getBaseVitesse() / 3.6)));
                         if (closedNodes.contains(voisinDroite)) {
                             closedNodes.remove(voisinDroite);
                             openNodes.add(voisinDroite);
@@ -118,7 +117,7 @@ public class NavigationStrategy1 implements NavigationStrategy {
                                     .getPosition())) {
                 Node voisinGauche = nodeMap[currentNode.getPosition().getLigne()][currentNode.getPosition().getColonne()
                         - 1];
-                System.out.println("VoisinGauche" + voisinGauche.getPosition());
+                //System.out.println("VoisinGauche" + voisinGauche.getPosition());
                 if (!closedNodes.contains(voisinGauche) && !openNodes.contains(voisinGauche)) {
                     openNodes.add(voisinGauche);
                     voisinGauche.setParent(currentNode);

@@ -8,7 +8,6 @@ import main.modele.robot.Robot;
 import java.util.List;
 
 public class Chemin {
-
     private Case start;
     private Case end;
     private Robot robot;

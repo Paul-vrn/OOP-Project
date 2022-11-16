@@ -3,6 +3,7 @@ package main.modele.robot;
 import main.modele.Case;
 import main.modele.Carte;
 import main.modele.evenement.Evenement;
+import main.modele.evenement.MoveEvent;
 
 import java.util.List;
 
@@ -152,6 +153,12 @@ public abstract class Robot {
     public void nextEvent() {
         if (indexEvenement < evenements.size()) {
             indexEvenement++;
+        }
+    }
+    public void execute() {
+        if (indexEvenement < evenements.size()) {
+            System.out.println("Event.toString():"+evenements.get(indexEvenement).toString());
+            evenements.get(indexEvenement).execute();
         }
     }
 
