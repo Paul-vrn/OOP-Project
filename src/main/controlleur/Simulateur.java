@@ -17,7 +17,6 @@ import java.io.FileNotFoundException;
 import java.util.List;
 import java.util.zip.DataFormatException;
 
-
 public class Simulateur implements Simulable {
 
     private GUISimulator gui;
@@ -25,6 +24,7 @@ public class Simulateur implements Simulable {
     private int tempsEcoule;
     private String map;
     private ChefRobot chefRobot;
+    private int n;
 
     public Simulateur(String[] args) {
         this.gui = new GUISimulator(800, 600, Color.BLACK);
@@ -32,6 +32,7 @@ public class Simulateur implements Simulable {
         try {
             this.map = args[0];
             donneesSimulation = LecteurDonnees.getData(map);
+            this.n = (int) Math.round(donneesSimulation.getCarte().getTailleCases() / 27.8);
         } catch (DataFormatException | FileNotFoundException e) {
             System.err.println("Erreur lors de la lecture du fichier");
             System.exit(1);
@@ -50,12 +51,10 @@ public class Simulateur implements Simulable {
             }
         }
 
-
         this.tempsEcoule = 0;
         chefRobot.initDistribution(donneesSimulation);
         draw();
     }
-
 
     /**
      * Dessine la carte et les robots
@@ -121,7 +120,7 @@ public class Simulateur implements Simulable {
             if (robot.isOccupied()) {
                 // TODO : faire l'event current du robot
                 System.out.println("Robot " + robot.getName() + " : " + robot.getPosition());
-                robot.execute();
+                robot.execute(n);
             }
         }
         incrementeTemps();
@@ -151,7 +150,6 @@ public class Simulateur implements Simulable {
     public void selectedItem(String s) {
         Simulable.super.selectedItem(s);
     }
-
 
     public void incrementeTemps() {
         this.tempsEcoule++;

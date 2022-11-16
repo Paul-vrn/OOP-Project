@@ -12,9 +12,9 @@ public class MoveEvent extends Evenement {
         this.caseCible = caseCible;
     }
 
-    public void execute() {
-        if (duration > 0) {
-            duration--;
+    public void execute(int n) {
+        if (duration >= n) {
+            duration = duration - n;
         } else {
             try {
                 if (robot.canMoveTo(caseCible)) {

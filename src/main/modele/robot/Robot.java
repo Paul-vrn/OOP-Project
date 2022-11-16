@@ -155,10 +155,11 @@ public abstract class Robot {
             indexEvenement++;
         }
     }
-    public void execute() {
+
+    public void execute(int n) {
         if (indexEvenement < evenements.size()) {
-            System.out.println("Event.toString():"+evenements.get(indexEvenement).toString());
-            evenements.get(indexEvenement).execute();
+            System.out.println("Event.toString():" + evenements.get(indexEvenement).toString());
+            evenements.get(indexEvenement).execute(n);
         }
     }
 

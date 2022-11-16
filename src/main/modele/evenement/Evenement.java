@@ -4,13 +4,11 @@ import main.modele.robot.Robot;
 
 public abstract class Evenement {
 
-
     protected int dateStart;
 
     protected int duration;
 
     protected Robot robot;
-
 
     public Evenement(int dateStart, int duration, Robot robot) {
         this.dateStart = dateStart;
@@ -22,9 +20,9 @@ public abstract class Evenement {
         return this.dateStart;
     }
 
-    public abstract void execute();
+    public abstract void execute(int n);
 
     public String toString() {
-        return "Evenement (" + this.dateStart + ") : duration="+this.duration;
+        return "Evenement (" + this.dateStart + ") : duration=" + this.duration;
     }
 }
