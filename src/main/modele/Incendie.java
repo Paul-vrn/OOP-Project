@@ -4,6 +4,7 @@ public class Incendie {
 
     private int id;
     private Case position;
+    private int eauNecessaireStart; // permet de garder en mémoire la quantité d'eau nécessaire au départ (sert à l'affichage)
     private int eauNecessaire;
 
     private boolean isHandled;
@@ -13,6 +14,7 @@ public class Incendie {
         this.id = id;
         this.position = position;
         this.eauNecessaire = eauNecessaire;
+        this.eauNecessaireStart = eauNecessaire;
         this.isHandled = false;
     }
 
@@ -24,8 +26,8 @@ public class Incendie {
         return this.eauNecessaire;
     }
 
-    public void Eteindre(int QuantiteEau){
-        int res = this.eauNecessaire - QuantiteEau;
+    public void eteindre(int quantiteEau){
+        int res = this.eauNecessaire - quantiteEau;
         if(res<=0){
             this.eauNecessaire = 0;
         }
@@ -34,14 +36,17 @@ public class Incendie {
         }
     }
 
-    public boolean IsHandled(){
+    public boolean isHandled(){
         return this.isHandled;
     }
     public void setHandle(boolean handle){
         this.isHandled = handle;
     }
 
-    public boolean IsEteint(){
+    public int getEauNecessaireStart() {
+        return eauNecessaireStart;
+    }
+    public boolean isEteint(){
         return this.eauNecessaire == 0;
     }
 

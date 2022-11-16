@@ -46,7 +46,7 @@ public final class ChefRobot {
             chemins.removeIf(chemin ->
                     !chemin.getStart().equals(chemin.getRobot().getPosition()) ||
                             !chemin.getEnd().equals(chemin.getIncendie().getPosition()) ||
-                            chemin.getRobot().isEmpty() || chemin.getIncendie().IsEteint()
+                            chemin.getRobot().isEmpty() || chemin.getIncendie().isEteint()
             );
             strategy.fillChemins(chemins, donneesSimulation);
             strategy.distribution(chemins);

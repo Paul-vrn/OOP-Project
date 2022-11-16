@@ -221,7 +221,7 @@ public class NavigationStrategy1 implements NavigationStrategy {
      */
     public void fillChemins(Queue<Chemin> chemins, DonneesSimulation donneesSimulation) {
         for (Incendie incendie : donneesSimulation.getIncendies()) {
-            if (!incendie.IsEteint() && !incendie.IsHandled()) {
+            if (!incendie.isEteint() && !incendie.isHandled()) {
                 for (Robot robot : donneesSimulation.getRobots()) {
                     if (!robot.isEmpty() && !robot.isOccupied()) {
                         Chemin chemin = plusCourtChemin(robot, incendie, donneesSimulation);
@@ -242,7 +242,7 @@ public class NavigationStrategy1 implements NavigationStrategy {
         Iterator<Chemin> iterator = chemins.iterator();
         while (iterator.hasNext()) {
             Chemin chemin = iterator.next();
-            if (!chemin.getRobot().isOccupied() && !chemin.getIncendie().IsHandled()) {
+            if (!chemin.getRobot().isOccupied() && !chemin.getIncendie().isHandled()) {
                 chemin.getRobot().addEvenements(chemin.getEvents());
                 chemin.getRobot().setOccupied(true);
                 chemin.getIncendie().setHandle(true);
