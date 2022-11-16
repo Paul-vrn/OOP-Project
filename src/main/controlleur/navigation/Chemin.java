@@ -7,14 +7,24 @@ import main.modele.robot.Robot;
 
 import java.util.List;
 
+/**
+ * Classe représentant un chemin pour calculer le plus court chemin.
+ */
 public class Chemin {
-    private Case start;
-    private Case end;
-    private Robot robot;
-    private Incendie incendie;
-    private int duration;
-    private List<Evenement> events;
+    private Case start; // la case de départ
+    private Case end; // la case d'arrivée
+    private Robot robot; // le robot
+    private Incendie incendie; // l'incendie
+    private int duration; // la durée du chemin
+    private List<Evenement> events; // les événements sur le chemin
 
+    /**
+     * Constructeur de la classe Chemin
+     * @param robot le robot
+     * @param incendie l'incendie
+     * @param duration la durée du chemin
+     * @param events la liste des événements
+     */
     public Chemin(Robot robot, Incendie incendie, int duration, List<Evenement> events) {
         this.robot = robot;
         this.incendie = incendie;
@@ -24,7 +34,13 @@ public class Chemin {
         this.end = incendie.getPosition();
     }
 
+    /**
+     * Compateur de la classe Chemin
+     */
     public static class Comparators {
+        /**
+         * Comparateur de chemin par durée
+         */
         public static final java.util.Comparator<Chemin> DURATION = (o1, o2) -> o1.duration - o2.duration;
     }
 
@@ -58,14 +74,6 @@ public class Chemin {
      */
     public void setIncendie(Incendie incendie) {
         this.incendie = incendie;
-    }
-
-    public int getDuration() {
-        return duration;
-    }
-
-    public void setDuration(int duration) {
-        this.duration = duration;
     }
 
     /**

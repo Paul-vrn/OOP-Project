@@ -59,6 +59,11 @@ public class Chenilles extends Robot {
         }
     }
 
+    /**
+     * Setter de la position du robot à chenilles.
+     * @param position La position du robot à chenilles.
+     */
+    @Override
     public void setPosition(Case position) {
         try {
             if (position.getNature() == NatureTerrain.EAU || position.getNature() == NatureTerrain.ROCHE) {
@@ -72,6 +77,12 @@ public class Chenilles extends Robot {
         }
     }
 
+    /**
+     * Méthode permettant de savoir si le robot à chenilles peut se déplacer sur la case passée en paramètre.
+     * @param targetPosition La case sur laquelle on veut savoir si le robot à chenilles peut se déplacer.
+     * @return true si le robot à chenilles peut se déplacer sur la case passée en paramètre, false sinon.
+     */
+    @Override
     public boolean canMoveTo(Case targetPosition) {
         // vérrifie bien qu'on essaye de bouger à sur une case adjacente
         if (Math.abs(this.position.getLigne() - targetPosition.getLigne())
@@ -81,10 +92,19 @@ public class Chenilles extends Robot {
         return (targetPosition.getNature() != NatureTerrain.EAU && targetPosition.getNature() != NatureTerrain.ROCHE);
     }
 
+    /**
+     * Méthode permettant de savoir si le robot à chenilles peut être sur la case passée en paramètre.
+     * @param targetPosition La case sur laquelle on veut savoir si le robot à chenilles peut être.
+     * @return <true> si le robot à chenilles peut être sur la case passée en paramètre, <false> sinon.
+     */
     public boolean canRobotBeOnCase(Case targetPosition) {
         return (targetPosition.getNature() != NatureTerrain.EAU && targetPosition.getNature() != NatureTerrain.ROCHE);
     }
 
+    /**
+     * Retourne le nom du robot chenilles.
+     * @return le nom du robot chenilles
+     */
     @Override
     public String getName() {
         return super.getName() + " à chenilles";

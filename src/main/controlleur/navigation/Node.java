@@ -2,6 +2,9 @@ package main.controlleur.navigation;
 import main.modele.Case;
 import main.modele.Incendie;
 
+/**
+ * Classe représentant un noeud pour calculer le plus court chemin.
+ */
 public class Node{
         private Case position;
         private double fScore;

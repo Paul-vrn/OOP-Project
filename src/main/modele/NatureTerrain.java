@@ -2,9 +2,16 @@ package main.modele;
 
 import java.awt.*;
 
+/**
+ * Classe représentant une case de la carte.
+ */
 public enum NatureTerrain {
     EAU, FORET, ROCHE, TERRAIN_LIBRE, HABITAT, UNDEFINED;
 
+    /**
+     * Retourne la couleur associée à la nature du terrain.
+     * @return la couleur associée à la nature du terrain
+     */
     public Color getColor() {
         switch (this) {
             case EAU:
@@ -21,6 +28,11 @@ public enum NatureTerrain {
                 return Color.BLACK;
         }
     }
+
+    /**
+     * Retourne l'image correspondant à la nature du terrain
+     * @return l'image correspondant à la nature du terrain
+     */
     public String getImage() {
         switch (this) {
             case EAU:
