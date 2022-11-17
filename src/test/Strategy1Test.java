@@ -14,10 +14,9 @@ public class Strategy1Test {
 
     public static void main(String[] args) {
         try {
-            DonneesSimulation data = LecteurDonnees.getData("cartes/carteSujet.map");
+            DonneesSimulation data = LecteurDonnees.getData("cartes/desertOfDeath-20x20.map");
             NavigationStrategy strategy = new NavigationStrategy1();
-            System.out.println(data.getIncendies().get(0));
-            Chemin chemin = strategy.plusCourtChemin(data.getRobots().get(1), data.getIncendies().get(0), data);
+            Chemin chemin = strategy.plusCourtCheminEau(data.getRobots().get(1), data);
             chemin.print();
         } catch (DataFormatException | FileNotFoundException e) {
             e.printStackTrace();
