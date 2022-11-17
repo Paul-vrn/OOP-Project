@@ -68,8 +68,6 @@ public final class ChefRobot {
             // si chemin est obsolète, robot vide ou incendie éteint, on le supprime
             strategy.fillChemins(donneesSimulation);
             strategy.distribution();
-            System.out.println("chemins updated");
-            System.out.println(chemins);
             notif = false;
         }
     }

@@ -18,13 +18,77 @@ import java.util.*;
  */
 public class NavigationStrategy1 implements NavigationStrategy {
 
+
+    public Chemin plusCourtCheminEau(Robot robot, DonneesSimulation donneesSimulation) {
+        System.out.println("plusCourtCheminEau du robot " + robot.getName() +" "+ robot.getPosition());
+        Chemin tempCheminEau = null;
+        Chemin cheminEau = null;
+        boolean isAdjacentToWater = false;
+        // loop through all the cases of the map
+        for (int i = 0; i < donneesSimulation.getCarte().getNbLignes(); i++) {
+            for (int j = 0; j < donneesSimulation.getCarte().getNbColonnes(); j++) {
+                // if the case is a water case and the robot is a drone calculate shortest path
+                if (donneesSimulation.getCarte().getCases()[i][j].getNature() == NatureTerrain.EAU
+                        && robot.getType() == RobotType.DRONE) {
+                    tempCheminEau = plusCourtChemin(robot, donneesSimulation.getCarte().getCase(i, j),
+                            donneesSimulation);
+                    if (tempCheminEau != null && (cheminEau == null || tempCheminEau
+                            .getDuration() < cheminEau.getDuration())) {
+                        cheminEau = tempCheminEau;
+                    }
+                }
+                // else if the case is adjacent to an existing water case calculate shortest
+                // path
+                else {
+                    isAdjacentToWater = false;
+                    if (i - 1 >= 0
+                            && donneesSimulation.getCarte().getCases()[i - 1][j].getNature() == NatureTerrain.EAU) {
+                        tempCheminEau = plusCourtChemin(robot, donneesSimulation.getCarte().getCase(i, j),
+                                donneesSimulation);
+                        isAdjacentToWater = true;
+                    }
+                    if (i + 1 < donneesSimulation.getCarte().getNbLignes()
+                            && donneesSimulation.getCarte().getCases()[i + 1][j].getNature() == NatureTerrain.EAU) {
+                        tempCheminEau = plusCourtChemin(robot, donneesSimulation.getCarte().getCase(i, j),
+                                donneesSimulation);
+                        isAdjacentToWater = true;
+                    }
+                    if (j - 1 >= 0
+                            && donneesSimulation.getCarte().getCases()[i][j - 1].getNature() == NatureTerrain.EAU) {
+                        tempCheminEau = plusCourtChemin(robot, donneesSimulation.getCarte().getCase(i, j),
+                                donneesSimulation);
+                        isAdjacentToWater = true;
+                    }
+                    if (j + 1 < donneesSimulation.getCarte().getNbColonnes()
+                            && donneesSimulation.getCarte().getCases()[i][j + 1].getNature() == NatureTerrain.EAU) {
+                        tempCheminEau = plusCourtChemin(robot, donneesSimulation.getCarte().getCase(i, j),
+                                donneesSimulation);
+                        isAdjacentToWater = true;
+                    }
+                    // print isAdjacentToWater
+                    if (isAdjacentToWater && tempCheminEau != null && (cheminEau == null || tempCheminEau
+                            .getDuration() < cheminEau.getDuration())) {
+                        cheminEau = tempCheminEau;
+                    }
+                }
+
+            }
+        }
+        return cheminEau;
+    }
+
+    public Chemin plusCourtCheminIncendie(Robot robot, Incendie incendie, DonneesSimulation donneesSimulation) {
+        Chemin cheminIncendie = plusCourtChemin(robot, incendie.getPosition(), donneesSimulation);
+        cheminIncendie.setIncendie(incendie);
+        cheminIncendie.getEvents().add(new EteindreEvent(0, robot, incendie));
+        return cheminIncendie;
+    }
     /**
-     * calcule le plus court chemin entre un robot et un incendie
-     * 
-     * @param robot             le robot
-     * @param incendie          l'incendie
-     * @param donneesSimulation les données de la simulation
-     * @return le chemin
+     *
+     * @param robot
+     * @param caseArrivee
+     * @param donneesSimulation
+     * @return
      */
     @Override
     public Chemin plusCourtChemin(Robot robot, Case caseArrivee, DonneesSimulation donneesSimulation) {
@@ -209,68 +273,7 @@ public class NavigationStrategy1 implements NavigationStrategy {
         return null;
     }
 
-    public Chemin plusCourtCheminEau(Robot robot, DonneesSimulation donneesSimulation) {
-        Chemin tempCheminEau = null;
-        Chemin cheminEau = null;
-        boolean isAdjacentToWater = false;
-        // loop through all the cases of the map
-        for (int i = 0; i < donneesSimulation.getCarte().getNbLignes(); i++) {
-            for (int j = 0; j < donneesSimulation.getCarte().getNbColonnes(); j++) {
-                // if the case is a water case and the robot is a drone calculate shortest path
-                if (donneesSimulation.getCarte().getCases()[i][j].getNature() == NatureTerrain.EAU
-                        && robot.getType() == RobotType.DRONE) {
-                    tempCheminEau = plusCourtChemin(robot, donneesSimulation.getCarte().getCase(i, j),
-                            donneesSimulation);
-                    if (tempCheminEau != null && (cheminEau == null || tempCheminEau
-                            .getDuration() < cheminEau.getDuration())) {
-                        cheminEau = tempCheminEau;
-                    }
-                }
-                // else if the case is adjacent to an existing water case calculate shortest
-                // path
-                else {
-                    isAdjacentToWater = false;
-                    if (i - 1 >= 0
-                            && donneesSimulation.getCarte().getCases()[i - 1][j].getNature() == NatureTerrain.EAU) {
-                        tempCheminEau = plusCourtChemin(robot, donneesSimulation.getCarte().getCase(i, j),
-                                donneesSimulation);
-                        isAdjacentToWater = true;
-                    }
-                    if (i + 1 < donneesSimulation.getCarte().getNbLignes()
-                            && donneesSimulation.getCarte().getCases()[i + 1][j].getNature() == NatureTerrain.EAU) {
-                        tempCheminEau = plusCourtChemin(robot, donneesSimulation.getCarte().getCase(i, j),
-                                donneesSimulation);
-                        isAdjacentToWater = true;
-                    }
-                    if (j - 1 >= 0
-                            && donneesSimulation.getCarte().getCases()[i][j - 1].getNature() == NatureTerrain.EAU) {
-                        tempCheminEau = plusCourtChemin(robot, donneesSimulation.getCarte().getCase(i, j),
-                                donneesSimulation);
-                        isAdjacentToWater = true;
-                    }
-                    if (j + 1 < donneesSimulation.getCarte().getNbColonnes()
-                            && donneesSimulation.getCarte().getCases()[i][j + 1].getNature() == NatureTerrain.EAU) {
-                        tempCheminEau = plusCourtChemin(robot, donneesSimulation.getCarte().getCase(i, j),
-                                donneesSimulation);
-                        isAdjacentToWater = true;
-                    }
-                    // print isAdjacentToWater
-                    if (isAdjacentToWater && tempCheminEau != null && (cheminEau == null || tempCheminEau
-                            .getDuration() < cheminEau.getDuration())) {
-                        cheminEau = tempCheminEau;
-                    }
-                }
 
-            }
-        }
-        return cheminEau;
-    }
-
-    public Chemin plusCourtCheminIncendie(Robot robot, Incendie incendie, DonneesSimulation donneesSimulation) {
-        Chemin cheminIncendie = plusCourtChemin(robot, incendie.getPosition(), donneesSimulation);
-        cheminIncendie.getEvents().add(new EteindreEvent(0, robot, incendie));
-        return cheminIncendie;
-    }
 
     /**
      * Va reremplir les chemins avec les robots non assignés et les incendies non
@@ -287,7 +290,7 @@ public class NavigationStrategy1 implements NavigationStrategy {
                         Chemin chemin;
                         if (robot.isEmpty()) {
                             // TODO : le robot trouve un chemin pour aller se remplir
-                            chemin = null;
+                            chemin = plusCourtCheminEau(robot, donneesSimulation);
                             robot.setOccupied(chemin != null); // on met occupied pour éviter de recalculer le chemin le
                                                                // plus court vers l'eau pour l'incendie N+1
                         } else {
@@ -312,9 +315,6 @@ public class NavigationStrategy1 implements NavigationStrategy {
         while (ChefRobot.getInstance().chemins.peek() != null) {
             Chemin chemin = ChefRobot.getInstance().chemins.poll();
             assert chemin != null;
-            // System.out.println(chemin.getDuration() + " | " + chemin.getRobot().getName()
-            // + " | incendie=" + chemin.getIncendie().getPosition().getLigne() + ":" +
-            // chemin.getIncendie().getPosition().getColonne());
             if (!chemin.getRobot().isOccupied() && !chemin.getIncendie().isHandled()) {
                 chemin.getRobot().addEvenements(chemin.getEvents());
                 chemin.getRobot().setOccupied(true);

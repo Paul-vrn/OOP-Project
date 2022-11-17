@@ -15,11 +15,11 @@ public interface NavigationStrategy {
 
     Chemin plusCourtCheminEau(Robot robot, DonneesSimulation donneesSimulation);
 
+
     /**
-     * calcule le plus court chemin entre un robot et un incendie
-     * 
+     *
      * @param robot
-     * @param incendie
+     * @param caseArrivee
      * @param donneesSimulation
      * @return
      */

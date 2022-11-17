@@ -36,10 +36,9 @@ public class Chemin {
     }
 
     /**
-     * Constructeur de la classe Chemin vers un point d'eau
-     * 
+     *
      * @param robot
-     * @param Eau
+     * @param eau
      * @param duration
      * @param events
      */

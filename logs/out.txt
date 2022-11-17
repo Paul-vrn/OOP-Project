@@ -1,0 +1,563 @@
+Carte 8x8; taille des cases = 10000
+incendie  main.modele.Case (5, 5) : HABITAT eteint=true
+robot main.modele.Case (5, 5) : HABITAT vide=1675
+No more events for this robot Drone main.modele.Case (5, 5) : HABITAT
+Chef robot a été nofitié de la fin d'un truc
+incendie  main.modele.Case (7, 7) : TERRAIN_LIBRE eteint=true
+robot main.modele.Case (7, 7) : TERRAIN_LIBRE vide=4672
+No more events for this robot Drone main.modele.Case (7, 7) : TERRAIN_LIBRE
+Chef robot a été nofitié de la fin d'un truc
+incendie  main.modele.Case (6, 1) : TERRAIN_LIBRE eteint=false
+robot main.modele.Case (6, 1) : TERRAIN_LIBRE vide=0
+No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+Chef robot a été nofitié de la fin d'un truc
+plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+Chef robot a été nofitié de la fin d'un truc
+plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+Chef robot a été nofitié de la fin d'un truc
+plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+incendie  main.modele.Case (7, 1) : HABITAT eteint=false
+robot main.modele.Case (7, 1) : HABITAT vide=0
+Chef robot a été nofitié de la fin d'un truc
+plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (7, 1) : HABITAT
+Chef robot a été nofitié de la fin d'un truc
+plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+plusCourtCheminEau du robot Drone main.modele.Case (7, 1) : HABITAT
+No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (7, 1) : HABITAT
+Chef robot a été nofitié de la fin d'un truc
+plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+plusCourtCheminEau du robot Drone main.modele.Case (7, 1) : HABITAT
+No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (7, 1) : HABITAT
+incendie  main.modele.Case (7, 0) : TERRAIN_LIBRE eteint=false
+robot main.modele.Case (7, 0) : TERRAIN_LIBRE vide=0
+Chef robot a été nofitié de la fin d'un truc
+plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+plusCourtCheminEau du robot Drone main.modele.Case (7, 1) : HABITAT
+No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (7, 1) : HABITAT
+No more events for this robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+Chef robot a été nofitié de la fin d'un truc
+plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+plusCourtCheminEau du robot Drone main.modele.Case (7, 1) : HABITAT
+plusCourtCheminEau du robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (7, 1) : HABITAT
+No more events for this robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+Chef robot a été nofitié de la fin d'un truc
+plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+plusCourtCheminEau du robot Drone main.modele.Case (7, 1) : HABITAT
+plusCourtCheminEau du robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (7, 1) : HABITAT
+No more events for this robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+Chef robot a été nofitié de la fin d'un truc
+plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+plusCourtCheminEau du robot Drone main.modele.Case (7, 1) : HABITAT
+plusCourtCheminEau du robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (7, 1) : HABITAT
+No more events for this robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+Chef robot a été nofitié de la fin d'un truc
+plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+plusCourtCheminEau du robot Drone main.modele.Case (7, 1) : HABITAT
+plusCourtCheminEau du robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (7, 1) : HABITAT
+No more events for this robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+Chef robot a été nofitié de la fin d'un truc
+plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+plusCourtCheminEau du robot Drone main.modele.Case (7, 1) : HABITAT
+plusCourtCheminEau du robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (7, 1) : HABITAT
+No more events for this robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+Chef robot a été nofitié de la fin d'un truc
+plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+plusCourtCheminEau du robot Drone main.modele.Case (7, 1) : HABITAT
+plusCourtCheminEau du robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (7, 1) : HABITAT
+No more events for this robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+Chef robot a été nofitié de la fin d'un truc
+plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+plusCourtCheminEau du robot Drone main.modele.Case (7, 1) : HABITAT
+plusCourtCheminEau du robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (7, 1) : HABITAT
+No more events for this robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+Chef robot a été nofitié de la fin d'un truc
+plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+plusCourtCheminEau du robot Drone main.modele.Case (7, 1) : HABITAT
+plusCourtCheminEau du robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (7, 1) : HABITAT
+No more events for this robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+Chef robot a été nofitié de la fin d'un truc
+plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+plusCourtCheminEau du robot Drone main.modele.Case (7, 1) : HABITAT
+plusCourtCheminEau du robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (7, 1) : HABITAT
+No more events for this robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+Chef robot a été nofitié de la fin d'un truc
+plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+plusCourtCheminEau du robot Drone main.modele.Case (7, 1) : HABITAT
+plusCourtCheminEau du robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (7, 1) : HABITAT
+No more events for this robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+Chef robot a été nofitié de la fin d'un truc
+plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+plusCourtCheminEau du robot Drone main.modele.Case (7, 1) : HABITAT
+plusCourtCheminEau du robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (7, 1) : HABITAT
+No more events for this robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+Chef robot a été nofitié de la fin d'un truc
+plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+plusCourtCheminEau du robot Drone main.modele.Case (7, 1) : HABITAT
+plusCourtCheminEau du robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (7, 1) : HABITAT
+No more events for this robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+Chef robot a été nofitié de la fin d'un truc
+plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+plusCourtCheminEau du robot Drone main.modele.Case (7, 1) : HABITAT
+plusCourtCheminEau du robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (7, 1) : HABITAT
+No more events for this robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+Chef robot a été nofitié de la fin d'un truc
+plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+plusCourtCheminEau du robot Drone main.modele.Case (7, 1) : HABITAT
+plusCourtCheminEau du robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (7, 1) : HABITAT
+No more events for this robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+Chef robot a été nofitié de la fin d'un truc
+plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+plusCourtCheminEau du robot Drone main.modele.Case (7, 1) : HABITAT
+plusCourtCheminEau du robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (7, 1) : HABITAT
+No more events for this robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+Chef robot a été nofitié de la fin d'un truc
+plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+plusCourtCheminEau du robot Drone main.modele.Case (7, 1) : HABITAT
+plusCourtCheminEau du robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (7, 1) : HABITAT
+No more events for this robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+Chef robot a été nofitié de la fin d'un truc
+plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+plusCourtCheminEau du robot Drone main.modele.Case (7, 1) : HABITAT
+plusCourtCheminEau du robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (7, 1) : HABITAT
+No more events for this robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+Chef robot a été nofitié de la fin d'un truc
+plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+plusCourtCheminEau du robot Drone main.modele.Case (7, 1) : HABITAT
+plusCourtCheminEau du robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (7, 1) : HABITAT
+No more events for this robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+Chef robot a été nofitié de la fin d'un truc
+plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+plusCourtCheminEau du robot Drone main.modele.Case (7, 1) : HABITAT
+plusCourtCheminEau du robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (7, 1) : HABITAT
+No more events for this robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+Chef robot a été nofitié de la fin d'un truc
+plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+plusCourtCheminEau du robot Drone main.modele.Case (7, 1) : HABITAT
+plusCourtCheminEau du robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (7, 1) : HABITAT
+No more events for this robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+Chef robot a été nofitié de la fin d'un truc
+plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+plusCourtCheminEau du robot Drone main.modele.Case (7, 1) : HABITAT
+plusCourtCheminEau du robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (7, 1) : HABITAT
+No more events for this robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+Chef robot a été nofitié de la fin d'un truc
+plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+plusCourtCheminEau du robot Drone main.modele.Case (7, 1) : HABITAT
+plusCourtCheminEau du robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (7, 1) : HABITAT
+No more events for this robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+Chef robot a été nofitié de la fin d'un truc
+plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+plusCourtCheminEau du robot Drone main.modele.Case (7, 1) : HABITAT
+plusCourtCheminEau du robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (7, 1) : HABITAT
+No more events for this robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+Chef robot a été nofitié de la fin d'un truc
+plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+plusCourtCheminEau du robot Drone main.modele.Case (7, 1) : HABITAT
+plusCourtCheminEau du robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (7, 1) : HABITAT
+No more events for this robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+Chef robot a été nofitié de la fin d'un truc
+plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+plusCourtCheminEau du robot Drone main.modele.Case (7, 1) : HABITAT
+plusCourtCheminEau du robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (7, 1) : HABITAT
+No more events for this robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+Chef robot a été nofitié de la fin d'un truc
+plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+plusCourtCheminEau du robot Drone main.modele.Case (7, 1) : HABITAT
+plusCourtCheminEau du robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (7, 1) : HABITAT
+No more events for this robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+Chef robot a été nofitié de la fin d'un truc
+plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+plusCourtCheminEau du robot Drone main.modele.Case (7, 1) : HABITAT
+plusCourtCheminEau du robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (7, 1) : HABITAT
+No more events for this robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+Chef robot a été nofitié de la fin d'un truc
+plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+plusCourtCheminEau du robot Drone main.modele.Case (7, 1) : HABITAT
+plusCourtCheminEau du robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (7, 1) : HABITAT
+No more events for this robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+Chef robot a été nofitié de la fin d'un truc
+plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+plusCourtCheminEau du robot Drone main.modele.Case (7, 1) : HABITAT
+plusCourtCheminEau du robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (7, 1) : HABITAT
+No more events for this robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+Chef robot a été nofitié de la fin d'un truc
+plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+plusCourtCheminEau du robot Drone main.modele.Case (7, 1) : HABITAT
+plusCourtCheminEau du robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (7, 1) : HABITAT
+No more events for this robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+Chef robot a été nofitié de la fin d'un truc
+plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+plusCourtCheminEau du robot Drone main.modele.Case (7, 1) : HABITAT
+plusCourtCheminEau du robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (7, 1) : HABITAT
+No more events for this robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+Chef robot a été nofitié de la fin d'un truc
+plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+plusCourtCheminEau du robot Drone main.modele.Case (7, 1) : HABITAT
+plusCourtCheminEau du robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (7, 1) : HABITAT
+No more events for this robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+Chef robot a été nofitié de la fin d'un truc
+plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+plusCourtCheminEau du robot Drone main.modele.Case (7, 1) : HABITAT
+plusCourtCheminEau du robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (7, 1) : HABITAT
+No more events for this robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+Chef robot a été nofitié de la fin d'un truc
+plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+plusCourtCheminEau du robot Drone main.modele.Case (7, 1) : HABITAT
+plusCourtCheminEau du robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (7, 1) : HABITAT
+No more events for this robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+Chef robot a été nofitié de la fin d'un truc
+plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+plusCourtCheminEau du robot Drone main.modele.Case (7, 1) : HABITAT
+plusCourtCheminEau du robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (7, 1) : HABITAT
+No more events for this robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+Chef robot a été nofitié de la fin d'un truc
+plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+plusCourtCheminEau du robot Drone main.modele.Case (7, 1) : HABITAT
+plusCourtCheminEau du robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (7, 1) : HABITAT
+No more events for this robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+Chef robot a été nofitié de la fin d'un truc
+plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+plusCourtCheminEau du robot Drone main.modele.Case (7, 1) : HABITAT
+plusCourtCheminEau du robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (7, 1) : HABITAT
+No more events for this robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+Chef robot a été nofitié de la fin d'un truc
+plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+plusCourtCheminEau du robot Drone main.modele.Case (7, 1) : HABITAT
+plusCourtCheminEau du robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (7, 1) : HABITAT
+No more events for this robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+Chef robot a été nofitié de la fin d'un truc
+plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+plusCourtCheminEau du robot Drone main.modele.Case (7, 1) : HABITAT
+plusCourtCheminEau du robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (7, 1) : HABITAT
+No more events for this robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+Chef robot a été nofitié de la fin d'un truc
+plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+plusCourtCheminEau du robot Drone main.modele.Case (7, 1) : HABITAT
+plusCourtCheminEau du robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (7, 1) : HABITAT
+No more events for this robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+Chef robot a été nofitié de la fin d'un truc
+plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+plusCourtCheminEau du robot Drone main.modele.Case (7, 1) : HABITAT
+plusCourtCheminEau du robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (7, 1) : HABITAT
+No more events for this robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+Chef robot a été nofitié de la fin d'un truc
+plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+plusCourtCheminEau du robot Drone main.modele.Case (7, 1) : HABITAT
+plusCourtCheminEau du robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (7, 1) : HABITAT
+No more events for this robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+Chef robot a été nofitié de la fin d'un truc
+plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+plusCourtCheminEau du robot Drone main.modele.Case (7, 1) : HABITAT
+plusCourtCheminEau du robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (7, 1) : HABITAT
+No more events for this robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+Chef robot a été nofitié de la fin d'un truc
+plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+plusCourtCheminEau du robot Drone main.modele.Case (7, 1) : HABITAT
+plusCourtCheminEau du robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (7, 1) : HABITAT
+No more events for this robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+Chef robot a été nofitié de la fin d'un truc
+plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+plusCourtCheminEau du robot Drone main.modele.Case (7, 1) : HABITAT
+plusCourtCheminEau du robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (7, 1) : HABITAT
+No more events for this robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+Chef robot a été nofitié de la fin d'un truc
+plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+plusCourtCheminEau du robot Drone main.modele.Case (7, 1) : HABITAT
+plusCourtCheminEau du robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (7, 1) : HABITAT
+No more events for this robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+Chef robot a été nofitié de la fin d'un truc
+plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+plusCourtCheminEau du robot Drone main.modele.Case (7, 1) : HABITAT
+plusCourtCheminEau du robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (7, 1) : HABITAT
+No more events for this robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+Chef robot a été nofitié de la fin d'un truc
+plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+plusCourtCheminEau du robot Drone main.modele.Case (7, 1) : HABITAT
+plusCourtCheminEau du robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (7, 1) : HABITAT
+No more events for this robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+Chef robot a été nofitié de la fin d'un truc
+plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+plusCourtCheminEau du robot Drone main.modele.Case (7, 1) : HABITAT
+plusCourtCheminEau du robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (7, 1) : HABITAT
+No more events for this robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+Chef robot a été nofitié de la fin d'un truc
+plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+plusCourtCheminEau du robot Drone main.modele.Case (7, 1) : HABITAT
+plusCourtCheminEau du robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (7, 1) : HABITAT
+No more events for this robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+Chef robot a été nofitié de la fin d'un truc
+plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+plusCourtCheminEau du robot Drone main.modele.Case (7, 1) : HABITAT
+plusCourtCheminEau du robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (7, 1) : HABITAT
+No more events for this robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+Chef robot a été nofitié de la fin d'un truc
+plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+plusCourtCheminEau du robot Drone main.modele.Case (7, 1) : HABITAT
+plusCourtCheminEau du robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (7, 1) : HABITAT
+No more events for this robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+Chef robot a été nofitié de la fin d'un truc
+plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+plusCourtCheminEau du robot Drone main.modele.Case (7, 1) : HABITAT
+plusCourtCheminEau du robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (7, 1) : HABITAT
+No more events for this robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+Chef robot a été nofitié de la fin d'un truc
+plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+plusCourtCheminEau du robot Drone main.modele.Case (7, 1) : HABITAT
+plusCourtCheminEau du robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (7, 1) : HABITAT
+No more events for this robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+Chef robot a été nofitié de la fin d'un truc
+plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+plusCourtCheminEau du robot Drone main.modele.Case (7, 1) : HABITAT
+plusCourtCheminEau du robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (7, 1) : HABITAT
+No more events for this robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+Chef robot a été nofitié de la fin d'un truc
+plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+plusCourtCheminEau du robot Drone main.modele.Case (7, 1) : HABITAT
+plusCourtCheminEau du robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (7, 1) : HABITAT
+No more events for this robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+Chef robot a été nofitié de la fin d'un truc
+plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+plusCourtCheminEau du robot Drone main.modele.Case (7, 1) : HABITAT
+plusCourtCheminEau du robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (7, 1) : HABITAT
+No more events for this robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+Chef robot a été nofitié de la fin d'un truc
+plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+plusCourtCheminEau du robot Drone main.modele.Case (7, 1) : HABITAT
+plusCourtCheminEau du robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (7, 1) : HABITAT
+No more events for this robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+Chef robot a été nofitié de la fin d'un truc
+plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+plusCourtCheminEau du robot Drone main.modele.Case (7, 1) : HABITAT
+plusCourtCheminEau du robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (7, 1) : HABITAT
+No more events for this robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+Chef robot a été nofitié de la fin d'un truc
+plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+plusCourtCheminEau du robot Drone main.modele.Case (7, 1) : HABITAT
+plusCourtCheminEau du robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (7, 1) : HABITAT
+No more events for this robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+Chef robot a été nofitié de la fin d'un truc
+plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+plusCourtCheminEau du robot Drone main.modele.Case (7, 1) : HABITAT
+plusCourtCheminEau du robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (7, 1) : HABITAT
+No more events for this robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+Chef robot a été nofitié de la fin d'un truc
+plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+plusCourtCheminEau du robot Drone main.modele.Case (7, 1) : HABITAT
+plusCourtCheminEau du robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (7, 1) : HABITAT
+No more events for this robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+Chef robot a été nofitié de la fin d'un truc
+plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+plusCourtCheminEau du robot Drone main.modele.Case (7, 1) : HABITAT
+plusCourtCheminEau du robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (7, 1) : HABITAT
+No more events for this robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+Chef robot a été nofitié de la fin d'un truc
+plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+plusCourtCheminEau du robot Drone main.modele.Case (7, 1) : HABITAT
+plusCourtCheminEau du robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (7, 1) : HABITAT
+No more events for this robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+Chef robot a été nofitié de la fin d'un truc
+plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+plusCourtCheminEau du robot Drone main.modele.Case (7, 1) : HABITAT
+plusCourtCheminEau du robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (7, 1) : HABITAT
+No more events for this robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+Chef robot a été nofitié de la fin d'un truc
+plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+plusCourtCheminEau du robot Drone main.modele.Case (7, 1) : HABITAT
+plusCourtCheminEau du robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (7, 1) : HABITAT
+No more events for this robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+Chef robot a été nofitié de la fin d'un truc
+plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+plusCourtCheminEau du robot Drone main.modele.Case (7, 1) : HABITAT
+plusCourtCheminEau du robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (7, 1) : HABITAT
+No more events for this robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+Chef robot a été nofitié de la fin d'un truc
+plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+plusCourtCheminEau du robot Drone main.modele.Case (7, 1) : HABITAT
+plusCourtCheminEau du robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (7, 1) : HABITAT
+No more events for this robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+Chef robot a été nofitié de la fin d'un truc
+plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+plusCourtCheminEau du robot Drone main.modele.Case (7, 1) : HABITAT
+plusCourtCheminEau du robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (7, 1) : HABITAT
+No more events for this robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+Chef robot a été nofitié de la fin d'un truc
+plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+plusCourtCheminEau du robot Drone main.modele.Case (7, 1) : HABITAT
+plusCourtCheminEau du robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (7, 1) : HABITAT
+No more events for this robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+Chef robot a été nofitié de la fin d'un truc
+plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+plusCourtCheminEau du robot Drone main.modele.Case (7, 1) : HABITAT
+plusCourtCheminEau du robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (7, 1) : HABITAT
+No more events for this robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+Chef robot a été nofitié de la fin d'un truc
+plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+plusCourtCheminEau du robot Drone main.modele.Case (7, 1) : HABITAT
+plusCourtCheminEau du robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (7, 1) : HABITAT
+No more events for this robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+Chef robot a été nofitié de la fin d'un truc
+plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+plusCourtCheminEau du robot Drone main.modele.Case (7, 1) : HABITAT
+plusCourtCheminEau du robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (7, 1) : HABITAT
+No more events for this robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+Chef robot a été nofitié de la fin d'un truc
+plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+plusCourtCheminEau du robot Drone main.modele.Case (7, 1) : HABITAT
+plusCourtCheminEau du robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+No more events for this robot Drone main.modele.Case (7, 1) : HABITAT
+No more events for this robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
