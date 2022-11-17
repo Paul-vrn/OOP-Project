@@ -44,7 +44,6 @@ public class Chemin {
      */
     public Chemin(Robot robot, Case eau, int duration, List<Evenement> events) {
         this.robot = robot;
-        this.incendie = null;
         this.duration = duration;
         this.events = events;
         this.start = robot.getPosition();

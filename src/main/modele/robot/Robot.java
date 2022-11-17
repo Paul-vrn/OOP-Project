@@ -27,6 +27,7 @@ public abstract class Robot {
 
     protected boolean isOccupied;
     public int timeUntilAvailable = 0;
+    public boolean allumee;
 
     protected String imageUrl = "images/robot.gif";
 
@@ -34,6 +35,7 @@ public abstract class Robot {
 
     protected Robot() {
         this.isOccupied = false;
+        this.allumee = true;
     }
 
     public abstract void setPosition(Case position);
@@ -141,6 +143,12 @@ public abstract class Robot {
         return reservoir == 0;
     }
 
+    public boolean isAllumee() {
+        return allumee;
+    }
+    public void setAllumee(boolean allumee) {
+        this.allumee = allumee;
+    }
     public String getImage() {
         return this.imageUrl;
     }

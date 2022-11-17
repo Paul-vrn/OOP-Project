@@ -131,7 +131,7 @@ public class Simulateur implements Simulable {
             ChefRobot.getInstance().notif = false;
         }
         for (Robot robot : donneesSimulation.getRobots()) {
-            if (robot.isOccupied()) {
+            if (robot.isOccupied() && robot.isAllumee()) {
                 robot.execute();
             }
         }

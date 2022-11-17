@@ -79,8 +79,10 @@ public class NavigationStrategy1 implements NavigationStrategy {
 
     public Chemin plusCourtCheminIncendie(Robot robot, Incendie incendie, DonneesSimulation donneesSimulation) {
         Chemin cheminIncendie = plusCourtChemin(robot, incendie.getPosition(), donneesSimulation);
-        cheminIncendie.setIncendie(incendie);
-        cheminIncendie.getEvents().add(new EteindreEvent(0, robot, incendie));
+        if (cheminIncendie != null) {
+            cheminIncendie.setIncendie(incendie);
+            cheminIncendie.getEvents().add(new EteindreEvent(0, robot, incendie));
+        }
         return cheminIncendie;
     }
     /**
@@ -289,10 +291,13 @@ public class NavigationStrategy1 implements NavigationStrategy {
                     if (!robot.isOccupied()) {
                         Chemin chemin;
                         if (robot.isEmpty()) {
-                            // TODO : le robot trouve un chemin pour aller se remplir
                             chemin = plusCourtCheminEau(robot, donneesSimulation);
-                            robot.setOccupied(chemin != null); // on met occupied pour éviter de recalculer le chemin le
-                                                               // plus court vers l'eau pour l'incendie N+1
+                            if (chemin == null){
+                                robot.setAllumee(false);
+                            } else {
+                                robot.setOccupied(true);
+                                robot.addEvenements(chemin.getEvents());
+                            }
                         } else {
                             chemin = plusCourtCheminIncendie(robot, incendie, donneesSimulation);
                         }
