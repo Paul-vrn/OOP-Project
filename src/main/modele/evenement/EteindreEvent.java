@@ -46,10 +46,10 @@ public class EteindreEvent extends Evenement {
             incendie.eteindre((int) Math.ceil(n * robot.getDebitVidage()));
             robot.emptyTank((int) Math.ceil(n * robot.getDebitVidage()));
         } else {
-            incendie.eteindre(
-                    (int) Math.ceil(duration * robot.getDebitVidage()));
+            incendie.eteindre((int) Math.ceil(duration * robot.getDebitVidage()));
             robot.emptyTank((int) Math.ceil(duration * robot.getDebitVidage()));
-            System.out.println("Un incendie de éteint " + incendie.isEteint());
+            System.out.println("incendie  "+incendie.getPosition() + " eteint=" + incendie.isEteint());
+            System.out.println("robot "+robot.getPosition() + " vide=" + robot.getReservoir());
             robot.nextEvent();
         }
     }

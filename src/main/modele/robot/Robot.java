@@ -126,14 +126,14 @@ public abstract class Robot {
                 + this.isOccupied;
     }
 
-    public int emptyTank(int n) {
-        if (n > this.reservoir) {
+    public int emptyTank(int qtEau) {
+        if (qtEau > this.reservoir) {
             int tmp = this.reservoir;
             this.reservoir = 0;
             return tmp;
         } else {
-            this.reservoir -= n;
-            return n;
+            this.reservoir -= qtEau;
+            return qtEau;
         }
     }
 
@@ -165,7 +165,6 @@ public abstract class Robot {
         if (indexEvenement < evenements.size()) {
             indexEvenement++;
         } else {
-            System.out.println("No more events for this robot " + this.getName() + " " + this.getPosition());
             this.isOccupied = false;
             ChefRobot.getInstance().notif = true;
         }
@@ -175,6 +174,7 @@ public abstract class Robot {
         if (indexEvenement < evenements.size()) {
             evenements.get(indexEvenement).execute();
         } else {
+            System.out.println("No more events for this robot " + this.getName() + " " + this.getPosition());
             this.isOccupied = false;
             ChefRobot.getInstance().notif = true;
         }
