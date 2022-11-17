@@ -12,6 +12,7 @@ public class Roues extends Robot {
         this.type = RobotType.ROUES;
         this.baseVitesse = 80;
         this.reservoir = 5000;
+        this.capaciteReservoir = 5000;
         // 30 minutes
         this.tempsRemplissage = 10 * 60;
         this.quantiteEauParIntervention = 100;

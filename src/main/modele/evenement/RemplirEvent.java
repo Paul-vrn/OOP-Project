@@ -16,13 +16,16 @@ public class RemplirEvent extends Evenement {
 
     public void execute() {
         int n = ChefRobot.getInstance().n;
+
         if (this.duration >= n) {
             this.duration = duration - n;
         } else {
             try {
+                // print le type du robot
                 switch (robot.getType()) {
                     case DRONE:
                         if (robot.getPosition().getNature() == NatureTerrain.EAU) {
+                            // print le servervoir du robot
                             robot.fillReservoir();
                             robot.nextEvent();
                         } else {
@@ -31,10 +34,10 @@ public class RemplirEvent extends Evenement {
                         }
                         break;
                     // on vérifie qu'il y a bien une case d'eau adjacente sans sortir de la carte
-                    case ROUES:
                     case CHENILLES:
+                    case ROUES:
                         if (robot.getPosition().getColonne() + 1 < carte.getNbColonnes()) {
-                            if (carte.getCase(robot.getPosition().getColonne() + 1, robot.getPosition().getLigne())
+                            if (carte.getCases()[robot.getPosition().getLigne()][robot.getPosition().getColonne() + 1]
                                     .getNature() == NatureTerrain.EAU) {
                                 robot.fillReservoir();
                                 robot.nextEvent();
@@ -42,7 +45,7 @@ public class RemplirEvent extends Evenement {
                             }
                         }
                         if (robot.getPosition().getColonne() - 1 >= 0) {
-                            if (carte.getCase(robot.getPosition().getColonne() - 1, robot.getPosition().getLigne())
+                            if (carte.getCases()[robot.getPosition().getLigne()][robot.getPosition().getColonne() - 1]
                                     .getNature() == NatureTerrain.EAU) {
                                 robot.fillReservoir();
                                 robot.nextEvent();
@@ -50,7 +53,7 @@ public class RemplirEvent extends Evenement {
                             }
                         }
                         if (robot.getPosition().getLigne() + 1 < carte.getNbLignes()) {
-                            if (carte.getCase(robot.getPosition().getColonne(), robot.getPosition().getLigne() + 1)
+                            if (carte.getCases()[robot.getPosition().getLigne() + 1][robot.getPosition().getColonne()]
                                     .getNature() == NatureTerrain.EAU) {
                                 robot.fillReservoir();
                                 robot.nextEvent();
@@ -58,7 +61,7 @@ public class RemplirEvent extends Evenement {
                             }
                         }
                         if (robot.getPosition().getLigne() - 1 >= 0) {
-                            if (carte.getCase(robot.getPosition().getColonne(), robot.getPosition().getLigne() - 1)
+                            if (carte.getCases()[robot.getPosition().getLigne() - 1][robot.getPosition().getColonne()]
                                     .getNature() == NatureTerrain.EAU) {
                                 robot.fillReservoir();
                                 robot.nextEvent();
@@ -75,5 +78,6 @@ public class RemplirEvent extends Evenement {
                 System.err.println(e.getMessage());
             }
         }
+
     }
 }

@@ -6,6 +6,7 @@ import main.modele.NatureTerrain;
 import main.modele.evenement.EteindreEvent;
 import main.modele.evenement.Evenement;
 import main.modele.evenement.MoveEvent;
+import main.modele.evenement.RemplirEvent;
 import main.modele.robot.Robot;
 import main.modele.robot.RobotType;
 import main.modele.Carte;
@@ -76,6 +77,8 @@ public class NavigationStrategy1 implements NavigationStrategy {
 
             }
         }
+        cheminEau.getEvents()
+                .add(new RemplirEvent(0, robot.getTempsRemplissage(), robot, donneesSimulation.getCarte()));
         return cheminEau;
     }
 

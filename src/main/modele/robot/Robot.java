@@ -54,7 +54,6 @@ public abstract class Robot {
 
     public void fillReservoir() {
         this.reservoir = this.capaciteReservoir;
-        this.nextEvent();
     }
 
     public void setVitesse(int vitesse) {
@@ -73,6 +72,10 @@ public abstract class Robot {
 
     public int getBaseVitesse() {
         return this.baseVitesse;
+    }
+
+    public int getTempsRemplissage() {
+        return this.tempsRemplissage;
     }
 
     public double getDebitVidage() {
@@ -146,9 +149,11 @@ public abstract class Robot {
     public boolean isAllumee() {
         return allumee;
     }
+
     public void setAllumee(boolean allumee) {
         this.allumee = allumee;
     }
+
     public String getImage() {
         return this.imageUrl;
     }
