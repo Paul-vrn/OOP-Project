@@ -1,6 +1,7 @@
 package main.controlleur.navigation;
 
 import main.controlleur.DonneesSimulation;
+import main.modele.Case;
 import main.modele.Incendie;
 import main.modele.evenement.EteindreEvent;
 import main.modele.evenement.Evenement;
@@ -15,6 +16,19 @@ import java.util.*;
  * Stratégie de navigation 1
  */
 public class NavigationStrategy1 implements NavigationStrategy {
+
+    @Override
+    public Chemin plusCourtCheminIncendie(Robot robot, Incendie incendie, DonneesSimulation donneesSimulation) {
+        Chemin chemin = this.plusCourtChemin(robot, incendie, donneesSimulation);
+        chemin.getEvents().add(new EteindreEvent(0, robot, incendie));
+        return chemin;
+    }
+
+    @Override
+    public Chemin plusCourtCheminEau(Robot robot, Case eau, DonneesSimulation donneesSimulation) {
+        Chemin chemin = this.plusCourtChemin(robot, eau, donneesSimulation);
+        return chemin;
+    }
 
     /**
      * calcule le plus court chemin entre un robot et un incendie
@@ -88,10 +102,7 @@ public class NavigationStrategy1 implements NavigationStrategy {
                     events.add(new MoveEvent(0, (int) tempDuration, robot, nodeChemin.get(i).getPosition()));
                     tempDuration = carte.getTailleCases() / (robot.getVitesse(nodeChemin.get(i).getPosition()) / 3.6);
                 }
-                // TODO ajouter les évènements pour éteindre l'incendie et peut être pour le
                 // remplir
-                events.add(new EteindreEvent(0, robot, incendie));
-
                 return new Chemin(robot, incendie,
                         (int) nodeMap[incendie.getPosition().getLigne()][incendie.getPosition().getColonne()]
                                 .getgScore(),

@@ -12,6 +12,9 @@ import java.util.Queue;
 public interface NavigationStrategy {
 
 
+    Chemin plusCourtCheminIncendie(Robot robot, Incendie incendie, DonneesSimulation donneesSimulation);
+
+    Chemin plusCourtCheminEau(Robot robot, Case eau, DonneesSimulation donneesSimulation);
     /**
      * calcule le plus court chemin entre un robot et un incendie
      * @param robot
