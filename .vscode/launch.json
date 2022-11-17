@@ -1,0 +1,90 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Main carteDrones",
+            "request": "launch",
+            "mainClass": "main.Main",
+            "projectName": "projet-OOP_2166a5d1",
+            //using C:\Users\paulb\Documents\Java\projet-OOP\cartes\carteDrones.map as args
+            "args": "C:\\Users\\paulb\\Documents\\Java\\projet-OOP\\cartes\\carteDrones.map"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main carteSujet",
+            "request": "launch",
+            "mainClass": "main.Main",
+            "projectName": "projet-OOP_2166a5d1",
+            "args": "C:\\Users\\paulb\\Documents\\Java\\projet-OOP\\cartes\\carteSujet.map"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main cartedesertofdeath",
+            "request": "launch",
+            "mainClass": "main.Main",
+            "projectName": "projet-OOP_2166a5d1",
+            "args": "C:\\Users\\paulb\\Documents\\Java\\projet-OOP\\cartes\\desertOfDeath-20x20.map"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main mushroomOfHell-20x20",
+            "request": "launch",
+            "mainClass": "main.Main",
+            "projectName": "projet-OOP_2166a5d1",
+            "args": "C:\\Users\\paulb\\Documents\\Java\\projet-OOP\\cartes\\mushroomOfHell-20x20.map"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main spiralofMadness",
+            "request": "launch",
+            "mainClass": "main.Main",
+            "projectName": "projet-OOP_2166a5d1",
+            "args": "C:\\Users\\paulb\\Documents\\Java\\projet-OOP\\cartes\\spiralOfMadness-50x50.map"
+        },
+        {
+            "type": "java",
+            "name": "Launch Strategy1Test",
+            "request": "launch",
+            "mainClass": "test.Strategy1Test",
+            "projectName": "projet-OOP_2166a5d1"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestInvader",
+            "request": "launch",
+            "mainClass": "TestInvader",
+            "projectName": "projet-OOP_2166a5d1"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestCarte",
+            "request": "launch",
+            "mainClass": "test.CarteTest",
+            "projectName": "projet-OOP_2166a5d1"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestLecteurDonnees",
+            "request": "launch",
+            "mainClass": "oldtest.TestLecteurDonnees",
+            "projectName": "projet-OOP_2166a5d1"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestRobots",
+            "request": "launch",
+            "mainClass": "test.TestRobots",
+            "projectName": "projet-OOP_2166a5d1"
+        }
+    ]
+}
