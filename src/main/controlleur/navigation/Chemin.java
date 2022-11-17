@@ -19,7 +19,7 @@ public class Chemin {
     private List<Evenement> events; // les événements sur le chemin
 
     /**
-     * Constructeur de la classe Chemin
+     * Constructeur de la classe Chemin vers un incendie
      * @param robot le robot
      * @param incendie l'incendie
      * @param duration la durée du chemin
@@ -34,6 +34,21 @@ public class Chemin {
         this.end = incendie.getPosition();
     }
 
+    /**
+     * Constructeur de la classe Chemin vers un point d'eau
+     * @param robot
+     * @param Eau
+     * @param duration
+     * @param events
+     */
+    public Chemin(Robot robot, Case Eau, int duration, List<Evenement> events){
+        this.robot = robot;
+        this.incendie = null;
+        this.duration = duration;
+        this.events = events;
+        this.start = robot.getPosition();
+        this.end = Eau;
+    }
     /**
      * Getter de la case de départ
      * @return la case de départ
