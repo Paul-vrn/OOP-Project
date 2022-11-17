@@ -24,9 +24,9 @@ public class NavigationStrategy1 implements NavigationStrategy {
     }
 
     @Override
-    public Chemin plusCourtCheminEau(Robot robot, Case eau, DonneesSimulation donneesSimulation) {
-        Chemin chemin = this.plusCourtChemin(robot, eau, donneesSimulation);
-        return chemin;
+    public Chemin plusCourtCheminEau(Robot robot, DonneesSimulation donneesSimulation) {
+        //Chemin chemin = this.plusCourtChemin(robot, eau, donneesSimulation);
+        return null;
     }
 
     /**
@@ -101,6 +101,7 @@ public class NavigationStrategy1 implements NavigationStrategy {
                     tempDuration = carte.getTailleCases() / (robot.getVitesse(nodeChemin.get(i).getPosition()) / 3.6);
                 }
                 // remplir
+                events.add(new EteindreEvent(0, robot, incendie));
                 return new Chemin(robot, incendie,
                         (int) nodeMap[incendie.getPosition().getLigne()][incendie.getPosition().getColonne()]
                                 .getgScore(),
@@ -241,19 +242,21 @@ public class NavigationStrategy1 implements NavigationStrategy {
      * @param donneesSimulation les données de la simulation
      */
     public void fillChemins(DonneesSimulation donneesSimulation) {
+
         for (Incendie incendie : donneesSimulation.getIncendies()) {
             if (!incendie.isEteint() && !incendie.isHandled()) {
                 for (Robot robot : donneesSimulation.getRobots()) {
-                    if (!robot.isEmpty() && !robot.isOccupied()) {
-                        Chemin chemin = plusCourtChemin(robot, incendie, donneesSimulation);
+                    if (!robot.isOccupied()){
+                        Chemin chemin;
+                        if (robot.isEmpty()){
+                            // TODO : le robot trouve un chemin pour aller se remplir
+                            chemin = null;
+                            robot.setOccupied(chemin != null); // on met occupied pour éviter de recalculer le chemin le plus court vers l'eau pour l'incendie N+1
+                        } else {
+                            chemin = plusCourtChemin(robot, incendie, donneesSimulation);
+                        }
                         if (chemin != null) {
                             ChefRobot.getInstance().chemins.add(chemin);
-                        } else {
-                            System.out.println("Le chemin entre le robot " + robot.getName() + " ("
-                                    + robot.getPosition().getLigne()
-                                    + ":" + robot.getPosition().getColonne() + ") et l'incendie ("
-                                    + incendie.getPosition().getLigne() + ":" + incendie.getPosition().getColonne()
-                                    + ") n'a pas pu être trouvé");
                         }
                     }
                 }
@@ -271,7 +274,7 @@ public class NavigationStrategy1 implements NavigationStrategy {
         while (ChefRobot.getInstance().chemins.peek() != null) {
             Chemin chemin = ChefRobot.getInstance().chemins.poll();
             assert chemin != null;
-//            System.out.println(chemin.getDuration() + " | " + chemin.getRobot().getName() + " | incendie=" + chemin.getIncendie().getPosition().getLigne() + ":" + chemin.getIncendie().getPosition().getColonne());
+            //System.out.println(chemin.getDuration() + " | " + chemin.getRobot().getName() + " | incendie=" + chemin.getIncendie().getPosition().getLigne() + ":" + chemin.getIncendie().getPosition().getColonne());
             if (!chemin.getRobot().isOccupied() && !chemin.getIncendie().isHandled()) {
                 chemin.getRobot().addEvenements(chemin.getEvents());
                 chemin.getRobot().setOccupied(true);

@@ -16,6 +16,16 @@ import java.util.Queue;
 public class NavigationStrategy2 implements NavigationStrategy {
 
     @Override
+    public Chemin plusCourtCheminIncendie(Robot robot, Incendie incendie, DonneesSimulation donneesSimulation) {
+        return null;
+    }
+
+    @Override
+    public Chemin plusCourtCheminEau(Robot robot, DonneesSimulation donneesSimulation) {
+        return null;
+    }
+
+    @Override
     public Chemin plusCourtChemin(Robot robot, Incendie incendie, DonneesSimulation donneesSimulation) {
         List<Evenement> events = new LinkedList<>();
         int duration = 0;
