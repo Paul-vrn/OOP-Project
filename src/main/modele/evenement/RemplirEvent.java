@@ -16,16 +16,13 @@ public class RemplirEvent extends Evenement {
 
     public void execute() {
         int n = ChefRobot.getInstance().n;
-
         if (this.duration >= n) {
             this.duration = duration - n;
         } else {
             try {
-                // print le type du robot
                 switch (robot.getType()) {
                     case DRONE:
                         if (robot.getPosition().getNature() == NatureTerrain.EAU) {
-                            // print le servervoir du robot
                             robot.fillReservoir();
                             robot.nextEvent();
                         } else {
@@ -34,8 +31,7 @@ public class RemplirEvent extends Evenement {
                         }
                         break;
                     // on vérifie qu'il y a bien une case d'eau adjacente sans sortir de la carte
-                    case CHENILLES:
-                    case ROUES:
+                    case ROUES, CHENILLES:
                         if (robot.getPosition().getColonne() + 1 < carte.getNbColonnes()) {
                             if (carte.getCases()[robot.getPosition().getLigne()][robot.getPosition().getColonne() + 1]
                                     .getNature() == NatureTerrain.EAU) {
@@ -78,6 +74,5 @@ public class RemplirEvent extends Evenement {
                 System.err.println(e.getMessage());
             }
         }
-
     }
 }

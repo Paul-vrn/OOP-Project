@@ -48,8 +48,9 @@ public class EteindreEvent extends Evenement {
         } else {
             incendie.eteindre((int) Math.ceil(duration * robot.getDebitVidage()));
             robot.emptyTank((int) Math.ceil(duration * robot.getDebitVidage()));
-            System.out.println("incendie  "+incendie.getPosition() + " eteint=" + incendie.isEteint());
-            System.out.println("robot "+robot.getPosition() + " vide=" + robot.getReservoir());
+            if (robot.isEmpty()){
+                incendie.setHandle(false);
+            }
             robot.nextEvent();
         }
     }
