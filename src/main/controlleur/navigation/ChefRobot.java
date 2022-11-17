@@ -73,6 +73,7 @@ public final class ChefRobot {
             );
             strategy.fillChemins(donneesSimulation);
             strategy.distribution();
+            System.out.println("chemins updated");
             notif = false;
         }
     }

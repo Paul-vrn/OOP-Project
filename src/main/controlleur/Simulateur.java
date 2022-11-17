@@ -126,6 +126,7 @@ public class Simulateur implements Simulable {
     @Override
     public void next() {
         if (ChefRobot.getInstance().notif) {
+            System.out.println("Chef robot a été nofitié de la fin d'un truc");
             ChefRobot.getInstance().updateChemins(this.donneesSimulation);
             ChefRobot.getInstance().notif = false;
         }

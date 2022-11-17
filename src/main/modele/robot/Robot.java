@@ -173,8 +173,10 @@ public abstract class Robot {
 
     public void execute() {
         if (indexEvenement < evenements.size()) {
-            System.out.println("Event.toString():" + evenements.get(indexEvenement).toString());
             evenements.get(indexEvenement).execute();
+        } else {
+            this.isOccupied = false;
+            ChefRobot.getInstance().notif = true;
         }
     }
 
