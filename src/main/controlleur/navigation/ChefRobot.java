@@ -10,9 +10,22 @@ import java.util.*;
 public final class ChefRobot {
     private static ChefRobot instance; // instance unique de la classe
 
-    public NavigationStrategy strategy; // stratégie de navigation
+    /**
+     * Stratégie de navigation {@link NavigationStrategy}
+     */
+    public NavigationStrategy strategy;
+    /**
+     * Notification d'un changement d'état d'un robot ou d'un incendie
+     */
     public boolean notif; // notification de fin de simulation
+
+    /**
+     * Liste ordonnée des robots
+     */
     public PriorityQueue<Chemin> chemins; // liste ordonnée des chemins à parcourir
+    /**
+     * Nombre de pas effectué durant un appel de next()
+     */
     public int n; // le nombre de pas par seconde
 
     /**
@@ -26,10 +39,11 @@ public final class ChefRobot {
         this.chemins = new PriorityQueue<>(Comparator.comparingInt(Chemin::getDuration));
     }
 
+
     /**
-     * Création du singleton
+     * Gets instance.
      *
-     * @return instance du singleton
+     * @return the instance
      */
     public static ChefRobot getInstance() {
         if (instance == null) {

@@ -45,12 +45,12 @@ public class MoveEvent extends Evenement {
     }
 
     /**
-     * toString
-     * @return
+     * Returns a string representation of the object.
+     * @return String
      */
     @Override
     public String toString() {
-        return "MoveEvent" + caseCible.toString() + " duration=" + duration;
+        return "MoveEvent vers (" + caseCible.toString() + "): duration=" + duration;
     }
 
 }

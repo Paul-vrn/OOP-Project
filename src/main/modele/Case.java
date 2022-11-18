@@ -66,11 +66,28 @@ public class Case {
         return this.nature;
     }
 
+    /**
+     * Retourne si le terrain est de type eau
+     * @return true si le terrain est de type eau, false sinon
+     */
+    public boolean isEau() {
+        return this.nature == NatureTerrain.EAU;
+    }
+
+    /**
+     * Returns a string representation of the object.
+     * @return a string representation of the object.
+     */
     @Override
     public String toString() {
         return "main.modele.Case (" + this.ligne + ", " + this.colonne + ") : " + this.nature;
     }
 
+    /**
+     * Indicates whether some other object is "equal to" this one.
+     * @param o the reference object with which to compare.
+     * @return true if this object is the same as the obj argument; false otherwise.
+     */
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -79,6 +96,10 @@ public class Case {
         return ligne == aCase.ligne && colonne == aCase.colonne;
     }
 
+    /**
+     * Returns a hash code value for the object.
+     * @return a hash code value for this object.
+     */
     @Override
     public int hashCode() {
         return Objects.hash(ligne, colonne);

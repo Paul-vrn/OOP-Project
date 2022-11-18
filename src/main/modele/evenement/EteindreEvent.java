@@ -32,7 +32,7 @@ public class EteindreEvent extends Evenement {
         } else {
             volume = incendie.getEauNecessaire();
         }
-        this.duration = (int) Math.ceil((double) volume / (double) robot.getDebitVidage());
+        this.duration = (int) Math.ceil(volume/robot.getDebitVidage());
         this.incendie = incendie;
     }
 
