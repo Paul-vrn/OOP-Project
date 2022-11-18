@@ -36,7 +36,7 @@ La stratégie 2 implémente le multi-threading sur le calcul du chemin d'un robo
 On s'est inspiré du très connu modèle MVC (Model View Controller) pour structurer notre projet. Le modèle MVC est un modèle de conception logiciel qui sépare les données d'une application, la logique métier et la présentation. Il est composé de trois éléments : le modèle, la vue et le contrôleur.\
 Ces trois partie (Vue, Modèle et Contrôleur) sont séparées dans des packages différents dans le package main.
 
-### Chef robot (Design Pattern Singleton (single-threaded))
+### Chef robot (Design Pattern Singleton)
 Vu qu'il n'existe qu'un seul chef robot dans l'application nous avons utilisé le design pattern Singleton pour s'assurer qu'il n'y ait qu'une seule instance de la classe ChefRobot.\
 (En apprendre plus sur le design pattern Singleton : https://refactoring.guru/design-patterns/singleton)
 
@@ -75,13 +75,16 @@ next():
 Cela réduit la complexité de la méthode ``next()`` qui est beaucoup appelée par le simulateur.\
 
 ### Plus court chemin
-On a implémenté l'algorithme A* (un peu comme tout le monde).
+On a implémenté l'algorithme A* pour aller du robot à un incendie ou à un endroit pour remplir son réservoir (un peu comme tout le monde).
 
 ### Linting
 Nous avons utilisé le linter SonarLint pour vérifier la qualité du code. Cela nous a permi de structurer notre code pour suivre les conventions de programmation en Java comme par exemple le nommage des variables, des fonctions, des classes, etc.\
 Et surtout faire en sorte que chaque membre de l'équipe suive les mêmes conventions de programmation pour avoir un code plus lisible et plus facile à maintenir.
 
-### Testing
-Pour tester la partie modèle de l'application nous avons utilisé le framework JUnit afin de réaliser principalement des tests unitaires.
+### JavaDoc
+Au cas où, on a déjà généré la JavaDoc, elle est dans le dossier ``doc/``.
 
+### Testing
+Pour tester la partie modèle de l'application nous avons utilisé le framework JUnit afin de réaliser principalement des tests unitaires.\
+(Tester avec Intellij, c'est plus facile)
 
