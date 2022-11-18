@@ -313,7 +313,6 @@ public abstract class Robot {
         if (indexEvenement < evenements.size()) {
             evenements.get(indexEvenement).execute();
         } else {
-            System.out.println("No more events for this robot " + this.getName() + " " + this.getPosition());
             this.isOccupied = false;
             ChefRobot.getInstance().notif = true;
         }

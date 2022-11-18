@@ -119,27 +119,15 @@ public class NavigationStrategy1 implements NavigationStrategy {
         currentNode.setgScore(0);
         currentNode.setfScore(
                 (double) currentNode.hCalculator(caseArrivee) * carte.getTailleCases()
-                        / (robot.getBaseVitesse() / 3.6));// On
-        // met
-        // le
-        // noeud
-        // de
-        // départ
-        // à
-        // 0
+                        / (robot.getBaseVitesse() / 3.6));
         while (!openNodes.isEmpty()) {
-            // System.out.println("openNodes.size() = " + openNodes.size() + "
-            // closedNodes.size() = " + closedNodes.size());
-            // currentNode becomes the node in openNodes with the smalles fScore
             minNode = openNodes.get(0);
             for (Node node : openNodes) {
-                // System.out.println(node.getPosition() + " " + node.getfScore());
                 if (node.getfScore() < minNode.getfScore()) {
                     minNode = node;
                 }
             }
             currentNode = minNode;
-            // print current node
             if (currentNode.getPosition() == caseArrivee) {
 
                 // crée une liste node pour le chemin le plus court

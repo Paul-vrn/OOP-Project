@@ -133,22 +133,6 @@ public class Chemin {
         return duration;
     }
 
-    /**
-     * Print pour tester
-     */
-    public void print() {
-        if (incendie != null) {
-            System.out.println("Chemin de " + this.robot + " vers " + this.incendie);
-        } else {
-            System.out.println("Chemin de " + this.robot + " vers " + this.end);
-        }
-        System.out.println("Durée : " + this.duration);
-        System.out.println("Evenements : ");
-        for (Evenement event : this.events) {
-            System.out.println(event);
-        }
-    }
-
     @Override
     public String toString() {
         return "Chemin{" +

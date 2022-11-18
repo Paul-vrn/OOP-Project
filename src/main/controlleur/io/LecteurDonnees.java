@@ -76,7 +76,6 @@ public class LecteurDonnees {
 
             return new DonneesSimulation(carte, incendies, robots);
         } catch (Exception e) {
-            //System.out.println(e.getMessage());
             throw e;
         }
     }
@@ -95,7 +94,6 @@ public class LecteurDonnees {
             scanner = new Scanner(new File(fichierDonnees));
             scanner.useLocale(Locale.US);
         } catch (FileNotFoundException e) {
-            System.out.println(e.getMessage());
             throw e;
         }
     }
