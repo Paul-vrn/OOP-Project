@@ -1,136 +1,105 @@
 Carte 8x8; taille des cases = 10000
-incendie  main.modele.Case (5, 5) : HABITAT eteint=true
-robot main.modele.Case (5, 5) : HABITAT vide=1675
-No more events for this robot Drone main.modele.Case (5, 5) : HABITAT
-Chef robot a été nofitié de la fin d'un truc
-chemins mis à jour : [Chemin{start=main.modele.Case (5, 5) : HABITAT, end=main.modele.Case (7, 1) : HABITAT, robot=Robot DRONE en main.modele.Case (5, 5) : HABITAT avec 1675L, occupé=false, incendie=Incendie (7, 1) : 10000, duration=2160, events=[MoveEventmain.modele.Case (5, 4) : TERRAIN_LIBRE duration=360, MoveEventmain.modele.Case (5, 3) : TERRAIN_LIBRE duration=360, MoveEventmain.modele.Case (5, 2) : EAU duration=360, MoveEventmain.modele.Case (5, 1) : TERRAIN_LIBRE duration=360, MoveEventmain.modele.Case (6, 1) : TERRAIN_LIBRE duration=360, MoveEventmain.modele.Case (7, 1) : HABITAT duration=360, EteindreEvent (Incendie (7, 1) : 10000) duration=6]}, Chemin{start=main.modele.Case (5, 5) : HABITAT, end=main.modele.Case (7, 0) : TERRAIN_LIBRE, robot=Robot DRONE en main.modele.Case (5, 5) : HABITAT avec 1675L, occupé=false, incendie=Incendie (7, 0) : 50000, duration=2520, events=[MoveEventmain.modele.Case (5, 4) : TERRAIN_LIBRE duration=360, MoveEventmain.modele.Case (5, 3) : TERRAIN_LIBRE duration=360, MoveEventmain.modele.Case (5, 2) : EAU duration=360, MoveEventmain.modele.Case (5, 1) : TERRAIN_LIBRE duration=360, MoveEventmain.modele.Case (5, 0) : TERRAIN_LIBRE duration=360, MoveEventmain.modele.Case (6, 0) : TERRAIN_LIBRE duration=360, MoveEventmain.modele.Case (7, 0) : TERRAIN_LIBRE duration=360, EteindreEvent (Incendie (7, 0) : 50000) duration=6]}, Chemin{start=main.modele.Case (5, 5) : HABITAT, end=main.modele.Case (6, 0) : TERRAIN_LIBRE, robot=Robot DRONE en main.modele.Case (5, 5) : HABITAT avec 1675L, occupé=false, incendie=Incendie (6, 0) : 10000, duration=2160, events=[MoveEventmain.modele.Case (5, 4) : TERRAIN_LIBRE duration=360, MoveEventmain.modele.Case (5, 3) : TERRAIN_LIBRE duration=360, MoveEventmain.modele.Case (5, 2) : EAU duration=360, MoveEventmain.modele.Case (5, 1) : TERRAIN_LIBRE duration=360, MoveEventmain.modele.Case (5, 0) : TERRAIN_LIBRE duration=360, MoveEventmain.modele.Case (6, 0) : TERRAIN_LIBRE duration=360, EteindreEvent (Incendie (6, 0) : 10000) duration=6]}]
-incendie  main.modele.Case (7, 7) : TERRAIN_LIBRE eteint=true
-robot main.modele.Case (7, 7) : TERRAIN_LIBRE vide=4672
-No more events for this robot Drone main.modele.Case (7, 7) : TERRAIN_LIBRE
-Chef robot a été nofitié de la fin d'un truc
-chemins mis à jour : [Chemin{start=main.modele.Case (7, 7) : TERRAIN_LIBRE, end=main.modele.Case (7, 0) : TERRAIN_LIBRE, robot=Robot DRONE en main.modele.Case (7, 7) : TERRAIN_LIBRE avec 4672L, occupé=false, incendie=Incendie (7, 0) : 50000, duration=2520, events=[MoveEventmain.modele.Case (7, 6) : TERRAIN_LIBRE duration=360, MoveEventmain.modele.Case (7, 5) : TERRAIN_LIBRE duration=360, MoveEventmain.modele.Case (7, 4) : TERRAIN_LIBRE duration=360, MoveEventmain.modele.Case (7, 3) : EAU duration=360, MoveEventmain.modele.Case (7, 2) : HABITAT duration=360, MoveEventmain.modele.Case (7, 1) : HABITAT duration=360, MoveEventmain.modele.Case (7, 0) : TERRAIN_LIBRE duration=360, EteindreEvent (Incendie (7, 0) : 50000) duration=15]}, Chemin{start=main.modele.Case (7, 7) : TERRAIN_LIBRE, end=main.modele.Case (6, 0) : TERRAIN_LIBRE, robot=Robot DRONE en main.modele.Case (7, 7) : TERRAIN_LIBRE avec 4672L, occupé=false, incendie=Incendie (6, 0) : 10000, duration=2880, events=[MoveEventmain.modele.Case (7, 6) : TERRAIN_LIBRE duration=360, MoveEventmain.modele.Case (7, 5) : TERRAIN_LIBRE duration=360, MoveEventmain.modele.Case (7, 4) : TERRAIN_LIBRE duration=360, MoveEventmain.modele.Case (7, 3) : EAU duration=360, MoveEventmain.modele.Case (7, 2) : HABITAT duration=360, MoveEventmain.modele.Case (7, 1) : HABITAT duration=360, MoveEventmain.modele.Case (7, 0) : TERRAIN_LIBRE duration=360, MoveEventmain.modele.Case (6, 0) : TERRAIN_LIBRE duration=360, EteindreEvent (Incendie (6, 0) : 10000) duration=15]}]
-incendie  main.modele.Case (6, 1) : TERRAIN_LIBRE eteint=false
-robot main.modele.Case (6, 1) : TERRAIN_LIBRE vide=0
+No more events for this robot Robot à roues main.modele.Case (5, 5) : HABITAT
+if1vav (1 2)
+if1vav (1 3)
+if1vav (2 1)
+if1vav (2 2)
+if1vav (2 3)
+if1vav (2 4)
+if1vav (3 1)
+if1vav (3 2)
+if1vav (3 3)
+if1vav (3 4)
+if1vav (4 1)
+if1vav (4 2)
+if1vav (4 3)
+if1vav (5 1)
+if1vav (5 2)
+if1vav (5 3)
+if1vav (6 1)
+if1vav (6 2)
+if1vav (6 3)
+if1vav (6 4)
+if1vav (7 2)
+if1vav (7 3)
+if1vav (7 4)
+chemins mis à jour : [Chemin{start=main.modele.Case (5, 5) : HABITAT, end=main.modele.Case (5, 3) : TERRAIN_LIBRE, robot=Robot ROUES en main.modele.Case (5, 5) : HABITAT avec 0L, occupé=true, incendie=null, duration=900, events=[MoveEventmain.modele.Case (5, 4) : TERRAIN_LIBRE duration=450, MoveEventmain.modele.Case (5, 3) : TERRAIN_LIBRE duration=450, Evenement (0) : duration=600]}]
+No more events for this robot Robot à pattes main.modele.Case (7, 7) : TERRAIN_LIBRE
+chemins mis à jour : [Chemin{start=main.modele.Case (7, 7) : TERRAIN_LIBRE, end=main.modele.Case (5, 5) : HABITAT, robot=Robot PATTES en main.modele.Case (7, 7) : TERRAIN_LIBRE avec 2147478647L, occupé=false, incendie=Incendie (5, 5) : 3000, duration=1440, events=[MoveEventmain.modele.Case (7, 6) : TERRAIN_LIBRE duration=360, MoveEventmain.modele.Case (7, 5) : TERRAIN_LIBRE duration=360, MoveEventmain.modele.Case (6, 5) : TERRAIN_LIBRE duration=360, MoveEventmain.modele.Case (5, 5) : HABITAT duration=360, EteindreEvent (Incendie (5, 5) : 3000) duration=300]}, Chemin{start=main.modele.Case (7, 7) : TERRAIN_LIBRE, end=main.modele.Case (7, 1) : HABITAT, robot=Robot PATTES en main.modele.Case (7, 7) : TERRAIN_LIBRE avec 2147478647L, occupé=false, incendie=Incendie (7, 1) : 10000, duration=7200, events=[MoveEventmain.modele.Case (7, 6) : TERRAIN_LIBRE duration=360, MoveEventmain.modele.Case (7, 5) : TERRAIN_LIBRE duration=360, MoveEventmain.modele.Case (6, 5) : TERRAIN_LIBRE duration=360, MoveEventmain.modele.Case (5, 5) : HABITAT duration=360, MoveEventmain.modele.Case (4, 5) : FORET duration=360, MoveEventmain.modele.Case (3, 5) : FORET duration=360, MoveEventmain.modele.Case (2, 5) : FORET duration=360, MoveEventmain.modele.Case (1, 5) : TERRAIN_LIBRE duration=360, MoveEventmain.modele.Case (0, 5) : TERRAIN_LIBRE duration=360, MoveEventmain.modele.Case (0, 4) : TERRAIN_LIBRE duration=360, MoveEventmain.modele.Case (0, 3) : TERRAIN_LIBRE duration=360, MoveEventmain.modele.Case (1, 3) : TERRAIN_LIBRE duration=360, MoveEventmain.modele.Case (1, 2) : TERRAIN_LIBRE duration=360, MoveEventmain.modele.Case (1, 1) : TERRAIN_LIBRE duration=360, MoveEventmain.modele.Case (2, 1) : TERRAIN_LIBRE duration=360, MoveEventmain.modele.Case (3, 1) : TERRAIN_LIBRE duration=360, MoveEventmain.modele.Case (4, 1) : TERRAIN_LIBRE duration=360, MoveEventmain.modele.Case (5, 1) : TERRAIN_LIBRE duration=360, MoveEventmain.modele.Case (6, 1) : TERRAIN_LIBRE duration=360, MoveEventmain.modele.Case (7, 1) : HABITAT duration=360, EteindreEvent (Incendie (7, 1) : 10000) duration=1000]}, Chemin{start=main.modele.Case (7, 7) : TERRAIN_LIBRE, end=main.modele.Case (6, 0) : TERRAIN_LIBRE, robot=Robot PATTES en main.modele.Case (7, 7) : TERRAIN_LIBRE avec 2147478647L, occupé=false, incendie=Incendie (6, 0) : 10000, duration=7200, events=[MoveEventmain.modele.Case (7, 6) : TERRAIN_LIBRE duration=360, MoveEventmain.modele.Case (7, 5) : TERRAIN_LIBRE duration=360, MoveEventmain.modele.Case (6, 5) : TERRAIN_LIBRE duration=360, MoveEventmain.modele.Case (5, 5) : HABITAT duration=360, MoveEventmain.modele.Case (4, 5) : FORET duration=360, MoveEventmain.modele.Case (3, 5) : FORET duration=360, MoveEventmain.modele.Case (2, 5) : FORET duration=360, MoveEventmain.modele.Case (1, 5) : TERRAIN_LIBRE duration=360, MoveEventmain.modele.Case (0, 5) : TERRAIN_LIBRE duration=360, MoveEventmain.modele.Case (0, 4) : TERRAIN_LIBRE duration=360, MoveEventmain.modele.Case (0, 3) : TERRAIN_LIBRE duration=360, MoveEventmain.modele.Case (1, 3) : TERRAIN_LIBRE duration=360, MoveEventmain.modele.Case (1, 2) : TERRAIN_LIBRE duration=360, MoveEventmain.modele.Case (1, 1) : TERRAIN_LIBRE duration=360, MoveEventmain.modele.Case (1, 0) : TERRAIN_LIBRE duration=360, MoveEventmain.modele.Case (2, 0) : TERRAIN_LIBRE duration=360, MoveEventmain.modele.Case (3, 0) : TERRAIN_LIBRE duration=360, MoveEventmain.modele.Case (4, 0) : TERRAIN_LIBRE duration=360, MoveEventmain.modele.Case (5, 0) : TERRAIN_LIBRE duration=360, MoveEventmain.modele.Case (6, 0) : TERRAIN_LIBRE duration=360, EteindreEvent (Incendie (6, 0) : 10000) duration=1000]}, Chemin{start=main.modele.Case (7, 7) : TERRAIN_LIBRE, end=main.modele.Case (7, 0) : TERRAIN_LIBRE, robot=Robot PATTES en main.modele.Case (7, 7) : TERRAIN_LIBRE avec 2147478647L, occupé=false, incendie=Incendie (7, 0) : 50000, duration=7560, events=[MoveEventmain.modele.Case (7, 6) : TERRAIN_LIBRE duration=360, MoveEventmain.modele.Case (7, 5) : TERRAIN_LIBRE duration=360, MoveEventmain.modele.Case (6, 5) : TERRAIN_LIBRE duration=360, MoveEventmain.modele.Case (5, 5) : HABITAT duration=360, MoveEventmain.modele.Case (4, 5) : FORET duration=360, MoveEventmain.modele.Case (3, 5) : FORET duration=360, MoveEventmain.modele.Case (2, 5) : FORET duration=360, MoveEventmain.modele.Case (1, 5) : TERRAIN_LIBRE duration=360, MoveEventmain.modele.Case (0, 5) : TERRAIN_LIBRE duration=360, MoveEventmain.modele.Case (0, 4) : TERRAIN_LIBRE duration=360, MoveEventmain.modele.Case (0, 3) : TERRAIN_LIBRE duration=360, MoveEventmain.modele.Case (1, 3) : TERRAIN_LIBRE duration=360, MoveEventmain.modele.Case (1, 2) : TERRAIN_LIBRE duration=360, MoveEventmain.modele.Case (1, 1) : TERRAIN_LIBRE duration=360, MoveEventmain.modele.Case (1, 0) : TERRAIN_LIBRE duration=360, MoveEventmain.modele.Case (2, 0) : TERRAIN_LIBRE duration=360, MoveEventmain.modele.Case (3, 0) : TERRAIN_LIBRE duration=360, MoveEventmain.modele.Case (4, 0) : TERRAIN_LIBRE duration=360, MoveEventmain.modele.Case (5, 0) : TERRAIN_LIBRE duration=360, MoveEventmain.modele.Case (6, 0) : TERRAIN_LIBRE duration=360, MoveEventmain.modele.Case (7, 0) : TERRAIN_LIBRE duration=360, EteindreEvent (Incendie (7, 0) : 50000) duration=5000]}]
 No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
-Chef robot a été nofitié de la fin d'un truc
-plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
-chemins mis à jour : [Chemin{start=main.modele.Case (6, 1) : TERRAIN_LIBRE, end=main.modele.Case (6, 1) : TERRAIN_LIBRE, robot=Robot DRONE en main.modele.Case (6, 1) : TERRAIN_LIBRE avec 0L, occupé=true, incendie=null, duration=0, events=[]}]
-No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
-Chef robot a été nofitié de la fin d'un truc
-plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
-chemins mis à jour : [Chemin{start=main.modele.Case (6, 1) : TERRAIN_LIBRE, end=main.modele.Case (6, 1) : TERRAIN_LIBRE, robot=Robot DRONE en main.modele.Case (6, 1) : TERRAIN_LIBRE avec 0L, occupé=true, incendie=null, duration=0, events=[]}]
-No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
-Chef robot a été nofitié de la fin d'un truc
-plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
-chemins mis à jour : [Chemin{start=main.modele.Case (6, 1) : TERRAIN_LIBRE, end=main.modele.Case (6, 1) : TERRAIN_LIBRE, robot=Robot DRONE en main.modele.Case (6, 1) : TERRAIN_LIBRE avec 0L, occupé=true, incendie=null, duration=0, events=[]}]
-No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
-incendie  main.modele.Case (7, 1) : HABITAT eteint=false
-robot main.modele.Case (7, 1) : HABITAT vide=0
-Chef robot a été nofitié de la fin d'un truc
-plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
-chemins mis à jour : [Chemin{start=main.modele.Case (6, 1) : TERRAIN_LIBRE, end=main.modele.Case (6, 1) : TERRAIN_LIBRE, robot=Robot DRONE en main.modele.Case (6, 1) : TERRAIN_LIBRE avec 0L, occupé=true, incendie=null, duration=0, events=[]}]
-No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+No more events for this robot Robot à roues main.modele.Case (5, 3) : TERRAIN_LIBRE
+Robot type: DRONE Case nature: EAU
+Robot type: DRONE Case nature: EAU
+Robot type: DRONE Case nature: EAU
+Robot type: DRONE Case nature: EAU
+Robot type: DRONE Case nature: EAU
+Robot type: DRONE Case nature: EAU
+Robot type: DRONE Case nature: EAU
+Robot type: DRONE Case nature: EAU
+Robot type: DRONE Case nature: EAU
+chemins mis à jour : [Chemin{start=main.modele.Case (6, 1) : TERRAIN_LIBRE, end=main.modele.Case (6, 2) : EAU, robot=Robot DRONE en main.modele.Case (6, 1) : TERRAIN_LIBRE avec 0L, occupé=true, incendie=null, duration=240, events=[MoveEventmain.modele.Case (6, 2) : EAU duration=240, Evenement (0) : duration=1800]}, Chemin{start=main.modele.Case (5, 3) : TERRAIN_LIBRE, end=main.modele.Case (6, 1) : TERRAIN_LIBRE, robot=Robot ROUES en main.modele.Case (5, 3) : TERRAIN_LIBRE avec 5000L, occupé=false, incendie=Incendie (6, 1) : 9677, duration=9450, events=[MoveEventmain.modele.Case (5, 4) : TERRAIN_LIBRE duration=450, MoveEventmain.modele.Case (5, 5) : HABITAT duration=450, MoveEventmain.modele.Case (5, 6) : HABITAT duration=450, MoveEventmain.modele.Case (5, 7) : TERRAIN_LIBRE duration=450, MoveEventmain.modele.Case (4, 7) : TERRAIN_LIBRE duration=450, MoveEventmain.modele.Case (3, 7) : TERRAIN_LIBRE duration=450, MoveEventmain.modele.Case (2, 7) : TERRAIN_LIBRE duration=450, MoveEventmain.modele.Case (1, 7) : TERRAIN_LIBRE duration=450, MoveEventmain.modele.Case (0, 7) : TERRAIN_LIBRE duration=450, MoveEventmain.modele.Case (0, 6) : TERRAIN_LIBRE duration=450, MoveEventmain.modele.Case (0, 5) : TERRAIN_LIBRE duration=450, MoveEventmain.modele.Case (0, 4) : TERRAIN_LIBRE duration=450, MoveEventmain.modele.Case (0, 3) : TERRAIN_LIBRE duration=450, MoveEventmain.modele.Case (0, 2) : TERRAIN_LIBRE duration=450, MoveEventmain.modele.Case (0, 1) : TERRAIN_LIBRE duration=450, MoveEventmain.modele.Case (1, 1) : TERRAIN_LIBRE duration=450, MoveEventmain.modele.Case (2, 1) : TERRAIN_LIBRE duration=450, MoveEventmain.modele.Case (3, 1) : TERRAIN_LIBRE duration=450, MoveEventmain.modele.Case (4, 1) : TERRAIN_LIBRE duration=450, MoveEventmain.modele.Case (5, 1) : TERRAIN_LIBRE duration=450, MoveEventmain.modele.Case (6, 1) : TERRAIN_LIBRE duration=450, EteindreEvent (Incendie (6, 1) : 9677) duration=250]}, Chemin{start=main.modele.Case (5, 3) : TERRAIN_LIBRE, end=main.modele.Case (7, 1) : HABITAT, robot=Robot ROUES en main.modele.Case (5, 3) : TERRAIN_LIBRE avec 5000L, occupé=false, incendie=Incendie (7, 1) : 10000, duration=9900, events=[MoveEventmain.modele.Case (5, 4) : TERRAIN_LIBRE duration=450, MoveEventmain.modele.Case (5, 5) : HABITAT duration=450, MoveEventmain.modele.Case (5, 6) : HABITAT duration=450, MoveEventmain.modele.Case (5, 7) : TERRAIN_LIBRE duration=450, MoveEventmain.modele.Case (4, 7) : TERRAIN_LIBRE duration=450, MoveEventmain.modele.Case (3, 7) : TERRAIN_LIBRE duration=450, MoveEventmain.modele.Case (2, 7) : TERRAIN_LIBRE duration=450, MoveEventmain.modele.Case (1, 7) : TERRAIN_LIBRE duration=450, MoveEventmain.modele.Case (0, 7) : TERRAIN_LIBRE duration=450, MoveEventmain.modele.Case (0, 6) : TERRAIN_LIBRE duration=450, MoveEventmain.modele.Case (0, 5) : TERRAIN_LIBRE duration=450, MoveEventmain.modele.Case (0, 4) : TERRAIN_LIBRE duration=450, MoveEventmain.modele.Case (0, 3) : TERRAIN_LIBRE duration=450, MoveEventmain.modele.Case (0, 2) : TERRAIN_LIBRE duration=450, MoveEventmain.modele.Case (0, 1) : TERRAIN_LIBRE duration=450, MoveEventmain.modele.Case (1, 1) : TERRAIN_LIBRE duration=450, MoveEventmain.modele.Case (2, 1) : TERRAIN_LIBRE duration=450, MoveEventmain.modele.Case (3, 1) : TERRAIN_LIBRE duration=450, MoveEventmain.modele.Case (4, 1) : TERRAIN_LIBRE duration=450, MoveEventmain.modele.Case (5, 1) : TERRAIN_LIBRE duration=450, MoveEventmain.modele.Case (6, 1) : TERRAIN_LIBRE duration=450, MoveEventmain.modele.Case (7, 1) : HABITAT duration=450, EteindreEvent (Incendie (7, 1) : 10000) duration=250]}, Chemin{start=main.modele.Case (5, 3) : TERRAIN_LIBRE, end=main.modele.Case (7, 0) : TERRAIN_LIBRE, robot=Robot ROUES en main.modele.Case (5, 3) : TERRAIN_LIBRE avec 5000L, occupé=false, incendie=Incendie (7, 0) : 50000, duration=10350, events=[MoveEventmain.modele.Case (5, 4) : TERRAIN_LIBRE duration=450, MoveEventmain.modele.Case (5, 5) : HABITAT duration=450, MoveEventmain.modele.Case (5, 6) : HABITAT duration=450, MoveEventmain.modele.Case (5, 7) : TERRAIN_LIBRE duration=450, MoveEventmain.modele.Case (4, 7) : TERRAIN_LIBRE duration=450, MoveEventmain.modele.Case (3, 7) : TERRAIN_LIBRE duration=450, MoveEventmain.modele.Case (2, 7) : TERRAIN_LIBRE duration=450, MoveEventmain.modele.Case (1, 7) : TERRAIN_LIBRE duration=450, MoveEventmain.modele.Case (0, 7) : TERRAIN_LIBRE duration=450, MoveEventmain.modele.Case (0, 6) : TERRAIN_LIBRE duration=450, MoveEventmain.modele.Case (0, 5) : TERRAIN_LIBRE duration=450, MoveEventmain.modele.Case (0, 4) : TERRAIN_LIBRE duration=450, MoveEventmain.modele.Case (0, 3) : TERRAIN_LIBRE duration=450, MoveEventmain.modele.Case (0, 2) : TERRAIN_LIBRE duration=450, MoveEventmain.modele.Case (0, 1) : TERRAIN_LIBRE duration=450, MoveEventmain.modele.Case (0, 0) : TERRAIN_LIBRE duration=450, MoveEventmain.modele.Case (1, 0) : TERRAIN_LIBRE duration=450, MoveEventmain.modele.Case (2, 0) : TERRAIN_LIBRE duration=450, MoveEventmain.modele.Case (3, 0) : TERRAIN_LIBRE duration=450, MoveEventmain.modele.Case (4, 0) : TERRAIN_LIBRE duration=450, MoveEventmain.modele.Case (5, 0) : TERRAIN_LIBRE duration=450, MoveEventmain.modele.Case (6, 0) : TERRAIN_LIBRE duration=450, MoveEventmain.modele.Case (7, 0) : TERRAIN_LIBRE duration=450, EteindreEvent (Incendie (7, 0) : 50000) duration=250]}, Chemin{start=main.modele.Case (5, 3) : TERRAIN_LIBRE, end=main.modele.Case (6, 0) : TERRAIN_LIBRE, robot=Robot ROUES en main.modele.Case (5, 3) : TERRAIN_LIBRE avec 5000L, occupé=false, incendie=Incendie (6, 0) : 10000, duration=9900, events=[MoveEventmain.modele.Case (5, 4) : TERRAIN_LIBRE duration=450, MoveEventmain.modele.Case (5, 5) : HABITAT duration=450, MoveEventmain.modele.Case (5, 6) : HABITAT duration=450, MoveEventmain.modele.Case (5, 7) : TERRAIN_LIBRE duration=450, MoveEventmain.modele.Case (4, 7) : TERRAIN_LIBRE duration=450, MoveEventmain.modele.Case (3, 7) : TERRAIN_LIBRE duration=450, MoveEventmain.modele.Case (2, 7) : TERRAIN_LIBRE duration=450, MoveEventmain.modele.Case (1, 7) : TERRAIN_LIBRE duration=450, MoveEventmain.modele.Case (0, 7) : TERRAIN_LIBRE duration=450, MoveEventmain.modele.Case (0, 6) : TERRAIN_LIBRE duration=450, MoveEventmain.modele.Case (0, 5) : TERRAIN_LIBRE duration=450, MoveEventmain.modele.Case (0, 4) : TERRAIN_LIBRE duration=450, MoveEventmain.modele.Case (0, 3) : TERRAIN_LIBRE duration=450, MoveEventmain.modele.Case (0, 2) : TERRAIN_LIBRE duration=450, MoveEventmain.modele.Case (0, 1) : TERRAIN_LIBRE duration=450, MoveEventmain.modele.Case (0, 0) : TERRAIN_LIBRE duration=450, MoveEventmain.modele.Case (1, 0) : TERRAIN_LIBRE duration=450, MoveEventmain.modele.Case (2, 0) : TERRAIN_LIBRE duration=450, MoveEventmain.modele.Case (3, 0) : TERRAIN_LIBRE duration=450, MoveEventmain.modele.Case (4, 0) : TERRAIN_LIBRE duration=450, MoveEventmain.modele.Case (5, 0) : TERRAIN_LIBRE duration=450, MoveEventmain.modele.Case (6, 0) : TERRAIN_LIBRE duration=450, EteindreEvent (Incendie (6, 0) : 10000) duration=250]}]
+No more events for this robot Drone main.modele.Case (6, 2) : EAU
+chemins mis à jour : [Chemin{start=main.modele.Case (6, 2) : EAU, end=main.modele.Case (7, 1) : HABITAT, robot=Robot DRONE en main.modele.Case (6, 2) : EAU avec 10000L, occupé=false, incendie=Incendie (7, 1) : 10000, duration=480, events=[MoveEventmain.modele.Case (6, 1) : TERRAIN_LIBRE duration=240, MoveEventmain.modele.Case (7, 1) : HABITAT duration=240, EteindreEvent (Incendie (7, 1) : 10000) duration=31]}, Chemin{start=main.modele.Case (6, 2) : EAU, end=main.modele.Case (7, 0) : TERRAIN_LIBRE, robot=Robot DRONE en main.modele.Case (6, 2) : EAU avec 10000L, occupé=false, incendie=Incendie (7, 0) : 50000, duration=720, events=[MoveEventmain.modele.Case (6, 1) : TERRAIN_LIBRE duration=240, MoveEventmain.modele.Case (6, 0) : TERRAIN_LIBRE duration=240, MoveEventmain.modele.Case (7, 0) : TERRAIN_LIBRE duration=240, EteindreEvent (Incendie (7, 0) : 50000) duration=31]}, Chemin{start=main.modele.Case (6, 2) : EAU, end=main.modele.Case (6, 0) : TERRAIN_LIBRE, robot=Robot DRONE en main.modele.Case (6, 2) : EAU avec 10000L, occupé=false, incendie=Incendie (6, 0) : 10000, duration=480, events=[MoveEventmain.modele.Case (6, 1) : TERRAIN_LIBRE duration=240, MoveEventmain.modele.Case (6, 0) : TERRAIN_LIBRE duration=240, EteindreEvent (Incendie (6, 0) : 10000) duration=31]}]
+No more events for this robot Robot à pattes main.modele.Case (5, 5) : HABITAT
+chemins mis à jour : [Chemin{start=main.modele.Case (5, 5) : HABITAT, end=main.modele.Case (6, 0) : TERRAIN_LIBRE, robot=Robot PATTES en main.modele.Case (5, 5) : HABITAT avec 2147475647L, occupé=false, incendie=Incendie (6, 0) : 10000, duration=5760, events=[MoveEventmain.modele.Case (4, 5) : FORET duration=360, MoveEventmain.modele.Case (3, 5) : FORET duration=360, MoveEventmain.modele.Case (2, 5) : FORET duration=360, MoveEventmain.modele.Case (1, 5) : TERRAIN_LIBRE duration=360, MoveEventmain.modele.Case (0, 5) : TERRAIN_LIBRE duration=360, MoveEventmain.modele.Case (0, 4) : TERRAIN_LIBRE duration=360, MoveEventmain.modele.Case (0, 3) : TERRAIN_LIBRE duration=360, MoveEventmain.modele.Case (1, 3) : TERRAIN_LIBRE duration=360, MoveEventmain.modele.Case (1, 2) : TERRAIN_LIBRE duration=360, MoveEventmain.modele.Case (1, 1) : TERRAIN_LIBRE duration=360, MoveEventmain.modele.Case (1, 0) : TERRAIN_LIBRE duration=360, MoveEventmain.modele.Case (2, 0) : TERRAIN_LIBRE duration=360, MoveEventmain.modele.Case (3, 0) : TERRAIN_LIBRE duration=360, MoveEventmain.modele.Case (4, 0) : TERRAIN_LIBRE duration=360, MoveEventmain.modele.Case (5, 0) : TERRAIN_LIBRE duration=360, MoveEventmain.modele.Case (6, 0) : TERRAIN_LIBRE duration=360, EteindreEvent (Incendie (6, 0) : 10000) duration=1000]}, Chemin{start=main.modele.Case (5, 5) : HABITAT, end=main.modele.Case (7, 0) : TERRAIN_LIBRE, robot=Robot PATTES en main.modele.Case (5, 5) : HABITAT avec 2147475647L, occupé=false, incendie=Incendie (7, 0) : 50000, duration=6120, events=[MoveEventmain.modele.Case (4, 5) : FORET duration=360, MoveEventmain.modele.Case (3, 5) : FORET duration=360, MoveEventmain.modele.Case (2, 5) : FORET duration=360, MoveEventmain.modele.Case (1, 5) : TERRAIN_LIBRE duration=360, MoveEventmain.modele.Case (0, 5) : TERRAIN_LIBRE duration=360, MoveEventmain.modele.Case (0, 4) : TERRAIN_LIBRE duration=360, MoveEventmain.modele.Case (0, 3) : TERRAIN_LIBRE duration=360, MoveEventmain.modele.Case (1, 3) : TERRAIN_LIBRE duration=360, MoveEventmain.modele.Case (1, 2) : TERRAIN_LIBRE duration=360, MoveEventmain.modele.Case (1, 1) : TERRAIN_LIBRE duration=360, MoveEventmain.modele.Case (1, 0) : TERRAIN_LIBRE duration=360, MoveEventmain.modele.Case (2, 0) : TERRAIN_LIBRE duration=360, MoveEventmain.modele.Case (3, 0) : TERRAIN_LIBRE duration=360, MoveEventmain.modele.Case (4, 0) : TERRAIN_LIBRE duration=360, MoveEventmain.modele.Case (5, 0) : TERRAIN_LIBRE duration=360, MoveEventmain.modele.Case (6, 0) : TERRAIN_LIBRE duration=360, MoveEventmain.modele.Case (7, 0) : TERRAIN_LIBRE duration=360, EteindreEvent (Incendie (7, 0) : 50000) duration=5000]}]
 No more events for this robot Drone main.modele.Case (7, 1) : HABITAT
-Chef robot a été nofitié de la fin d'un truc
-plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
-plusCourtCheminEau du robot Drone main.modele.Case (7, 1) : HABITAT
-chemins mis à jour : [Chemin{start=main.modele.Case (6, 1) : TERRAIN_LIBRE, end=main.modele.Case (6, 1) : TERRAIN_LIBRE, robot=Robot DRONE en main.modele.Case (6, 1) : TERRAIN_LIBRE avec 0L, occupé=true, incendie=null, duration=0, events=[]}, Chemin{start=main.modele.Case (7, 1) : HABITAT, end=main.modele.Case (6, 1) : TERRAIN_LIBRE, robot=Robot DRONE en main.modele.Case (7, 1) : HABITAT avec 0L, occupé=true, incendie=null, duration=360, events=[MoveEventmain.modele.Case (6, 1) : TERRAIN_LIBRE duration=360]}]
-No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
-Chef robot a été nofitié de la fin d'un truc
-plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
-chemins mis à jour : [Chemin{start=main.modele.Case (6, 1) : TERRAIN_LIBRE, end=main.modele.Case (6, 1) : TERRAIN_LIBRE, robot=Robot DRONE en main.modele.Case (6, 1) : TERRAIN_LIBRE avec 0L, occupé=true, incendie=null, duration=0, events=[]}]
-No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
-No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
-incendie  main.modele.Case (7, 0) : TERRAIN_LIBRE eteint=false
-robot main.modele.Case (7, 0) : TERRAIN_LIBRE vide=0
-Chef robot a été nofitié de la fin d'un truc
-plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
-plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
-chemins mis à jour : [Chemin{start=main.modele.Case (6, 1) : TERRAIN_LIBRE, end=main.modele.Case (6, 1) : TERRAIN_LIBRE, robot=Robot DRONE en main.modele.Case (6, 1) : TERRAIN_LIBRE avec 0L, occupé=true, incendie=null, duration=0, events=[]}, Chemin{start=main.modele.Case (6, 1) : TERRAIN_LIBRE, end=main.modele.Case (6, 1) : TERRAIN_LIBRE, robot=Robot DRONE en main.modele.Case (6, 1) : TERRAIN_LIBRE avec 0L, occupé=true, incendie=null, duration=0, events=[]}]
-No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
-No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+Robot type: DRONE Case nature: EAU
+Robot type: DRONE Case nature: EAU
+Robot type: DRONE Case nature: EAU
+Robot type: DRONE Case nature: EAU
+Robot type: DRONE Case nature: EAU
+Robot type: DRONE Case nature: EAU
+Robot type: DRONE Case nature: EAU
+Robot type: DRONE Case nature: EAU
+Robot type: DRONE Case nature: EAU
+chemins mis à jour : [Chemin{start=main.modele.Case (7, 1) : HABITAT, end=main.modele.Case (6, 2) : EAU, robot=Robot DRONE en main.modele.Case (7, 1) : HABITAT avec 0L, occupé=true, incendie=null, duration=480, events=[MoveEventmain.modele.Case (7, 2) : HABITAT duration=240, MoveEventmain.modele.Case (6, 2) : EAU duration=240, Evenement (0) : duration=1800]}]
+No more events for this robot Drone main.modele.Case (6, 2) : EAU
+chemins mis à jour : [Chemin{start=main.modele.Case (6, 2) : EAU, end=main.modele.Case (7, 0) : TERRAIN_LIBRE, robot=Robot DRONE en main.modele.Case (6, 2) : EAU avec 10000L, occupé=false, incendie=Incendie (7, 0) : 50000, duration=720, events=[MoveEventmain.modele.Case (6, 1) : TERRAIN_LIBRE duration=240, MoveEventmain.modele.Case (6, 0) : TERRAIN_LIBRE duration=240, MoveEventmain.modele.Case (7, 0) : TERRAIN_LIBRE duration=240, EteindreEvent (Incendie (7, 0) : 50000) duration=31]}]
 No more events for this robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
-Chef robot a été nofitié de la fin d'un truc
-plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
-plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
-plusCourtCheminEau du robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
-chemins mis à jour : [Chemin{start=main.modele.Case (6, 1) : TERRAIN_LIBRE, end=main.modele.Case (6, 1) : TERRAIN_LIBRE, robot=Robot DRONE en main.modele.Case (6, 1) : TERRAIN_LIBRE avec 0L, occupé=true, incendie=null, duration=0, events=[]}, Chemin{start=main.modele.Case (6, 1) : TERRAIN_LIBRE, end=main.modele.Case (6, 1) : TERRAIN_LIBRE, robot=Robot DRONE en main.modele.Case (6, 1) : TERRAIN_LIBRE avec 0L, occupé=true, incendie=null, duration=0, events=[]}, Chemin{start=main.modele.Case (7, 0) : TERRAIN_LIBRE, end=main.modele.Case (6, 1) : TERRAIN_LIBRE, robot=Robot DRONE en main.modele.Case (7, 0) : TERRAIN_LIBRE avec 0L, occupé=true, incendie=null, duration=720, events=[MoveEventmain.modele.Case (7, 1) : HABITAT duration=360, MoveEventmain.modele.Case (6, 1) : TERRAIN_LIBRE duration=360]}]
-No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
-No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
-Chef robot a été nofitié de la fin d'un truc
-plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
-plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
-chemins mis à jour : [Chemin{start=main.modele.Case (6, 1) : TERRAIN_LIBRE, end=main.modele.Case (6, 1) : TERRAIN_LIBRE, robot=Robot DRONE en main.modele.Case (6, 1) : TERRAIN_LIBRE avec 0L, occupé=true, incendie=null, duration=0, events=[]}, Chemin{start=main.modele.Case (6, 1) : TERRAIN_LIBRE, end=main.modele.Case (6, 1) : TERRAIN_LIBRE, robot=Robot DRONE en main.modele.Case (6, 1) : TERRAIN_LIBRE avec 0L, occupé=true, incendie=null, duration=0, events=[]}]
-No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
-No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
-Chef robot a été nofitié de la fin d'un truc
-plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
-plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
-chemins mis à jour : [Chemin{start=main.modele.Case (6, 1) : TERRAIN_LIBRE, end=main.modele.Case (6, 1) : TERRAIN_LIBRE, robot=Robot DRONE en main.modele.Case (6, 1) : TERRAIN_LIBRE avec 0L, occupé=true, incendie=null, duration=0, events=[]}, Chemin{start=main.modele.Case (6, 1) : TERRAIN_LIBRE, end=main.modele.Case (6, 1) : TERRAIN_LIBRE, robot=Robot DRONE en main.modele.Case (6, 1) : TERRAIN_LIBRE avec 0L, occupé=true, incendie=null, duration=0, events=[]}]
-No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
-No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
-No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
-Chef robot a été nofitié de la fin d'un truc
-plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
-plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
-plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
-chemins mis à jour : [Chemin{start=main.modele.Case (6, 1) : TERRAIN_LIBRE, end=main.modele.Case (6, 1) : TERRAIN_LIBRE, robot=Robot DRONE en main.modele.Case (6, 1) : TERRAIN_LIBRE avec 0L, occupé=true, incendie=null, duration=0, events=[]}, Chemin{start=main.modele.Case (6, 1) : TERRAIN_LIBRE, end=main.modele.Case (6, 1) : TERRAIN_LIBRE, robot=Robot DRONE en main.modele.Case (6, 1) : TERRAIN_LIBRE avec 0L, occupé=true, incendie=null, duration=0, events=[]}, Chemin{start=main.modele.Case (6, 1) : TERRAIN_LIBRE, end=main.modele.Case (6, 1) : TERRAIN_LIBRE, robot=Robot DRONE en main.modele.Case (6, 1) : TERRAIN_LIBRE avec 0L, occupé=true, incendie=null, duration=0, events=[]}]
-No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
-No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
-No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
-Chef robot a été nofitié de la fin d'un truc
-plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
-plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
-plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
-chemins mis à jour : [Chemin{start=main.modele.Case (6, 1) : TERRAIN_LIBRE, end=main.modele.Case (6, 1) : TERRAIN_LIBRE, robot=Robot DRONE en main.modele.Case (6, 1) : TERRAIN_LIBRE avec 0L, occupé=true, incendie=null, duration=0, events=[]}, Chemin{start=main.modele.Case (6, 1) : TERRAIN_LIBRE, end=main.modele.Case (6, 1) : TERRAIN_LIBRE, robot=Robot DRONE en main.modele.Case (6, 1) : TERRAIN_LIBRE avec 0L, occupé=true, incendie=null, duration=0, events=[]}, Chemin{start=main.modele.Case (6, 1) : TERRAIN_LIBRE, end=main.modele.Case (6, 1) : TERRAIN_LIBRE, robot=Robot DRONE en main.modele.Case (6, 1) : TERRAIN_LIBRE avec 0L, occupé=true, incendie=null, duration=0, events=[]}]
-No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
-No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
-No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
-Chef robot a été nofitié de la fin d'un truc
-plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
-plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
-plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
-chemins mis à jour : [Chemin{start=main.modele.Case (6, 1) : TERRAIN_LIBRE, end=main.modele.Case (6, 1) : TERRAIN_LIBRE, robot=Robot DRONE en main.modele.Case (6, 1) : TERRAIN_LIBRE avec 0L, occupé=true, incendie=null, duration=0, events=[]}, Chemin{start=main.modele.Case (6, 1) : TERRAIN_LIBRE, end=main.modele.Case (6, 1) : TERRAIN_LIBRE, robot=Robot DRONE en main.modele.Case (6, 1) : TERRAIN_LIBRE avec 0L, occupé=true, incendie=null, duration=0, events=[]}, Chemin{start=main.modele.Case (6, 1) : TERRAIN_LIBRE, end=main.modele.Case (6, 1) : TERRAIN_LIBRE, robot=Robot DRONE en main.modele.Case (6, 1) : TERRAIN_LIBRE avec 0L, occupé=true, incendie=null, duration=0, events=[]}]
-No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
-No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
-No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
-Chef robot a été nofitié de la fin d'un truc
-plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
-plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
-plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
-chemins mis à jour : [Chemin{start=main.modele.Case (6, 1) : TERRAIN_LIBRE, end=main.modele.Case (6, 1) : TERRAIN_LIBRE, robot=Robot DRONE en main.modele.Case (6, 1) : TERRAIN_LIBRE avec 0L, occupé=true, incendie=null, duration=0, events=[]}, Chemin{start=main.modele.Case (6, 1) : TERRAIN_LIBRE, end=main.modele.Case (6, 1) : TERRAIN_LIBRE, robot=Robot DRONE en main.modele.Case (6, 1) : TERRAIN_LIBRE avec 0L, occupé=true, incendie=null, duration=0, events=[]}, Chemin{start=main.modele.Case (6, 1) : TERRAIN_LIBRE, end=main.modele.Case (6, 1) : TERRAIN_LIBRE, robot=Robot DRONE en main.modele.Case (6, 1) : TERRAIN_LIBRE avec 0L, occupé=true, incendie=null, duration=0, events=[]}]
-No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
-No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
-No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
-Chef robot a été nofitié de la fin d'un truc
-plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
-plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
-plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
-chemins mis à jour : [Chemin{start=main.modele.Case (6, 1) : TERRAIN_LIBRE, end=main.modele.Case (6, 1) : TERRAIN_LIBRE, robot=Robot DRONE en main.modele.Case (6, 1) : TERRAIN_LIBRE avec 0L, occupé=true, incendie=null, duration=0, events=[]}, Chemin{start=main.modele.Case (6, 1) : TERRAIN_LIBRE, end=main.modele.Case (6, 1) : TERRAIN_LIBRE, robot=Robot DRONE en main.modele.Case (6, 1) : TERRAIN_LIBRE avec 0L, occupé=true, incendie=null, duration=0, events=[]}, Chemin{start=main.modele.Case (6, 1) : TERRAIN_LIBRE, end=main.modele.Case (6, 1) : TERRAIN_LIBRE, robot=Robot DRONE en main.modele.Case (6, 1) : TERRAIN_LIBRE avec 0L, occupé=true, incendie=null, duration=0, events=[]}]
-No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
-No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
-No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
-Chef robot a été nofitié de la fin d'un truc
-plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
-plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
-plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
-chemins mis à jour : [Chemin{start=main.modele.Case (6, 1) : TERRAIN_LIBRE, end=main.modele.Case (6, 1) : TERRAIN_LIBRE, robot=Robot DRONE en main.modele.Case (6, 1) : TERRAIN_LIBRE avec 0L, occupé=true, incendie=null, duration=0, events=[]}, Chemin{start=main.modele.Case (6, 1) : TERRAIN_LIBRE, end=main.modele.Case (6, 1) : TERRAIN_LIBRE, robot=Robot DRONE en main.modele.Case (6, 1) : TERRAIN_LIBRE avec 0L, occupé=true, incendie=null, duration=0, events=[]}, Chemin{start=main.modele.Case (6, 1) : TERRAIN_LIBRE, end=main.modele.Case (6, 1) : TERRAIN_LIBRE, robot=Robot DRONE en main.modele.Case (6, 1) : TERRAIN_LIBRE avec 0L, occupé=true, incendie=null, duration=0, events=[]}]
-No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
-No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
-No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
-Chef robot a été nofitié de la fin d'un truc
-plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
-plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
-plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
-chemins mis à jour : [Chemin{start=main.modele.Case (6, 1) : TERRAIN_LIBRE, end=main.modele.Case (6, 1) : TERRAIN_LIBRE, robot=Robot DRONE en main.modele.Case (6, 1) : TERRAIN_LIBRE avec 0L, occupé=true, incendie=null, duration=0, events=[]}, Chemin{start=main.modele.Case (6, 1) : TERRAIN_LIBRE, end=main.modele.Case (6, 1) : TERRAIN_LIBRE, robot=Robot DRONE en main.modele.Case (6, 1) : TERRAIN_LIBRE avec 0L, occupé=true, incendie=null, duration=0, events=[]}, Chemin{start=main.modele.Case (6, 1) : TERRAIN_LIBRE, end=main.modele.Case (6, 1) : TERRAIN_LIBRE, robot=Robot DRONE en main.modele.Case (6, 1) : TERRAIN_LIBRE avec 0L, occupé=true, incendie=null, duration=0, events=[]}]
-No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
-No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
-No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
-Chef robot a été nofitié de la fin d'un truc
-plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
-plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
-plusCourtCheminEau du robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
-chemins mis à jour : [Chemin{start=main.modele.Case (6, 1) : TERRAIN_LIBRE, end=main.modele.Case (6, 1) : TERRAIN_LIBRE, robot=Robot DRONE en main.modele.Case (6, 1) : TERRAIN_LIBRE avec 0L, occupé=true, incendie=null, duration=0, events=[]}, Chemin{start=main.modele.Case (6, 1) : TERRAIN_LIBRE, end=main.modele.Case (6, 1) : TERRAIN_LIBRE, robot=Robot DRONE en main.modele.Case (6, 1) : TERRAIN_LIBRE avec 0L, occupé=true, incendie=null, duration=0, events=[]}, Chemin{start=main.modele.Case (6, 1) : TERRAIN_LIBRE, end=main.modele.Case (6, 1) : TERRAIN_LIBRE, robot=Robot DRONE en main.modele.Case (6, 1) : TERRAIN_LIBRE avec 0L, occupé=true, incendie=null, duration=0, events=[]}]
-No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
-No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
-No more events for this robot Drone main.modele.Case (6, 1) : TERRAIN_LIBRE
+Robot type: DRONE Case nature: EAU
+Robot type: DRONE Case nature: EAU
+Robot type: DRONE Case nature: EAU
+Robot type: DRONE Case nature: EAU
+Robot type: DRONE Case nature: EAU
+Robot type: DRONE Case nature: EAU
+Robot type: DRONE Case nature: EAU
+Robot type: DRONE Case nature: EAU
+Robot type: DRONE Case nature: EAU
+chemins mis à jour : [Chemin{start=main.modele.Case (7, 0) : TERRAIN_LIBRE, end=main.modele.Case (6, 2) : EAU, robot=Robot DRONE en main.modele.Case (7, 0) : TERRAIN_LIBRE avec 0L, occupé=true, incendie=null, duration=720, events=[MoveEventmain.modele.Case (7, 1) : HABITAT duration=240, MoveEventmain.modele.Case (7, 2) : HABITAT duration=240, MoveEventmain.modele.Case (6, 2) : EAU duration=240, Evenement (0) : duration=1800]}]
+No more events for this robot Drone main.modele.Case (6, 2) : EAU
+chemins mis à jour : [Chemin{start=main.modele.Case (6, 2) : EAU, end=main.modele.Case (7, 0) : TERRAIN_LIBRE, robot=Robot DRONE en main.modele.Case (6, 2) : EAU avec 10000L, occupé=false, incendie=Incendie (7, 0) : 39677, duration=720, events=[MoveEventmain.modele.Case (6, 1) : TERRAIN_LIBRE duration=240, MoveEventmain.modele.Case (6, 0) : TERRAIN_LIBRE duration=240, MoveEventmain.modele.Case (7, 0) : TERRAIN_LIBRE duration=240, EteindreEvent (Incendie (7, 0) : 39677) duration=31]}]
+No more events for this robot Robot à pattes main.modele.Case (6, 0) : TERRAIN_LIBRE
+chemins mis à jour : [Chemin{start=main.modele.Case (6, 0) : TERRAIN_LIBRE, end=main.modele.Case (6, 1) : TERRAIN_LIBRE, robot=Robot PATTES en main.modele.Case (6, 0) : TERRAIN_LIBRE avec 2147465647L, occupé=false, incendie=Incendie (6, 1) : 4677, duration=360, events=[MoveEventmain.modele.Case (6, 1) : TERRAIN_LIBRE duration=360, EteindreEvent (Incendie (6, 1) : 4677) duration=468]}]
+No more events for this robot Robot à roues main.modele.Case (6, 1) : TERRAIN_LIBRE
+chemins mis à jour : []
+No more events for this robot Robot à pattes main.modele.Case (6, 1) : TERRAIN_LIBRE
+if1vav (1 2)
+if1vav (1 3)
+if1vav (2 1)
+if1vav (2 2)
+if1vav (2 3)
+if1vav (2 4)
+if1vav (3 1)
+if1vav (3 2)
+if1vav (3 3)
+if1vav (3 4)
+if1vav (4 1)
+if1vav (4 2)
+if1vav (4 3)
+if1vav (5 1)
+if1vav (5 2)
+if1vav (5 3)
+if1vav (6 1)
+if1vav (6 2)
+if1vav (6 3)
+if1vav (6 4)
+if1vav (7 2)
+if1vav (7 3)
+if1vav (7 4)
+chemins mis à jour : [Chemin{start=main.modele.Case (6, 1) : TERRAIN_LIBRE, end=main.modele.Case (6, 1) : TERRAIN_LIBRE, robot=Robot ROUES en main.modele.Case (6, 1) : TERRAIN_LIBRE avec 0L, occupé=true, incendie=null, duration=0, events=[Evenement (0) : duration=600]}, Chemin{start=main.modele.Case (6, 1) : TERRAIN_LIBRE, end=main.modele.Case (7, 0) : TERRAIN_LIBRE, robot=Robot PATTES en main.modele.Case (6, 1) : TERRAIN_LIBRE avec 2147460967L, occupé=false, incendie=Incendie (7, 0) : 29354, duration=720, events=[MoveEventmain.modele.Case (6, 0) : TERRAIN_LIBRE duration=360, MoveEventmain.modele.Case (7, 0) : TERRAIN_LIBRE duration=360, EteindreEvent (Incendie (7, 0) : 29354) duration=2936]}]
+No more events for this robot Drone main.modele.Case (7, 0) : TERRAIN_LIBRE
+chemins mis à jour : []
+No more events for this robot Robot à roues main.modele.Case (6, 1) : TERRAIN_LIBRE
+chemins mis à jour : []
+No more events for this robot Robot à pattes main.modele.Case (7, 0) : TERRAIN_LIBRE
+chemins mis à jour : []

@@ -19,23 +19,24 @@ import java.util.*;
  */
 public class NavigationStrategy1 implements NavigationStrategy {
 
+    /**
+     * Méthode qui permet de calculer le plus court chemin entre un robot est tous les points d'eau dont il peut avoir accès
+     * @param robot le robot
+     * @param donneesSimulation les données de la simulation
+     * @return le chemin le plus court
+     */
     public Chemin plusCourtCheminEau(Robot robot, DonneesSimulation donneesSimulation) {
         Chemin tempCheminEau = null;
         Chemin cheminEau = null;
-        boolean isAdjacentToWater = false;
+        boolean isAdjacentToWater;
         // loop through all the cases of the map
         for (int i = 0; i < donneesSimulation.getCarte().getNbLignes(); i++) {
             for (int j = 0; j < donneesSimulation.getCarte().getNbColonnes(); j++) {
                 // if the case is a water case and the robot is a drone calculate shortest path
-                if (donneesSimulation.getCarte().getCases()[i][j].getNature() == NatureTerrain.EAU
-                        && robot.getType() == RobotType.DRONE) {
-                    // print le type du robot et la nature de la case pour debug
-                    System.out.println("Robot type: " + robot.getType() + " Case nature: "
-                            + donneesSimulation.getCarte().getCases()[i][j].getNature());
+                if (donneesSimulation.getCarte().getCases()[i][j].getNature() == NatureTerrain.EAU && robot.getType() == RobotType.DRONE) {
                     tempCheminEau = plusCourtChemin(robot, donneesSimulation.getCarte().getCases()[i][j],
                             donneesSimulation);
-                    if (tempCheminEau != null && (cheminEau == null || tempCheminEau
-                            .getDuration() < cheminEau.getDuration())) {
+                    if (tempCheminEau != null && (cheminEau == null || tempCheminEau.getDuration() < cheminEau.getDuration())) {
                         cheminEau = tempCheminEau;
                         // print la case d'arrivée de chemin
                     }
@@ -44,44 +45,36 @@ public class NavigationStrategy1 implements NavigationStrategy {
                 // path
                 else if (robot.getType() != RobotType.DRONE) {
                     isAdjacentToWater = false;
-                    if (i - 1 >= 0
-                            && donneesSimulation.getCarte().getCases()[i - 1][j].getNature() == NatureTerrain.EAU) {
-                        tempCheminEau = plusCourtChemin(robot, donneesSimulation.getCarte().getCases()[i][j],
-                                donneesSimulation);
-                        isAdjacentToWater = true;
-                    }
-                    if (i + 1 < donneesSimulation.getCarte().getNbLignes()
-                            && donneesSimulation.getCarte().getCases()[i + 1][j].getNature() == NatureTerrain.EAU) {
-                        tempCheminEau = plusCourtChemin(robot, donneesSimulation.getCarte().getCases()[i][j],
-                                donneesSimulation);
-                        isAdjacentToWater = true;
-                    }
-                    if (j - 1 >= 0
-                            && donneesSimulation.getCarte().getCases()[i][j - 1].getNature() == NatureTerrain.EAU) {
-                        tempCheminEau = plusCourtChemin(robot, donneesSimulation.getCarte().getCases()[i][j],
-                                donneesSimulation);
-                        isAdjacentToWater = true;
-                    }
-                    if (j + 1 < donneesSimulation.getCarte().getNbColonnes()
-                            && donneesSimulation.getCarte().getCases()[i][j + 1].getNature() == NatureTerrain.EAU) {
-                        tempCheminEau = plusCourtChemin(robot, donneesSimulation.getCarte().getCases()[i][j],
-                                donneesSimulation);
+                    if (
+                            (i - 1 >= 0 && donneesSimulation.getCarte().getCases()[i - 1][j].getNature() == NatureTerrain.EAU)
+                            || (i + 1 < donneesSimulation.getCarte().getNbLignes() && donneesSimulation.getCarte().getCases()[i + 1][j].getNature() == NatureTerrain.EAU)
+                            || (j - 1 >= 0 && donneesSimulation.getCarte().getCases()[i][j - 1].getNature() == NatureTerrain.EAU)
+                            || (j + 1 < donneesSimulation.getCarte().getNbColonnes() && donneesSimulation.getCarte().getCases()[i][j + 1].getNature() == NatureTerrain.EAU)
+
+                    ) {
+                        tempCheminEau = plusCourtChemin(robot, donneesSimulation.getCarte().getCases()[i][j], donneesSimulation);
                         isAdjacentToWater = true;
                     }
                     // print isAdjacentToWater
-                    if (isAdjacentToWater && tempCheminEau != null && (cheminEau == null || tempCheminEau
-                            .getDuration() < cheminEau.getDuration())) {
+                    if (isAdjacentToWater && tempCheminEau != null && (cheminEau == null || tempCheminEau.getDuration() < cheminEau.getDuration())) {
                         cheminEau = tempCheminEau;
                     }
                 }
 
             }
         }
-        cheminEau.getEvents()
-                .add(new RemplirEvent(0, robot.getTempsRemplissage(), robot, donneesSimulation.getCarte()));
+        assert cheminEau != null;
+        cheminEau.getEvents().add(new RemplirEvent(0, robot.getTempsRemplissage(), robot, donneesSimulation.getCarte()));
         return cheminEau;
     }
 
+    /**
+     * Méthode qui permet de calculer le plus court chemin entre un robot et un incendie
+     * @param robot le robot
+     * @param incendie l'incendie
+     * @param donneesSimulation les données de la simulation
+     * @return le chemin le plus court
+     */
     public Chemin plusCourtCheminIncendie(Robot robot, Incendie incendie, DonneesSimulation donneesSimulation) {
         Chemin cheminIncendie = plusCourtChemin(robot, incendie.getPosition(), donneesSimulation);
         if (cheminIncendie != null) {
@@ -92,11 +85,11 @@ public class NavigationStrategy1 implements NavigationStrategy {
     }
 
     /**
-     *
-     * @param robot
-     * @param caseArrivee
-     * @param donneesSimulation
-     * @return
+     * Méthode qui permet de calculer le plus court chemin entre un robot et une case
+     * @param robot le robot
+     * @param caseArrivee la case d'arrivée
+     * @param donneesSimulation les données de la simulation
+     * @return le chemin le plus court
      */
     @Override
     public Chemin plusCourtChemin(Robot robot, Case caseArrivee, DonneesSimulation donneesSimulation) {
@@ -175,14 +168,14 @@ public class NavigationStrategy1 implements NavigationStrategy {
                     voisinDroite.setgScore(currentNode.getgScore() + edgeTime);
                     voisinDroite.setfScore(voisinDroite.getgScore()
                             + (((double) voisinDroite.hCalculator(caseArrivee) * carte.getTailleCases())
-                                    / (robot.getBaseVitesse() / 3.6)));
+                            / (robot.getBaseVitesse() / 3.6)));
                 } else {
                     if (voisinDroite.getgScore() > currentNode.getgScore() + edgeTime) {
                         voisinDroite.setParent(currentNode);
                         voisinDroite.setgScore(currentNode.getgScore() + edgeTime);
                         voisinDroite.setfScore(voisinDroite.getgScore()
                                 + (((double) voisinDroite.hCalculator(caseArrivee) * carte.getTailleCases())
-                                        / (robot.getBaseVitesse() / 3.6)));
+                                / (robot.getBaseVitesse() / 3.6)));
                         if (closedNodes.contains(voisinDroite)) {
                             closedNodes.remove(voisinDroite);
                             openNodes.add(voisinDroite);
@@ -202,7 +195,7 @@ public class NavigationStrategy1 implements NavigationStrategy {
                     voisinGauche.setgScore(currentNode.getgScore() + edgeTime);
                     voisinGauche.setfScore(voisinGauche.getgScore()
                             + (((double) voisinGauche.hCalculator(caseArrivee) * carte.getTailleCases())
-                                    / (robot.getBaseVitesse() / 3.6)));
+                            / (robot.getBaseVitesse() / 3.6)));
 
                 } else {
                     if (voisinGauche.getgScore() > currentNode.getgScore() + edgeTime) {
@@ -210,7 +203,7 @@ public class NavigationStrategy1 implements NavigationStrategy {
                         voisinGauche.setgScore(currentNode.getgScore() + edgeTime);
                         voisinGauche.setfScore(voisinGauche.getgScore()
                                 + (((double) voisinGauche.hCalculator(caseArrivee) * carte.getTailleCases())
-                                        / (robot.getBaseVitesse() / 3.6)));
+                                / (robot.getBaseVitesse() / 3.6)));
                         if (closedNodes.contains(voisinGauche)) {
                             closedNodes.remove(voisinGauche);
                             openNodes.add(voisinGauche);
@@ -230,7 +223,7 @@ public class NavigationStrategy1 implements NavigationStrategy {
                     voisinHaut.setgScore(currentNode.getgScore() + edgeTime);
                     voisinHaut.setfScore(voisinHaut.getgScore()
                             + (((double) voisinHaut.hCalculator(caseArrivee) * carte.getTailleCases())
-                                    / (robot.getBaseVitesse() / 3.6)));
+                            / (robot.getBaseVitesse() / 3.6)));
 
                 } else {
                     if (voisinHaut.getgScore() > currentNode.getgScore() + edgeTime) {
@@ -238,7 +231,7 @@ public class NavigationStrategy1 implements NavigationStrategy {
                         voisinHaut.setgScore(currentNode.getgScore() + edgeTime);
                         voisinHaut.setfScore(voisinHaut.getgScore()
                                 + (((double) voisinHaut.hCalculator(caseArrivee) * carte.getTailleCases())
-                                        / (robot.getBaseVitesse() / 3.6)));
+                                / (robot.getBaseVitesse() / 3.6)));
                         if (closedNodes.contains(voisinHaut)) {
                             closedNodes.remove(voisinHaut);
                             openNodes.add(voisinHaut);
@@ -259,7 +252,7 @@ public class NavigationStrategy1 implements NavigationStrategy {
                     voisinBas.setfScore(
                             voisinBas.getgScore()
                                     + (((double) voisinBas.hCalculator(caseArrivee) * carte.getTailleCases())
-                                            / (robot.getBaseVitesse() / 3.6)));
+                                    / (robot.getBaseVitesse() / 3.6)));
 
                 } else {
                     if (voisinBas.getgScore() > currentNode.getgScore() + edgeTime) {
@@ -267,7 +260,7 @@ public class NavigationStrategy1 implements NavigationStrategy {
                         voisinBas.setgScore(currentNode.getgScore() + edgeTime);
                         voisinBas.setfScore(voisinBas.getgScore()
                                 + (((double) voisinBas.hCalculator(caseArrivee) * carte.getTailleCases())
-                                        / (robot.getBaseVitesse() / 3.6)));
+                                / (robot.getBaseVitesse() / 3.6)));
                         if (closedNodes.contains(voisinBas)) {
                             closedNodes.remove(voisinBas);
                             openNodes.add(voisinBas);
@@ -283,13 +276,12 @@ public class NavigationStrategy1 implements NavigationStrategy {
     }
 
     /**
-     * Va reremplir les chemins avec les robots non assignés et les incendies non
-     * éteints
+     * Méthode qui permet de re-assigner des chemins aux robots qui sont inoccupés ou qui sont vides
+     * dans le cas où il y a encore des incendies à éteindre
      *
      * @param donneesSimulation les données de la simulation
      */
     public void fillChemins(DonneesSimulation donneesSimulation) {
-
         for (Incendie incendie : donneesSimulation.getIncendies()) {
             if (!incendie.isEteint() && !incendie.isHandled()) {
                 for (Robot robot : donneesSimulation.getRobots()) {
@@ -297,10 +289,10 @@ public class NavigationStrategy1 implements NavigationStrategy {
                         Chemin chemin;
                         if (robot.isEmpty()) {
                             chemin = plusCourtCheminEau(robot, donneesSimulation);
-                            if (chemin == null) {
+                            if (chemin == null) { // si aucun chemin n'est possible, le robot s'éteint
                                 robot.setAllumee(false);
                             } else {
-                                robot.setOccupied(true);
+                                robot.setOccupied(true); // on met Occupied() maintenant pour éviter de recalculer le chemin vers l'eau pour chaque incendie
                                 robot.addEvenements(chemin.getEvents());
                             }
                         } else {
@@ -316,10 +308,7 @@ public class NavigationStrategy1 implements NavigationStrategy {
     }
 
     /**
-     * Une fois qu'on a viré les chemins obsolètes et ceux relient des robots vides
-     * ou des incendies éteints
-     * on redistribue les chemins restants aux robots non occupés et aux incendies
-     * non éteints
+     * Méthode qui distribue les chemins aux robots dans l'ordre de la priority queue (en fonction de la durée)
      */
     public void distribution() {
         while (ChefRobot.getInstance().chemins.peek() != null) {

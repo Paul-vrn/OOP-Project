@@ -19,40 +19,24 @@ public class Chemin {
     private List<Evenement> events; // les événements sur le chemin
 
     /**
-     * Constructeur de la classe Chemin vers un incendie
-     * 
+     * Constructeur de la classe Chemin vers une case
+     *
      * @param robot    le robot
-     * @param incendie l'incendie
+     * @param arrive   la case d'arrivée
      * @param duration la durée du chemin
      * @param events   la liste des événements
      */
-    public Chemin(Robot robot, Incendie incendie, int duration, List<Evenement> events) {
-        this.robot = robot;
-        this.incendie = incendie;
-        this.duration = duration;
-        this.events = events;
-        this.start = robot.getPosition();
-        this.end = incendie.getPosition();
-    }
-
-    /**
-     *
-     * @param robot
-     * @param eau
-     * @param duration
-     * @param events
-     */
-    public Chemin(Robot robot, Case eau, int duration, List<Evenement> events) {
+    public Chemin(Robot robot, Case arrive, int duration, List<Evenement> events) {
         this.robot = robot;
         this.duration = duration;
         this.events = events;
         this.start = robot.getPosition();
-        this.end = eau;
+        this.end = arrive;
     }
 
     /**
      * Getter de la case de départ
-     * 
+     *
      * @return la case de départ
      */
     public Robot getRobot() {
@@ -61,7 +45,7 @@ public class Chemin {
 
     /**
      * Getter de la case d'arrivée
-     * 
+     *
      * @param robot le robot
      */
     public void setRobot(Robot robot) {
@@ -70,7 +54,7 @@ public class Chemin {
 
     /**
      * Getter de l'incendie
-     * 
+     *
      * @return l'incendie
      */
     public Incendie getIncendie() {
@@ -79,7 +63,7 @@ public class Chemin {
 
     /**
      * Setter de l'incendie
-     * 
+     *
      * @param incendie l'incendie
      */
     public void setIncendie(Incendie incendie) {
@@ -88,7 +72,7 @@ public class Chemin {
 
     /**
      * Getter de la liste des événements
-     * 
+     *
      * @return la liste des événements
      */
     public List<Evenement> getEvents() {
@@ -97,7 +81,7 @@ public class Chemin {
 
     /**
      * Setter de la liste des événements
-     * 
+     *
      * @param events la liste des événements
      */
     public void setEvents(List<Evenement> events) {
@@ -106,7 +90,7 @@ public class Chemin {
 
     /**
      * Getter de la case de départ
-     * 
+     *
      * @return la case de départ
      */
     public Case getStart() {
@@ -115,7 +99,7 @@ public class Chemin {
 
     /**
      * Setter de la case de départ
-     * 
+     *
      * @param start la case de départ
      */
     public void setStart(Case start) {
@@ -124,7 +108,7 @@ public class Chemin {
 
     /**
      * Getter de la case d'arrivée
-     * 
+     *
      * @return la case d'arrivée
      */
     public Case getEnd() {
@@ -133,7 +117,7 @@ public class Chemin {
 
     /**
      * Setter de la case d'arrivée
-     * 
+     *
      * @param end la case d'arrivée
      */
     public void setEnd(Case end) {
