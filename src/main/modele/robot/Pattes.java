@@ -31,10 +31,10 @@ public class Pattes extends Robot {
     }
 
     /**
-     * Getter
+     * Getter de la position du robot
      * 
-     * @param position
-     * @return
+     * @param position La position du robot
+     * @return La position du robot
      */
     @Override
     public double getVitesse(Case position) {
@@ -46,6 +46,11 @@ public class Pattes extends Robot {
         }
     }
 
+    /**
+     * Setter de la position du robot
+     *
+     * @param position La position du robot
+     */
     public void setPosition(Case position) {
         try {
             if (position.getNature() == NatureTerrain.EAU) {
@@ -58,6 +63,12 @@ public class Pattes extends Robot {
         }
     }
 
+    /**
+     * Méthode qui dit si le robot peut se déplacer sur la case passée en paramètre
+     *
+     * @param targetPosition La case cible
+     * @return true si le robot peut se déplacer sur la case cible, false sinon
+     */
     public boolean canMoveTo(Case targetPosition) {
         // vérrifie bien qu'on essaye de bouger à sur une case adjacente
         if (Math.abs(this.position.getLigne() - targetPosition.getLigne())
@@ -67,15 +78,28 @@ public class Pattes extends Robot {
         return (targetPosition.getNature() != NatureTerrain.EAU);
     }
 
+    /**
+     * Méthode qui dit si le robot peut être sur la case passée en paramètre
+     * @param targetPosition la case cible
+     * @return true si le robot peut être sur la case cible, false sinon
+     */
     public boolean canRobotBeOnCase(Case targetPosition) {
         return (targetPosition.getNature() != NatureTerrain.EAU);
     }
 
+    /**
+     * Getter du nom du robot
+     * @return le nom du robot
+     */
     @Override
     public String getName() {
         return super.getName() + " à pattes";
     }
 
+    /**
+     * Méthode qui dit si le robot est vide
+     * @return true si le robot est vide, false sinon
+     */
     @Override
     public boolean isEmpty() {
         return false;

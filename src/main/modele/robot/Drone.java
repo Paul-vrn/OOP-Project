@@ -29,10 +29,8 @@ public class Drone extends Robot {
     }
 
     /**
-     * Définit la vitesse du robot Drone.
-     *
-     * @param vitesse La vitesse du robot Drone.
-     * @throws RobotMaxSpeedException Si la vitesse du robot dépasse 100.
+     * Setter de la vitess du robot
+     * @param vitesse la vitesse du robot
      */
     @Override
     public void setVitesse(int vitesse) {

@@ -29,8 +29,8 @@ public abstract class Robot {
     protected int indexEvenement;
 
     protected boolean isOccupied;
-    public int timeUntilAvailable = 0;
-    public boolean allumee;
+    protected int timeUntilAvailable = 0;
+    protected boolean allumee;
 
     protected String imageUrl = "images/robot.gif";
 
@@ -202,12 +202,7 @@ public abstract class Robot {
      * @param qtEau la quantité d'eau à vider
      */
     public void emptyTank(int qtEau) {
-        if (qtEau > this.reservoir) {
-            int tmp = this.reservoir;
-            this.reservoir = 0;
-        } else {
-            this.reservoir -= qtEau;
-        }
+        this.reservoir = Math.max(0, this.reservoir-qtEau);
     }
 
     /**
@@ -286,6 +281,9 @@ public abstract class Robot {
         }
     }
 
+    /**
+     * Execute l'événement en cours
+     */
     public void execute() {
         if (indexEvenement < evenements.size()) {
             evenements.get(indexEvenement).execute();

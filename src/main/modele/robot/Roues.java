@@ -5,8 +5,15 @@ import main.modele.NatureTerrain;
 
 import java.util.ArrayList;
 
+/**
+ * Classe représentant un robot à roues
+ */
 public class Roues extends Robot {
 
+    /**
+     * Constructeur de la classe Roues
+     * @param position la position du robot
+     */
     public Roues(Case position) {
         setPosition(position);
         this.type = RobotType.ROUES;
@@ -21,6 +28,10 @@ public class Roues extends Robot {
         this.evenements = new ArrayList<>();
     }
 
+    /**
+     * Setter de la position du robot
+     * @param position la position du robot
+     */
     public void setPosition(Case position) {
         try {
             if (position.getNature() == NatureTerrain.TERRAIN_LIBRE || position.getNature() == NatureTerrain.HABITAT) {
@@ -34,6 +45,11 @@ public class Roues extends Robot {
         }
     }
 
+    /**
+     * Méthode qui dit si le robot peut se déplacer sur la case passée en paramètre
+     * @param targetPosition la case cible
+     * @return true si le robot peut se déplacer sur la case cible, false sinon
+     */
     public boolean canMoveTo(Case targetPosition) {
         // vérrifie bien qu'on essaye de bouger sur une case adjacente
         if (Math.abs(this.position.getLigne() - targetPosition.getLigne())
@@ -44,11 +60,20 @@ public class Roues extends Robot {
                 || targetPosition.getNature() == NatureTerrain.HABITAT);
     }
 
+    /**
+     * Méthode qui dit si le robot peut être sur la case passée en paramètre
+     * @param targetPosition la case cible
+     * @return true si le robot peut être sur la case cible, false sinon
+     */
     public boolean canRobotBeOnCase(Case targetPosition) {
         return (targetPosition.getNature() == NatureTerrain.TERRAIN_LIBRE
                 || targetPosition.getNature() == NatureTerrain.HABITAT);
     }
 
+    /**
+     * Getter du nom du robot
+     * @return le nom du robot
+     */
     @Override
     public String getName() {
         return super.getName() + " à roues";

@@ -13,17 +13,11 @@ public class EteindreEvent extends Evenement {
 
     /**
      * Constructeur de l'évènement d'extinction d'un incendie
-     * 
-     * @param dateStart date de début de l'évènement
-     * @param duration  durée de l'évènement
-     * @param robot     robot qui va éteindre l'incendie
-     * @param incendie  incendie à éteindre
+     *
+     * @param dateStart la date de début de l'évènement
+     * @param robot     le robot
+     * @param incendie  l'incendie à éteindre
      */
-    public EteindreEvent(int dateStart, int duration, Robot robot, Incendie incendie) {
-        super(dateStart, duration, robot);
-        this.incendie = incendie;
-    }
-
     public EteindreEvent(int dateStart, Robot robot, Incendie incendie) {
         super(dateStart, 0, robot);
         int volume;
@@ -32,7 +26,7 @@ public class EteindreEvent extends Evenement {
         } else {
             volume = incendie.getEauNecessaire();
         }
-        this.duration = (int) Math.ceil(volume/robot.getDebitVidage());
+        this.duration = (int) Math.ceil(volume / robot.getDebitVidage());
         this.incendie = incendie;
     }
 
@@ -48,7 +42,7 @@ public class EteindreEvent extends Evenement {
         } else {
             incendie.eteindre((int) Math.ceil(duration * robot.getDebitVidage()));
             robot.emptyTank((int) Math.ceil(duration * robot.getDebitVidage()));
-            if (robot.isEmpty()){
+            if (robot.isEmpty()) {
                 incendie.setHandle(false);
             }
             robot.nextEvent();
@@ -56,8 +50,9 @@ public class EteindreEvent extends Evenement {
     }
 
     /**
+     * Returns a string representation of the object.
      *
-     * @return
+     * @return a string representation of the object.
      */
     @Override
     public String toString() {

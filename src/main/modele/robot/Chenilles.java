@@ -49,8 +49,10 @@ public class Chenilles extends Robot {
     }
 
     /**
-     * @param position
-     * @return
+     * Getter de la vitesse du robot à chenilles.
+     *
+     * @param position la position du robot
+     * @return la vitesse du robot à chenilles
      */
     @Override
     public double getVitesse(Case position) {
@@ -63,7 +65,7 @@ public class Chenilles extends Robot {
 
     /**
      * Setter de la position du robot à chenilles.
-     * 
+     *
      * @param position La position du robot à chenilles.
      */
     @Override
@@ -83,11 +85,11 @@ public class Chenilles extends Robot {
     /**
      * Méthode permettant de savoir si le robot à chenilles peut se déplacer sur la
      * case passée en paramètre.
-     * 
+     *
      * @param targetPosition La case sur laquelle on veut savoir si le robot à
      *                       chenilles peut se déplacer.
      * @return true si le robot à chenilles peut se déplacer sur la case passée en
-     *         paramètre, false sinon.
+     * paramètre, false sinon.
      */
     @Override
     public boolean canMoveTo(Case targetPosition) {
@@ -102,11 +104,11 @@ public class Chenilles extends Robot {
     /**
      * Méthode permettant de savoir si le robot à chenilles peut être sur la case
      * passée en paramètre.
-     * 
+     *
      * @param targetPosition La case sur laquelle on veut savoir si le robot à
      *                       chenilles peut être.
-     * @return <true> si le robot à chenilles peut être sur la case passée en
-     *         paramètre, <false> sinon.
+     * @return true si le robot à chenilles peut être sur la case passée en
+     * paramètre, false sinon.
      */
     public boolean canRobotBeOnCase(Case targetPosition) {
         return (targetPosition.getNature() != NatureTerrain.EAU && targetPosition.getNature() != NatureTerrain.ROCHE);
@@ -114,7 +116,7 @@ public class Chenilles extends Robot {
 
     /**
      * Retourne le nom du robot chenilles.
-     * 
+     *
      * @return le nom du robot chenilles
      */
     @Override

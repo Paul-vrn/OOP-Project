@@ -88,9 +88,9 @@ public class Simulateur implements Simulable {
         for (Incendie incendie : incendies) {
             if (!incendie.isEteint()) {
                 int width = (int) ((float) caseWidth * (float) incendie.getEauNecessaire()
-                        / (float) incendie.getEauNecessaireStart());
+                        / incendie.getEauNecessaireStart());
                 int height = (int) ((float) caseHeight * (float) incendie.getEauNecessaire()
-                        / (float) incendie.getEauNecessaireStart());
+                        / incendie.getEauNecessaireStart());
                 int insertWidth = ((caseWidth - width) / 2);
                 int insertHeight = ((caseHeight - height) / 2);
                 gui.addGraphicalElement(new ImageElement(
@@ -156,7 +156,7 @@ public class Simulateur implements Simulable {
     /**
      * Retourne un item
      *
-     * @param s
+     * @param s le nom de l'item
      */
     @Override
     public void selectedItem(String s) {

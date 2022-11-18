@@ -2,6 +2,9 @@ package main.modele.evenement;
 
 import main.modele.robot.Robot;
 
+/**
+ * Classe abstraite représentant un événement
+ */
 public abstract class Evenement {
 
     protected int dateStart;
@@ -10,6 +13,12 @@ public abstract class Evenement {
 
     protected Robot robot;
 
+    /**
+     * Constructeur de la classe Evenement
+     * @param dateStart la date de début de l'événement
+     * @param duration la durée de l'événement
+     * @param robot le robot
+     */
     protected Evenement(int dateStart, int duration, Robot robot) {
         this.dateStart = dateStart;
         this.duration = duration;

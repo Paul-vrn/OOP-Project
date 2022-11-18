@@ -124,12 +124,13 @@ public class Chemin {
         this.end = end;
     }
 
+    /**
+     * Getter de la durée du chemin
+     *
+     * @return la durée du chemin
+     */
     public int getDuration() {
         return duration;
-    }
-
-    public void setDuration(int duration) {
-        this.duration = duration;
     }
 
     /**

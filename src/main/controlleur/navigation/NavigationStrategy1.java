@@ -25,6 +25,7 @@ public class NavigationStrategy1 implements NavigationStrategy {
      * @param donneesSimulation les données de la simulation
      * @return le chemin le plus court
      */
+    @Override
     public Chemin plusCourtCheminEau(Robot robot, DonneesSimulation donneesSimulation) {
         Chemin tempCheminEau = null;
         Chemin cheminEau = null;
@@ -75,6 +76,7 @@ public class NavigationStrategy1 implements NavigationStrategy {
      * @param donneesSimulation les données de la simulation
      * @return le chemin le plus court
      */
+    @Override
     public Chemin plusCourtCheminIncendie(Robot robot, Incendie incendie, DonneesSimulation donneesSimulation) {
         Chemin cheminIncendie = plusCourtChemin(robot, incendie.getPosition(), donneesSimulation);
         if (cheminIncendie != null) {
@@ -281,6 +283,7 @@ public class NavigationStrategy1 implements NavigationStrategy {
      *
      * @param donneesSimulation les données de la simulation
      */
+    @Override
     public void fillChemins(DonneesSimulation donneesSimulation) {
         for (Incendie incendie : donneesSimulation.getIncendies()) {
             if (!incendie.isEteint() && !incendie.isHandled()) {
@@ -310,6 +313,7 @@ public class NavigationStrategy1 implements NavigationStrategy {
     /**
      * Méthode qui distribue les chemins aux robots dans l'ordre de la priority queue (en fonction de la durée)
      */
+    @Override
     public void distribution() {
         while (ChefRobot.getInstance().chemins.peek() != null) {
             Chemin chemin = ChefRobot.getInstance().chemins.poll();

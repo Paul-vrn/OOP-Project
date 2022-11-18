@@ -20,14 +20,14 @@ import java.util.zip.DataFormatException;
  * Les données sur les cases, robots puis incendies sont lues dans le fichier,
  * puis simplement affichées.
  * A noter: pas de vérification sémantique sur les valeurs numériques lues.
- *
+ * <p>
  * IMPORTANT:
- *
+ * <p>
  * Cette classe ne fait que LIRE les infos et les afficher.
  * A vous de modifier ou d'ajouter des méthodes, inspirées de celles présentes
  * (ou non), qui CREENT les objets au moment adéquat pour construire une
  * instance de la classe DonneesSimulation à partir d'un fichier.
- *
+ * <p>
  * Vous pouvez par exemple ajouter une méthode qui crée et retourne un objet
  * contenant toutes les données lues:
  * public static DonneesSimulation creeDonnees(String fichierDonnees);
@@ -37,13 +37,17 @@ import java.util.zip.DataFormatException;
  */
 public class LecteurDonnees {
 
+
     /**
      * Lit et affiche le contenu d'un fichier de donnees (cases,
      * robots et incendies).
      * Ceci est méthode de classe; utilisation:
      * LecteurDonnees.lire(fichierDonnees)
-     * 
+     *
      * @param fichierDonnees nom du fichier à lire
+     *
+     * @throws FileNotFoundException si le fichier n'existe pas
+     * @throws DataFormatException si le fichier n'est pas conforme
      */
     public static void lire(String fichierDonnees)
             throws FileNotFoundException, DataFormatException {
@@ -57,11 +61,13 @@ public class LecteurDonnees {
     }
 
     /**
-     * Lit les données d'un fichier et les retournes
-     * 
+     * Méthode qui retourne les datas obtenus après la la lecture du fichier
+     *
      * @param fichierDonnees nom du fichier à lire
+     * @return les données de la simulation
+     * @throws FileNotFoundException si le fichier n'est pas trouvé
+     * @throws DataFormatException   si le format du fichier est incorrect
      */
-
     public static DonneesSimulation getData(String fichierDonnees) throws FileNotFoundException, DataFormatException {
         try {
             LecteurDonnees lecteur = new LecteurDonnees(fichierDonnees);
@@ -82,7 +88,7 @@ public class LecteurDonnees {
 
     /**
      * Constructeur prive; impossible d'instancier la classe depuis l'exterieur
-     * 
+     *
      * @param fichierDonnees nom du fichier a lire
      */
     private LecteurDonnees(String fichierDonnees) throws FileNotFoundException {
@@ -97,7 +103,7 @@ public class LecteurDonnees {
 
     /**
      * Lit et affiche les donnees de la carte.
-     * 
+     *
      * @throws DataFormatException
      */
     private void lireCarte() throws DataFormatException {
@@ -232,7 +238,7 @@ public class LecteurDonnees {
 
     /**
      * Lit et affiche les donnees du i-eme incendie.
-     * 
+     *
      * @param i
      */
     private void lireIncendie(int i) throws DataFormatException {
@@ -266,7 +272,7 @@ public class LecteurDonnees {
         try {
             int lig = scanner.nextInt();
             int col = scanner.nextInt();
-            Case position = carte.getCase(lig,col);
+            Case position = carte.getCase(lig, col);
             int eauNecessaire = scanner.nextInt();
             if (eauNecessaire <= 0) {
                 throw new DataFormatException("incendie nb litres pour eteindre doit etre > 0");
@@ -320,7 +326,7 @@ public class LecteurDonnees {
 
     /**
      * Lit et affiche les donnees du i-eme robot.
-     * 
+     *
      * @param i
      */
     private void lireRobot(int i) throws DataFormatException {
@@ -362,7 +368,7 @@ public class LecteurDonnees {
         try {
             int lig = scanner.nextInt();
             int col = scanner.nextInt();
-            Case position = carte.getCase(lig,col);
+            Case position = carte.getCase(lig, col);
             String type = scanner.next();
             RobotType typeRobot = RobotType.valueOf(type);
             Robot robot = null;
@@ -398,7 +404,9 @@ public class LecteurDonnees {
         }
     }
 
-    /** Ignore toute (fin de) ligne commencant par '#' */
+    /**
+     * Ignore toute (fin de) ligne commencant par '#'
+     */
     private void ignorerCommentaires() {
         while (scanner.hasNext("#.*")) {
             scanner.nextLine();
@@ -407,7 +415,7 @@ public class LecteurDonnees {
 
     /**
      * Verifie qu'il n'y a plus rien a lire sur cette ligne (int ou float).
-     * 
+     *
      * @throws DataFormatException
      */
     private void verifieLigneTerminee() throws DataFormatException {

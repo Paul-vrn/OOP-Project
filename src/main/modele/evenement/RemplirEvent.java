@@ -2,7 +2,6 @@ package main.modele.evenement;
 
 import main.controlleur.navigation.ChefRobot;
 import main.modele.Carte;
-import main.modele.NatureTerrain;
 import main.modele.robot.Robot;
 
 /**
@@ -59,6 +58,8 @@ public class RemplirEvent extends Evenement {
                         throw new IllegalFillException("Les robots à roues ou à chenilles doivent être adjacent à une case d'eau pour pouvoir se remplir");
                     case PATTES:
                         throw new IllegalFillException("Tentative de remplir un robot à pattes (réservoir infinie)");
+                    default:
+                        throw new IllegalFillException("Type de robot inconnu");
                 }
             } catch (IllegalFillException e) {
                 System.err.println(e.getMessage());
