@@ -1,5 +1,6 @@
 package main.modele.robot;
 
+import main.controlleur.navigation.ChefRobot;
 import main.modele.Case;
 
 import java.util.ArrayList;
@@ -83,8 +84,8 @@ public class Drone extends Robot {
      * @return L'image du robot Drone.
      */
     @Override
-    public String getImage() {
-        return "images/drone.gif";
+    public String getImage(){
+        return (ChefRobot.getInstance().isFortnite()) ? "images/Fortnite_character1.gif" : "images/drone.gif";
     }
 
     /**

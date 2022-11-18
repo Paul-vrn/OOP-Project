@@ -20,6 +20,10 @@ import java.util.*;
 public class NavigationStrategy1 implements NavigationStrategy {
 
     /**
+     * Default constructor
+     */
+    public NavigationStrategy1() {}
+    /**
      * Méthode qui permet de calculer le plus court chemin entre un robot est tous les points d'eau dont il peut avoir accès
      *
      * @param robot             le robot

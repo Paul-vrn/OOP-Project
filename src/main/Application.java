@@ -8,7 +8,12 @@ import java.io.PrintStream;
 /**
  * Classe principale du projet
  */
-public class Main {
+public class Application {
+
+    /**
+     * Default constructor
+     */
+    public Application() {}
     /**
      * Méthode principale
      *

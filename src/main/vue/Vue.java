@@ -4,6 +4,7 @@ import gui.GUISimulator;
 import gui.ImageElement;
 import gui.Text;
 import main.controlleur.io.DonneesSimulation;
+import main.controlleur.navigation.ChefRobot;
 import main.modele.Carte;
 import main.modele.Incendie;
 import main.modele.robot.Robot;
@@ -18,7 +19,7 @@ public class Vue {
 
     private GUISimulator gui;
     private DonneesSimulation donneesSimulation;
-
+    private boolean win;
     /**
      * Constructeur de la classe Vue
      *
@@ -28,6 +29,7 @@ public class Vue {
     public Vue(GUISimulator gui, DonneesSimulation data) {
         this.gui = gui;
         this.donneesSimulation = data;
+        this.win = false;
     }
 
     /**
@@ -36,8 +38,8 @@ public class Vue {
     public void draw() {
         gui.reset();
         Carte carte = donneesSimulation.getCarte();
-        int caseWidth = gui.getPanelHeight() / carte.getNbLignes();
-        int caseHeight = gui.getPanelWidth() / carte.getNbColonnes();
+        int caseWidth = (gui.getPanelHeight() / carte.getNbLignes());
+        int caseHeight = (gui.getPanelWidth() / carte.getNbColonnes());
         // dessine la carte
         for (int i = 0; i < carte.getNbLignes(); i++) {
             for (int j = 0; j < carte.getNbColonnes(); j++) {
@@ -61,6 +63,35 @@ public class Vue {
             gui.addGraphicalElement(new ImageElement(robot.getPosition().getColonne() * caseHeight, robot.getPosition().getLigne() * caseWidth, robot.getImage(), caseHeight, caseWidth, null));
             gui.addGraphicalElement(new Text(robot.getPosition().getColonne() * caseHeight + caseWidth / 2, robot.getPosition().getLigne() * caseWidth + (int) (caseHeight / 1.2), Color.WHITE, robot.getName()));
         }
+
+        if (win) {
+            if (ChefRobot.getInstance().isFortnite()){
+                gui.addGraphicalElement(new ImageElement(0,0, "images/clashroyale.gif", 50, 50, null));
+                gui.addGraphicalElement(new ImageElement(
+                        gui.getPanelWidth() / 4,
+                        gui.getPanelHeight() / 4,
+                        "images/Fortnite_character1.gif",
+                        gui.getPanelWidth() / 2,
+                        gui.getPanelHeight() / 2,
+                        null));
+            } else {
+                gui.addGraphicalElement(new ImageElement(
+                        gui.getPanelWidth() / 4,
+                        gui.getPanelHeight() / 4,
+                        "images/youwin.gif",
+                        gui.getPanelWidth() / 2,
+                        gui.getPanelHeight() / 2,
+                        null));
+            }
+        }
+    }
+
+    /**
+     * Setter de win
+     * @param win true si la simulation est gagnée, false sinon
+     */
+    public void setWin(boolean win) {
+        this.win = win;
     }
 
 }

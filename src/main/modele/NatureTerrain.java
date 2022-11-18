@@ -1,5 +1,9 @@
 package main.modele;
 
+import main.Application;
+import main.controlleur.Simulateur;
+import main.controlleur.navigation.ChefRobot;
+
 import java.awt.*;
 
 /**
@@ -37,20 +41,14 @@ public enum NatureTerrain {
      * @return la couleur associée à la nature du terrain
      */
     public Color getColor() {
-        switch (this) {
-            case EAU:
-                return Color.BLUE;
-            case FORET:
-                return Color.GREEN;
-            case ROCHE:
-                return Color.GRAY;
-            case TERRAIN_LIBRE:
-                return Color.WHITE;
-            case HABITAT:
-                return Color.RED;
-            default:
-                return Color.BLACK;
-        }
+        return switch (this) {
+            case EAU -> Color.BLUE;
+            case FORET -> Color.GREEN;
+            case ROCHE -> Color.GRAY;
+            case TERRAIN_LIBRE -> Color.WHITE;
+            case HABITAT -> Color.RED;
+            default -> Color.BLACK;
+        };
     }
 
     /**
@@ -59,19 +57,13 @@ public enum NatureTerrain {
      * @return l'image correspondant à la nature du terrain
      */
     public String getImage() {
-        switch (this) {
-            case EAU:
-                return "images/water01.png";
-            case FORET:
-                return "images/tree.png";
-            case ROCHE:
-                return "images/wall.png";
-            case TERRAIN_LIBRE:
-                return "images/grass01.png";
-            case HABITAT:
-                return "images/hut.png";
-            default:
-                return "images/road00.png";
-        }
+        return switch (this) {
+            case EAU -> (ChefRobot.getInstance().isFortnite())? "images/Fortnite_water.jpg" : "images/water.png";
+            case FORET -> (ChefRobot.getInstance().isFortnite())? "images/Fortnite_Bush.jpg" : "images/tree.png";
+            case ROCHE -> (ChefRobot.getInstance().isFortnite())? "images/Fornite_Boulder.jpg" : "images/wall.png";
+            case TERRAIN_LIBRE -> (ChefRobot.getInstance().isFortnite())? "images/Fortnite_grass.jpg" : "images/grass01.png";
+            case HABITAT -> (ChefRobot.getInstance().isFortnite())? "images/Fortnite_House.jpg" : "images/hut.png";
+            default -> (ChefRobot.getInstance().isFortnite())? "images/Fornite_Boulder.jpg" : "images/road00.png";
+        };
     }
 }

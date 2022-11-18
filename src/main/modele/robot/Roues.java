@@ -1,5 +1,6 @@
 package main.modele.robot;
 
+import main.controlleur.navigation.ChefRobot;
 import main.modele.Case;
 import main.modele.NatureTerrain;
 
@@ -82,5 +83,15 @@ public class Roues extends Robot {
     @Override
     public String getName() {
         return super.getName() + " à roues";
+    }
+
+    /**
+     * Retourne l'image du robot chenilles.
+     *
+     * @return l'image du robot chenilles
+     */
+    @Override
+    public String getImage() {
+        return (ChefRobot.getInstance().isFortnite()) ? "images/Fortnite_character4.gif" : super.getImage();
     }
 }

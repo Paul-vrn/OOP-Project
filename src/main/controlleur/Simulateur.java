@@ -1,22 +1,18 @@
 package main.controlleur;
 
 import gui.GUISimulator;
-import gui.ImageElement;
 import gui.Simulable;
-import gui.Text;
 import main.controlleur.io.DonneesSimulation;
 import main.controlleur.io.LecteurDonnees;
 import main.controlleur.navigation.ChefRobot;
 import main.controlleur.navigation.NavigationStrategy1;
 import main.controlleur.navigation.NavigationStrategy2;
-import main.modele.Carte;
 import main.modele.Incendie;
 import main.modele.robot.Robot;
 import main.vue.Vue;
 
 import java.awt.*;
 import java.io.FileNotFoundException;
-import java.util.List;
 import java.util.zip.DataFormatException;
 
 /**
@@ -29,7 +25,6 @@ public class Simulateur implements Simulable {
     private Vue vue;
     private int tempsEcoule;
     private String map;
-
     /**
      * Constructeur de la classe Simulateur
      *
@@ -61,9 +56,11 @@ public class Simulateur implements Simulable {
             }
         }
 
+        ChefRobot.getInstance().texturePack = (args.length > 2 && args[2] != null ? args[2].toUpperCase() : "DEFAULT");
         this.tempsEcoule = 0;
         ChefRobot.getInstance().initDistribution(donneesSimulation);
         this.vue = new Vue(gui, donneesSimulation);
+
         vue.draw();
     }
 
@@ -73,7 +70,20 @@ public class Simulateur implements Simulable {
     @Override
     public void next() {
         if (ChefRobot.getInstance().notif) {
-            ChefRobot.getInstance().updateChemins(this.donneesSimulation);
+            if(ChefRobot.getInstance().updateChemins(this.donneesSimulation)){
+                //vide
+                //si aucun feu non éteint
+                boolean feuFini = true;
+                for (Incendie incendie: donneesSimulation.getIncendies()) {
+                    if (!incendie.isEteint()) {
+                        feuFini = false;
+                        break;
+                    }
+                }
+                if (feuFini) {
+                    this.simulationTerminee();
+                }
+            }
             ChefRobot.getInstance().notif = false;
         }
         for (Robot robot : donneesSimulation.getRobots()) {
@@ -94,6 +104,7 @@ public class Simulateur implements Simulable {
             donneesSimulation = LecteurDonnees.getData(map);
             ChefRobot.getInstance().reset();
             ChefRobot.getInstance().notif = true;
+            vue.setWin(false);
             vue.draw();
         } catch (FileNotFoundException | DataFormatException e) {
             throw new RuntimeException(e);
@@ -121,7 +132,6 @@ public class Simulateur implements Simulable {
      * Retourne le temps écoulé
      */
     public void simulationTerminee() {
-        System.out.println("Simulation terminée");
-        System.exit(0);
+        vue.setWin(true);
     }
 }

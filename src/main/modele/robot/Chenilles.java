@@ -1,5 +1,6 @@
 package main.modele.robot;
 
+import main.controlleur.navigation.ChefRobot;
 import main.modele.Case;
 import main.modele.NatureTerrain;
 
@@ -122,5 +123,15 @@ public class Chenilles extends Robot {
     @Override
     public String getName() {
         return super.getName() + " à chenilles";
+    }
+
+    /**
+     * Retourne l'image du robot chenilles.
+     *
+     * @return l'image du robot chenilles
+     */
+    @Override
+    public String getImage() {
+        return (ChefRobot.getInstance().isFortnite()) ? "images/Fortnite_character2.gif" : super.getImage();
     }
 }

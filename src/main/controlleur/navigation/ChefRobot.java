@@ -29,6 +29,11 @@ public final class ChefRobot {
     public int n; // le nombre de pas par seconde
 
     /**
+     * Texture pack utilisé
+     */
+    public String texturePack;
+
+    /**
      * Constructeur privé pour le singleton
      *
      * @param strategy stratégie de navigation
@@ -76,15 +81,15 @@ public final class ChefRobot {
      * Met à jour les chemins
      *
      * @param donneesSimulation données de la simulation
+     * @return true si la simulation est terminée
      */
-    public void updateChemins(DonneesSimulation donneesSimulation) {
-        if (notif) {
-            // si chemin est obsolète, robot vide ou incendie éteint, on le supprime
-            strategy.fillChemins(donneesSimulation);
-            System.out.println("chemins mis à jour : " + chemins);
-            strategy.distribution();
-            notif = false;
-        }
+    public boolean updateChemins(DonneesSimulation donneesSimulation) {
+        // si chemin est obsolète, robot vide ou incendie éteint, on le supprime
+        strategy.fillChemins(donneesSimulation);
+        boolean res = chemins.isEmpty();
+        strategy.distribution();
+        notif = false;
+        return res;
     }
 
     /**
@@ -93,5 +98,13 @@ public final class ChefRobot {
     public void reset() {
         chemins.clear();
         notif = false;
+    }
+
+    /**
+     * Return if texture pack is fortnite
+     * @return true if texture pack is fortnite else false
+     */
+    public boolean isFortnite() {
+        return texturePack.equals("FORTNITE");
     }
 }

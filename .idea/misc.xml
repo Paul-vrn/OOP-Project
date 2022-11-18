@@ -6,6 +6,11 @@
     <option name="OPTION_INCLUDE_LIBS" value="true" />
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_15" project-jdk-name="15" project-jdk-type="JavaSDK">
-    <output url="file://$PROJECT_DIR$/out" />
+    <output url="file://$PROJECT_DIR$/bin" />
+  </component>
+  <component name="SwUserDefinedSpecifications">
+    <option name="specTypeByUrl">
+      <map />
+    </option>
   </component>
 </project>

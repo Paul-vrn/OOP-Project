@@ -28,7 +28,7 @@ public abstract class Evenement {
     /**
      * Returns a string representation of the object.
      *
-     * @return
+     * @return a string representation of the object.
      */
     @Override
     public String toString() {
