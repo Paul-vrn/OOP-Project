@@ -13,13 +13,13 @@ public class RemplirEvent extends Evenement {
 
     /**
      * Constructeur de l'évènement de remplissage du réservoir d'un robot
-     * @param dateStart date de début de l'évènement
+     *
      * @param duration durée de l'évènement
-     * @param robot robot qui va se remplir
-     * @param carte carte du robot
+     * @param robot    robot qui va se remplir
+     * @param carte    carte du robot
      */
-    public RemplirEvent(int dateStart, int duration, Robot robot, Carte carte) {
-        super(dateStart, duration, robot);
+    public RemplirEvent(int duration, Robot robot, Carte carte) {
+        super(duration, robot);
         this.carte = carte;
     }
 
@@ -46,10 +46,10 @@ public class RemplirEvent extends Evenement {
                         int robotCol = robot.getPosition().getColonne();
                         int robotLig = robot.getPosition().getLigne();
                         if (
-                                (robotCol + 1 < carte.getNbColonnes() && carte.getCase(robotLig, robotCol+1).isEau())
-                                || (robotCol - 1 >= 0 && carte.getCase(robotLig, robotCol-1).isEau())
-                                || (robotLig + 1 < carte.getNbLignes() && carte.getCase(robotLig+1, robotCol).isEau())
-                                || (robotLig - 1 >= 0 && carte.getCase(robotLig-1, robotCol).isEau())
+                                (robotCol + 1 < carte.getNbColonnes() && carte.getCase(robotLig, robotCol + 1).isEau())
+                                        || (robotCol - 1 >= 0 && carte.getCase(robotLig, robotCol - 1).isEau())
+                                        || (robotLig + 1 < carte.getNbLignes() && carte.getCase(robotLig + 1, robotCol).isEau())
+                                        || (robotLig - 1 >= 0 && carte.getCase(robotLig - 1, robotCol).isEau())
                         ) {
                             robot.fillReservoir();
                             robot.nextEvent();

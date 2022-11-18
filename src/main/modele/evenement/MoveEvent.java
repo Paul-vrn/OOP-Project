@@ -13,13 +13,13 @@ public class MoveEvent extends Evenement {
 
     /**
      * Constructeur de l'évènement de déplacement d'un robot
-     * @param dateStart date de début de l'évènement
-     * @param duration durée de l'évènement
-     * @param robot robot qui va se déplacer
+     *
+     * @param duration  durée de l'évènement
+     * @param robot     robot qui va se déplacer
      * @param caseCible case cible du déplacement
      */
-    public MoveEvent(int dateStart, int duration, Robot robot, Case caseCible) {
-        super(dateStart, duration, robot);
+    public MoveEvent(int duration, Robot robot, Case caseCible) {
+        super(duration, robot);
         this.caseCible = caseCible;
     }
 
@@ -46,6 +46,7 @@ public class MoveEvent extends Evenement {
 
     /**
      * Returns a string representation of the object.
+     *
      * @return String
      */
     @Override

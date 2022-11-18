@@ -1,7 +1,7 @@
 package test;
 
 import main.modele.Carte;
-import main.controlleur.DonneesSimulation;
+import main.controlleur.io.DonneesSimulation;
 import main.controlleur.io.LecteurDonnees;
 import main.modele.Case;
 import org.junit.jupiter.api.BeforeEach;

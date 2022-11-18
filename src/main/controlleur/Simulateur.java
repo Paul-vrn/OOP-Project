@@ -4,6 +4,7 @@ import gui.GUISimulator;
 import gui.ImageElement;
 import gui.Simulable;
 import gui.Text;
+import main.controlleur.io.DonneesSimulation;
 import main.controlleur.io.LecteurDonnees;
 import main.controlleur.navigation.ChefRobot;
 import main.controlleur.navigation.NavigationStrategy1;
@@ -11,6 +12,8 @@ import main.controlleur.navigation.NavigationStrategy2;
 import main.modele.Carte;
 import main.modele.Incendie;
 import main.modele.robot.Robot;
+import main.vue.Vue;
+
 import java.awt.*;
 import java.io.FileNotFoundException;
 import java.util.List;
@@ -23,12 +26,13 @@ public class Simulateur implements Simulable {
 
     private GUISimulator gui;
     private DonneesSimulation donneesSimulation;
+    private Vue vue;
     private int tempsEcoule;
     private String map;
 
     /**
      * Constructeur de la classe Simulateur
-     * 
+     *
      * @param args les arguments de la ligne de commande
      */
     public Simulateur(String[] args) {
@@ -46,8 +50,7 @@ public class Simulateur implements Simulable {
         }
 
         ChefRobot.getInstance(); // création du singleton chef robot
-        ChefRobot.getInstance().n = (donneesSimulation.getCarte().getTailleCases() / 20)
-                * (50 / donneesSimulation.getCarte().getNbColonnes());
+        ChefRobot.getInstance().n = (donneesSimulation.getCarte().getTailleCases() / 20) * (50 / donneesSimulation.getCarte().getNbColonnes());
 
         switch (args.length > 1 && args[1] != null ? args[1] : "1") {
             case "1" -> ChefRobot.getInstance().setStrategy(new NavigationStrategy1());
@@ -60,64 +63,8 @@ public class Simulateur implements Simulable {
 
         this.tempsEcoule = 0;
         ChefRobot.getInstance().initDistribution(donneesSimulation);
-        draw();
-    }
-
-    /**
-     * Dessine la carte et les robots
-     */
-    private void draw() {
-        gui.reset();
-        Carte carte = donneesSimulation.getCarte();
-        int caseWidth = gui.getPanelHeight() / carte.getNbLignes();
-        int caseHeight = gui.getPanelWidth() / carte.getNbColonnes();
-        // dessine la carte
-        for (int i = 0; i < carte.getNbLignes(); i++) {
-            for (int j = 0; j < carte.getNbColonnes(); j++) {
-                gui.addGraphicalElement(new ImageElement(
-                        j * caseHeight,
-                        i * caseWidth,
-                        carte.getCase(i, j).getNature().getImage(),
-                        caseHeight,
-                        caseWidth,
-                        null));
-            }
-        }
-        // dessine les incendies
-        List<Incendie> incendies = donneesSimulation.getIncendies();
-        for (Incendie incendie : incendies) {
-            if (!incendie.isEteint()) {
-                int width = (int) ((float) caseWidth * (float) incendie.getEauNecessaire()
-                        / incendie.getEauNecessaireStart());
-                int height = (int) ((float) caseHeight * (float) incendie.getEauNecessaire()
-                        / incendie.getEauNecessaireStart());
-                int insertWidth = ((caseWidth - width) / 2);
-                int insertHeight = ((caseHeight - height) / 2);
-                gui.addGraphicalElement(new ImageElement(
-                        incendie.getPosition().getColonne() * caseHeight + insertHeight,
-                        incendie.getPosition().getLigne() * caseWidth + insertWidth,
-                        incendie.getImage(),
-                        height,
-                        width,
-                        null));
-            }
-        }
-        // dessine les robots
-        List<Robot> robots = donneesSimulation.getRobots();
-        for (Robot robot : robots) {
-            gui.addGraphicalElement(new ImageElement(
-                    robot.getPosition().getColonne() * caseHeight,
-                    robot.getPosition().getLigne() * caseWidth,
-                    robot.getImage(),
-                    caseHeight,
-                    caseWidth,
-                    null));
-            gui.addGraphicalElement(new Text(
-                    robot.getPosition().getColonne() * caseHeight + caseWidth / 2,
-                    robot.getPosition().getLigne() * caseWidth + (int) (caseHeight / 1.2),
-                    Color.WHITE,
-                    robot.getName()));
-        }
+        this.vue = new Vue(gui, donneesSimulation);
+        vue.draw();
     }
 
     /**
@@ -135,7 +82,7 @@ public class Simulateur implements Simulable {
             }
         }
         incrementeTemps();
-        draw();
+        vue.draw();
     }
 
     /**
@@ -147,7 +94,7 @@ public class Simulateur implements Simulable {
             donneesSimulation = LecteurDonnees.getData(map);
             ChefRobot.getInstance().reset();
             ChefRobot.getInstance().notif = true;
-            draw();
+            vue.draw();
         } catch (FileNotFoundException | DataFormatException e) {
             throw new RuntimeException(e);
         }

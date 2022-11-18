@@ -14,12 +14,11 @@ public class EteindreEvent extends Evenement {
     /**
      * Constructeur de l'évènement d'extinction d'un incendie
      *
-     * @param dateStart la date de début de l'évènement
-     * @param robot     le robot
-     * @param incendie  l'incendie à éteindre
+     * @param robot    le robot
+     * @param incendie l'incendie à éteindre
      */
-    public EteindreEvent(int dateStart, Robot robot, Incendie incendie) {
-        super(dateStart, 0, robot);
+    public EteindreEvent(Robot robot, Incendie incendie) {
+        super(0, robot);
         int volume;
         if (incendie.getEauNecessaire() > robot.getReservoir()) {
             volume = robot.getReservoir();

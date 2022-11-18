@@ -1,6 +1,5 @@
 package main.controlleur.io;
 
-import main.controlleur.DonneesSimulation;
 import main.modele.Carte;
 import main.modele.Case;
 import main.modele.Incendie;

@@ -1,6 +1,7 @@
 package main;
 
 import main.controlleur.Simulateur;
+
 import java.io.FileNotFoundException;
 import java.io.PrintStream;
 
@@ -10,6 +11,7 @@ import java.io.PrintStream;
 public class Main {
     /**
      * Méthode principale
+     *
      * @param args les arguments de la ligne de commande
      * @throws FileNotFoundException si le fichier de log n'est pas trouvé
      */

@@ -1,12 +1,11 @@
 package test;
 
-import main.controlleur.DonneesSimulation;
+import main.controlleur.io.DonneesSimulation;
 import main.controlleur.navigation.NavigationStrategy;
 import main.controlleur.navigation.NavigationStrategy1;
 import main.controlleur.io.LecteurDonnees;
 import main.controlleur.navigation.Chemin;
 
-import java.awt.*;
 import java.io.FileNotFoundException;
 import java.util.zip.DataFormatException;
 

@@ -1,6 +1,6 @@
 package main.controlleur.navigation;
 
-import main.controlleur.DonneesSimulation;
+import main.controlleur.io.DonneesSimulation;
 
 import java.util.*;
 

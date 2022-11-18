@@ -13,9 +13,10 @@ public class Case {
 
     /**
      * Constructeur de la classe Case
-     * @param ligne la ligne de la case
+     *
+     * @param ligne   la ligne de la case
      * @param colonne la colonne de la case
-     * @param nature la nature de la case
+     * @param nature  la nature de la case
      */
     public Case(int ligne, int colonne, NatureTerrain nature) {
         this.ligne = ligne;
@@ -25,7 +26,8 @@ public class Case {
 
     /**
      * Constructeur de la classe Case
-     * @param ligne la ligne de la case
+     *
+     * @param ligne   la ligne de la case
      * @param colonne la colonne de la case
      */
     public Case(int ligne, int colonne) {
@@ -36,6 +38,7 @@ public class Case {
 
     /**
      * Setter du type de terrain de la case
+     *
      * @param nature le type de terrain
      */
     public void setNature(NatureTerrain nature) {
@@ -44,6 +47,7 @@ public class Case {
 
     /**
      * Getter de la ligne de la case
+     *
      * @return la ligne de la case
      */
     public int getLigne() {
@@ -52,6 +56,7 @@ public class Case {
 
     /**
      * Getter de la colonne de la case
+     *
      * @return la colonne de la case
      */
     public int getColonne() {
@@ -60,6 +65,7 @@ public class Case {
 
     /**
      * Getter de la nature de la case
+     *
      * @return la nature de la case
      */
     public NatureTerrain getNature() {
@@ -68,6 +74,7 @@ public class Case {
 
     /**
      * Retourne si le terrain est de type eau
+     *
      * @return true si le terrain est de type eau, false sinon
      */
     public boolean isEau() {
@@ -76,6 +83,7 @@ public class Case {
 
     /**
      * Returns a string representation of the object.
+     *
      * @return a string representation of the object.
      */
     @Override
@@ -85,6 +93,7 @@ public class Case {
 
     /**
      * Indicates whether some other object is "equal to" this one.
+     *
      * @param o the reference object with which to compare.
      * @return true if this object is the same as the obj argument; false otherwise.
      */
@@ -98,6 +107,7 @@ public class Case {
 
     /**
      * Returns a hash code value for the object.
+     *
      * @return a hash code value for this object.
      */
     @Override

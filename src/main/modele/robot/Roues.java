@@ -12,6 +12,7 @@ public class Roues extends Robot {
 
     /**
      * Constructeur de la classe Roues
+     *
      * @param position la position du robot
      */
     public Roues(Case position) {
@@ -30,6 +31,7 @@ public class Roues extends Robot {
 
     /**
      * Setter de la position du robot
+     *
      * @param position la position du robot
      */
     public void setPosition(Case position) {
@@ -47,6 +49,7 @@ public class Roues extends Robot {
 
     /**
      * Méthode qui dit si le robot peut se déplacer sur la case passée en paramètre
+     *
      * @param targetPosition la case cible
      * @return true si le robot peut se déplacer sur la case cible, false sinon
      */
@@ -62,6 +65,7 @@ public class Roues extends Robot {
 
     /**
      * Méthode qui dit si le robot peut être sur la case passée en paramètre
+     *
      * @param targetPosition la case cible
      * @return true si le robot peut être sur la case cible, false sinon
      */
@@ -72,6 +76,7 @@ public class Roues extends Robot {
 
     /**
      * Getter du nom du robot
+     *
      * @return le nom du robot
      */
     @Override

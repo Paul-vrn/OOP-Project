@@ -1,6 +1,6 @@
 package main.controlleur.navigation;
 
-import main.controlleur.DonneesSimulation;
+import main.controlleur.io.DonneesSimulation;
 import main.modele.Carte;
 import main.modele.Case;
 import main.modele.Incendie;
@@ -15,7 +15,6 @@ import main.modele.robot.RobotType;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
-import java.util.Queue;
 import java.util.concurrent.Callable;
 
 /**
@@ -25,7 +24,8 @@ public class NavigationStrategy2 implements NavigationStrategy {
 
     /**
      * Méthode qui permet de calculer le plus court chemin entre un robot est tous les points d'eau dont il peut avoir accès
-     * @param robot le robot
+     *
+     * @param robot             le robot
      * @param donneesSimulation les données de la simulation
      * @return le chemin le plus court
      */
@@ -69,14 +69,15 @@ public class NavigationStrategy2 implements NavigationStrategy {
             }
         }
         assert cheminEau != null;
-        cheminEau.getEvents().add(new RemplirEvent(0, robot.getTempsRemplissage(), robot, donneesSimulation.getCarte()));
+        cheminEau.getEvents().add(new RemplirEvent(robot.getTempsRemplissage(), robot, donneesSimulation.getCarte()));
         return cheminEau;
     }
 
     /**
      * Méthode qui permet de calculer le plus court chemin entre un robot et un incendie
-     * @param robot le robot
-     * @param incendie l'incendie
+     *
+     * @param robot             le robot
+     * @param incendie          l'incendie
      * @param donneesSimulation les données de la simulation
      * @return le chemin le plus court
      */
@@ -85,15 +86,16 @@ public class NavigationStrategy2 implements NavigationStrategy {
         Chemin cheminIncendie = plusCourtChemin(robot, incendie.getPosition(), donneesSimulation);
         if (cheminIncendie != null) {
             cheminIncendie.setIncendie(incendie);
-            cheminIncendie.getEvents().add(new EteindreEvent(0, robot, incendie));
+            cheminIncendie.getEvents().add(new EteindreEvent(robot, incendie));
         }
         return cheminIncendie;
     }
 
     /**
      * Méthode qui permet de calculer le plus court chemin entre un robot et une case
-     * @param robot le robot
-     * @param caseArrivee la case d'arrivée
+     *
+     * @param robot             le robot
+     * @param caseArrivee       la case d'arrivée
      * @param donneesSimulation les données de la simulation
      * @return le chemin le plus court
      */
@@ -151,7 +153,7 @@ public class NavigationStrategy2 implements NavigationStrategy {
                 double tempDuration = carte.getTailleCases() / (robot.getVitesse() / 3.6);
                 List<Evenement> events = new LinkedList<>();
                 for (int i = 0; i < nodeChemin.size(); i++) {
-                    events.add(new MoveEvent(0, (int) tempDuration, robot, nodeChemin.get(i).getPosition()));
+                    events.add(new MoveEvent((int) tempDuration, robot, nodeChemin.get(i).getPosition()));
                     tempDuration = carte.getTailleCases() / (robot.getVitesse(nodeChemin.get(i).getPosition()) / 3.6);
                 }
                 return new Chemin(robot, caseArrivee,
@@ -341,8 +343,9 @@ public class NavigationStrategy2 implements NavigationStrategy {
 
         /**
          * Constructeur
-         * @param robot le robot
-         * @param incendie l'incendie
+         *
+         * @param robot             le robot
+         * @param incendie          l'incendie
          * @param donneesSimulation les données de la simulation
          */
         public Task(Robot robot, Incendie incendie, DonneesSimulation donneesSimulation) {
