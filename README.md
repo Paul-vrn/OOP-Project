@@ -5,12 +5,12 @@ Ensimag 2A POO - TP 2022/23
 Réalisé par Paul Vernin, Marc Félix-Henry et Paul Bonmariage.
 
 ## Installation du jeu
-Pour lancer le jeu, il faut soit :
+Pour lancer le jeu, il faut soit :  
 - utilise un formidable IDE tel que Intellij IDEA :) (la configuration pour run est déjà faite, elle est dans .idea/runConfigurations/main_Main.xml)
 - utilise le Makefile :(
 
 ### Input
-La commande `java Main` prend 2 arguments :
+La commande `java Main` prend 2 arguments :  
 - argument 1 : le chemin vers la carte à charger
 - argument 2 : la stratégie à utiliser (`1` pour la stratégie 1, `2` pour la stratégie 2)
 - argument 3 : change le texture pack (`FORTNITE` active le texture pack Fortnite, `DEFAULT` active le texture pack par défaut)
